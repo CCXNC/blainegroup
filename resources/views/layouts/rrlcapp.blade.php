@@ -25,15 +25,17 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/707760e380.js"></script>
 </head>
 <body>
     <div id="app">
         @include('inc.rrlcnavbar')
-            
+        
+        @include('inc.messages')
         @yield('content')
 
         @include('inc.rrlcfooter')
-        
+     
     </div>
 </body>
 </html>
