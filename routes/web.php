@@ -13,10 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
 
+// FRONTEND
+Route::get('/','PagesController@index')->name('rrlchomepage');
+
+// BACKEND
 Auth::routes();
-
 Route::get('/home', 'HomeController@index')->name('home');

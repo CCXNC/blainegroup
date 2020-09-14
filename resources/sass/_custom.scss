@@ -1,0 +1,56 @@
+/** Text Color */
+$primary-color: #251F5D;
+$light-color: #f4f4f4;
+$dark-color: #34495e;
+$hover-color: #9d9d9d;
+$light-yellow: #fcd800;
+$light-red: #fc000d;
+
+/** Background Color */
+$primary-bg: #251F5D;
+$light-bg: #efefef;
+$dark-bg: #d2d7d3;
+$light-yellow-bg: #fcd800;
+
+body {
+    box-sizing: border-box;
+}
+
+/** Navbar Styling */
+.header {
+    color: $light-color;
+    background-color:#251F5D;
+    font-size: 14px;
+
+    p {
+        margin-bottom: 0;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+}
+
+.footer {
+    font-size: 14px;
+
+
+    .footer-section {
+        font-size: 14px;
+        color: $light-color;
+        background-color: $primary-bg;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        p {
+            margin-bottom: 0;
+        }
+
+        p > span {
+            font-size:20px;
+            float:right;
+        }
+
+       
+       
+    }
+}
+
