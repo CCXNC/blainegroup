@@ -10921,12 +10921,7 @@ body {
   padding-bottom: 6px;
 }
 
-.footer {
-  font-size: 14px;
-}
-
 .footer .footer-section {
-  font-size: 14px;
   color: #f4f4f4;
   background-color: #251F5D;
   padding-top: 20px;
@@ -10934,11 +10929,157 @@ body {
 }
 
 .footer .footer-section p {
+  font-size: 16px;
   margin-bottom: 0;
+  float: left;
 }
 
-.footer .footer-section p > span {
+.footer .footer-section span {
   font-size: 20px;
   float: right;
+}
+
+section {
+  color: #251F5D;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 70px 0;
+}
+
+@media (max-width: 800px) {
+  section {
+    padding: 35px 0;
+  }
+}
+
+.content-3 {
+  background-color: white;
+}
+
+.content-3 hr {
+  border: 1px solid #251F5D;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 150px;
+}
+
+.content-3 h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.content-3 p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.content-3-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1em;
+  text-align: center;
+}
+
+.content-3-wrapper .card {
+  background-color: white;
+  padding: 20px;
+}
+
+.content-3-wrapper .card h5 {
+  font-weight: 800;
+  font-size: 15px;
+  color: #251F5D;
+  margin: 15px 0 25px;
+}
+
+.content-3-wrapper .card p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #34495e;
+}
+
+@media (max-width: 800px) {
+  .content-3-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 1em;
+    grid-auto-rows: minmax(220px, auto);
+  }
+}
+
+.content-4 {
+  background-color: white;
+}
+
+.content-4 hr {
+  border: 1px solid #251F5D;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 150px;
+}
+
+.content-4 h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.content-4-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1em;
+  text-align: center;
+}
+
+.content-4-wrapper .card {
+  background-color: white;
+  padding: 20px;
+}
+
+.content-4-wrapper .card h5 {
+  font-weight: 800;
+  font-size: 17px;
+  color: #251F5D;
+  margin: 15px 0 5px;
+  text-align: left;
+}
+
+.content-4-wrapper .card ul li {
+  text-align: left;
+  font-size: 16px;
+}
+
+@media (max-width: 800px) {
+  .content-4-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 1em;
+    grid-auto-rows: minmax(220px, auto);
+  }
+}
+
+.content-5 {
+  color: #34495e;
+  text-align: left;
+}
+
+.content-5 h3 {
+  font-weight: 600;
+  color: #251F5D;
+  margin-bottom: 15px;
+}
+
+.content-5 .btn-primary {
+  font-weight: 600;
+  color: #f4f4f4;
+  background-color: #251F5D;
+  border: 1.5px solid #251F5D;
+  transition-duration: 1s;
+  transition-property: color background-color;
+}
+
+.content-5 .btn-primary:hover {
+  color: #251F5D;
+  background-color: #efefef;
 }
 
