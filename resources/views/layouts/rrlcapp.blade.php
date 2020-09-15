@@ -15,7 +15,7 @@
         $(document).foundation();
 
         $('.carousel').carousel({
-            interval: 1000
+            interval: 10
         })
     </script>
 
@@ -30,7 +30,7 @@
 <body>
     <div id="app">
         @include('inc.rrlcnavbar')
-        
+
         @include('inc.messages')
         @yield('content')
 
