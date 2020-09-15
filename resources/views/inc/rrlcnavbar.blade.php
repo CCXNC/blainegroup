@@ -27,7 +27,7 @@
 
                     <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">
-                            TEst1
+                            Test1
                         </a>
                     </div>
                 </li>
@@ -38,7 +38,7 @@
 
                     <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">
-                            TEst1
+                            Test1
                         </a>
                     </div>
                 </li>
@@ -49,7 +49,7 @@
 
                     <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">
-                            TEst1
+                            Test1
                         </a>
                     </div>
                 </li>
@@ -60,7 +60,7 @@
 
                     <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">
-                            TEst1
+                            Test1
                         </a>
                     </div>
                 </li>
