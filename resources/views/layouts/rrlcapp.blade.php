@@ -30,7 +30,7 @@
 <body>
     <div id="app">
         @include('inc.rrlcnavbar')
-
+      
         @include('inc.messages')
         @yield('content')
 

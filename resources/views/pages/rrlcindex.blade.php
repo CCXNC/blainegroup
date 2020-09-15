@@ -59,34 +59,31 @@
             </div>
         </div>
     </section>
-    <section class="section content-2">
+    <section class="section content-2" id="section-2">
         <div class="container">
             <h2>Our Products</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Laudantium exercitationem consequuntur odio cumque, 
-                magnam quae veniam, officia doloribus quam facilis 
-                saepe distinctio aliquam! Quisquam sed ea dolorem 
-                neque autem praesentium.
+                Laudantium exercitationem consequuntur odio cumque. 
             </p>
             <hr class="hr">
             <div class="content-2-wrapper">
                 <div class="card">
-                    <h3><img src="/images/products/prod1.jpg" width="120px;"></h3>
+                    <h3><img src="/images/products/prod1.jpg" width="150px;"></h3>
                     <h5>Product 1</h5>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="card">
-                    <h3><img src="/images/products/prod2.jpg" width="120px;"></h3>
+                    <h3><img src="/images/products/prod2.jpg" width="150px;"></h3>
                     <h5>Product 2</h5>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="card">
-                    <h3><img src="/images/products/prod3.jpg" width="120px;"></h3>
+                    <h3><img src="/images/products/prod3.jpg" width="150px;"></h3>
                     <h5>Product 3</h5>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="card">
-                    <h3><img src="/images/products/prod3.jpg" width="120px;"></h3>
+                    <h3><img src="/images/products/prod3.jpg" width="150px;"></h3>
                     <h5>Product 4</h5>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
@@ -207,8 +204,8 @@
                 <div class="col-md-7">
                     <hr>
                     <p><span class="fa fa-map-marker">&nbsp;</span><span>Main Office:</span>Blaine Industrial Complex Brgy.14 Kamias Road Governor`s Drive Bo.Bancal Carmona, Cavite, Philippines 4116</p>
-                    <p><span class="fa fa-phone">&nbsp;</span><span>Tel. Nos.:</span>+63 2584 4256 to 60</p>
-                    <p><span class="fa fa-envelope">&nbsp;</span><span>Customer Service:</span>+63 2584 4256 to 60 <span>Email:</span>refamed_info@blainegroup.com.ph</p>
+                    <p><span class="fa fa-phone">&nbsp;</span><span>Tel. Nos.:</span>+632 584 4256 to 60</p>
+                    <p><span class="fa fa-envelope">&nbsp;</span><span>Customer Service:</span>+632 584 4256 to 60 <span>Email:</span>refamed_info@blainegroup.com.ph</p>
                 </div>
             </div> 
         </div>

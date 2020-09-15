@@ -11085,7 +11085,7 @@ section {
 
 .content-1 {
   font-weight: 400;
-  color: #34495e;
+  color: #251F5D;
 }
 
 .content-1 title .col-md-6 {
@@ -11101,8 +11101,10 @@ section {
 }
 
 .content-1 .info {
+  padding: 20px;
   text-align: justify;
   font-size: 17px;
+  font-weight: 550;
 }
 
 .content-2 {
@@ -11140,15 +11142,15 @@ section {
 
 .content-2-wrapper .card h5 {
   font-weight: 800;
-  font-size: 15px;
+  font-size: 16px;
   color: #251F5D;
   margin: 15px 0 25px;
 }
 
 .content-2-wrapper .card p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
-  color: #34495e;
+  color: #251F5D;
 }
 
 @media (max-width: 800px) {

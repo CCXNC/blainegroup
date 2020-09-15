@@ -15,7 +15,6 @@ $light-yellow-bg: #fcd800;
 body {
     box-sizing: border-box;
 }
-
 /** Navbar Styling */
 .header {
     color: $light-color;
@@ -191,26 +190,28 @@ section {
 
 .content-1 {
     font-weight: 400;
-    color: $dark-color;
+    color: $primary-color;
 
-        title {
-            .col-md-6 {
-                padding-bottom: 15px;
-                position: center;
-            }
+    title {
+        .col-md-6 {
+            padding-bottom: 15px;
+            position: center;
         }
+    }
 
-        .hr {
-            border: 1px solid $primary-color;
-            margin-top: 30px;
-            margin-bottom: 30px;
-            width: 150px;
-        }
+    .hr {
+        border: 1px solid $primary-color;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 150px;
+    }
 
-        .info {
-            text-align: justify;
-            font-size: 17px;
-        }
+    .info {
+        padding:20px;
+        text-align: justify;
+        font-size: 17px;
+        font-weight: 550;
+    }
 }
 
 .content-2 {
@@ -245,15 +246,15 @@ section {
 
             h5 {
                 font-weight: 800;
-                font-size: 15px;
+                font-size: 16px;
                 color: $primary-color;
                 margin: 15px 0 25px;
             }
 
             p {
-                font-size: 14px;
+                font-size: 16px;
                 font-weight: 400;
-                color: $dark-color;
+                color: $primary-color;
             }
 
         }
