@@ -84,8 +84,9 @@ section {
 
     &-wrapper {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: auto auto auto auto;
         grid-column-gap: 1em;
+        grid-row-gap: 1em;
         text-align: center;
 
         .card {
@@ -132,8 +133,9 @@ section {
 
     &-wrapper {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: auto auto auto auto;
         grid-column-gap: 1em;
+        grid-row-gap: 1em;
         text-align: center;
 
         .card {
@@ -235,9 +237,11 @@ section {
     }
 
     &-wrapper {
+        //grid-template-columns: repeat(6, 1fr);
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: auto auto auto auto;
         grid-column-gap: 1em;
+        grid-row-gap: 1em;
         text-align: center;
 
         .card {
@@ -266,3 +270,4 @@ section {
         }
     }
 }
+

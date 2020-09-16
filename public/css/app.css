@@ -10978,8 +10978,9 @@ section {
 
 .content-3-wrapper {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: auto auto auto auto;
   grid-column-gap: 1em;
+  grid-row-gap: 1em;
   text-align: center;
 }
 
@@ -11027,8 +11028,9 @@ section {
 
 .content-4-wrapper {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: auto auto auto auto;
   grid-column-gap: 1em;
+  grid-row-gap: 1em;
   text-align: center;
 }
 
@@ -11130,8 +11132,9 @@ section {
 
 .content-2-wrapper {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: auto auto auto auto;
   grid-column-gap: 1em;
+  grid-row-gap: 1em;
   text-align: center;
 }
 

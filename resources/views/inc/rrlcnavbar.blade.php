@@ -29,16 +29,16 @@
                             <a class="dropdown-item" href="#">
                                 <img src="images/BC.png" style="width:60px;" alt="">&nbsp;&nbsp;&nbsp;<b style="color:#251F5D;">BLAINE CORPORATION </b>
                             </a>
-                            <a class="dropdown-item" href="#">
-                                <img src="images/rrlc.jpg" style="width:50px;" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b style="color:#251F5D;">REFAMED RESEARCH LABORATORY CORPORATION</b>
+                        <a class="dropdown-item" href="{{ url('/') }}">
+                                <img src="images/rrlc.jpg" style="width:50px;" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b style="color:#251F5D;">REFAMED RESEARCHED LABORATORY CORPORATION</b>
                             </a>
                             <a class="dropdown-item" href="#">
                                 <img src="images/BMC.jpg" style="width:60px;" alt="">&nbsp;&nbsp;<b style="color:#251F5D;"> BLAINE MANUFACTURING CORPORATION </b>
                             </a>
                         </div>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a id="navbarDropdown" class="nav-link dropdown" href="content-2" role="button" data-toggle="dropdown">
+                    <li class="nav-item">
+                    <a class="nav-link dropdown" href="{{ url('/rrlcproduct') }}">
                             <b style="color:#251F5D;">OUR PRODUCTS</b>
                         </a>
                     </li>
