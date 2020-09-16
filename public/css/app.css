@@ -11164,3 +11164,58 @@ section {
   }
 }
 
+.rrlcproductlist {
+  background-color: white;
+}
+
+.rrlcproductlist hr {
+  border: 1px solid #251F5D;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 150px;
+}
+
+.rrlcproductlist h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.rrlcproductlist p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.rrlcproductlist-wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  text-align: center;
+}
+
+.rrlcproductlist-wrapper .card {
+  background-color: white;
+  padding: 20px;
+}
+
+.rrlcproductlist-wrapper .card h5 {
+  font-weight: 800;
+  font-size: 16px;
+  color: #251F5D;
+  margin: 15px 0 25px;
+}
+
+.rrlcproductlist-wrapper .card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #251F5D;
+}
+
+@media (max-width: 800px) {
+  .rrlcproductlist-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 1em;
+    grid-auto-rows: minmax(220px, auto);
+  }
+}
+
