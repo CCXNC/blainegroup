@@ -16,4 +16,8 @@ class PagesController extends Controller
         return view('pages.rrlcproduct');
     }
     
+    // RRLC PRODUCT LIST
+    public function rrlcproductlist(){
+        return view('pages.rrlcproductlist');
+    }
 }

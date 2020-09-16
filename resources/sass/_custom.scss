@@ -271,3 +271,58 @@ section {
     }
 }
 
+
+.rrlcproductlist {
+    background-color: white;
+    
+    hr {
+        border: 1px solid $primary-color;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 150px;
+    }
+    
+    h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    p {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    &-wrapper {
+        //grid-template-columns: repeat(6, 1fr);
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-column-gap: 1em;
+        grid-row-gap: 1em;
+        text-align: center;
+    
+        .card {
+            background-color: lighten(white, 15%);
+            padding: 20px;
+    
+            h5 {
+                font-weight: 800;
+                font-size: 16px;
+                color: $primary-color;
+                margin: 15px 0 25px;
+            }
+    
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                color: $primary-color;
+            }
+    
+        }
+    
+        @media (max-width: 800px) {
+            grid-template-columns: repeat(1, 1fr);
+            grid-row-gap: 1em;
+            grid-auto-rows: minmax(220px, auto);
+        }
+    }
+}

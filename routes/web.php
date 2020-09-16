@@ -20,6 +20,7 @@ use Illuminate\Support\Facades\Route;
 // FRONTEND
 Route::get('/','PagesController@index')->name('rrlchomepage');
 Route::get('/rrlcproduct','PagesController@rrlcproduct')->name('rrlcproduct');
+Route::get('/rrlcproductlist', 'PagesController@rrlcproductlist')->name('rrlcproductlist');
 
 // BACKEND
 Auth::routes();
