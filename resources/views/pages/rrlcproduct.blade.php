@@ -22,4 +22,38 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+    <section class="section product">
+        <div class="container">
+            <h2>OUR PRODUCTS</h2>
+         
+            <hr class="hr">
+            <div class="product-wrapper">
+                <div class="card">
+                    <h3><img src="/images/offeredservice/sample1.jpg" width="250px;"></h3>
+                    <h5>WSP Products</h5>
+                    <p>Lorem ipsum dolor sit amet com <span class="fa fa-link"></span></p> 
+                </div>
+                <div class="card">
+                    <h3><img src="/images/offeredservice/sample3.jpg" width="250px;"></h3>
+                    <h5>Oral Solution</h5>
+                    <p>Lorem ipsum dolor sit amet com <span class="fa fa-link"></span></p>
+                </div>
+                <div class="card">
+                    <h3><img src="/images/offeredservice/sample1.jpg" width="250px;"></h3>
+                    <h5>Disinfectant</h5>
+                    <p>Lorem ipsum dolor sit amet com <span class="fa fa-link"></span></p>
+                </div>
+                <div class="card">
+                    <h3><img src="/images/offeredservice/sample3.jpg" width="250px;"></h3>
+                    <h5>Nutraceuticals</h5>
+                    <p>Lorem ipsum dolor sit amet com <span class="fa fa-link"></span></p>
+                </div>
+                <div class="card">
+                    <h3><img src="/images/offeredservice/sample1.jpg" width="250px;"></h3>
+                    <h5>AB Premix</h5>
+                    <p>Lorem ipsum dolor sit amet com <span class="fa fa-link"></span></p>
+                </div>
+            </div>
+        </div>
+    </section> 
 @endsection
