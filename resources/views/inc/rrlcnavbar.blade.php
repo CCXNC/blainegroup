@@ -37,11 +37,25 @@
                             </a>
                         </div>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item dropdown">
+                        <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
+                            <b style="color:#251F5D;">OUR PRODUCTS</b>
+                        </a>
+
+                        <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{{ url('/rrlcproduct') }}">
+                                <b style="color:#251F5D;">REFAMED PRIME PRODUCT</b>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <b style="color:#251F5D;">SPECIALTY PRODUCT</b>
+                            </a>
+                        </div>
+                    </li>
+                    <!--<li class="nav-item">
                     <a class="nav-link dropdown" href="{{ url('/rrlcproduct') }}">
                             <b style="color:#251F5D;">OUR PRODUCTS</b>
                         </a>
-                    </li>
+                    </li>-->
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
                             <b style="color:#251F5D;">TECHNICAL SERVICES</b>

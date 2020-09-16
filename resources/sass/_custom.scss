@@ -18,9 +18,11 @@ body {
 /** Navbar Styling */
 .header {
     color: $light-color;
-    background-color:#251F5D;
+    background-color: $primary-color;
     font-size: 14px;
-
+    //#000371
+    //#7DE07A
+    //#007730
     p {
         margin-bottom: 0;
         padding-top: 6px;
@@ -31,10 +33,10 @@ body {
 .footer {
     .footer-section {
         color: $light-color;
-        background-color: $primary-bg;
+        background-color: $primary-color;
         padding-top: 20px;
         padding-bottom: 20px;
-
+        //#00009F
         p {
             font-size: 16px;
             margin-bottom: 0;
