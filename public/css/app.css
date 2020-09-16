@@ -11164,6 +11164,57 @@ section {
   }
 }
 
+.product {
+  background-color: white;
+}
+
+.product img {
+  padding-bottom: 20px;
+}
+
+.product h3 {
+  text-align: center;
+}
+
+.product-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1em;
+  grid-row-gap: 2em;
+}
+
+.product-wrapper .card {
+  background-color: white;
+  padding: 20px;
+}
+
+.product-wrapper .card h5 {
+  font-weight: 800;
+  font-size: 23px;
+  color: #251F5D;
+  margin: 15px 0 5px;
+  text-align: left;
+}
+
+.product-wrapper .card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #251F5D;
+  text-align: left;
+}
+
+.product-wrapper span {
+  float: right;
+}
+
+@media (max-width: 800px) {
+  .product {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 1em;
+    grid-auto-rows: minmax(220px, auto);
+  }
+}
+
 .rrlcproductlist {
   background-color: white;
 }
@@ -11178,11 +11229,6 @@ section {
 .rrlcproductlist h2 {
   font-size: 30px;
   font-weight: 600;
-}
-
-.rrlcproductlist p {
-  font-size: 20px;
-  font-weight: 500;
 }
 
 .rrlcproductlist-wrapper {
@@ -11202,20 +11248,12 @@ section {
   font-weight: 800;
   font-size: 16px;
   color: #251F5D;
-  margin: 15px 0 25px;
+  margin: 15px 0 10px;
 }
 
 .rrlcproductlist-wrapper .card p {
-  font-size: 16px;
-  font-weight: 400;
   color: #251F5D;
-}
-
-@media (max-width: 800px) {
-  .rrlcproductlist-wrapper {
-    grid-template-columns: repeat(1, 1fr);
-    grid-row-gap: 1em;
-    grid-auto-rows: minmax(220px, auto);
-  }
+  font-size: 15px;
+  font-weight: 500;
 }
 
