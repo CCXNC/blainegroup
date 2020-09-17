@@ -6,14 +6,14 @@
     </header>-->
     <nav class="navbar  navbar-expand-md navbar-light bg-white shadow-sm">
         <div class="container">
-            <a class="navbar" href="{{ url('/') }}">
-                <img src="images/rrlc.jpg" style="width: 100px" alt="">
+            <a class="navbar" href="">
+                <img src="images/bc.png" style="width: 150px" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="border: solid 1px;">
                 <!-- Left Side Of Navbar -->
                 <ul class="navbar-nav mr-auto">
 
@@ -42,7 +42,7 @@
                             <b style="color:#251F5D;">OUR PRODUCTS</b>
                         </a>
 
-                        <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+                        <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown" style="width: 45rem; left:0; padding-left: -20rem; border:solid 1px;">
                             <a class="dropdown-item" href="{{ url('/rrlcproduct') }}">
                                 <b style="color:#251F5D;">REFAMED PRIME PRODUCT</b>
                             </a>

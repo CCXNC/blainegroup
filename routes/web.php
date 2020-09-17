@@ -21,6 +21,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/','PagesController@index')->name('rrlchomepage');
 Route::get('/rrlcproduct','PagesController@rrlcproduct')->name('rrlcproduct');
 Route::get('/rrlcproductlist', 'PagesController@rrlcproductlist')->name('rrlcproductlist');
+Route::get('/bcindex', 'PagesController@bcindex')->name('bcindex');
 
 // BACKEND
 Auth::routes();

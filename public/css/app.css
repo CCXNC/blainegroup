@@ -10911,7 +10911,7 @@ body {
 
 .header {
   color: #f4f4f4;
-  background-color: #251F5D;
+  background-color: #aa3000;
   font-size: 14px;
 }
 
@@ -10923,7 +10923,7 @@ body {
 
 .footer .footer-section {
   color: #f4f4f4;
-  background-color: #251F5D;
+  background-color: #007730;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -10935,6 +10935,24 @@ body {
 }
 
 .footer .footer-section span {
+  font-size: 20px;
+  float: right;
+}
+
+.bcfooter .footer-section {
+  color: #f4f4f4;
+  background-color: #251F5D;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bcfooter .footer-section p {
+  font-size: 16px;
+  margin-bottom: 0;
+  float: left;
+}
+
+.bcfooter .footer-section span {
   font-size: 20px;
   float: right;
 }
@@ -10956,7 +10974,8 @@ section {
 }
 
 .content-3 {
-  background-color: white;
+  background-color: #007730;
+  color: white;
 }
 
 .content-3 hr {
@@ -11255,5 +11274,32 @@ section {
   color: #251F5D;
   font-size: 15px;
   font-weight: 500;
+}
+
+.dropdown-menu {
+  position: absolute !important;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 100rem !important;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1.1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+}
+
+.dropup,
+.dropright,
+.dropdown,
+.dropleft {
+  position: static !important;
 }
 

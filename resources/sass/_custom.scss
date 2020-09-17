@@ -18,7 +18,7 @@ body {
 /** Navbar Styling */
 .header {
     color: $light-color;
-    background-color: $primary-color;
+    background-color: #aa3000;
     font-size: 14px;
     //#000371
     //#7DE07A
@@ -33,7 +33,27 @@ body {
 .footer {
     .footer-section {
         color: $light-color;
-        background-color: $primary-color;
+        background-color: #007730;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        //#00009F
+        p {
+            font-size: 16px;
+            margin-bottom: 0;
+            float: left;
+        }
+
+        span {
+            font-size:20px;
+            float:right;
+        }
+    }
+}
+
+.bcfooter{
+    .footer-section {
+        color: $light-color;
+        background-color: #251F5D;
         padding-top: 20px;
         padding-bottom: 20px;
         //#00009F
@@ -65,8 +85,8 @@ section {
 }
 
 .content-3 {
-    background-color: white;
-
+    background-color: #007730;
+    color: white;
     hr {
         border: 1px solid $primary-color;
         margin-top: 30px;
@@ -368,5 +388,34 @@ section {
     }
 
 }
+
+.dropdown-menu {
+    position: absolute !important; 
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 100rem !important;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1.1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+  }
+
+
+.dropup,
+.dropright,
+.dropdown,
+.dropleft {
+  position: static !important;
+}
+  
 
 

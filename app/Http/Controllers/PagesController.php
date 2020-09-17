@@ -20,4 +20,9 @@ class PagesController extends Controller
     public function rrlcproductlist(){
         return view('pages.rrlcproductlist');
     }
+
+    // BC HOMEPAGE
+    public function bcindex(){
+        return view('pages.bcindex');
+    }
 }
