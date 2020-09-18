@@ -43,11 +43,18 @@
                         </a>
 
                         <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{{ url('/rrlcproduct') }}">
-                                <b style="color:#251F5D;">REFAMED PRIME PRODUCT</b>
+                            <a class="dropdown-header">
+                                <h4 style="color:#251F5D;">REFAMED PRIME PRODUCT</h4>
+                                <a class="dropdown-item" href="{{ url('/rrlcproduct') }}">
+                                    <p style="color:#251F5D;">REFAMED PRIME PRODUCT LIST</p>
+                                </a>
                             </a>
-                            <a class="dropdown-item" href="#">
-                                <b style="color:#251F5D;">SPECIALTY PRODUCT</b>
+                            
+                            <a class="dropdown-header" href="">
+                                <h4 style="color:#251F5D;">SPECIALTY PRODUCT</h4>
+                                <a class="dropdown-item">
+                                    <p style="color:#251F5D;">SPECIALTY PRODUCT LIST</p>
+                                </a>
                             </a>
                         </div>
                     </li>

@@ -11282,17 +11282,18 @@ section {
   left: 0;
   z-index: 1000;
   display: none;
-  float: left;
-  min-width: 100rem !important;
-  padding: 0.5rem 0;
-  margin: 0.125rem 0 0;
+  float: right !important;
+  min-width: 77.8rem !important;
+  width: 60rem !important;
+  padding: 1rem 1rem 1rem 1rem;
+  margin: 0.2rem 1rem 1rem 1rem;
   font-size: 1.1rem;
   color: #212529;
   text-align: left;
   list-style: none;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  border: 3px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
 }
 

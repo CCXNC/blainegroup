@@ -13,7 +13,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="border: solid 1px;">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <!-- Left Side Of Navbar -->
                 <ul class="navbar-nav mr-auto">
 
@@ -42,12 +42,19 @@
                             <b style="color:#251F5D;">OUR PRODUCTS</b>
                         </a>
 
-                        <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown" style="width: 45rem; left:0; padding-left: -20rem; border:solid 1px;">
-                            <a class="dropdown-item" href="{{ url('/rrlcproduct') }}">
-                                <b style="color:#251F5D;">REFAMED PRIME PRODUCT</b>
+                        <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-header">
+                                <h4 style="color:#251F5D;">REFAMED PRIME PRODUCT</h4>
+                                <a class="dropdown-item" href="{{ url('/rrlcproduct') }}">
+                                    <p style="color:#251F5D;">REFAMED PRIME PRODUCT LIST</p>
+                                </a>
                             </a>
-                            <a class="dropdown-item" href="#">
-                                <b style="color:#251F5D;">SPECIALTY PRODUCT</b>
+                            
+                            <a class="dropdown-header" href="">
+                                <h4 style="color:#251F5D;">SPECIALTY PRODUCT</h4>
+                                <a class="dropdown-item">
+                                    <p style="color:#251F5D;">SPECIALTY PRODUCT LIST</p>
+                                </a>
                             </a>
                         </div>
                     </li>
