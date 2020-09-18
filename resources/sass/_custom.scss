@@ -651,8 +651,6 @@ section {
     }
 }
 
-
-
 .adisseoproduct {
     background-color: white;
 
@@ -705,4 +703,174 @@ section {
             grid-auto-rows: minmax(220px, auto);
         }
     }
+}
+//Jesa
+.productblog-1 {
+
+    background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+    //display: flex;
+    //justify-content: space-between;
+    //align-items: center;
+    padding: 20px;
+    color: $light-bg;
+
+    h3 {
+        font-size: 26px;
+        font-weight: 600;
+        margin: 0;
+        text-align: left;
+    }
+
+    p{
+        text-align: left;
+    }
+}
+//Jesa
+.productblog-2 {
+
+    //background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+    //display: flex;
+    //justify-content: space-between;
+    //align-items: center;
+    //padding: 20px;
+    //color: $light-bg;
+
+    h3 {
+        font-size: 26px;
+        font-weight: 600;
+        margin: 0;
+        text-align: left;
+    }
+
+    p {
+        text-align: left;
+    }
+
+    .list {
+        padding-left: 15px;
+    }
+}
+//Jesa
+.productblog-3 {
+
+    background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+    //display: flex;
+    //justify-content: space-between;
+    //align-items: center;
+    padding: 20px;
+    color: $light-bg;
+
+    h3 {
+        font-size: 26px;
+        font-weight: 600;
+        margin: 0;
+        text-align: left;
+    }
+
+    p{
+        text-align: left;
+    }
+}
+//Jesa
+.productblog-4 {
+    background-color: white;
+        
+    img {
+        padding-bottom: 20px;
+    }
+
+    .spec {
+        text-align: left;
+    }
+
+    .info-1 {
+        padding-left: 25px;
+    }
+
+    .info-2 {
+        text-align: justify;
+    }
+
+    &-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        .card {
+            background-color: lighten(white, 15%);
+            padding: 20px;
+        }
+        span {
+            padding-top: 40px;
+            font-size: 30px;
+            float:right;
+        }
+
+    }
+
+    @media (max-width: 800px) {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 1em;
+        grid-auto-rows: minmax(220px, auto);
+    }
+}
+//Jesa
+.productblog-5 {
+    background-color: white;
+
+    .row {
+        padding: 10px 10px 10px 10px;
+    }
+
+    hr {
+        border: 1px solid $primary-bg;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 150px;
+    }
+
+    h2 {
+        font-size: 25px; 
+        font-weight: 600;
+    }
+    .card-body {
+        text-align: left;
+    }
+
+    .card-header {
+        text-align: left;
+    }
+
+    &-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 3em;
+        grid-row-gap: 1em;
+        text-align: left;
+
+        .card {
+            background-color: lighten(white, 15%);
+            padding: 20px;
+
+            h5 {
+                margin: 15px 0 25px;
+            }
+
+            p {
+                text-align: left;
+                padding: 10px 5px;
+                font-size: 16px;
+                font-weight: 400;
+                color: $dark-color;
+                justify-content: space-between;
+
+            }
+
+        }
+
+        @media (max-width: 800px) {
+            grid-template-columns: repeat(2, 1fr);
+            grid-row-gap: 1em;
+            grid-auto-rows: minmax(220px, auto);
+        }
+    }
  }
+

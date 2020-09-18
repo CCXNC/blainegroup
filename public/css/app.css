@@ -11595,3 +11595,158 @@ section {
   }
 }
 
+.productblog-1 {
+  background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+  padding: 20px;
+  color: #efefef;
+}
+
+.productblog-1 h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0;
+  text-align: left;
+}
+
+.productblog-1 p {
+  text-align: left;
+}
+
+.productblog-2 h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0;
+  text-align: left;
+}
+
+.productblog-2 p {
+  text-align: left;
+}
+
+.productblog-2 .list {
+  padding-left: 15px;
+}
+
+.productblog-3 {
+  background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+  padding: 20px;
+  color: #efefef;
+}
+
+.productblog-3 h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0;
+  text-align: left;
+}
+
+.productblog-3 p {
+  text-align: left;
+}
+
+.productblog-4 {
+  background-color: white;
+}
+
+.productblog-4 img {
+  padding-bottom: 20px;
+}
+
+.productblog-4 .spec {
+  text-align: left;
+}
+
+.productblog-4 .info-1 {
+  padding-left: 25px;
+}
+
+.productblog-4 .info-2 {
+  text-align: justify;
+}
+
+.productblog-4-wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.productblog-4-wrapper .card {
+  background-color: white;
+  padding: 20px;
+}
+
+.productblog-4-wrapper span {
+  padding-top: 40px;
+  font-size: 30px;
+  float: right;
+}
+
+@media (max-width: 800px) {
+  .productblog-4 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 1em;
+    grid-auto-rows: minmax(220px, auto);
+  }
+}
+
+.productblog-5 {
+  background-color: white;
+}
+
+.productblog-5 .row {
+  padding: 10px 10px 10px 10px;
+}
+
+.productblog-5 hr {
+  border: 1px solid #007730;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 150px;
+}
+
+.productblog-5 h2 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.productblog-5 .card-body {
+  text-align: left;
+}
+
+.productblog-5 .card-header {
+  text-align: left;
+}
+
+.productblog-5-wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 3em;
+  grid-row-gap: 1em;
+  text-align: left;
+}
+
+.productblog-5-wrapper .card {
+  background-color: white;
+  padding: 20px;
+}
+
+.productblog-5-wrapper .card h5 {
+  margin: 15px 0 25px;
+}
+
+.productblog-5-wrapper .card p {
+  text-align: left;
+  padding: 10px 5px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #34495e;
+  justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .productblog-5-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 1em;
+    grid-auto-rows: minmax(220px, auto);
+  }
+}
+

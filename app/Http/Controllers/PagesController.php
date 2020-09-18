@@ -17,7 +17,7 @@ class PagesController extends Controller
     }
     
     // RRLC PRODUCT LIST
-    public function rrlcproductlist(){
+    public function rrlcproductlist() {
         return view('pages.rrlc.primeproductlist');
     }
 
@@ -40,5 +40,9 @@ class PagesController extends Controller
 
     public function adisseoproduct() {
         return view('pages.rrlc.adisseoproduct');
+    }
+
+    public function productblog() {
+        return view('pages.rrlc.productblog');
     }
 }
