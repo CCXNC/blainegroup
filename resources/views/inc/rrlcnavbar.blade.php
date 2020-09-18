@@ -1,9 +1,9 @@
 <div class="sticky-top">
-    <header class="header">
+    <!--<header class="header">
         <div class="container">
             <p><span class="glyphicon glyphicon-earphone"></span> (632) 584-4256 to 60 | <span class="glyphicon glyphicon-envelope"></span> refamed_info@blainegroup.com.ph</p>  
         </div>
-    </header>
+    </header>-->
     <nav class="navbar  navbar-expand-md navbar-light bg-white shadow-sm">
         <div class="container">
             <a class="navbar" href="{{ url('/') }}">
@@ -43,11 +43,11 @@
                         </a>
 
                         <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{{ url('/rrlcproduct') }}">
+                            <a class="dropdown-item" href="{{ url('/rrlcprimeproduct') }}">
                                 <b style="color:#251F5D;">REFAMED PRIME PRODUCT</b>
                             </a>
-                            <a class="dropdown-item" href="#">
-                                <b style="color:#251F5D;">SPECIALTY PRODUCT</b>
+                        <a class="dropdown-item" href="{{ url('/rrlcspecialtyproduct') }}">
+                                <b style="color:#251F5D;">REFAMED SPECIALTY PRODUCT</b>
                             </a>
                         </div>
                     </li>

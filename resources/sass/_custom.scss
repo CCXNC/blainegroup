@@ -7,7 +7,7 @@ $light-yellow: #fcd800;
 $light-red: #fc000d;
 
 /** Background Color */
-$primary-bg: #251F5D;
+$primary-bg: #007730;
 $light-bg: #efefef;
 $dark-bg: #d2d7d3;
 $light-yellow-bg: #fcd800;
@@ -16,7 +16,7 @@ body {
     box-sizing: border-box;
 }
 /** Navbar Styling */
-.header {
+/*.header {
     color: $light-color;
     background-color: $primary-color;
     font-size: 14px;
@@ -28,15 +28,15 @@ body {
         padding-top: 6px;
         padding-bottom: 6px;
     }
-}
+}*/
 
 .footer {
     .footer-section {
         color: $light-color;
-        background-color: $primary-color;
+        background: linear-gradient(to bottom, #007730 100%, #99ff99 100%);
+        //background: linear-gradient(to bottom, #007730 0%, #99ff99 100%);
         padding-top: 20px;
         padding-bottom: 20px;
-        //#00009F
         p {
             font-size: 16px;
             margin-bottom: 0;
@@ -50,6 +50,21 @@ body {
     }
 }
 
+
+.page-title {
+    background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: $light-bg;
+
+    h3 {
+        font-size: 26px;
+        font-weight: 600;
+        margin: 0;
+    }
+}
 section {
     color: $primary-color;
     font-weight: 400;
@@ -57,7 +72,7 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 70px 0;
+    padding: 50px 0;
 
     @media (max-width: 800px) {
         padding: 35px 0;
@@ -65,10 +80,10 @@ section {
 }
 
 .content-3 {
-    background-color: white;
+   background-color: white;
 
     hr {
-        border: 1px solid $primary-color;
+        border: 1px solid $light-color;
         margin-top: 30px;
         margin-bottom: 30px;
         width: 150px;
@@ -119,10 +134,13 @@ section {
 }
 
 .content-4 {
-    background-color: white;
+    background: linear-gradient(to bottom, #007730 0%, #99ff99 100%);
+    //background: linear-gradient(to bottom, #007730 0%, #99ff99 62%);
+    //background: linear-gradient(to bottom right, #007730 0%, #99ff99 69%);
+    color: $light-color;
 
     hr {
-        border: 1px solid $primary-color;
+        border: 1px solid $light-color;
         margin-top: 30px;
         margin-bottom: 30px;
         width: 150px;
@@ -153,6 +171,7 @@ section {
             }
 
             ul li {
+                color: $primary-color;
                 text-align: left;
                 font-size: 16px;
             }
@@ -168,9 +187,9 @@ section {
 }
 
 .content-5 {
-    color: $dark-color;
-    text-align: left;
-
+   background-color: white;
+   text-align: left;
+    
     h3 {
         font-weight: 600;
         color: $primary-color;
@@ -219,7 +238,10 @@ section {
 }
 
 .content-2 {
-    background-color: white;
+    background: linear-gradient(to bottom, #007730 0%, #99ff99 100%);
+    //background: linear-gradient(to bottom, #007730 0%, #99ff99 62%);
+    //background: linear-gradient(to bottom right, #007730 0%, #99ff99 69%);
+    color: $light-color;
 
     hr {
         border: 1px solid $primary-color;
@@ -283,6 +305,14 @@ section {
     h3 {
         text-align: center;
     }
+
+    hr {
+        border: 1px solid $primary-color;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 150px;
+    }
+    
 
     &-wrapper {
         display: grid;
@@ -369,4 +399,310 @@ section {
 
 }
 
+.specialproduct {
+    background-color: white;
 
+    hr {
+        border: 1px solid $primary-color;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 150px;
+    }
+    
+        
+    img {
+        padding-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 25px;
+        font-weight: 600;
+        color: $primary-color;
+        justify-content: space-between;
+    }
+
+    &-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 1em;
+        grid-row-gap: 2em;
+
+        .card {
+            border: 1px solid $primary-color;
+            padding: 15px;
+            border-radius: 15px;
+            //box-shadow: 2px 2px $primary-bg;
+            background-color: lighten(white, 15%);
+
+            h5 {
+                font-weight: 800;
+                font-size: 23px;
+                color: $primary-color;
+                margin: 0px 0 5px;
+                text-align: center;
+                justify-content: space-between;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                color: $primary-color;
+                text-align: left;
+            }
+        }
+        span {
+            font-size: 30px;
+        }
+
+    }
+
+    @media (max-width: 800px) {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 1em;
+        grid-auto-rows: minmax(220px, auto);
+    }
+}
+
+.keminproduct {
+    background-color: white;
+  
+    hr {
+        border: 1px solid $primary-color;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 150px;
+    }
+        
+    img {
+        padding-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 25px;
+        font-weight: 600;
+        color: $primary-color;
+        justify-content: space-between;
+    }
+
+    &-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        .card {
+            background-color: lighten(white, 15%);
+            padding: 20px;
+
+            h5 {
+                font-weight: 800;
+                font-size: 23px;
+                color: $primary-color;
+                margin: 15px 0 5px;
+                text-align: center;
+                justify-content: space-between;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                color: $primary-color;
+                text-align: left;
+            }
+        }
+        span {
+            padding-top: 40px;
+            font-size: 30px;
+            float:right;
+        }
+
+    }
+
+    @media (max-width: 800px) {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 1em;
+        grid-auto-rows: minmax(220px, auto);
+    }
+}
+
+.cbsproduct {
+    background-color: white;
+
+    hr {
+        border: 1px solid $primary-color;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 150px;
+    }
+    
+        
+    img {
+        padding-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 25px;
+        font-weight: 600;
+        color: $primary-color;
+        justify-content: space-between;
+    }
+
+    &-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 1em;
+        grid-row-gap: 2em;
+
+        .card {
+            background-color: lighten(white, 15%);
+            padding: 20px;
+
+            h5 {
+                font-weight: 800;
+                font-size: 23px;
+                color: $primary-color;
+                margin: 15px 0 5px;
+                text-align: center;
+                justify-content: space-between;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                color: $primary-color;
+                text-align: left;
+            }
+        }
+        span {
+            padding-top: 30px;
+            font-size: 30px;
+            float:right;
+        }
+
+    }
+
+    @media (max-width: 800px) {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 1em;
+        grid-auto-rows: minmax(220px, auto);
+    }
+}
+
+
+.category {
+    background-color: white;
+
+    hr {
+        border: 1px solid $primary-color;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 150px;
+    }
+    
+        
+    img {
+        padding-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 25px;
+        font-weight: 600;
+        color: $primary-color;
+        justify-content: space-between;
+    }
+
+    &-wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 1em;
+        grid-row-gap: 2em;
+
+        .card {
+            border: 1px solid $primary-bg;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 5px 10px $primary-bg;
+            background-color: lighten(white, 15%);
+
+            h5 {
+                font-weight: 800;
+                font-size: 23px;
+                color: $primary-color;
+                margin: 15px 0 5px;
+                text-align: center;
+                justify-content: space-between;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                color: $primary-color;
+                text-align: left;
+            }
+        }
+        span {
+            font-size: 30px;
+            float:right;
+        }
+
+    }
+
+    @media (max-width: 800px) {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 1em;
+        grid-auto-rows: minmax(220px, auto);
+    }
+}
+
+
+
+.adisseoproduct {
+    background-color: white;
+
+    hr {
+        border: 1px solid $primary-color;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 150px;
+    }
+
+    h2 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    &-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 3em;
+        grid-row-gap: 3em;
+        text-align: center;
+
+        .card {
+            background-color: lighten(white, 15%);
+            padding: 20px;
+
+            h5 {
+                font-weight: 800;
+                font-size: 15px;
+                color: $primary-color;
+                margin: 15px 0 25px;
+            }
+
+            p {
+                font-size: 14px;
+                font-weight: 400;
+                color: $dark-color;
+            }
+
+        }
+
+        @media (max-width: 800px) {
+            grid-template-columns: repeat(2, 1fr);
+            grid-row-gap: 1em;
+            grid-auto-rows: minmax(220px, auto);
+        }
+    }
+ }

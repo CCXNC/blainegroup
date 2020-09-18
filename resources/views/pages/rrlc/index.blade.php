@@ -165,7 +165,7 @@
         </div>
     </section> 
     <section class="section content-5">
-        <div class="container">
+        <div class="container container1">
             <h3>Send Us a Message</h3>
             <form class="form-horizontal" action="">
                 <div class="form-group">
@@ -200,6 +200,7 @@
                     </div>
                 </div>
             </form>
+    </section>           
             <div class="container">
                 <div class="col-md-7">
                     <hr>
@@ -209,5 +210,5 @@
                 </div>
             </div> 
         </div>
-    </section>               
+                
 @endsection

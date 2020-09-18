@@ -18,9 +18,17 @@ use Illuminate\Support\Facades\Route;
 });*/
 
 // FRONTEND
-Route::get('/','PagesController@index')->name('rrlchomepage');
-Route::get('/rrlcproduct','PagesController@rrlcproduct')->name('rrlcproduct');
-Route::get('/rrlcproductlist', 'PagesController@rrlcproductlist')->name('rrlcproductlist');
+Route::get('/','PagesController@index')->name('rrlchomepage'); // RRLC HOMEPAGE
+Route::get('/rrlcprimeproduct','PagesController@rrlcproduct')->name('rrlcproduct'); 
+Route::get('/rrlcprimeproductlist', 'PagesController@rrlcproductlist')->name('rrlcproductlist');
+Route::get('/rrlcspecialtyproduct','PagesController@rrlcspecialtyproduct')->name('rrlcspecialtyproduct');
+Route::get('/keminproduct','PagesController@keminproduct')->name('keminproduct');
+Route::get('/enzymeproduct','PagesController@enzymeproduct')->name('enzymeproduct');
+Route::get('/cbsproduct','PagesController@cbsproduct')->name('cbsproduct');
+Route::get('/adisseoproduct','PagesController@adisseoproduct')->name('adisseoproduct');
+
+
+
 
 // BACKEND
 Auth::routes();

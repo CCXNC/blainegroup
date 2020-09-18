@@ -22,36 +22,34 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-    <section class="section product">
+    <br>
+    <section class="page-title">
         <div class="container">
-            <h2>OUR PRODUCTS</h2>
-         
+            <div class="col-md-12">
+                <h3>OUR PRODUCTS</h3>
+            </div>
+        </div>
+    </section>
+    <section class="section specialproduct">
+        <div class="container">
+            <h2>Our strategic partners for specialty products</h2>
             <hr class="hr">
-            <div class="product-wrapper">
+            <div class="specialproduct-wrapper">
                 <div class="card">
-                    <h3><img src="/images/offeredservice/sample1.jpg" width="250px;"></h3>
-                    <h5>WSP Products</h5>
-                    <p>Lorem ipsum dolor sit amet com <span class="fa fa-link"></span></p> 
+                    <h3><img src="/images/blank.png" width="350px;"></h3>
+                    <h5><img src="/images/adisseo.png" width="250px;">  <span class="fa fa-link"></span></h5>
                 </div>
                 <div class="card">
-                    <h3><img src="/images/offeredservice/sample3.jpg" width="250px;"></h3>
-                    <h5>Oral Solution</h5>
-                    <p>Lorem ipsum dolor sit amet com <span class="fa fa-link"></span></p>
+                    <h3><img src="/images/blank.png" width="350px;"></h3>
+                    <h5><img src="/images/cbs.png" width="250px;" >  <span class="fa fa-link"></span></h5>
                 </div>
                 <div class="card">
-                    <h3><img src="/images/offeredservice/sample1.jpg" width="250px;"></h3>
-                    <h5>Disinfectant</h5>
-                    <p>Lorem ipsum dolor sit amet com <span class="fa fa-link"></span></p>
+                    <h3><img src="/images/blank.png" width="350px;"></h3>
+                    <h5><img src="/images/advance.png" width="250px;">  <span class="fa fa-link"></span></h5>
                 </div>
                 <div class="card">
-                    <h3><img src="/images/offeredservice/sample3.jpg" width="250px;"></h3>
-                    <h5>Nutraceuticals</h5>
-                    <p>Lorem ipsum dolor sit amet com <span class="fa fa-link"></span></p>
-                </div>
-                <div class="card">
-                    <h3><img src="/images/offeredservice/sample1.jpg" width="250px;"></h3>
-                    <h5>AB Premix</h5>
-                    <p>Lorem ipsum dolor sit amet com <span class="fa fa-link"></span></p>
+                    <h3><img src="/images/blank.png" width="350px;"></h3>
+                    <h5><img src="/images/kemin.png" width="250px;">  <span class="fa fa-link"></span></h5>
                 </div>
             </div>
         </div>
