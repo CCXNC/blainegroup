@@ -23,7 +23,7 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
-                            <b style="color:#251F5D;">HOME</b>
+                            <b style="color:#007730;">HOME</b>
                         </a>
                         <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#">
@@ -39,7 +39,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
-                            <b style="color:#251F5D;">OUR PRODUCTS</b>
+                            <b style="color:#007730;">OUR PRODUCTS</b>
                         </a>
 
                         <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
@@ -58,7 +58,29 @@
                     </li>-->
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
-                            <b style="color:#251F5D;">TECHNICAL SERVICES</b>
+                            <b style="color:#007730;">TECHNICAL SERVICES</b>
+                        </a>
+
+                        <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">
+                                <b style="color:#251F5D;">Blaine Group </b>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <b style="color:#251F5D;">REFAMED </b>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <b style="color:#251F5D;"> BMC </b>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link " href="{{ url('/newsarticle') }}">
+                            <b style="color:#007730;">NEWS ARTICLE</b>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
+                            <b style="color:#007730;">ABOUT US</b>
                         </a>
 
                         <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
@@ -75,41 +97,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
-                            <b style="color:#251F5D;">NEWS ARTICLE</b>
-                        </a>
-
-                        <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">
-                                <b style="color:#251F5D;">Blaine Group </b>
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                <b style="color:#251F5D;">REFAMED </b>
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                <b style="color:#251F5D;"> BMC </b>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
-                            <b style="color:#251F5D;">ABOUT US</b>
-                        </a>
-
-                        <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">
-                                <b style="color:#251F5D;">Blaine Group </b>
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                <b style="color:#251F5D;">REFAMED </b>
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                <b style="color:#251F5D;"> BMC </b>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
-                            <b style="color:#251F5D;">CONTACT US</b>
+                            <b style="color:#007730;">CONTACT US</b>
                         </a>
 
                         <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">

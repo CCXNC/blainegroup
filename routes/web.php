@@ -26,6 +26,9 @@ Route::get('/keminproduct','PagesController@keminproduct')->name('keminproduct')
 Route::get('/enzymeproduct','PagesController@enzymeproduct')->name('enzymeproduct');
 Route::get('/cbsproduct','PagesController@cbsproduct')->name('cbsproduct');
 Route::get('/adisseoproduct','PagesController@adisseoproduct')->name('adisseoproduct');
+Route::get('/newsarticle','PagesController@newsarticle')->name('newsarticle');
+Route::get('/newsarticleblog','PagesController@newsarticleblog')->name('newsarticleblog');
+
 
 
 

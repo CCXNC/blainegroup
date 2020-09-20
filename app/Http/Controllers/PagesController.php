@@ -41,4 +41,12 @@ class PagesController extends Controller
     public function adisseoproduct() {
         return view('pages.rrlc.adisseoproduct');
     }
+
+    public function newsarticle() {
+        return view('pages.rrlc.newsarticle');
+    }
+
+    public function newsarticleblog() {
+        return view('pages.rrlc.newsarticleblog');
+    }
 }
