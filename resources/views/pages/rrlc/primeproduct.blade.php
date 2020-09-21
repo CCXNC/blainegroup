@@ -58,6 +58,11 @@
                     <h5>AB Premix</h5>
                     <p>Lorem ipsum dolor sit amet com <span class="fa fa-link"></span></p>
                 </div>
+                <div class="card">
+                    <h3><img src="/images/offeredservice/sample1.jpg" width="250px;"></h3>
+                    <h5>Premix</h5>
+                    <p>Lorem ipsum dolor sit amet com <span class="fa fa-link"></span></p>
+                </div>
             </div>
         </div>
     </section> 

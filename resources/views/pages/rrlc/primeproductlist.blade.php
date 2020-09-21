@@ -22,10 +22,16 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+    <br>
+    <section class="page-title">
+        <div class="container">
+            <div class="col-md-12">
+                <h3>OUR PRODUCTS</h3>
+            </div>
+        </div>
+    </section>
     <section class="section rrlcproductlist" id="section-2">
         <div class="container">
-            <h2>OUR PRODUCTS</h2>
-            <hr class="hr">
             <div class="rrlcproductlist-wrapper">
                 <div class="card">
                     <h3><img src="/images/rrlcproducts/prod1.jpg" width="200px;"></h3>
