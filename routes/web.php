@@ -39,4 +39,5 @@ Route::get('rrlccontactus','PagesController@rrlccontactus')->name('rrlccontactus
 // BACKEND
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
+Route::resource('/dashboard/rrlchomecarousel', 'RrlcCarouselController');
 
