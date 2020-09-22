@@ -29,6 +29,8 @@ Route::get('/adisseoproduct','PagesController@adisseoproduct')->name('adisseopro
 Route::get('/productblog', 'PagesController@productblog')->name('productblog');
 Route::get('/newsarticle','PagesController@newsarticle')->name('newsarticle');
 Route::get('/newsarticleblog','PagesController@newsarticleblog')->name('newsarticleblog');
+Route::get('/rrlcaboutus','PagesController@rrlcaboutus')->name('rrlcaboutus');
+Route::get('rrlccontactus','PagesController@rrlccontactus')->name('rrlccontactus');
 
 
 

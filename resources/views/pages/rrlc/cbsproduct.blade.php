@@ -51,16 +51,16 @@
             <hr class="hr">
             <div class="category-wrapper">
                 <div class="card">
-                    <h5><img src="/images/BLAINEGROUP.png" width="200px;">  <span class="fa fa-link"></span></h5>
+                    <h5><img src="/images/adisseo.png" width="200px;">  <span class="fa fa-link"></span></h5>
                 </div>
                 <div class="card">
-                    <h5><img src="/images/BLAINEGROUP.png" width="200px;">  <span class="fa fa-link"></span></h5>
+                    <h5><img src="/images/cbs.png" width="200px;">  <span class="fa fa-link"></span></h5>
                 </div>
                 <div class="card">
-                    <h5><img src="/images/BLAINEGROUP.png" width="200px;">  <span class="fa fa-link"></span></h5>
+                    <h5><img src="/images/advance.png" width="200px;">  <span class="fa fa-link"></span></h5>
                 </div>
                 <div class="card">
-                    <h5><img src="/images/BLAINEGROUP.png" width="200px;">  <span class="fa fa-link"></span></h5>
+                    <h5><img src="/images/kemin.png" width="200px;">  <span class="fa fa-link"></span></h5>
                 </div>
             </div>
         </div>

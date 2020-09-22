@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Mapper;
 
 class PagesController extends Controller
 {
@@ -52,5 +53,14 @@ class PagesController extends Controller
 
     public function newsarticleblog() {
         return view('pages.rrlc.newsarticleblog');
+    }
+
+    public function rrlcaboutus() {
+        Mapper::map(14.289683, 121.011593);
+        return view('pages.rrlc.aboutus');
+    }
+
+    public function rrlccontactus() {
+        return view('pages.rrlc.contactus');    
     }
 }
