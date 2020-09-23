@@ -63,4 +63,12 @@ class PagesController extends Controller
     public function rrlccontactus() {
         return view('pages.rrlc.contactus');    
     }
+
+    public function bcindex() {
+        return view('pages.bc.bcindex');
+    }
+
+    public function bcaboutus() {
+        return view('pages.bc.bcaboutus');
+    }
 }

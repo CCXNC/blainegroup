@@ -10941,6 +10941,24 @@ body {
   float: right;
 }
 
+.bcfooter .footer-section {
+  color: #f4f4f4;
+  background: linear-gradient(to bottom, #251F5D 100%, #251F5D 100%);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bcfooter .footer-section p {
+  font-size: 16px;
+  margin-bottom: 0;
+  float: left;
+}
+
+.bcfooter .footer-section span {
+  font-size: 20px;
+  float: right;
+}
+
 .page-title {
   background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
   display: flex;
@@ -12055,5 +12073,308 @@ section {
 
 .fw {
   font-size: 20px !important;
+}
+
+.content-3 {
+  background-color: white;
+}
+
+.content-3 hr {
+  border: 1px solid #251F5D;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 150px;
+}
+
+.content-3 h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.content-3 p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.content-3-wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  text-align: center;
+}
+
+.content-3-wrapper .card {
+  background-color: white;
+  padding: 20px;
+}
+
+.content-3-wrapper .card h5 {
+  font-weight: 800;
+  font-size: 15px;
+  color: #251F5D;
+  margin: 15px 0 25px;
+}
+
+.content-3-wrapper .card p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #34495e;
+}
+
+@media (max-width: 800px) {
+  .content-3-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 1em;
+    grid-auto-rows: minmax(220px, auto);
+  }
+}
+
+.bc-aboutus {
+  background-color: white;
+}
+
+.bc-aboutus img {
+  padding-bottom: 20px;
+}
+
+.bc-aboutus h3 {
+  text-align: center;
+}
+
+.bc-aboutus hr {
+  border: 1px solid #251F5D;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 150px;
+}
+
+.bc-aboutus h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.bc-aboutus-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1em;
+  grid-row-gap: 2em;
+}
+
+.bc-aboutus-wrapper .card {
+  background-color: white;
+  padding: 20px;
+}
+
+.bc-aboutus-wrapper .card h5 {
+  font-weight: 800;
+  font-size: 23px;
+  color: #251F5D;
+  margin: 15px 0 5px;
+  text-align: center;
+}
+
+.bc-aboutus-wrapper .card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #251F5D;
+  text-align: center;
+}
+
+.bc-aboutus-wrapper span {
+  float: right;
+}
+
+@media (max-width: 800px) {
+  .bc-aboutus {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 1em;
+    grid-auto-rows: minmax(220px, auto);
+  }
+}
+
+.bc-products {
+  background-color: white;
+}
+
+.bc-products img {
+  padding-bottom: 20px;
+}
+
+.bc-products h3 {
+  text-align: center;
+}
+
+.bc-products hr {
+  border: 1px solid #251F5D;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 150px;
+}
+
+.bc-products h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.bc-products-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1em;
+  grid-row-gap: 2em;
+}
+
+.bc-products-wrapper .card {
+  background-color: white;
+  padding: 20px;
+}
+
+.bc-products-wrapper .card h5 {
+  font-weight: 800;
+  font-size: 23px;
+  color: #251F5D;
+  margin: 15px 0 5px;
+  text-align: center;
+}
+
+.bc-products-wrapper .card p {
+  font-size: 5px;
+  font-weight: 400;
+  color: #251F5D;
+  text-align: center;
+}
+
+.bc-products-wrapper span {
+  float: right;
+}
+
+@media (max-width: 800px) {
+  .bc-products {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 1em;
+    grid-auto-rows: minmax(220px, auto);
+  }
+}
+
+.bc-products .card-header {
+  background: linear-gradient(to bottom right, #251F5D 0%, #251F5D 200%);
+  color: #efefef;
+  align-items: left;
+}
+
+.bc-partners hr {
+  border: 1px solid #251F5D;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 150px;
+}
+
+.bc-partners1 {
+  background-color: white;
+}
+
+.bc-partners1 hr {
+  border: 1px solid #251F5D;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 150px;
+}
+
+.bc-partners1 h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.bc-partners1 p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.bc-partners1-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 1em;
+  grid-row-gap: 10em;
+  text-align: center;
+}
+
+.bc-partners1-wrapper .card {
+  background-color: white;
+  padding: 20px;
+}
+
+.bc-partners1-wrapper .card h5 {
+  font-weight: 800;
+  font-size: 15px;
+  color: #251F5D;
+  margin: 15px 0 25px;
+}
+
+.bc-partners1-wrapper .card p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #34495e;
+}
+
+@media (max-width: 800px) {
+  .bc-partners1-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 1em;
+    grid-auto-rows: minmax(220px, auto);
+  }
+}
+
+.bc-contactus {
+  background-color: white;
+  text-align: left;
+}
+
+.bc-contactus h3 {
+  font-weight: 600;
+  color: #251F5D;
+  margin-bottom: 15px;
+}
+
+.bc-contactus .btn-primary {
+  font-weight: 600;
+  color: #f4f4f4;
+  background-color: #251F5D;
+  border: 1.5px solid #251F5D;
+  transition-duration: 1s;
+  transition-property: color background-color;
+}
+
+.bc-contactus .btn-primary:hover {
+  color: #251F5D;
+  background-color: #efefef;
+}
+
+.bc-about1 {
+  font-weight: 400;
+  color: #251F5D;
+}
+
+.bc-about1 title .col-md-12 {
+  padding-bottom: 15px;
+  position: left;
+}
+
+.bc-about1 h3 {
+  text-align: left;
+}
+
+.bc-about1 .info {
+  text-align: left;
+  font-size: 17px;
+  font-weight: 550;
+}
+
+.bc-about1 h5 {
+  font-size: 15px;
+}
+
+.bc-about1 .policy {
+  font-size: 12px;
+  text-align: justify;
 }
 
