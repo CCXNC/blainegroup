@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>RRLC GROUP</title>
+    <title>BMC GROUP</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -29,12 +29,12 @@
 </head>
 <body>
     <div id="app">
-        @include('inc.rrlcnavbar')
+        @include('inc.bmcnavbar')
       
         @include('inc.messages')
         @yield('content')
 
-        @include('inc.rrlcfooter')
+        @include('inc.bmcfooter')
      
     </div>
 </body>

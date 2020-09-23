@@ -200,7 +200,6 @@
                     </div>
                 </div>
             </form>
-    </section>           
             <div class="container">
                 <div class="col-md-7">
                     <hr>
@@ -210,5 +209,5 @@
                 </div>
             </div> 
         </div>
-                
+    </section>              
 @endsection

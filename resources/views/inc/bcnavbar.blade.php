@@ -7,7 +7,7 @@
     <nav class="navbar  navbar-expand-md navbar-light bg-white shadow-sm">
         <div class="container">
             <a class="navbar" href="{{ url('/') }}">
-                <img src="images/BC.png" style="width: 100px" alt="">
+                <img src="images/BC.png" style="width: 160px" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                 <span class="navbar-toggler-icon"></span>
@@ -30,23 +30,18 @@
                         <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
                             <b style="color:#251F5D;">COMPANY</b>
                         </a>
-                        <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">
-                                <img src="images/BC.png" style="width:60px;" alt="">&nbsp;&nbsp;&nbsp;<b style="color:#251F5D;">BLAINE CORPORATION </b>
-                            </a>
+                         <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{{ url('/bcindex') }}">
+                                    <img src="images/BC.png" style="width:60px;" alt="">&nbsp;&nbsp;&nbsp;<b style="color:#251F5D;">BLAINE CORPORATION </b>
+                                </a>
                             <a class="dropdown-item" href="{{ url('/') }}">
-                                <img src="images/rrlc.jpg" style="width:50px;" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b style="color:#251F5D;">REFAMED RESEARCHED LABORATORY CORPORATION</b>
-                            </a>
-                            <a class="dropdown-item" href="#">
+                                    <img src="images/rrlc.jpg" style="width:50px;" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b style="color:#251F5D;">REFAMED RESEARCHED LABORATORY CORPORATION</b>
+                                </a>
+                            <a class="dropdown-item" href="{{ url('/bmcindex') }}">
                                 <img src="images/BMC.jpg" style="width:60px;" alt="">&nbsp;&nbsp;<b style="color:#251F5D;"> BLAINE MANUFACTURING CORPORATION </b>
                             </a>
                         </div>
                     </li>
-                    <!--<li class="nav-item">
-                    <a class="nav-link dropdown" href="{{ url('/rrlcproduct') }}">
-                            <b style="color:#251F5D;">OUR PRODUCTS</b>
-                        </a>
-                    </li>-->
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
                             <b style="color:#251F5D;">ABOUT US</b>

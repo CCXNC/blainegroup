@@ -64,11 +64,18 @@ class PagesController extends Controller
         return view('pages.rrlc.contactus');    
     }
 
+
+    // BC HOMEPAGE
     public function bcindex() {
-        return view('pages.bc.bcindex');
+        return view('pages.bc.index');
     }
 
     public function bcaboutus() {
-        return view('pages.bc.bcaboutus');
+        return view('pages.bc.aboutus');
+    }
+
+    // BMC HOMEPAGE
+    public function bmcindex() {
+        return view('pages.bmc.index');
     }
 }
