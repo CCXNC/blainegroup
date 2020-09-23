@@ -819,7 +819,7 @@ section {
         font-weight: 600;
     }
     .card-body {
-        text-align: left;
+        text-align: justify;
     }
 
     .card-header {
@@ -843,7 +843,7 @@ section {
             }
 
             p {
-                text-align: left;
+                text-align: justify;
                 padding: 10px 5px;
                 font-size: 16px;
                 font-weight: 400;
@@ -878,7 +878,7 @@ section {
         font-weight: 600;
     }
     .card-body {
-        text-align: left;
+        text-align: justify;
     }
     span {
         font-size: 10px;
@@ -894,7 +894,7 @@ section {
         grid-template-columns: repeat(1, 1fr);
         grid-column-gap: 3em;
         grid-row-gap: 1em;
-        text-align: left;
+        text-align: justify;
 
         .card {
             background-color: lighten(white, 15%);
@@ -920,7 +920,7 @@ section {
             }
 
             p {
-                text-align: left;
+                text-align: justify;
                 padding: 10px 5px;
                 font-size: 16px;
                 font-weight: 400;
@@ -1122,7 +1122,7 @@ section {
 
  .about-1 {
     background-color: white;
-    text-align: left;
+    text-align: justify;
     .row {
         padding: 10px 10px 10px 10px;
     }
@@ -1168,7 +1168,7 @@ section {
         justify-content: space-between;
     }
     .card-body {
-        text-align: left;
+        text-align: justify;
     }
 
     .card-header {
@@ -1182,7 +1182,7 @@ section {
         grid-template-columns: repeat(1, 1fr);
         grid-column-gap: 3em;
         grid-row-gap: 1em;
-        text-align: left;
+        text-align: justify;
 
         .card {
             background-color: lighten(white, 15%);
@@ -1193,7 +1193,7 @@ section {
             }
 
             p {
-                text-align: left;
+                text-align: justify;
                 padding: 10px 5px;
                 font-size: 16px;
                 font-weight: 400;

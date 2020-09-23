@@ -11696,7 +11696,7 @@ section {
 }
 
 .newsarticle .card-body {
-  text-align: left;
+  text-align: justify;
 }
 
 .newsarticle .card-header {
@@ -11722,7 +11722,7 @@ section {
 }
 
 .newsarticle-wrapper .card p {
-  text-align: left;
+  text-align: justify;
   padding: 10px 5px;
   font-size: 16px;
   font-weight: 400;
@@ -11755,7 +11755,7 @@ section {
 }
 
 .newsarticleblog .card-body {
-  text-align: left;
+  text-align: justify;
 }
 
 .newsarticleblog span {
@@ -11772,7 +11772,7 @@ section {
   grid-template-columns: repeat(1, 1fr);
   grid-column-gap: 3em;
   grid-row-gap: 1em;
-  text-align: left;
+  text-align: justify;
 }
 
 .newsarticleblog-wrapper .card {
@@ -11799,7 +11799,7 @@ section {
 }
 
 .newsarticleblog-wrapper .card p {
-  text-align: left;
+  text-align: justify;
   padding: 10px 5px;
   font-size: 16px;
   font-weight: 400;
@@ -11985,7 +11985,7 @@ section {
 
 .about-1 {
   background-color: white;
-  text-align: left;
+  text-align: justify;
 }
 
 .about-1 .row {
@@ -12035,7 +12035,7 @@ section {
 }
 
 .about-1 .card-body {
-  text-align: left;
+  text-align: justify;
 }
 
 .about-1 .card-header {
@@ -12049,7 +12049,7 @@ section {
   grid-template-columns: repeat(1, 1fr);
   grid-column-gap: 3em;
   grid-row-gap: 1em;
-  text-align: left;
+  text-align: justify;
 }
 
 .about-1-wrapper .card {
@@ -12062,7 +12062,7 @@ section {
 }
 
 .about-1-wrapper .card p {
-  text-align: left;
+  text-align: justify;
   padding: 10px 5px;
   font-size: 16px;
   font-weight: 400;
