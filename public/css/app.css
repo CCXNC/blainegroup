@@ -12591,7 +12591,7 @@ section {
 
 .tech-1-wrapper .card .col-md-8 p {
   padding-left: 50px;
-  text-align: left;
+  text-align: justify;
   font-size: 16px;
   font-weight: 550;
 }
