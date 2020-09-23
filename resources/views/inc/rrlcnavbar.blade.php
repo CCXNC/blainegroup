@@ -51,30 +51,15 @@
                             </a>
                         </div>
                     </li>
-                    <!--<li class="nav-item">
-                    <a class="nav-link dropdown" href="{{ url('/rrlcproduct') }}">
-                            <b style="color:#251F5D;">OUR PRODUCTS</b>
-                        </a>
-                    </li>-->
+
                     <li class="nav-item dropdown">
-                        <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
+                        <a class="nav-link " href="{{ url('/technicalservice') }}">
                             <b style="color:#007730;">TECHNICAL SERVICES</b>
                         </a>
-
-                        <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">
-                                <b style="color:#251F5D;">Blaine Group </b>
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                <b style="color:#251F5D;">REFAMED </b>
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                <b style="color:#251F5D;"> BMC </b>
-                            </a>
-                        </div>
                     </li>
+
                     <li class="nav-item dropdown">
-                    <a class="nav-link " href="{{ url('/newsarticle') }}">
+                        <a class="nav-link " href="{{ url('/newsarticle') }}">
                             <b style="color:#007730;">NEWS ARTICLE</b>
                         </a>
                     </li>

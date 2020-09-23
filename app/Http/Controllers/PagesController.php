@@ -46,6 +46,10 @@ class PagesController extends Controller
     public function productblog() {
         return view('pages.rrlc.productblog');
     }    
+
+    public function technicalservice() {
+        return view('pages.rrlc.technicalservice');
+    }
     
     public function newsarticle() {
         return view('pages.rrlc.newsarticle');

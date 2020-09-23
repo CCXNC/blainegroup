@@ -27,6 +27,7 @@ Route::get('/enzymeproduct','PagesController@enzymeproduct')->name('enzymeproduc
 Route::get('/cbsproduct','PagesController@cbsproduct')->name('cbsproduct');
 Route::get('/adisseoproduct','PagesController@adisseoproduct')->name('adisseoproduct');
 Route::get('/productblog', 'PagesController@productblog')->name('productblog');
+Route::get('/technicalservice','PagesController@technicalservice')->name('technicalservice');
 Route::get('/newsarticle','PagesController@newsarticle')->name('newsarticle');
 Route::get('/newsarticleblog','PagesController@newsarticleblog')->name('newsarticleblog');
 Route::get('/rrlcaboutus','PagesController@rrlcaboutus')->name('rrlcaboutus');
