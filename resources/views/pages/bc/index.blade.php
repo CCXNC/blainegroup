@@ -24,9 +24,9 @@
     </div>
     <section class="section bc-aboutus">
         <div class="container">
-            <h2>ABOUT US</h2>
+            <h2>OUR STORY</h2>
             <hr class="hr">
-            <div class="bc-aboutus-wrapper">
+            <!--<div class="bc-aboutus-wrapper">
                 <div class="card">
                     <h3><img src="/images/offeredservice/sample1.jpg" width="50px;"></h3>
                     <h5>What We Do</h5>
@@ -42,10 +42,16 @@
                     <h5>Our Mission</h5>
                     <p>Lorem ipsum dolor sit amet com Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
+            </div>-->
+            <div class="">
+                <img class="d-block w-100" src="/images/blank.png" alt="First slide">
             </div>
         </div>
     </section>
-    <section class="section bc-products">
+    <section class="bc-section3">
+        <img class="d-block w-100" src="/images/blank.png" alt="First slide">
+    </section>
+    <!--<section class="section bc-products">
         <div class="container">
             <h2>Feed them the best with nutrients</h2>
             <p>We prioritized safety and quality products for you!</p>
@@ -114,7 +120,7 @@
                 </div>
             </div>
         </div>
-    </section> 
+    </section> -->
     
     <section class="section bc-partners">
         <div class="container">
@@ -125,35 +131,61 @@
                 <div class="col-sm-4">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Adisseo</h5>
+                            <img class="d-block w-100" src="/images/Adisseo.png" alt="Third slide">
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Get Started</a>
+                            <!--<a href="#" class="btn btn-primary">Get Started</a>-->
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Advanced enzymes</h5>
+                            <img class="d-block w-100" src="/images/Advance.png" alt="Third slide">
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Get Started</a>
+                            <!--<a href="#" class="btn btn-primary">Get Started</a>-->
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Corel Pharma Chem</h5>
+                            <img class="d-block w-100" src="/images/Advance.png" alt="Third slide">
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Get Started</a>
+                            <!--<a href="#" class="btn btn-primary">Get Started</a>-->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
     <section class="section bc-partners">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="d-block w-100" src="/images/Adisseo.png" alt="Third slide">
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <!--<a href="#" class="btn btn-primary">Get Started</a>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="d-block w-100" src="/images/Advance.png" alt="Third slide">
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <!--<a href="#" class="btn btn-primary">Get Started</a>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bc-section5">
+        <img class="d-block w-100" src="/images/blank.png" alt="First slide">
+    </section>
+    <!--<section class="section bc-partners">
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
@@ -176,7 +208,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
     <!--<section class=" bc-partners1">
         <div class="container">
             <div class="card">
