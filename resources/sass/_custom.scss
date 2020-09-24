@@ -92,6 +92,27 @@ body {
 }
 
 
+.bmc1footer {
+    .footer-section {
+        color: $light-color;
+        background: #b70e5e;
+        //background: linear-gradient(to bottom, #007730 0%, #99ff99 100%);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        p {
+            font-size: 16px;
+            margin-bottom: 0;
+            float: left;
+        }
+
+        span {
+            font-size:20px;
+            float:right;
+        }
+    }
+}
+
+
 .page-title {
     background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
     display: flex;
@@ -1886,7 +1907,7 @@ section {
  */
  .btn-transparent {
     background: white;
-    color: #black;
+    color: black;
     border: 2px solid #fff;
   }
   .btn-transparent:hover {

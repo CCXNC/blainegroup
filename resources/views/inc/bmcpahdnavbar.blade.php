@@ -7,7 +7,7 @@
     <nav class="navbar  navbar-expand-md navbar-light bg-white shadow-sm">
         <div class="container">
             <a class="navbar" href="{{ url('/') }}">
-                <img src="images/BMC.jpg" style="width: 160px" alt="">
+                <img src="images/bmc-pahd.png" style="width: 180px" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                 <span class="navbar-toggler-icon"></span>
@@ -23,7 +23,7 @@
                 <ul class="navbar-nav ml-auto fw">
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
-                            <b style="color:#007730;">HOME</b>
+                            <b style="color:#b70e5e;">HOME</b>
                         </a>
                         <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="{{ url('/bcindex') }}">
@@ -39,7 +39,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
-                            <b style="color:#007730;">COMPANY</b>
+                            <b style="color:#b70e5e;">WHO WE ARE</b>
                         </a>
                         <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="{{ url('/bcindex') }}">
@@ -58,24 +58,19 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link " href="#">
-                            <b style="color:#007730;">ABOUT US</b>
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link " href="#">
-                            <b style="color:#007730;">PRODUCTS</b>
+                            <b style="color:#b70e5e;">PRODUCTS</b>
                         </a>
                     </li>
 
                     <li class="nav-item dropdown">
                         <a class="nav-link " href="#">
-                            <b style="color:#007730;">SERVICES</b>
+                            <b style="color:#b70e5e;">TECHNICAL SERVICES</b>
                         </a>
                     </li>
                     
                     <li class="nav-item dropdown">
                         <a class="nav-link " href="#">
-                            <b style="color:#007730;">CONTACT US</b>
+                            <b style="color:#b70e5e;">CONTACT US</b>
                         </a>
                     </li>
                 </ul>

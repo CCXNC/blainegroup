@@ -86,4 +86,10 @@ class PagesController extends Controller
     public function bmcindex() {
         return view('pages.bmc.index');
     }
+
+
+    // BMC PAHD HOMEPAGE
+    public function bmcpahdindex() {
+        return view('pages.bmc.pahdindex');
+    }
 }
