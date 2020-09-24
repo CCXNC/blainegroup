@@ -10992,6 +10992,21 @@ body {
   margin: 0;
 }
 
+.bc-page-title {
+  background: #251F5D;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: #efefef;
+}
+
+.bc-page-title h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0;
+}
+
 section {
   color: #251F5D;
   font-weight: 400;
@@ -12598,6 +12613,126 @@ section {
 
 @media (max-width: 800px) {
   .tech-1-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 1em;
+    grid-auto-rows: minmax(220px, auto);
+  }
+}
+
+.bc-product-1 {
+  background-color: white;
+}
+
+.bc-product-1 h3 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.bc-product-1 .hr {
+  border: 1px solid #251F5D;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 150px;
+}
+
+.bc-product-1 .p {
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 550;
+}
+
+.bc-product-1-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.bc-product-1-wrapper .card {
+  background-color: white !important;
+  /*&:hover {
+      border: 2px solid $primary-color !important;
+      .card-footer {
+          font-size: 20px !important;
+          font-weight: 600;
+          color: $primary-color;
+          background-color: $primary-color !important;
+          color: $light-color !important;
+      }
+  }*/
+}
+
+.bc-product-1-wrapper .card .card-footer {
+  font-size: 20px !important;
+  font-weight: 600;
+}
+
+.bc-product-1-wrapper .card .card-body {
+  padding: 0 !important;
+}
+
+@media (max-width: 800px) {
+  .bc-product-1-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 1em;
+    grid-auto-rows: minmax(220px, auto);
+  }
+}
+
+.bc-product-2 {
+  background-color: white;
+}
+
+.bc-product-2 h3 {
+  text-align: left;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.bc-product-2 .hr {
+  border: 1px solid #251F5D;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 150px;
+}
+
+.bc-product-2 .p {
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 550;
+}
+
+.bc-product-2-wrapper {
+  display: grid;
+  grid-template-columns: 1, 1fr;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  text-align: center;
+}
+
+.bc-product-2-wrapper .card {
+  background-color: white;
+  padding: 20px;
+}
+
+.bc-product-2-wrapper .card h5 {
+  font-weight: 800;
+  font-size: 17px;
+  color: #251F5D;
+  margin: 15px 0 5px;
+  text-align: left;
+}
+
+.bc-product-2-wrapper .card ul li {
+  color: #251F5D;
+  text-align: left;
+  font-size: 16px;
+}
+
+@media (max-width: 800px) {
+  .bc-product-2-wrapper {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);

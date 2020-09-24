@@ -48,7 +48,7 @@
                         </a>
                     </li>
                     <li class="nav-item dropdown">
-                    <a class="nav-link " href="{{ url('/newsarticle') }}">
+                    <a class="nav-link " href="{{ url('/bcproduct') }}">
                             <b style="color:#251F5D;">PRODUCTS</b>
                         </a>
                     </li>
