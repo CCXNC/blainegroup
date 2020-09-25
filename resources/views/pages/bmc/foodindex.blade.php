@@ -1,4 +1,4 @@
-@extends('layouts.bmcpahdapp')
+@extends('layouts.bmcfoodapp')
 
 @section('content')
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">

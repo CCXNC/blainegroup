@@ -11,6 +11,7 @@ $primary-bg: #007730;
 $light-bg: #efefef;
 $dark-bg: #d2d7d3;
 $light-yellow-bg: #fcd800;
+$bmcpahd-color : rgb(208, 74, 150);
 
 body {
     box-sizing: border-box;
@@ -95,7 +96,7 @@ body {
 .bmc1footer {
     .footer-section {
         color: $light-color;
-        background: #b70e5e;
+        background: $bmcpahd-color;
         //background: linear-gradient(to bottom, #007730 0%, #99ff99 100%);
         padding-top: 20px;
         padding-bottom: 20px;
@@ -112,6 +113,20 @@ body {
     }
 }
 
+.page-title-bmcfood {
+    background: $bmcpahd-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: $light-bg;
+
+    h3 {
+        font-size: 26px;
+        font-weight: 600;
+        margin: 0;
+    }
+}
 
 .page-title {
     background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
@@ -2148,7 +2163,7 @@ section {
         overflow: hidden; 
         position: relative; 
         width: 100%; 
-        background-image:  url("/images/Sample/Labbottle.jpg"); 
+        background-image:  url("/images/carousel/img4.jpg"); 
         background-attachment: fixed; 
         background-size: cover; 
         -moz-background-size: cover; 
@@ -2163,7 +2178,7 @@ section {
         overflow: hidden; 
         position: relative; 
         width: 100%; 
-        background-image: url("/images/Sample/Production.jpg"); 
+        background-image: url("/images/carousel/img2.jpg"); 
         background-attachment: fixed; 
         background-size: cover; 
         -moz-background-size: cover; 
@@ -2172,7 +2187,7 @@ section {
         background-position: center center;
     }
 
-    #parallax-world-of-ugg .parallax-three {
+    /*#parallax-world-of-ugg .parallax-three {
         padding-top: 200px; 
         padding-bottom: 200px; 
         overflow: hidden; 
@@ -2185,7 +2200,7 @@ section {
         -webkit-background-size: cover; 
         background-repeat: no-repeat; 
         background-position: center center;
-    }
+    }*/
 
     /* Extras */
     /**************************/
@@ -2232,6 +2247,32 @@ section {
             width:290px;
         }
     }
-
-
     
+@media screen and (max-width: 479px) {
+  #parallax-world-of-ugg .block {padding: 30px 15px; width:290px;}
+}
+
+
+.bmcpahd-product-1 {
+    background-color: white;
+    .card {
+        background-color: lighten(white, 15%) !important;
+        
+        .card-header {
+            font-size: 20px !important;
+            font-weight: 600 !important;
+            //color: lighten($bmcpahd-color, 15%) !important;
+        }
+        .list-group-item {
+            font-size: 16px;
+        }
+   
+        @media (max-width: 800px) {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 1em;
+        grid-auto-rows: minmax(220px, auto);
+
+        }
+    }   
+ 
+}

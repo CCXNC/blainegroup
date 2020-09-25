@@ -6,10 +6,10 @@
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>
+        </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="/images/Sample/LabItem.jpg" alt="First slide">
+                <img class="d-block w-100" src="/images/SampleCarousel/Picture3.jpg" alt="First slide">
                 <div class="carousel-caption">
                     <h2 class="animated fadeInLeft">Taste the world with us</h2>
                     <p class="animated fadeInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
@@ -18,10 +18,10 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="/images/Sample/LiquidSoap.jpg" alt="Second slide">
+                <img class="d-block w-100" src="/images/SampleCarousel/Picture2.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="/images/Sample/BarSoap.jpg" alt="Third slide">
+                <img class="d-block w-100" src="/images/SampleCarousel/Picture1.jpg" alt="Third slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -55,8 +55,8 @@
         <section>
             <div class="parallax-one">
                 <div class="col-md-6" class="bmc-pc3">
-                    <h3 style="text-align: left; padding-left:15px" class="text-opacity">Blaine intensifies expansion to respond to the growing demand of food industry.</h3>
-                    <p style="text-align: left; color:black; padding-left:15px">Blaine Corporation established its personal and home care division in 2009 to 
+                    <h3 style="text-align: left; color:white; padding-left:15px" class="text-opacity">Blaine intensifies expansion to respond to the growing demand of food industry.</h3>
+                    <p style="text-align: left; color:white; padding-left:15px">Blaine Corporation established its personal and home care division in 2009 to 
                             cater to the basic cleaning care needs of its employees, manufacturing facilities and existing clients. 
                             The division expanded into a toller, trader and manufacturer of personal and home care products of 
                             various reputable companies.<br><br>
@@ -69,9 +69,9 @@
         
         <section>
             <div class="parallax-two">
-                <div class="col-md-6" style="float: right">
-                    <h2 style="text-align: left">Blaine Manufacturing Corporation is committed to safety and quality.</h2>
-                    <p style="text-align:left">Blaine complies and upholds the highest standards of quality and safety management. 
+                <div class="col-md-6" style="float: right;">
+                    <h2 style="text-align: left; color:white;">Blaine Manufacturing Corporation is committed to safety and quality.</h2>
+                    <p style="text-align:left; color:white;">Blaine complies and upholds the highest standards of quality and safety management. 
                     The company is certified by local and international regulatory body:
                     <br><br>
                     • License to Operate (LTO) as Cosmetic Manufacturer
