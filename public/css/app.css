@@ -12429,6 +12429,44 @@ section {
   text-align: justify;
 }
 
+.bmc-header-1 {
+  background-color: white;
+}
+
+.bmc-header-1-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.bmc-header-1-wrapper .card {
+  background-color: white;
+  align-items: center;
+  border: none;
+  padding: 0;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+}
+
+.bmc-header-1-wrapper .card:hover {
+  transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+}
+
+@media (max-width: 800px) {
+  .bmc-header-1-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 1em;
+    grid-auto-rows: minmax(220px, auto);
+  }
+}
+
 .bmc-content-1 {
   background-color: white;
 }

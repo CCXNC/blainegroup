@@ -51,9 +51,6 @@
                             <a class="dropdown-item" href="{{ url('/bmcindex') }}">
                                 <img src="images/BMC.jpg" style="width:60px;" alt="">&nbsp;&nbsp;<b style="color:#251F5D;"> BLAINE MANUFACTURING CORPORATION </b>
                             </a>
-                            <a class="dropdown-item" href="{{ url('/bmcpahdindex') }}">
-                                <img src="images/bmc-pahd.png" style="width:60px;" alt="">&nbsp;&nbsp;<b style="color:#251F5D;"> BLAINE MANUFACTURING CORPORATION PAHD</b>
-                            </a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">

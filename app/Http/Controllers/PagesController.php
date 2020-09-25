@@ -92,4 +92,9 @@ class PagesController extends Controller
     public function bmcpahdindex() {
         return view('pages.bmc.pahdindex');
     }
+
+
+    public function bmcfoodindex() {
+        return view('pages.bmc.foodindex');
+    }
 }

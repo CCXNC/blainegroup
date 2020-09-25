@@ -34,6 +34,20 @@
         </a>
     </div>
     <br>
+
+    <section class="bmc-header-1">
+        <div class="container">
+            <div class="bmc-header-1-wrapper">
+                <div class="card">
+                <a href="{{ url('/bmcfoodindex') }}"><img src="/images/blaine-food.png" width="350px"></a>
+                </div>
+                <div class="card">
+                    <a href="{{ url('/bmcpahdindex') }}"><img src="/images/personal-homecare.png" width="350px"></a>
+                </div>
+            </div>    
+        </div>
+    </section>
+
     <section class="section bmc-content-1">
         <div class="container">
             <h3>BLAINE MANUFACTURING CORPORATION</h3>

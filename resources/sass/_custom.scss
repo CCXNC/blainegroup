@@ -1568,6 +1568,43 @@ section {
     }
 }
 
+.bmc-header-1 {
+    background-color: white;
+
+    &-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+
+        .card {
+            background-color: lighten(white, 15%);
+            align-items: center;
+            border: none;
+            padding: 0;
+            transition: all .5s;
+            -moz-transition: all .5s;
+            -webkit-transition: all .5s;
+            -o-transition: all .5s;
+            -ms-transition: all .5s;
+
+            &:hover {
+                transform : scale(1.25);
+                -moz-transform : scale(1.25);
+                -webkit-transform : scale(1.25);
+                -o-transform : scale(1.25);
+                -ms-transform : scale(1.25);
+            }
+        }
+
+        @media (max-width: 800px) {
+            grid-template-columns: repeat(1, 1fr);
+            grid-row-gap: 1em;
+            grid-auto-rows: minmax(220px, auto);
+        }
+    }
+}
+
+
 .bmc-content-1 {
     background-color: white;
     h3 {

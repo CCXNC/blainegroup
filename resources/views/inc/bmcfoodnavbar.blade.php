@@ -7,7 +7,7 @@
     <nav class="navbar  navbar-expand-md navbar-light bg-white shadow-sm">
         <div class="container">
             <a class="navbar" href="{{ url('/') }}">
-                <img src="images/BC.png" style="width: 160px" alt="">
+                <img src="images/bmc-food-logo.png" style="width: 180px" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                 <span class="navbar-toggler-icon"></span>
@@ -23,14 +23,9 @@
                 <ul class="navbar-nav ml-auto fw">
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
-                            <b style="color:#251F5D;">HOME</b>
+                            <b style="color:#007730;">HOME</b>
                         </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
-                            <b style="color:#251F5D;">COMPANY</b>
-                        </a>
-                         <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+                        <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="{{ url('/bcindex') }}">
                                     <img src="images/BC.png" style="width:60px;" alt="">&nbsp;&nbsp;&nbsp;<b style="color:#251F5D;">BLAINE CORPORATION </b>
                                 </a>
@@ -44,24 +39,28 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
-                            <b style="color:#251F5D;">ABOUT US</b>
+                            <b style="color:#007730;">WHO WE ARE</b>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{{ url('/bcindex') }}">
+                                    <img src="images/BC.png" style="width:60px;" alt="">&nbsp;&nbsp;&nbsp;<b style="color:#251F5D;">BLAINE CORPORATION </b>
+                                </a>
+                            <a class="dropdown-item" href="{{ url('/') }}">
+                                    <img src="images/rrlc.jpg" style="width:50px;" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b style="color:#251F5D;">REFAMED RESEARCHED LABORATORY CORPORATION</b>
+                                </a>
+                            <a class="dropdown-item" href="{{ url('/bmcindex') }}">
+                                <img src="images/BMC.jpg" style="width:60px;" alt="">&nbsp;&nbsp;<b style="color:#251F5D;"> BLAINE MANUFACTURING CORPORATION </b>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#">
+                            <b style="color:#007730;">PRODUCTS</b>
                         </a>
                     </li>
                     <li class="nav-item dropdown">
-                    <a class="nav-link " href="{{ url('/bcproduct') }}">
-                            <b style="color:#251F5D;">PRODUCTS</b>
-                        </a>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link " href="{{ url('/rrlcaboutus') }}">
-                            <b style="color:#251F5D;">GLOBAL PARTNERS</b>
-                        </a>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link " href="{{ url('/rrlccontactus') }}">
-                            <b style="color:#251F5D;">CONTACT US</b>
+                        <a class="nav-link " href="#">
+                            <b style="color:#007730;">TECHNICAL SERVICES</b>
                         </a>
                     </li>
                 </ul>
