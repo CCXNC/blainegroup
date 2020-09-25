@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
 
 /*!
  * Bootstrap v4.5.2 (https://getbootstrap.com/)
@@ -12900,24 +12900,17 @@ section {
 }
 
 #parallax-world-of-ugg h2 {
-  font-family: "Oswald", sans-serif;
-  font-size: 70px;
-  letter-spacing: 10px;
-  text-align: center;
-  color: white;
+  color: black;
   font-weight: 400;
-  text-transform: uppercase;
   z-index: 10;
   opacity: 0.9;
 }
 
+#parallax-world-of-ugg h2 .bmc-pc2 {
+  font-family: "Times New Roman";
+}
+
 #parallax-world-of-ugg h3 {
-  font-family: "Oswald", sans-serif;
-  font-size: 14px;
-  line-height: 0;
-  font-weight: 400;
-  letter-spacing: 8px;
-  text-transform: uppercase;
   color: black;
 }
 
@@ -12926,6 +12919,7 @@ section {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+  color: black;
 }
 
 .first-character {
@@ -13004,7 +12998,7 @@ section {
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-image: url(https://images.unsplash.com/photo-1415018255745-0ec3f7aee47b?dpr=1&auto=format&fit=crop&w=1500&h=938&q=80&cs=tinysrgb&crop=);
+  background-image: url("/images/Sample/Labbottle.jpg");
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
@@ -13019,7 +13013,7 @@ section {
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-image: url(https://images.unsplash.com/photo-1432163230927-a32e4fd5a326?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
+  background-image: url("/images/Sample/Production.jpg");
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
