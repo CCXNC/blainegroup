@@ -23,7 +23,7 @@
                 <ul class="navbar-nav ml-auto fw">
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
-                            <b style="color:#b70e5e;">HOME</b>
+                            <b style="color:rgb(208, 74, 150);">HOME</b>
                         </a>
                         <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="{{ url('/bcindex') }}">
@@ -39,7 +39,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
-                            <b style="color:#b70e5e;">WHO WE ARE</b>
+                            <b style="color:rgb(208, 74, 150);">WHO WE ARE</b>
                         </a>
                         <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="{{ url('/bcindex') }}">
@@ -54,20 +54,31 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link " href="#">
-                            <b style="color:#b70e5e;">PRODUCTS</b>
+                        <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
+                            <b style="color:rgb(208, 74, 150);">PRODUCTS</b>
                         </a>
+                        <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{{ url('/bmcpahdproductpersonalcare') }}">
+                                <b style="color:#251F5D;">PERSONAL CARE</b>
+                                </a>
+                            <a class="dropdown-item" href="{{ url('/bmcpahdproducthomecare') }}">
+                                <b style="color:#251F5D;">HOME CARE</b>
+                            </a>
+                            <a class="dropdown-item" href="{{ url('/bmcpahdproductrawmaterial') }}">
+                                <b style="color:#251F5D;">RAW MATERIALS FOR TRADING</b>
+                            </a>
+                        </div>
                     </li>
 
                     <li class="nav-item dropdown">
                         <a class="nav-link " href="#">
-                            <b style="color:#b70e5e;">TECHNICAL SERVICES</b>
+                            <b style="color:rgb(208, 74, 150);">TECHNICAL SERVICES</b>
                         </a>
                     </li>
                     
                     <li class="nav-item dropdown">
                         <a class="nav-link " href="#">
-                            <b style="color:#b70e5e;">CONTACT US</b>
+                            <b style="color: rgb(208, 74, 150);">CONTACT US</b>
                         </a>
                     </li>
                 </ul>

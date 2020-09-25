@@ -93,6 +93,18 @@ class PagesController extends Controller
         return view('pages.bmc.pahdindex');
     }
 
+    public function bmcpahdproductpersonalcare() {
+        return view('pages.bmc.productpahdpersonalcare');
+    }
+    
+    public function bmcpahdproducthomecare() {
+        return view('pages.bmc.productpahdhomecare');
+    }
+
+    public function bmcpahdproductrawmaterial() {
+        return view('pages.bmc.productpahdrawmaterial');
+    }
+
 
     public function bmcfoodindex() {
         return view('pages.bmc.foodindex');

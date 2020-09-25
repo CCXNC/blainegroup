@@ -10979,7 +10979,7 @@ body {
 
 .bmc1footer .footer-section {
   color: #f4f4f4;
-  background: #b70e5e;
+  background: #d04a96;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -10993,6 +10993,21 @@ body {
 .bmc1footer .footer-section span {
   font-size: 20px;
   float: right;
+}
+
+.page-title-bmcfood {
+  background: #d04a96;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: #efefef;
+}
+
+.page-title-bmcfood h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0;
 }
 
 .page-title {
@@ -13090,6 +13105,31 @@ section {
   #parallax-world-of-ugg .block {
     padding: 30px 15px;
     width: 290px;
+  }
+}
+
+.bmcpahd-product-1 {
+  background-color: white;
+}
+
+.bmcpahd-product-1 .card {
+  background-color: white !important;
+}
+
+.bmcpahd-product-1 .card .card-header {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}
+
+.bmcpahd-product-1 .card .list-group-item {
+  font-size: 16px;
+}
+
+@media (max-width: 800px) {
+  .bmcpahd-product-1 .card {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 1em;
+    grid-auto-rows: minmax(220px, auto);
   }
 }
 

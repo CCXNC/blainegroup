@@ -40,6 +40,10 @@ Route::get('/bcproduct','PagesController@bcproduct')->name('bcproduct');
 Route::get('/bmcindex', 'PagesController@bmcindex')->name('bmcindex'); // BMC HOMEPAGE
 
 Route::get('/bmcpahdindex', 'PagesController@bmcpahdindex')->name('bmcpahdindex'); // BMC PERSONAL CARE
+// BMC PERSONAL CARE PRODUCT
+Route::get('/bmcpahdproductpersonalcare', 'PagesController@bmcpahdproductpersonalcare')->name('bmcpahdproductpersonalcare');
+Route::get('/bmcpahdproducthomecare', 'PagesController@bmcpahdproducthomecare')->name('bmcpahdproducthomecare');
+Route::get('/bmcpahdproductrawmaterial', 'PagesController@bmcpahdproductrawmaterial')->name('bmcpahdproductrawmaterial');
 
 Route::get('/bmcfoodindex', 'PagesController@bmcfoodindex')->name('bmcfoodindex'); //BMC FOOD 
 
