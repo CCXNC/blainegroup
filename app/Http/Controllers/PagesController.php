@@ -92,4 +92,9 @@ class PagesController extends Controller
     public function bmcpahdindex() {
         return view('pages.bmc.pahdindex');
     }
+
+    // BMC PC
+    public function bmcwhoweare() {
+        return view('pages.bmc.whoweare');
+    }
 }

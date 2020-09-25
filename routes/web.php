@@ -39,6 +39,7 @@ Route::get('/bcproduct','PagesController@bcproduct')->name('bcproduct');
 
 Route::get('/bmcindex', 'PagesController@bmcindex')->name('bmcindex'); // BMC HOMEPAGE
 Route::get('/bmcpahdindex', 'PagesController@bmcpahdindex')->name('bmcpahdindex');
+Route::get('/bmcwhoweare', 'PagesController@bmcwhoweare')->name('bmcwhoweare');
 
 
 
