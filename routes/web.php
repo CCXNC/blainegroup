@@ -47,6 +47,7 @@ Route::get('/bmcfoodindex', 'PagesController@bmcfoodindex')->name('bmcfoodindex'
 
 
 
+
 // BACKEND
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
