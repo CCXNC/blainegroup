@@ -11268,6 +11268,20 @@ section {
   background-color: #efefef;
 }
 
+.content-5 p {
+  font-size: 20px;
+  padding-left: 20px;
+  font-weight: 600;
+}
+
+.content-5 span {
+  color: #007730;
+  text-align: center;
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
 .product {
   background-color: white;
 }
@@ -12413,6 +12427,19 @@ section {
 .bc-contactus .btn-primary:hover {
   color: #251F5D;
   background-color: #efefef;
+}
+
+.bc-contactus p {
+  font-size: 20px;
+  padding-left: 20px;
+  font-weight: 600;
+}
+
+.bc-contactus span {
+  text-align: center;
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 50%;
 }
 
 .bc-about1 {

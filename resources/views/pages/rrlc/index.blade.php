@@ -166,46 +166,74 @@
     </section> 
     <section class="section content-5">
         <div class="container container1">
-            <h3>Send Us a Message</h3>
-            <form class="form-horizontal" action="">
-                <div class="form-group">
-                    <label class="col-sm-4 control-label" for="name">Name (Required)</label>
-                    <div class="col-sm-8">
-                        <input class="form-control" type="text" name="name">
-                    </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Send Us a Message</h3>
+                    <form class="form-horizontal" action="">
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label" for="name">Name (Required)</label>
+                            <div class="col-sm-10">
+                                <input class="form-control" type="text" name="name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label" for="name">Email (Required)</label>
+                            <div class="col-sm-10">
+                                <input class="form-control" type="text" name="name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-6">
+                                <label class="control-label" for="telephone_mobile_number">Telephone or Mobile Number (Required)</label>
+                            </div>
+                            <div class="col-sm-10">
+                                <input class="form-control" type="text" name="telephone_mobile_number">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-6 control-label" for="message">Your Message (Required)</label>
+                            <div class="col-sm-10">
+                                <textarea class="form-control" name="message" rows="5"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-4 col-sm-8">
+                                <input class="btn btn-primary" type="submit" value="Send Message">
+                            </div>
+                        </div>
+                    </form>
                 </div>
-                <div class="form-group">
-                    <label class="col-sm-4 control-label" for="name">Email (Required)</label>
-                    <div class="col-sm-8">
-                        <input class="form-control" type="text" name="name">
+                <div class="col-md-6">
+                    <br><br>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <br>
+                            <span class="fa fa-map-marker"></span>
+                        </div>
+                        <div class="col-md-10">
+                            <br>
+                            <p>Main Office:Blaine Industrial Complex Brgy.14 Kamias Road Governor`s Drive Bo.Bancal Carmona, Cavite, Philippines 4116</p>
+                        </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-4">
-                        <label class="control-label" for="telephone_mobile_number">Telephone or Mobile Number (Required)</label>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <span class="fa fa-phone"></span>
+                        </div>
+                        <div class="col-md-10">
+                            <br>
+                            <p>Tel. Nos.:+632 584 4256 to 60</p>
+                        </div>
                     </div>
-                    <div class="col-sm-8">
-                        <input class="form-control" type="text" name="telephone_mobile_number">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <br>
+                            <span class="fa fa-envelope"></span>
+                        </div>
+                        <div class="col-md-10">
+                            <br>
+                            <p>Customer Service:+632 584 4256 to 60 Email:refamed_info@blainegroup.com.ph</p>
+                        </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <label class="col-sm-4 control-label" for="message">Your Message (Required)</label>
-                    <div class="col-sm-8">
-                        <textarea class="form-control" name="message" rows="5"></textarea>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-offset-4 col-sm-8">
-                        <input class="btn btn-primary" type="submit" value="Send Message">
-                    </div>
-                </div>
-            </form>
-            <div class="container">
-                <div class="col-md-7">
-                    <hr>
-                    <p><span class="fa fa-map-marker">&nbsp;</span><span>Main Office:</span>Blaine Industrial Complex Brgy.14 Kamias Road Governor`s Drive Bo.Bancal Carmona, Cavite, Philippines 4116</p>
-                    <p><span class="fa fa-phone">&nbsp;</span><span>Tel. Nos.:</span>+632 584 4256 to 60</p>
-                    <p><span class="fa fa-envelope">&nbsp;</span><span>Customer Service:</span>+632 584 4256 to 60 <span>Email:</span>refamed_info@blainegroup.com.ph</p>
                 </div>
             </div> 
         </div>

@@ -384,6 +384,20 @@ section {
             background-color: $light-bg;
         }
     }
+
+    p {
+        font-size:20px;
+        padding-left: 20px;
+        font-weight: 600;
+       
+    }
+    span {
+        color: $primary-bg;
+        text-align: center;
+        padding:30px;
+        border: 1px solid black;
+        border-radius: 50%;
+    }
 }
 
 .product {
@@ -1548,6 +1562,19 @@ section {
              color: $primary-color;
              background-color: $light-bg;
          }
+     }
+ 
+     p {
+         font-size:20px;
+         padding-left: 20px;
+         font-weight: 600;
+        
+     }
+     span {
+         text-align: center;
+         padding:30px;
+         border: 1px solid black;
+         border-radius: 50%;
      }
  }
 
