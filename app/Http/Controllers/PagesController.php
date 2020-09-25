@@ -93,14 +93,8 @@ class PagesController extends Controller
         return view('pages.bmc.pahdindex');
     }
 
-<<<<<<< HEAD
 
     public function bmcfoodindex() {
         return view('pages.bmc.foodindex');
-=======
-    // BMC PC
-    public function bmcwhoweare() {
-        return view('pages.bmc.whoweare');
->>>>>>> testingParallax
     }
-}
+} 
