@@ -109,4 +109,8 @@ class PagesController extends Controller
     public function bmcfoodindex() {
         return view('pages.bmc.foodindex');
     }
+
+    public function bmcpctechnical() {
+        return view('pages.bmc.pctechnical');
+    }
 } 
