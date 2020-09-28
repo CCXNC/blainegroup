@@ -2303,3 +2303,54 @@ section {
     }   
  
 }
+
+//BC INDEX ONE
+.bc-careeropp {
+    background: linear-gradient(to bottom,  #251F5D 0%,  #251F5D 170%);
+    color: $light-color;
+
+    h3 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .hr {
+        border: 1px solid $light-color;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 130px;
+    }
+
+    .col-md-6 {
+        p {
+         
+            text-align: left;
+            font-size: 16px;
+            font-weight: 550;
+        }
+    }
+}
+
+.bc-newsarticle {
+    //background: linear-gradient(to bottom,  #251F5D 0%,  #251F5D 170%);
+    color: black;
+
+    h3 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .hr {
+        border: 1px solid #251F5D;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 130px;
+    }
+
+    .col-md-6 {
+        p {
+         
+            text-align: left;
+            font-size: 16px;
+            font-weight: 550;
+        }
+    }
+}

@@ -36,6 +36,7 @@ Route::get('rrlccontactus','PagesController@rrlccontactus')->name('rrlccontactus
 Route::get('/bcindex', 'PagesController@bcindex')->name('bcindex'); // BC HOMEPAGE
 Route::get('/bcaboutus', 'PagesController@bcaboutus')->name('bcaboutus');
 Route::get('/bcproduct','PagesController@bcproduct')->name('bcproduct');
+Route::get('/bcindexone', 'PagesController@bcindexone')->name('bcindexone');
 
 Route::get('/bmcindex', 'PagesController@bmcindex')->name('bmcindex'); // BMC HOMEPAGE
 

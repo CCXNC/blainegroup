@@ -13161,3 +13161,48 @@ section {
   }
 }
 
+.bc-careeropp {
+  background: linear-gradient(to bottom, #251F5D 0%, #251F5D 170%);
+  color: #f4f4f4;
+}
+
+.bc-careeropp h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.bc-careeropp .hr {
+  border: 1px solid #f4f4f4;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 130px;
+}
+
+.bc-careeropp .col-md-6 p {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 550;
+}
+
+.bc-newsarticle {
+  color: black;
+}
+
+.bc-newsarticle h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.bc-newsarticle .hr {
+  border: 1px solid #251F5D;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 130px;
+}
+
+.bc-newsarticle .col-md-6 p {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 550;
+}
+

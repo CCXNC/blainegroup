@@ -82,11 +82,16 @@ class PagesController extends Controller
         return view('pages.bc.product');
     }
 
+    public function bcindexone() {
+        return view('pages.bc.indexone');
+    }
+
     // BMC HOMEPAGE
     public function bmcindex() {
         return view('pages.bmc.index');
     }
 
+    
 
     // BMC PAHD HOMEPAGE
     public function bmcpahdindex() {
