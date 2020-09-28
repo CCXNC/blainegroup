@@ -1704,7 +1704,8 @@ section {
 }
 
 .bmc-content-2 {
-    background: linear-gradient(to bottom, #007730 0%, #99ff99 170%);
+    background-color: $primary-color;
+    //background: linear-gradient(to bottom, #007730 0%, #99ff99 170%);
     color: $light-color;
 
     h3 {
@@ -1786,7 +1787,8 @@ section {
 }
 
 .bmc-content-4 {
-    background: linear-gradient(to bottom, #007730 0%, #99ff99 170%);
+    background-color: $primary-color;
+    //background: linear-gradient(to bottom, #007730 0%, #99ff99 170%);
     color: $light-color;
 
     h3 {
@@ -2105,58 +2107,54 @@ section {
   }
 
 
-  // PAHD CAROUSEL TEXT
-  .animated1 {
-    -webkit-animation-duration: 1.5s;
-    animation-duration: 1.5s;
-    //top: 50%;
-    transform: translateY(-200%);
+    .carousel-caption {
+        width:100%;
+        height:100%;
+        color: black !important;
+        text-align: left;
+        h3 {
+            font-size: 29px;
+            color: $bmcpahd-color;
+            font-weight: 600;
+            text-align:left;
+            margin-top: 150px;
+        }
+
+        h5 {
+            font-size: 20px;
+            text-align:left;
+            color: $primary-color;
+            font-weight: 600;
+        }
+        
+        p {
+            text-align:left;
+            font-size: 18px;
+            color: $primary-color;
+            width: 35%;
+        }
+    }
+   
+ /*.carousel-caption {
+    color: black !important;
     text-align: left;
-    color: $primary-color;
+    margin-top: -100px;
 
-  }
-  .animated2 {
-    -webkit-animation-duration: 1.5s;
-    animation-duration: 1.5s;
-    //top: 50%;
-    transform: translateY(-200%);
-    float: right;
-    color: $primary-color;
-
-  }
-  
-  @-webkit-keyframes fadeInRight1 {
-    from {
-      opacity: 0;
-      -webkit-transform: translate3d(100px, 0, 0);
-      transform: translate3d(100px, 0, 0);
+    h2 {
+        font-size: 29px;
+        color: $bmcpahd-color;
+        font-weight: 600;
     }
-  
-    to {
-      opacity: 1;
-      -webkit-transform: none;
-      transform: none;
+    h5 {
+        font-size: 20px;
+        color: $primary-color;
+        font-weight: 600;
     }
-  }
-  
-  @keyframes fadeInRight1 {
-    from {
-      opacity: 0;
-      -webkit-transform: translate3d(100px, 0, 0);
-      transform: translate3d(100px, 0, 0);
+    p {
+        font-size: 18px;
+        color: $primary-color;
     }
-  
-    to {
-      opacity: 1;
-      -webkit-transform: none;
-      transform: none;
-    }
-  }
-  
-  .fadeInRight1 {
-    -webkit-animation-name: fadeInRight;
-    animation-name: fadeInRight;
-  }
+ }*/
 
   //Parallax
     //@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
@@ -2416,6 +2414,25 @@ section {
  
 }
 
+.bmcpahd-homepage-1 {
+    .col-md-7 {
+        text-align: left;
+
+        h2 {
+            color: $bmcpahd-color;
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        p {
+            color: $primary-color;
+
+            b {
+                font-size: 15px;
+            }
+        }
+    }
+}
 //BC INDEX ONE
 
 .bc-content1 {

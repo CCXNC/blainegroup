@@ -1,4 +1,4 @@
-@extends('layouts.bcapp')
+@extends('layouts.bcgroupapp')
 
 @section('content')
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">

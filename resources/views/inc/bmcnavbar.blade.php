@@ -23,12 +23,12 @@
                 <ul class="navbar-nav ml-auto fw">
                     <li class="nav-item dropdown">
                         <a class="nav-link " href="{{ url('/bmcindex') }}">
-                            <b style="color:#007730;">HOME</b>
+                            <b style="color:#251F5D;">HOME</b>
                         </a>
                     </li>
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
-                            <b style="color:#007730;">COMPANY</b>
+                            <b style="color:#251F5D;">OUR COMPANIES</b>
                         </a>
                         <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="{{ url('/bcindex') }}">
@@ -44,24 +44,23 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link " href="#">
-                            <b style="color:#007730;">ABOUT US</b>
+                            <b style="color:#251F5D;">ABOUT US</b>
                         </a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link " href="#">
-                            <b style="color:#007730;">PRODUCTS</b>
+                            <b style="color:#251F5D;">PRODUCTS</b>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#">
+                            <b style="color:#251F5D;">SERVICES</b>
                         </a>
                     </li>
 
                     <li class="nav-item dropdown">
                         <a class="nav-link " href="#">
-                            <b style="color:#007730;">SERVICES</b>
-                        </a>
-                    </li>
-                    
-                    <li class="nav-item dropdown">
-                        <a class="nav-link " href="#">
-                            <b style="color:#007730;">CONTACT US</b>
+                            <b style="color:#251F5D;">CONTACT US</b>
                         </a>
                     </li>
                 </ul>

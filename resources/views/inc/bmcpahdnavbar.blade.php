@@ -22,8 +22,13 @@
                 <!-- Right Side Of Navbar -->
                 <ul class="navbar-nav ml-auto fw">
                     <li class="nav-item dropdown">
-                        <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
+                        <a class="nav-link " href="{{ url('/bmcpahdindex') }}">
                             <b style="color:rgb(208, 74, 150);">HOME</b>
+                        </a>
+                        </li>
+                    <li class="nav-item dropdown">
+                        <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
+                            <b style="color:rgb(208, 74, 150);">OUR COMPANIES</b>
                         </a>
                         <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="{{ url('/bcindex') }}">
@@ -38,8 +43,8 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                    <a class="nav-link " href="{{ url('/bmcpahdindex') }}">
-                            <b style="color:rgb(208, 74, 150);">WHO WE ARE</b>
+                        <a class="nav-link " href="{{ url('/bmcpahdaboutus') }}">
+                            <b style="color:rgb(208, 74, 150);">ABOUT US</b>
                         </a>
                     </li>
                     

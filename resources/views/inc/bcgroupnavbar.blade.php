@@ -6,8 +6,8 @@
     </header>-->
     <nav class="navbar  navbar-expand-md navbar-light bg-white shadow-sm">
         <div class="container">
-            <a class="navbar" href="{{ url('/bmcindex') }}">
-                <img src="images/bmc-food-logo.png" style="width: 180px" alt="">
+            <a class="navbar" href="{{ url('/') }}">
+                <img src="images/blainegrouplogo.png" style="width: 160px" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                 <span class="navbar-toggler-icon"></span>
@@ -22,15 +22,15 @@
                 <!-- Right Side Of Navbar -->
                 <ul class="navbar-nav ml-auto fw">
                     <li class="nav-item dropdown">
-                    <a class="nav-link " href="{{ url('/bmcfoodindex') }}">
-                            <b style="color: rgb(94,136,54);">HOME</b>
+                        <a class="nav-link " href="{{ url('/') }}">
+                            <b style="color:#251F5D;">HOME</b>
                         </a>
                     </li>
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
-                            <b style="color: rgb(94,136,54);">OUR COMPANIES</b>
+                            <b style="color:#251F5D;">OUR COMPANIES</b>
                         </a>
-                        <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+                         <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="{{ url('/bcindex') }}">
                                     <img src="images/BC.png" style="width:60px;" alt="">&nbsp;&nbsp;&nbsp;<b style="color:#251F5D;">BLAINE CORPORATION </b>
                                 </a>
@@ -44,30 +44,25 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link " href="#">
-                            <b style="color: rgb(94,136,54);">ABOUT US</b>
+                            <b style="color:#251F5D;">ABOUT US</b>
                         </a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
-                            <b style="color: rgb(94,136,54);">PRODUCTS</b>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">
-                                <b>Premium Innovative Products</b>
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                <b>Nutritional & Functional Ingredients</b>
-                            </a>
-                        </div>
-                    </li>
+
                     <li class="nav-item dropdown">
                         <a class="nav-link " href="#">
-                            <b style="color: rgb(94,136,54);">TECHNICAL SERVICES</b>
+                            <b style="color:#251F5D;">NEWS</b>
                         </a>
                     </li>
+
                     <li class="nav-item dropdown">
                         <a class="nav-link " href="#">
-                            <b style="color: rgb(94,136,54);">CONTACT US</b>
+                            <b style="color:#251F5D;">CAREERS</b>
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#">
+                            <b style="color:#251F5D;">CONTACT US</b>
                         </a>
                     </li>
                 </ul>

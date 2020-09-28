@@ -12566,7 +12566,7 @@ section {
 }
 
 .bmc-content-2 {
-  background: linear-gradient(to bottom, #007730 0%, #99ff99 170%);
+  background-color: #251F5D;
   color: #f4f4f4;
 }
 
@@ -12646,7 +12646,7 @@ section {
 }
 
 .bmc-content-4 {
-  background: linear-gradient(to bottom, #007730 0%, #99ff99 170%);
+  background-color: #251F5D;
   color: #f4f4f4;
 }
 
@@ -12956,50 +12956,55 @@ section {
   animation-name: fadeInRight;
 }
 
-.animated1 {
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  transform: translateY(-200%);
+.carousel-caption {
+  width: 100%;
+  height: 100%;
+  color: black !important;
+  text-align: left;
+}
+
+.carousel-caption h3 {
+  font-size: 29px;
+  color: #d04a96;
+  font-weight: 600;
+  text-align: left;
+  margin-top: 150px;
+}
+
+.carousel-caption h5 {
+  font-size: 20px;
   text-align: left;
   color: #251F5D;
+  font-weight: 600;
 }
 
-.animated2 {
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  transform: translateY(-200%);
-  float: right;
+.carousel-caption p {
+  text-align: left;
+  font-size: 18px;
   color: #251F5D;
+  width: 35%;
 }
 
-@-webkit-keyframes fadeInRight1 {
-  from {
-    opacity: 0;
-    transform: translate3d(100px, 0, 0);
-  }
+/*.carousel-caption {
+   color: black !important;
+   text-align: left;
+   margin-top: -100px;
 
-  to {
-    opacity: 1;
-    transform: none;
-  }
-}
-
-@keyframes fadeInRight1 {
-  from {
-    opacity: 0;
-    transform: translate3d(100px, 0, 0);
-  }
-
-  to {
-    opacity: 1;
-    transform: none;
-  }
-}
-
-.fadeInRight1 {
-  -webkit-animation-name: fadeInRight;
-  animation-name: fadeInRight;
-}
+   h2 {
+       font-size: 29px;
+       color: $bmcpahd-color;
+       font-weight: 600;
+   }
+   h5 {
+       font-size: 20px;
+       color: $primary-color;
+       font-weight: 600;
+   }
+   p {
+       font-size: 18px;
+       color: $primary-color;
+   }
+}*/
 
 /* Override UGG site */
 
@@ -13260,6 +13265,24 @@ section {
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
   }
+}
+
+.bmcpahd-homepage-1 .col-md-7 {
+  text-align: left;
+}
+
+.bmcpahd-homepage-1 .col-md-7 h2 {
+  color: #d04a96;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.bmcpahd-homepage-1 .col-md-7 p {
+  color: #251F5D;
+}
+
+.bmcpahd-homepage-1 .col-md-7 p b {
+  font-size: 15px;
 }
 
 .bc-content1 {

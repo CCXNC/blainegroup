@@ -125,7 +125,7 @@
         </div>
     </section>
 
-    <section class="section content-5">
+    <section class="section bc-contactus">
         <div class="container container1">
             <div class="row">
                 <div class="col-md-6">

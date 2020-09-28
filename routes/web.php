@@ -50,6 +50,7 @@ Route::get('/bmcpahdproducthomecare', 'PagesController@bmcpahdproducthomecare')-
 Route::get('/bmcpahdproductrawmaterial', 'PagesController@bmcpahdproductrawmaterial')->name('bmcpahdproductrawmaterial');
 Route::get('/bmcpahdtechnical', 'PagesController@bmcpahdtechnical')->name('bmcpahdtechnical');
 Route::get('/bmcpahdcontactus', 'PagesController@bmcpahdcontactus')->name('pahdcontactus');
+Route::get('/bmcpahdaboutus','PagesController@bmcpahdaboutus')->name('bmcpahdaboutus');
 
 Route::get('/bmcfoodindex', 'PagesController@bmcfoodindex')->name('bmcfoodindex'); //BMC FOOD 
 
