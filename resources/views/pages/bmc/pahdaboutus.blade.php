@@ -6,11 +6,11 @@
             <div class="carousel-item active">
                 <img class="d-block w-100" src="/images/pahd-header.png" alt="First slide">
                 <div class="carousel-caption">
-                        <h3><i>Blaine Manufacturing Corporation</i></h3>
-                        <h5> Personal and Home Care Division</h5>
-                        <p class="col-md-6">Blaine Manufacturing Corporation - Personal Home Care (BMC-PHC) is a 100% Filipino-owned company established in 2008, 
-                            with a vision to be the business partner of choice in the field of personal care, cosmetics, and home care.</p>
-                        <a href="#" class="btn btn-transparent1 btn-rounded1 btn-large1">Read More</a>
+                    <h3><i>Blaine Manufacturing Corporation</i></h3>
+                    <h5> Personal and Home Care Division</h5>
+                    <p>Blaine Manufacturing Corporation - Personal Home Care   (BMC-PHC) is a 100% Filipino-owned company established in 2008, 
+                        with a vision to be the business partner of choice in the field of personal care, cosmetics, and home care.</p>
+                    <a href="#" class="btn btn-transparent1 btn-rounded1 btn-large1">Read More</a>
                 </div>
             </div>
         </div>
