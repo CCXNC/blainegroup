@@ -22,10 +22,54 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-
-    <section class="section bc-aboutus">
+    <section class="section bc-content1">
         <div class="container">
-            <h2>CORPORATE SOCIAL RESPONSIBILITY</h2>
+            <div class="bc-content1-wrapper">
+                <div class="card">
+                    <h3>MISSION AND VISION</h3>
+                    <p>To be the leading provider of quality products and services in Animal Health</p>
+                    <center><a class="btn"  href="#">READ MORE</a></center>
+                </div>
+                <div class="card">
+                    <h3>WHAT WE DO</h3>
+                    <p>Diverse industries prefer our products, services and expertise.</p>
+                    <center><a class="btn"  href="#">READ MORE</a></center>
+                </div>
+                <div class="card">
+                    <h3>OUR STORY</h3>
+                    <p>From humble beginnings to great heights. This is the story of Blaine Corporation.</p>
+                    <center><a class="btn"  href="#">READ MORE</a></center>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section bc-content2">
+        <div class="container">
+            <h3>CERTIFICATIONS</h3>
+            <hr class="hr">
+            <div class="bc-content2-wrapper">
+                <div class="card">
+                    <h3><img src="/images/certification/iso.png" width="120px;"></h3>
+                    <h5>ISO 9001:2015 Certified (SGS)</h5>
+                </div>
+                <div class="card">
+                    <h3><img src="/images/certification/halal-logo.jpg" width="120px;"></h3>
+                    <h5>Certificate of Current Good Manufacturing Practice</h5>
+                </div>
+                <div class="card">
+                    <h3><img src="/images/certification/fda.png" width="230px;"></h3>
+                    <h5>Halal Certified Powder Line (IDCP) Certificate of Current Good Manufacturing Practice</h5>
+                </div>
+                <div class="card">
+                    <h3><img src="/images/certification/halal-logo.jpg" width="120px;"></h3>
+                    <h5>Certificate of Current Good Manufacturing Practice</h5>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <section class="section bc-csr">
+        <div class="container">
+            <h3>CORPORATE SOCIAL RESPONSIBILITY</h3>
             <hr class="hr">
             <div class="row">
                 <div class="col-sm-4">
@@ -79,7 +123,7 @@
             <br>
             <div class="row">
                 <div class="col-md-6">
-                    <img src="/images/blank.png" width="400px;" alt="Video">
+                    <img src="/images/blank.png" width="450px;" alt="Video">
                 </div>
                 <div class="col-md-6">
                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque architecto accusantium, sapiente rerum blanditiis praesentium molestiae perspiciatis quis explicabo? Perspiciatis, officiis harum. Odio, eum? Nemo ut architecto qui laboriosam et numquam vel soluta quis quas voluptatibus. Rerum officia magnam tempore.</p>
@@ -100,17 +144,22 @@
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, unde. Tempore, voluptatibus aliquam odit laborum earum ipsa ipsum maxime culpa labore excepturi perferendis architecto hic veritatis dignissimos exercitationem molestias qui maiores at obcaecati fugiat. Sit.</p>
                  </div>
                 <div class="col-md-6">
-                    <img src="/images/blank.png" width="400px;" alt="Video">
+                    <img src="/images/blank.png" width="450px;" alt="Video">
                 </div>
             </div>
         </div>
-    </section>
-
-    <center>
-        <div style="width: 1100px; height: 500px;">
-            {!! Mapper::render() !!}
+    </section class="section">
+        <div class="container">
+            <center>
+                <div style="width: 1100px; height: 500px;">
+                    {!! Mapper::render() !!}
+                </div>
+            </center>
         </div>
-    </center>
+    <section>
+
+    </section>
+   
 
     <section class="section bc-contactus">
         <div class="container container1">

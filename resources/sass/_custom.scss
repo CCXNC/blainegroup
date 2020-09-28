@@ -229,8 +229,8 @@ section {
         width: 150px;
     }
 
-    h2 {
-        font-size: 30px;
+    h3 {
+        font-size: 26px;
         font-weight: 600;
     }
 
@@ -285,8 +285,8 @@ section {
         width: 150px;
     }
 
-    h2 {
-        font-size: 30px;
+    h3 {
+        font-size: 26px;
         font-weight: 600;
     }
 
@@ -342,8 +342,8 @@ section {
         width: 150px;
     }
 
-    h2 {
-        font-size: 28px;
+    h3 {
+        font-size: 26px;
         font-weight: 600;
     }
 
@@ -490,8 +490,8 @@ section {
     }
     
 
-    h2 {
-        font-size: 30px;
+    h3 {
+        font-size: 26px;
         font-weight: 600;
     }
     
@@ -540,8 +540,8 @@ section {
         padding-bottom: 20px;
     }
 
-    h2 {
-        font-size: 25px;
+    h3 {
+        font-size: 26px;
         font-weight: 600;
         color: $primary-color;
         justify-content: space-between;
@@ -615,8 +615,8 @@ section {
         padding-bottom: 20px;
     }
 
-    h2 {
-        font-size: 25px;
+    h3 {
+        font-size: 26px;
         font-weight: 600;
         color: $primary-color;
         justify-content: space-between;
@@ -687,8 +687,8 @@ section {
         padding-bottom: 20px;
     }
 
-    h2 {
-        font-size: 25px;
+    h3 {
+        font-size: 26px;
         font-weight: 600;
         color: $primary-color;
         justify-content: space-between;
@@ -763,8 +763,8 @@ section {
         padding-bottom: 20px;
     }
 
-    h2 {
-        font-size: 25px;
+    h3 {
+        font-size: 26px;
         font-weight: 600;
         color: $primary-color;
         justify-content: space-between;
@@ -833,8 +833,8 @@ section {
         width: 150px;
     }
 
-    h2 {
-        font-size: 25px; 
+    h3 {
+        font-size: 26px; 
         font-weight: 600;
     }
 
@@ -900,8 +900,8 @@ section {
         width: 150px;
     }
 
-    h2 {
-        font-size: 25px; 
+    h3 {
+        font-size: 26px; 
         font-weight: 600;
     }
     .card-body {
@@ -959,8 +959,8 @@ section {
         width: 150px;
     }
 
-    h2 {
-        font-size: 25px; 
+    h3 {
+        font-size: 26px; 
         font-weight: 600;
     }
     .card-body {
@@ -1157,8 +1157,8 @@ section {
         width: 150px;
     }
 
-    h2 {
-        font-size: 25px; 
+    h3 {
+        font-size: 26px; 
         font-weight: 600;
     }
     .card-body {
@@ -1218,8 +1218,8 @@ section {
         text-align: left;
     }
 
-    h2 {
-        font-size: 27px; 
+    h3 {
+        font-size: 26px; 
         font-weight: 600;
     }
 
@@ -1322,8 +1322,8 @@ section {
         width: 150px;
     }
 
-    h2 {
-        font-size: 30px;
+    h3 {
+        font-size: 26px;
         font-weight: 600;
     }
 
@@ -1383,8 +1383,8 @@ section {
         margin-bottom: 30px;
         width: 150px;
     }
-    h2 {
-        font-size: 30px;
+    h3 {
+        font-size: 26px;
         font-weight: 600;
     }
     
@@ -1426,6 +1426,20 @@ section {
     }
 }
 
+.bc-csr {
+    background-color: white;
+    hr {
+        border: 1px solid $primary-color;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 150px;
+    }
+    h3 {
+        font-size: 26px;
+        font-weight: 600;
+    }
+}
+
 .bc-products {
     background-color: white;
         
@@ -1443,8 +1457,8 @@ section {
         margin-bottom: 30px;
         width: 150px;
     }
-    h2 {
-        font-size: 30px;
+    h3 {
+        font-size: 26px;
         font-weight: 600;
     }
     
@@ -1516,8 +1530,8 @@ section {
          width: 150px;
      }
  
-     h2 {
-         font-size: 30px;
+     h3 {
+         font-size: 26px;
          font-weight: 600;
      }
  
@@ -2351,7 +2365,7 @@ section {
         }
 
     #parallax-world-of-ugg h2 {
-        font-size:30px;
+        font-size:26px;
     }
     
     #parallax-world-of-ugg .block {
@@ -2403,12 +2417,131 @@ section {
 }
 
 //BC INDEX ONE
+
+.bc-content1 {
+    background-color: #fff;
+
+    hr {
+        border: 1px solid $light-bg;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 150px;
+    }
+
+    h3 {
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    p {
+        padding: 15px 0;
+        font-size: 20px;
+        font-weight: 500;
+        
+    }
+
+    &-wrapper {
+        //grid-template-columns: repeat(6, 1fr);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 1em;
+        grid-row-gap: 1em;
+        text-align: center;
+       
+        .card {
+            background-color: lighten(white, 15%);
+            padding: 20px;
+            border: none;
+
+            h5 {
+                font-weight: 800;
+                font-size: 16px;
+                color: $primary-color;
+                margin: 15px 0 25px;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                color: $primary-color;
+            }
+
+            .btn {
+                background-color: $primary-color;
+                color: white;
+                width: 50%;
+                font-size: 16px;
+                padding: 5px;
+               
+            }
+
+        }
+
+        @media (max-width: 800px) {
+            grid-template-columns: repeat(1, 1fr);
+            grid-row-gap: 1em;
+            grid-auto-rows: minmax(220px, auto);
+        }
+    }
+}
+
+.bc-content2 {
+    background: $primary-color;
+    color: $light-color;
+
+    hr {
+        border: 1px solid $light-color;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 120px;
+    }
+
+    h3 {
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    &-wrapper {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-column-gap: 1em;
+        grid-row-gap: 1em;
+        text-align: center;
+
+        .card {
+            background-color: lighten(white, 15%);
+            padding: 20px;
+
+            h5 {
+                font-weight: 800;
+                font-size: 15px;
+                color: $primary-color;
+                margin: 15px 0 25px;
+            }
+
+            p {
+                font-size: 14px;
+                font-weight: 400;
+                color: $dark-color;
+            }
+
+        }
+
+        @media (max-width: 800px) {
+            grid-template-columns: repeat(1, 1fr);
+            grid-row-gap: 1em;
+            grid-auto-rows: minmax(220px, auto);
+        }
+    }
+}
+
+
 .bc-careeropp {
     background: linear-gradient(to bottom,  #251F5D 0%,  #251F5D 170%);
     color: $light-color;
 
     h3 {
-        font-size: 30px;
+        font-size: 24px;
         font-weight: 600;
     }
     .hr {
@@ -2420,7 +2553,6 @@ section {
 
     .col-md-6 {
         p {
-         
             text-align: left;
             font-size: 16px;
             font-weight: 550;
@@ -2433,19 +2565,18 @@ section {
     color: black;
 
     h3 {
-        font-size: 30px;
+        font-size: 24px;
         font-weight: 600;
     }
     .hr {
         border: 1px solid #251F5D;
         margin-top: 15px;
         margin-bottom: 15px;
-        width: 130px;
+        width: 100px;
     }
 
     .col-md-6 {
         p {
-         
             text-align: left;
             font-size: 16px;
             font-weight: 550;

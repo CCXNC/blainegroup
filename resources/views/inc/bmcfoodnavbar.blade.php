@@ -29,7 +29,7 @@
                             <a class="dropdown-item" href="{{ url('/bcindex') }}">
                                     <img src="images/BC.png" style="width:60px;" alt="">&nbsp;&nbsp;&nbsp;<b style="color:#251F5D;">BLAINE CORPORATION </b>
                                 </a>
-                            <a class="dropdown-item" href="{{ url('/') }}">
+                            <a class="dropdown-item" href="{{ url('/rrlcindex') }}">
                                     <img src="images/rrlc.jpg" style="width:50px;" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b style="color:#251F5D;">REFAMED RESEARCHED LABORATORY CORPORATION</b>
                                 </a>
                             <a class="dropdown-item" href="{{ url('/bmcindex') }}">

@@ -34,7 +34,7 @@
     
     <section class="section adisseoproduct">
         <div class="container">
-            <h2>SPECIAL PRODUCT PORTFOLIO ADISSEO</h2>
+            <h3>SPECIAL PRODUCT PORTFOLIO ADISSEO</h3>
             <hr class="hr">
             <div class="adisseoproduct-wrapper">
                 <div class="card">
@@ -58,7 +58,7 @@
     </section> 
     <section class="section category">
         <div class="container">
-            <h2>CATEGORY AREA</h2>
+            <h3>CATEGORY AREA</h3>
             <hr class="hr">
             <div class="category-wrapper">
                 <div class="card">

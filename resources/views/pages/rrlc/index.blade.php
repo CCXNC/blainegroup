@@ -66,7 +66,7 @@
     </section>
     <section class="section content-2" id="section-2">
         <div class="container">
-            <h2>Our Products</h2>
+            <h3>Our Products</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Laudantium exercitationem consequuntur odio cumque. 
             </p>
@@ -97,7 +97,7 @@
     </section>
     <section class="section content-3">
         <div class="container">
-            <h2>We are Certified Company</h2>
+            <h3>We are Certified Company</h3>
             <p>We prioritized safety and quality products for you!</p>
             <hr class="hr">
             <div class="content-3-wrapper">
@@ -122,7 +122,7 @@
     </section> 
     <section class="section content-4">
         <div class="container">
-            <h2>OFFERED SERVICES</h2>
+            <h3>OFFERED SERVICES</h3>
             <hr class="hr">
             <div class="content-4-wrapper">
                 <div class="card">

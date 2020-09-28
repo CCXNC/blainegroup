@@ -11110,8 +11110,8 @@ section {
   width: 150px;
 }
 
-.content-2 h2 {
-  font-size: 30px;
+.content-2 h3 {
+  font-size: 26px;
   font-weight: 600;
 }
 
@@ -11165,8 +11165,8 @@ section {
   width: 150px;
 }
 
-.content-3 h2 {
-  font-size: 30px;
+.content-3 h3 {
+  font-size: 26px;
   font-weight: 600;
 }
 
@@ -11221,8 +11221,8 @@ section {
   width: 150px;
 }
 
-.content-4 h2 {
-  font-size: 28px;
+.content-4 h3 {
+  font-size: 26px;
   font-weight: 600;
 }
 
@@ -11369,8 +11369,8 @@ section {
   width: 150px;
 }
 
-.rrlcproductlist h2 {
-  font-size: 30px;
+.rrlcproductlist h3 {
+  font-size: 26px;
   font-weight: 600;
 }
 
@@ -11415,8 +11415,8 @@ section {
   padding-bottom: 20px;
 }
 
-.specialproduct h2 {
-  font-size: 25px;
+.specialproduct h3 {
+  font-size: 26px;
   font-weight: 600;
   color: #251F5D;
   justify-content: space-between;
@@ -11489,8 +11489,8 @@ section {
   padding-bottom: 20px;
 }
 
-.keminproduct h2 {
-  font-size: 25px;
+.keminproduct h3 {
+  font-size: 26px;
   font-weight: 600;
   color: #251F5D;
   justify-content: space-between;
@@ -11560,8 +11560,8 @@ section {
   padding-bottom: 20px;
 }
 
-.cbsproduct h2 {
-  font-size: 25px;
+.cbsproduct h3 {
+  font-size: 26px;
   font-weight: 600;
   color: #251F5D;
   justify-content: space-between;
@@ -11633,8 +11633,8 @@ section {
   padding-bottom: 20px;
 }
 
-.category h2 {
-  font-size: 25px;
+.category h3 {
+  font-size: 26px;
   font-weight: 600;
   color: #251F5D;
   justify-content: space-between;
@@ -11705,8 +11705,8 @@ section {
   width: 150px;
 }
 
-.adisseoproduct h2 {
-  font-size: 25px;
+.adisseoproduct h3 {
+  font-size: 26px;
   font-weight: 600;
 }
 
@@ -11770,8 +11770,8 @@ section {
   width: 150px;
 }
 
-.newsarticle h2 {
-  font-size: 25px;
+.newsarticle h3 {
+  font-size: 26px;
   font-weight: 600;
 }
 
@@ -11829,8 +11829,8 @@ section {
   width: 150px;
 }
 
-.newsarticleblog h2 {
-  font-size: 25px;
+.newsarticleblog h3 {
+  font-size: 26px;
   font-weight: 600;
 }
 
@@ -12014,8 +12014,8 @@ section {
   width: 150px;
 }
 
-.productblog-5 h2 {
-  font-size: 25px;
+.productblog-5 h3 {
+  font-size: 26px;
   font-weight: 600;
 }
 
@@ -12077,8 +12077,8 @@ section {
   text-align: left;
 }
 
-.about-1 h2 {
-  font-size: 27px;
+.about-1 h3 {
+  font-size: 26px;
   font-weight: 600;
 }
 
@@ -12184,8 +12184,8 @@ section {
   width: 150px;
 }
 
-.content-3 h2 {
-  font-size: 30px;
+.content-3 h3 {
+  font-size: 26px;
   font-weight: 600;
 }
 
@@ -12247,8 +12247,8 @@ section {
   width: 150px;
 }
 
-.bc-aboutus h2 {
-  font-size: 30px;
+.bc-aboutus h3 {
+  font-size: 26px;
   font-weight: 600;
 }
 
@@ -12291,6 +12291,22 @@ section {
   }
 }
 
+.bc-csr {
+  background-color: white;
+}
+
+.bc-csr hr {
+  border: 1px solid #251F5D;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 150px;
+}
+
+.bc-csr h3 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
 .bc-products {
   background-color: white;
 }
@@ -12310,8 +12326,8 @@ section {
   width: 150px;
 }
 
-.bc-products h2 {
-  font-size: 30px;
+.bc-products h3 {
+  font-size: 26px;
   font-weight: 600;
 }
 
@@ -12378,8 +12394,8 @@ section {
   width: 150px;
 }
 
-.bc-partners1 h2 {
-  font-size: 30px;
+.bc-partners1 h3 {
+  font-size: 26px;
   font-weight: 600;
 }
 
@@ -13192,7 +13208,7 @@ section {
   }
 
   #parallax-world-of-ugg h2 {
-    font-size: 30px;
+    font-size: 26px;
   }
 
   #parallax-world-of-ugg .block {
@@ -13246,13 +13262,129 @@ section {
   }
 }
 
+.bc-content1 {
+  background-color: #fff;
+}
+
+.bc-content1 hr {
+  border: 1px solid #efefef;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 150px;
+}
+
+.bc-content1 h3 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.bc-content1 p {
+  padding: 15px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.bc-content1-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  text-align: center;
+}
+
+.bc-content1-wrapper .card {
+  background-color: white;
+  padding: 20px;
+  border: none;
+}
+
+.bc-content1-wrapper .card h5 {
+  font-weight: 800;
+  font-size: 16px;
+  color: #251F5D;
+  margin: 15px 0 25px;
+}
+
+.bc-content1-wrapper .card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #251F5D;
+}
+
+.bc-content1-wrapper .card .btn {
+  background-color: #251F5D;
+  color: white;
+  width: 50%;
+  font-size: 16px;
+  padding: 5px;
+}
+
+@media (max-width: 800px) {
+  .bc-content1-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 1em;
+    grid-auto-rows: minmax(220px, auto);
+  }
+}
+
+.bc-content2 {
+  background: #251F5D;
+  color: #f4f4f4;
+}
+
+.bc-content2 hr {
+  border: 1px solid #f4f4f4;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 120px;
+}
+
+.bc-content2 h3 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.bc-content2-wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  text-align: center;
+}
+
+.bc-content2-wrapper .card {
+  background-color: white;
+  padding: 20px;
+}
+
+.bc-content2-wrapper .card h5 {
+  font-weight: 800;
+  font-size: 15px;
+  color: #251F5D;
+  margin: 15px 0 25px;
+}
+
+.bc-content2-wrapper .card p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #34495e;
+}
+
+@media (max-width: 800px) {
+  .bc-content2-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 1em;
+    grid-auto-rows: minmax(220px, auto);
+  }
+}
+
 .bc-careeropp {
   background: linear-gradient(to bottom, #251F5D 0%, #251F5D 170%);
   color: #f4f4f4;
 }
 
 .bc-careeropp h3 {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 600;
 }
 
@@ -13274,7 +13406,7 @@ section {
 }
 
 .bc-newsarticle h3 {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 600;
 }
 
@@ -13282,7 +13414,7 @@ section {
   border: 1px solid #251F5D;
   margin-top: 15px;
   margin-bottom: 15px;
-  width: 130px;
+  width: 100px;
 }
 
 .bc-newsarticle .col-md-6 p {

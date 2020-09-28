@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+ 
 /*Route::get('/', function () {
     return view('welcome');
 });*/
@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Route;
 // FRONTEND
 Route::get('/', 'PagesController@index')->name('blainegroup');
 
-Route::get('/rrlcindex','PagesController@index')->name('rrlchomepage'); // RRLC HOMEPAGE
+Route::get('/rrlcindex','PagesController@rrlcindex')->name('rrlchomepage'); // RRLC HOMEPAGE
 Route::get('/rrlcprimeproduct','PagesController@rrlcproduct')->name('rrlcproduct'); 
 Route::get('/rrlcprimeproductlist', 'PagesController@rrlcproductlist')->name('rrlcproductlist');
 Route::get('/rrlcspecialtyproduct','PagesController@rrlcspecialtyproduct')->name('rrlcspecialtyproduct');

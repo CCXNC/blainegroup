@@ -9,6 +9,7 @@ class PagesController extends Controller
 {
     //BLAINE GROUP 
     public function index() {
+        Mapper::map(14.289683, 121.011593);
         return view('pages.bc.index');
     }
 

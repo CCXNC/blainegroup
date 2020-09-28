@@ -32,7 +32,7 @@
     </section>
     <section class="section specialproduct">
         <div class="container">
-            <h2>Our strategic partners for specialty products</h2>
+            <h3>Our strategic partners for specialty products</h3>
             <hr class="hr">
             <div class="specialproduct-wrapper">
                 <div class="card">

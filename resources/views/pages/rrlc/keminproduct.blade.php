@@ -32,7 +32,7 @@
     </section>
     <section class="keminproduct">
         <div class="container">
-            <h2>SPECIAL PRODUCT PORTFOLIO KEMIN</h2>
+            <h3>SPECIAL PRODUCT PORTFOLIO KEMIN</h3>
             <hr class="hr">
             <div class="keminproduct-wrapper">
                 <div class="card">
@@ -44,7 +44,7 @@
 
     <section class="section category">
         <div class="container">
-            <h2>CATEGORY AREA</h2>
+            <h3>CATEGORY AREA</h3>
             <hr class="hr">
             <div class="category-wrapper">
                 <div class="card">

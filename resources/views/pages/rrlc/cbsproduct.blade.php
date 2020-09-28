@@ -32,7 +32,7 @@
     </section>
     <section class="cbsproduct">
         <div class="container">
-            <h2>SPECIAL PRODUCT PORTFOLIO CBS</h2>
+            <h3>SPECIAL PRODUCT PORTFOLIO CBS</h3>
             <hr class="hr">
             <div class="cbsproduct-wrapper">
                 <div class="card">
@@ -47,7 +47,7 @@
     </section> 
     <section class="section category">
         <div class="container">
-            <h2>CATEGORY AREA</h2>
+            <h3>CATEGORY AREA</h3>
             <hr class="hr">
             <div class="category-wrapper">
                 <div class="card">
