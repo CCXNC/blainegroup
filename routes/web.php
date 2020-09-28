@@ -18,7 +18,9 @@ use Illuminate\Support\Facades\Route;
 });*/
 
 // FRONTEND
-Route::get('/','PagesController@index')->name('rrlchomepage'); // RRLC HOMEPAGE
+Route::get('/', 'PagesController@index')->name('blainegroup');
+
+Route::get('/rrlcindex','PagesController@index')->name('rrlchomepage'); // RRLC HOMEPAGE
 Route::get('/rrlcprimeproduct','PagesController@rrlcproduct')->name('rrlcproduct'); 
 Route::get('/rrlcprimeproductlist', 'PagesController@rrlcproductlist')->name('rrlcproductlist');
 Route::get('/rrlcspecialtyproduct','PagesController@rrlcspecialtyproduct')->name('rrlcspecialtyproduct');
@@ -36,7 +38,7 @@ Route::get('rrlccontactus','PagesController@rrlccontactus')->name('rrlccontactus
 Route::get('/bcindex', 'PagesController@bcindex')->name('bcindex'); // BC HOMEPAGE
 Route::get('/bcaboutus', 'PagesController@bcaboutus')->name('bcaboutus');
 Route::get('/bcproduct','PagesController@bcproduct')->name('bcproduct');
-Route::get('/bcindexone', 'PagesController@bcindexone')->name('bcindexone');
+
 
 Route::get('/bmcindex', 'PagesController@bmcindex')->name('bmcindex'); // BMC HOMEPAGE
 
@@ -50,10 +52,6 @@ Route::get('/bmcpahdtechnical', 'PagesController@bmcpahdtechnical')->name('bmcpa
 Route::get('/bmcpahdcontactus', 'PagesController@bmcpahdcontactus')->name('pahdcontactus');
 
 Route::get('/bmcfoodindex', 'PagesController@bmcfoodindex')->name('bmcfoodindex'); //BMC FOOD 
-
-
-
-
 
 
 // BACKEND

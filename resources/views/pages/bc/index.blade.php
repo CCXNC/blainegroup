@@ -22,204 +22,96 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+
     <section class="section bc-aboutus">
         <div class="container">
-            <h2>OUR STORY</h2>
-            <hr class="hr">
-            <!--<div class="bc-aboutus-wrapper">
-                <div class="card">
-                    <h3><img src="/images/offeredservice/sample1.jpg" width="50px;"></h3>
-                    <h5>What We Do</h5>
-                    <p>Lorem ipsum dolor sit amet com Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p> 
-                </div>
-                <div class="card">
-                    <h3><img src="/images/offeredservice/sample3.jpg" width="50px;"></h3>
-                    <h5>Who We Are</h5>
-                    <p>Lorem ipsum dolor sit amet com Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="card">
-                    <h3><img src="/images/offeredservice/sample1.jpg" width="50px;"></h3>
-                    <h5>Our Mission</h5>
-                    <p>Lorem ipsum dolor sit amet com Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                </div>
-            </div>-->
-            <div class="">
-                <img class="d-block w-100" src="/images/blank.png" alt="First slide">
-            </div>
-        </div>
-    </section>
-    <section class="bc-section3">
-        <img class="d-block w-100" src="/images/blank.png" alt="First slide">
-    </section>
-    <!--<section class="section bc-products">
-        <div class="container">
-            <h2>Feed them the best with nutrients</h2>
-            <p>We prioritized safety and quality products for you!</p>
-            <hr class="hr">
-            <div class="bc-aboutus-wrapper">
-                <div class="card">
-                    <div class="bc-products card-header">
-                        Featured
-                    </div>
-                    <div class="card-body">
-                        <h5>Adisseo Vitamins</h5>
-                        <p>Lorem ipsum dolor sit amet com Lorem ipsum dolor sit, 
-                            amet consectetur adipisicing elit. Lorem ipsum dolor 
-                            sit amet consectetur adipisicing elit. Ipsam earum cum, 
-                            laboriosam ad culpa, iure reiciendis consequatur magni 
-                            facere ratione minima pariatur enim nemo modi, soluta 
-                            quae consequuntur amet qui ?Lorem ipsum dolor 
-                            sit amet consectetur adipisicing elit. Ipsam earum cum, 
-                            laboriosam ad culpa, iure reiciendis consequatur magni 
-                            facere ratione minima pariatur enim nemo modi, soluta 
-                            quae consequuntur amet qui?
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="bc-products card-header">
-                        Featured
-                    </div>
-                    <div class="card-body">
-                        <h5>CLEO Vitamins</h5>
-                        <p>Lorem ipsum dolor sit amet com Lorem ipsum dolor sit, 
-                            amet consectetur adipisicing elit. Lorem ipsum dolor 
-                            sit amet consectetur adipisicing elit. Ipsam earum cum, 
-                            laboriosam ad culpa, iure reiciendis consequatur magni 
-                            facere ratione minima pariatur enim nemo modi, soluta 
-                            quae consequuntur amet qui ?Lorem ipsum dolor 
-                            sit amet consectetur adipisicing elit. Ipsam earum cum, 
-                            laboriosam ad culpa, iure reiciendis consequatur magni 
-                            facere ratione minima pariatur enim nemo modi, soluta 
-                            quae consequuntur amet qui?
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="bc-products card-header">
-                        Excipients
-                    </div>
-                    <div class="card-body">
-                        <p>Lorem ipsum dolor</p>
-                        <p>Lorem ipsum dolor</p>
-                    </div>
-                    <div class="bc-products card-header">
-                        Excipients
-                    </div>
-                    <div class="card-body">
-                        <p>Lorem ipsum dolor</p>
-                        <p>Lorem ipsum dolor</p>
-                    </div>
-                    <div class="bc-products card-header">
-                        Excipients
-                    </div>
-                    <div class="card-body">
-                        <p>Lorem ipsum dolor</p>
-                        <p>Lorem ipsum dolor</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    
-    <section class="section bc-partners">
-        <div class="container">
-            <h2>Global Partners</h2>
-            <p>Global Partners</p>
+            <h2>CORPORATE SOCIAL RESPONSIBILITY</h2>
             <hr class="hr">
             <div class="row">
                 <div class="col-sm-4">
                     <div class="card">
+                        <img class="card-img-top" src="/images/CSR-1.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <img class="d-block w-100" src="/images/Adisseo.png" alt="Third slide">
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <!--<a href="#" class="btn btn-primary">Get Started</a>-->
+                            <h5 class="card-title">PRINCIPLES</h5>
+                            <p class="card-text">
+                                Blaine Corporation believes that it is their mission to provide safe products
+                                and to create employment and business [...]
+                            </p>
+                          <a href="#" class="btn btn-primary">READ MORE</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="card">
+                        <img class="card-img-top" src="/images/CSR-2.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <img class="d-block w-100" src="/images/Advance.png" alt="Third slide">
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <!--<a href="#" class="btn btn-primary">Get Started</a>-->
+                          <h5 class="card-title">NQM FOUNDATION</h5>
+                          <p class="card-text">
+                              The Blaine Group of Companies hopes to give back to the community through the 
+                              NQM Life Foundation. Inc. to fulfill its [...]
+                            </p>
+                          <a href="#" class="btn btn-primary">READ MORE</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="card">
+                        <img class="card-img-top" src="/images/CSR-3.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <img class="d-block w-100" src="/images/Advance.png" alt="Third slide">
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <!--<a href="#" class="btn btn-primary">Get Started</a>-->
+                            <h5 class="card-title">BENEFICIARIES</h5>
+                            <p class="card-text">
+                                The NQM Life Foundation. Inc. is helping deserving children go to school
+                                with less to worry about.
+                                <br>[...]
+                            </p>
+                          <a href="#" class="btn btn-primary">READ MORE</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="section bc-partners">
+   
+    <section class="section bc-careeropp">
         <div class="container">
+            <h3>CAREER OPPORTUNITIES</h3>
+            <hr class="hr">
+            <br>
             <div class="row">
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <img class="d-block w-100" src="/images/Adisseo.png" alt="Third slide">
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <!--<a href="#" class="btn btn-primary">Get Started</a>-->
-                        </div>
-                    </div>
+                <div class="col-md-6">
+                    <img src="/images/blank.png" width="400px;" alt="Video">
                 </div>
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <img class="d-block w-100" src="/images/Advance.png" alt="Third slide">
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <!--<a href="#" class="btn btn-primary">Get Started</a>-->
-                        </div>
-                    </div>
+                <div class="col-md-6">
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque architecto accusantium, sapiente rerum blanditiis praesentium molestiae perspiciatis quis explicabo? Perspiciatis, officiis harum. Odio, eum? Nemo ut architecto qui laboriosam et numquam vel soluta quis quas voluptatibus. Rerum officia magnam tempore.</p>
+                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, unde. Tempore, voluptatibus aliquam odit laborum earum ipsa ipsum maxime culpa labore excepturi perferendis architecto hic veritatis dignissimos exercitationem molestias qui maiores at obcaecati fugiat. Sit.</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="bc-section5">
-        <img class="d-block w-100" src="/images/blank.png" alt="First slide">
-    </section>
-    <!--<section class="section bc-partners">
+
+    <section class="section bc-newsarticle">
         <div class="container">
+            <h3>NEWS ARTICLE</h3>
+            <hr class="hr">
+            <br>
             <div class="row">
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Adisseo</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Get Started</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Advanced enzymes</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Get Started</a>
-                        </div>
-                    </div>
+                <div class="col-md-6">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque architecto accusantium, sapiente rerum blanditiis praesentium molestiae perspiciatis quis explicabo? Perspiciatis, officiis harum. Odio, eum? Nemo ut architecto qui laboriosam et numquam vel soluta quis quas voluptatibus. Rerum officia magnam tempore.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, unde. Tempore, voluptatibus aliquam odit laborum earum ipsa ipsum maxime culpa labore excepturi perferendis architecto hic veritatis dignissimos exercitationem molestias qui maiores at obcaecati fugiat. Sit.</p>
+                 </div>
+                <div class="col-md-6">
+                    <img src="/images/blank.png" width="400px;" alt="Video">
                 </div>
             </div>
         </div>
-    </section>-->
-    <!--<section class=" bc-partners1">
-        <div class="container">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Adisseo</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Get Started</a>
-                </div>
-            </div>
+    </section>
+
+    <center>
+        <div style="width: 1100px; height: 500px;">
+            {!! Mapper::render() !!}
         </div>
-    </section>-->
+    </center>
+
     <section class="section bc-contactus">
         <div class="container container1">
             <div class="row">

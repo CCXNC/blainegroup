@@ -43,12 +43,12 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
+                        <a class="nav-link " href="{{ url('/bcaboutus') }}">
                             <b style="color:#251F5D;">ABOUT US</b>
                         </a>
-                    </li>
+                        </li>
                     <li class="nav-item dropdown">
-                    <a class="nav-link " href="{{ url('/bcproduct') }}">
+                        <a class="nav-link " href="{{ url('/bcproduct') }}">
                             <b style="color:#251F5D;">PRODUCTS</b>
                         </a>
                     </li>

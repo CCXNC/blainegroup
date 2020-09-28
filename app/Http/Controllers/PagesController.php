@@ -7,8 +7,13 @@ use Mapper;
 
 class PagesController extends Controller
 {
-    // RRLC HOMEPAGE
+    //BLAINE GROUP 
     public function index() {
+        return view('pages.bc.index');
+    }
+
+    // RRLC HOMEPAGE
+    public function rrlcindex() {
         return view('pages.rrlc.index');
     }
 
@@ -71,7 +76,7 @@ class PagesController extends Controller
 
     // BC HOMEPAGE
     public function bcindex() {
-        return view('pages.bc.index');
+        return view('pages.bc.blaineindex');
     }
 
     public function bcaboutus() {
@@ -80,10 +85,6 @@ class PagesController extends Controller
 
     public function bcproduct() {
         return view('pages.bc.product');
-    }
-
-    public function bcindexone() {
-        return view('pages.bc.indexone');
     }
 
     // BMC HOMEPAGE
