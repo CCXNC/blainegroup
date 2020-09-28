@@ -22,7 +22,7 @@
                 <!-- Right Side Of Navbar -->
                 <ul class="navbar-nav ml-auto fw">
                     <li class="nav-item dropdown">
-                        <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
+                        <a class="nav-link " href="{{ url('/') }}">
                             <b style="color:#251F5D;">HOME</b>
                         </a>
                     </li>
@@ -46,7 +46,7 @@
                         <a class="nav-link " href="{{ url('/bcaboutus') }}">
                             <b style="color:#251F5D;">ABOUT US</b>
                         </a>
-                        </li>
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link " href="{{ url('/bcproduct') }}">
                             <b style="color:#251F5D;">PRODUCTS</b>
