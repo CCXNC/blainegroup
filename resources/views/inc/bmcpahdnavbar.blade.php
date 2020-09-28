@@ -6,7 +6,7 @@
     </header>-->
     <nav class="navbar  navbar-expand-md navbar-light bg-white shadow-sm">
         <div class="container">
-            <a class="navbar" href="{{ url('/') }}">
+            <a class="navbar" href="{{ url('/bmcindex') }}">
                 <img src="images/bmc-pahd.png" style="width: 180px" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -38,21 +38,11 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
+                    <a class="nav-link " href="{{ url('/bmcpahdindex') }}">
                             <b style="color:rgb(208, 74, 150);">WHO WE ARE</b>
                         </a>
-                        <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{{ url('/bcindex') }}">
-                                    <img src="images/BC.png" style="width:60px;" alt="">&nbsp;&nbsp;&nbsp;<b style="color:#251F5D;">BLAINE CORPORATION </b>
-                                </a>
-                            <a class="dropdown-item" href="{{ url('/') }}">
-                                    <img src="images/rrlc.jpg" style="width:50px;" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b style="color:#251F5D;">REFAMED RESEARCHED LABORATORY CORPORATION</b>
-                                </a>
-                            <a class="dropdown-item" href="{{ url('/bmcindex') }}">
-                                <img src="images/BMC.jpg" style="width:60px;" alt="">&nbsp;&nbsp;<b style="color:#251F5D;"> BLAINE MANUFACTURING CORPORATION </b>
-                            </a>
-                        </div>
                     </li>
+                    
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
                             <b style="color:rgb(208, 74, 150);">PRODUCTS</b>
@@ -77,7 +67,7 @@
                     </li>
                     
                     <li class="nav-item dropdown">
-                        <a class="nav-link " href="#">
+                    <a class="nav-link " href="{{ url('/bmcpahdcontactus') }}">
                             <b style="color: rgb(208, 74, 150);">CONTACT US</b>
                         </a>
                     </li>

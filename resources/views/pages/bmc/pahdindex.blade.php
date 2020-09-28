@@ -9,16 +9,17 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="/images/SampleCarousel/Picture3.jpg" alt="First slide">
+                <img class="d-block w-100" src="/images/pahd-header.png" alt="First slide">
                 <div class="carousel-caption">
-                    <h2 class="animated fadeInLeft">Taste the world with us</h2>
-                    <p class="animated fadeInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    <h2 class="animated1 fadeInRight1">Blaine Personal Care</h2>
+                    <p class="animated1 fadeInRight1">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
                     <br><br>
-                    <p class="animated fadeInUp"><a href="#" class="btn btn-transparent btn-rounded btn-large">Read More</a></p>
+                    <p class="animated1 fadeInRight1"><a href="#" class="btn btn-transparent1 btn-rounded1 btn-large1">Read More</a></p>
                 </div>
+                
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="/images/SampleCarousel/Picture2.jpg" alt="Second slide">
+                <img class="d-block w-100" src="/images/Carousel/img4.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="/images/SampleCarousel/Picture1.jpg" alt="Third slide">
