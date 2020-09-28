@@ -110,12 +110,18 @@ class PagesController extends Controller
         return view('pages.bmc.productpahdrawmaterial');
     }
 
+    public function bmcpahdcontactus() {
+        return view('pages.bmc.pahdcontactus');
+    }
+    
+    public function bmcpahdtechnical() {
+        return view('pages.bmc.pahdtechnical');
+    }
 
+
+    // BMC FOOD HOMEPAGE
     public function bmcfoodindex() {
         return view('pages.bmc.foodindex');
     }
 
-    public function bmcpctechnical() {
-        return view('pages.bmc.pctechnical');
-    }
 } 

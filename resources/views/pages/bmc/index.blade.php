@@ -22,7 +22,7 @@
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="/images/SampleCarousel/Picture1.jpg" alt="Third slide">
-            </div>
+            </div> 
         </div>
         <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -52,7 +52,7 @@
         <div class="container">
             <h3>BLAINE MANUFACTURING CORPORATION</h3>
             <hr class="hr">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non eligendi consequuntur praesentium labore, ex animi nisi, ea cumque facere hic veniam qui nihil aspernatur necessitatibus numquam officiis doloremque, illo reiciendis soluta corrupti nobis! Aut libero soluta perferendis et quam dolorum, doloribus nemo recusandae odit dicta eum eaque aliquam porro sequi praesentium consequatur ratione, impedit delectus laboriosam! Aliquid, eligendi illum maxime incidunt animi ipsam perferendis. Laboriosam nostrum placeat distinctio? Quo minima voluptatum nulla fugiat iure eius exercitationem dicta, esse nihil, officiis praesentium. Magni alias officia fuga quos sint. Cum qui voluptate voluptatum magni, laudantium dignissimos ratione in vero possimus. Unde, cum!</p>
+            <p>Blaine Manufacturing Corporation (BMC) was founded in 2016 with the primary goal to create a synergy and efficiency between two business units–Blaine Food and Blaine Personal & Home Care that focus on human needs and goals on areas of food, personal care and home care. Major business activities presently engaged-in are manufacturing, selling, marketing and distribution of food/ beverage ingredients, personals and home care products and its raw materials.</p>
             <div class="row">
                 <div class="col-md-6">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae repellendus, quas quia eveniet perferendis at eum, in iusto odio voluptate, sint nulla inventore quaerat ab vitae amet! Earum itaque est aliquam, illo vitae ratione magni, explicabo in tenetur, amet reprehenderit?</p>

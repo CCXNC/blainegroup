@@ -12,6 +12,7 @@ $light-bg: #efefef;
 $dark-bg: #d2d7d3;
 $light-yellow-bg: #fcd800;
 $bmcpahd-color : rgb(208, 74, 150);
+$bmcfood-color : rgb(94,136,54);
 
 body {
     box-sizing: border-box;
@@ -97,6 +98,26 @@ body {
     .footer-section {
         color: $light-color;
         background: $bmcpahd-color;
+        //background: linear-gradient(to bottom, #007730 0%, #99ff99 100%);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        p {
+            font-size: 16px;
+            margin-bottom: 0;
+            float: left;
+        }
+
+        span {
+            font-size:20px;
+            float:right;
+        }
+    }
+}
+
+.bmc2footer {
+    .footer-section {
+        color: $light-color;
+        background: $bmcfood-color;
         //background: linear-gradient(to bottom, #007730 0%, #99ff99 100%);
         padding-top: 20px;
         padding-bottom: 20px;
@@ -1983,6 +2004,7 @@ section {
 
 /**
  * Button
+ * Carousel Button
  */
  .btn-transparent {
     background: white;
@@ -2001,9 +2023,32 @@ section {
     padding: 11px 45px;
     font-size: 18px;
   }
+
+
+  // BUTTON PAHD HOMEPAGE
+  .btn-transparent1 {
+    background-color: #fff;
+    color: $bmcpahd-color;
+    border: 1px solid $bmcpahd-color;
+  }
+  .btn-transparent1:hover {
+    
+    background: $bmcpahd-color;
+    color: #fff;
+  }
+  
+  .btn-rounded1 {
+    border-radius: 70px;
+  }
+  
+  .btn-large1 {
+    padding: 11px 45px;
+    font-size: 18px;
+  }
   
   /**
    * Change animation duration
+   * BMC FOOD Carousel Homepage
    */
   .animated {
     -webkit-animation-duration: 1.5s;
@@ -2042,6 +2087,60 @@ section {
   }
   
   .fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+  }
+
+
+  // PAHD CAROUSEL TEXT
+  .animated1 {
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    //top: 50%;
+    transform: translateY(-200%);
+    text-align: left;
+    color: $primary-color;
+
+  }
+  .animated2 {
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    //top: 50%;
+    transform: translateY(-200%);
+    float: right;
+    color: $primary-color;
+
+  }
+  
+  @-webkit-keyframes fadeInRight1 {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(100px, 0, 0);
+      transform: translate3d(100px, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+  @keyframes fadeInRight1 {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(100px, 0, 0);
+      transform: translate3d(100px, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+  .fadeInRight1 {
     -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight;
   }
@@ -2354,3 +2453,41 @@ section {
         }
     }
 }
+.bmcpahd-contactus {
+    background-color: white;
+    text-align: left;
+     
+     h3 {
+         font-weight: 600;
+         color: $primary-color;
+         margin-bottom: 15px;
+     }
+ 
+     .btn-primary {
+         font-weight: 600;
+         color: $light-color;
+         background-color: $bmcpahd-color;
+         border: 1.5px solid $bmcpahd-color;
+         transition-duration: 1s;
+         transition-property: color $bmcpahd-color;
+ 
+         &:hover {
+             color: $bmcpahd-color;
+             background-color: $light-bg;
+         }
+     }
+ 
+     p {
+         font-size:20px;
+         padding-left: 20px;
+         font-weight: 600;
+        
+     }
+     span {
+         color: $bmcpahd-color;
+         text-align: center;
+         padding:30px;
+         border: 1px solid $primary-color;
+         border-radius: 50%;
+     }
+ } 
