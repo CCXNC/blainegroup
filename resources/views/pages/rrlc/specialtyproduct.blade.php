@@ -19,19 +19,20 @@
     <section class="section specialproduct">
         <div class="container">
             <h3>Our strategic partners for specialty products</h3>
+            <p style="color:red;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error nisi excepturi nobis porro vel iusto? Quisquam voluptates nisi ducimus officia hic a sed illum officiis. Totam reprehenderit debitis laborum possimus!</p>
             <hr class="hr">
             <div class="specialproduct-wrapper">
                 <div class="card">
-                    <h5><img src="/images/logo/adisseo.png" width="200px;"></h5>
+                    <h5><img src="/images/logo/adisseo.png" width="220px;"></h5>
                 </div>
                 <div class="card">
-                    <h5><img src="/images/logo/cbs.png" width="200px;"></h5>
+                    <h5><img src="/images/logo/cbs.png" width="220px;"></h5>
                 </div>
                 <div class="card">
-                    <h5><img src="/images/logo/advance.png" width="200px;"></h5>
+                    <h5><img src="/images/logo/advance.png" width="220px;"></h5>
                 </div>
                 <div class="card">
-                    <h5><img src="/images/logo/kemin.png" width="200px;"></h5>
+                    <h5><img src="/images/logo/kemin.png" width="220px;"></h5>
                 </div>
             </div>
         </div>

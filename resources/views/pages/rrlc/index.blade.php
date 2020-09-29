@@ -31,17 +31,17 @@
         <div class="container">
             <div class="row title">
                 <div class="col-md-6">
-                    <h3>Lorem ipsum dolor sit amet, conse</h3>
+                    <h3 style="color:red;">Lorem ipsum dolor sit amet, conse</h3>
                     <hr class="hr">
                 </div>
                 <div class="col-md-6">
-                    <h3>Lorem ipsum dolor sit amet, conse</h3>
+                    <h3 style="color:red;">Lorem ipsum dolor sit amet, conse</h3>
                     <hr class="hr">
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    <p class="info" style="color:red;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Nunc non blandit massa enim nec. Purus in mollis nunc sed id semper. 
                         Pellentesque habitant morbi tristique senectus. Rhoncus aenean vel 
@@ -58,7 +58,7 @@
                         Maecenas pharetra convallis posuere morbi leo urna.</p>
                 </div>
                 <div class="col-md-6">
-                    <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ab voluptatibus, perspiciatis vitae cupiditate enim cum modi commodi obcaecati aliquid. At rerum, quasi voluptas explicabo adipisci sapiente maiores vel maxime.</p>
+                    <p class="info" style="color:red;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ab voluptatibus, perspiciatis vitae cupiditate enim cum modi commodi obcaecati aliquid. At rerum, quasi voluptas explicabo adipisci sapiente maiores vel maxime.</p>
                     <img class="d-block w-100" src="/images/content/video.png" alt="Video">
                 </div>
             </div>
@@ -67,7 +67,7 @@
     <section class="section content-2" id="section-2">
         <div class="container">
             <h3>Our Products</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            <p style="color:red;">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Laudantium exercitationem consequuntur odio cumque. 
             </p>
             <hr class="hr">
@@ -75,22 +75,22 @@
                 <div class="card">
                     <h3><img src="/images/rrlc/primeproduct/wsp/biotrol.png" width="130px;"></h3>
                     <h5>BIOTROL</h5>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <p style="color:red;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="card">
                     <h3><img src="/images/rrlc/primeproduct/wsp/cetrolyteplus.png" width="130px;"></h3>
                     <h5>CETROLYTE PLUS</h5>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <p style="color:red;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="card">
                     <h3><img src="/images/rrlc/primeproduct/wsp/levammisole.png" width="130px;"></h3>
                     <h5>LEVAMMISOLE</h5>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <p style="color:red;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="card">
                     <h3><img src="/images/rrlc/primeproduct/wsp/Neocin.png" width="130px;"></h3>
                     <h5>NEOCIN</h5>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <p style="color:red;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
             </div>
         </div>
@@ -102,20 +102,20 @@
             <hr class="hr">
             <div class="content-3-wrapper">
                 <div class="card">
-                    <h3><img src="/images/certification/iso.png" width="120px;"></h3>
-                    <h5>ISO 9001:2015 Certified (SGS)</h5>
+                    <h3><img src="/images/blank.png" width="200px;"></h3>
+                    <h5 style="color:red;">ISO 9001:2015 Certified (SGS)</h5>
                 </div>
                 <div class="card">
-                    <h3><img src="/images/certification/halal-logo.jpg" width="120px;"></h3>
-                    <h5>Certificate of Current Good Manufacturing Practice</h5>
+                    <h3><img src="/images/blank.png" width="200px;"></h3>
+                    <h5 style="color:red;">Certificate of Current Good Manufacturing Practice</h5>
                 </div>
                 <div class="card">
-                    <h3><img src="/images/certification/fda.png" width="230px;"></h3>
-                    <h5>Halal Certified Powder Line (IDCP) Certificate of Current Good Manufacturing Practice</h5>
+                    <h3><img src="/images/blank.png" width="200px;"></h3>
+                    <h5 style="color:red;">Halal Certified Powder Line (IDCP) Certificate of Current Good Manufacturing Practice</h5>
                 </div>
                 <div class="card">
-                    <h3><img src="/images/certification/halal-logo.jpg" width="120px;"></h3>
-                    <h5>Certificate of Current Good Manufacturing Practice</h5>
+                    <h3><img src="/images/blank.png" width="200px;"></h3>
+                    <h5 style="color:red;">Certificate of Current Good Manufacturing Practice</h5>
                 </div>
             </div>
         </div>
@@ -125,45 +125,45 @@
             <h3>OFFERED SERVICES</h3>
             <hr class="hr">
             <div class="content-4-wrapper">
-                <div class="card">
-                    <h3><img src="/images/offeredservice/sample1.jpg" width="120px;"></h3>
-                    <h5>Animal Nutrition</h5>
-                    <ul>
-                        <li>Basemix</li>
-                        <li>Vitamin Premix</li>
-                        <li>Mineral Premix</li>
-                        <li>Branded Additives</li>
+                <div class="card" >
+                    <h3><img src="/images/blank.png" width="200px;"></h3>
+                    <h5 style="color:red;">Animal Nutrition</h5>
+                    <ul >
+                        <li style="color:red;">Basemix</li>
+                        <li style="color:red;">Vitamin Premix</li>
+                        <li style="color:red;">Mineral Premix</li>
+                        <li style="color:red;">Branded Additives</li>
                     </ul>
                 </div>
                 <div class="card">
-                    <h3><img src="/images/offeredservice/sample3.jpg" width="120px;"></h3>
-                    <h5>Animal Health</h5>
+                    <h3><img src="/images/blank.png" width="200px;"></h3>
+                    <h5 style="color:red;">Animal Health</h5>
                     <ul>
-                        <li>Antibiotics</li>
-                        <li>Anti-infectives</li>
-                        <li>Vitamins</li>
-                        <li>Minerals</li>
-                        <li>Disinfectants</li>
+                        <li style="color:red;">Antibiotics</li>
+                        <li style="color:red;">Anti-infectives</li>
+                        <li style="color:red;">Vitamins</li>
+                        <li style="color:red;">Minerals</li>
+                        <li style="color:red;">Disinfectants</li>
                     </ul>    
                 </div>
                 <div class="card">
-                    <h3><img src="/images/offeredservice/sample4.png" width="150px;"></h3>
-                    <h5>Tolling</h5>
+                    <h3><img src="/images/blank.png" width="200px;"></h3>
+                    <h5 style="color:red;">Tolling</h5>
                     <ul>
-                        <li>Premixes</li>
-                        <li>Liquid Solution</li>
-                        <li>Water Solubles</li>
-                        <li>Repacking</li>
+                        <li style="color:red;">Premixes</li>
+                        <li style="color:red;">Liquid Solution</li>
+                        <li style="color:red;">Water Solubles</li>
+                        <li style="color:red;">Repacking</li>
                     </ul>    
                 </div>
                 <div class="card">
-                    <h3><img src="/images/offeredservice/sample3.jpg" width="120px;"></h3>
-                    <h5>Animal Nutrition</h5>
+                    <h3><img src="/images/blank.png" width="200px;"></h3>
+                    <h5 style="color:red;">Animal Nutrition</h5>
                     <ul>
-                        <li>Basemix</li>
-                        <li>Vitamin Premix</li>
-                        <li>Mineral Premix</li>
-                        <li>Branded Additives</li>
+                        <li style="color:red;">Basemix</li>
+                        <li style="color:red;">Vitamin Premix</li>
+                        <li style="color:red;">Mineral Premix</li>
+                        <li style="color:red;">Branded Additives</li>
                     </ul>
                 </div>
             </div>

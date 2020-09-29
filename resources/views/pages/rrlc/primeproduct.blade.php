@@ -21,44 +21,44 @@
             <div class="product-wrapper">
                 <div class="card">
                     <a href="{{ url('/rrlcprimeproductlist')}}">
-                        <h3><img src="/images/offeredservice/sample1.jpg" width="250px;"></h3>
+                        <h3><img src="/images/blank.png" width="300px;"></h3>
                         <h5>WSP Products</h5>
-                        <p>Lorem ipsum dolor sit amet com</p>
+                        <p style="color:red;">Lorem ipsum dolor sit amet com</p>
                     </a> 
                 </div>
                 <div class="card">
                     <a href="{{ url('/rrlcoralsolution')}}">
-                        <h3><img src="/images/offeredservice/sample3.jpg" width="250px;"></h3>
+                        <h3><img src="/images/blank.png" width="300px;"></h3>
                         <h5>Oral Solution</h5>
-                        <p>Lorem ipsum dolor sit amet com </p>
+                        <p style="color:red;">Lorem ipsum dolor sit amet com </p>
                     </a>
                 </div>
                 <div class="card">
                     <a href="#">
-                        <h3><img src="/images/offeredservice/sample1.jpg" width="250px;"></h3>
+                        <h3><img src="/images/blank.png" width="300px;"></h3>
                         <h5>Disinfectant</h5>
-                        <p>Lorem ipsum dolor sit amet com </p>
+                        <p style="color:red;">Lorem ipsum dolor sit amet com </p>
                     </a>
                 </div>
                 <div class="card">
                     <a href="#">
-                        <h3><img src="/images/offeredservice/sample3.jpg" width="250px;"></h3>
+                        <h3><img src="/images/blank.png" width="300px;"></h3>
                         <h5>Nutraceuticals</h5>
-                        <p>Lorem ipsum dolor sit amet com </p>
+                        <p style="color:red;">Lorem ipsum dolor sit amet com </p>
                     </a>
                 </div>
                 <div class="card">
                     <a href="#">
-                        <h3><img src="/images/offeredservice/sample1.jpg" width="250px;"></h3>
+                        <h3><img src="/images/blank.png" width="300px;"></h3>
                         <h5>AB Premix</h5>
-                        <p>Lorem ipsum dolor sit amet com </p>
+                        <p style="color:red;">Lorem ipsum dolor sit amet com </p>
                     </a>
                 </div>
                 <div class="card">
                     <a href="#">
-                        <h3><img src="/images/offeredservice/sample1.jpg" width="250px;"></h3>
+                        <h3><img src="/images/blank.png" width="300px;"></h3>
                         <h5>Premix</h5>
-                        <p>Lorem ipsum dolor sit amet com </p>
+                        <p style="color:red;">Lorem ipsum dolor sit amet com </p>
                     </a>
                 </div>
             </div>
