@@ -11122,15 +11122,48 @@ section {
 
 .content-2-wrapper {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 1em;
   grid-row-gap: 1em;
   text-align: center;
+  /*.card {
+      background-color: lighten(white, 15%);
+      align-items: center;
+      border: none;
+      padding: 0;
+      transition: all .5s;
+      -moz-transition: all .5s;
+      -webkit-transition: all .5s;
+      -o-transition: all .5s;
+      -ms-transition: all .5s;
+
+      &:hover {
+          transform : scale(1.25);
+          -moz-transform : scale(1.25);
+          -webkit-transform : scale(1.25);
+          -o-transform : scale(1.25);
+          -ms-transform : scale(1.25);
+      }
+  }*/
 }
 
 .content-2-wrapper .card {
   background-color: white;
   padding: 20px;
+  border: none;
+  transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+}
+
+.content-2-wrapper .card:hover {
+  transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  -ms-transform: scale(1.25);
 }
 
 .content-2-wrapper .card h5 {
@@ -11329,6 +11362,11 @@ section {
 .product-wrapper .card {
   background-color: white;
   padding: 20px;
+  border-radius: 5px;
+}
+
+.product-wrapper .card a {
+  text-decoration: none;
 }
 
 .product-wrapper .card h5 {
@@ -11364,13 +11402,13 @@ section {
 
 .rrlcproductlist hr {
   border: 1px solid #251F5D;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100px;
 }
 
 .rrlcproductlist h3 {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 600;
 }
 
@@ -11424,7 +11462,7 @@ section {
 
 .specialproduct-wrapper {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 1em;
   grid-row-gap: 2em;
 }

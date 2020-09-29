@@ -28,6 +28,10 @@ class PagesController extends Controller
         return view('pages.rrlc.primeproductlist');
     }
 
+    public function rrlcoralsolution() {
+        return view('pages.rrlc.rrlcoralsolution');
+    }
+
     // RRLC SPECIALTY PRODUCT
     public function rrlcspecialtyproduct() {
         return view('pages.rrlc.specialtyproduct');

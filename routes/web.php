@@ -23,6 +23,7 @@ Route::get('/', 'PagesController@index')->name('blainegroup');
 Route::get('/rrlcindex','PagesController@rrlcindex')->name('rrlchomepage'); // RRLC HOMEPAGE
 Route::get('/rrlcprimeproduct','PagesController@rrlcproduct')->name('rrlcproduct'); 
 Route::get('/rrlcprimeproductlist', 'PagesController@rrlcproductlist')->name('rrlcproductlist');
+Route::get('/rrlcoralsolution', 'PagesController@rrlcoralsolution')->name('rrlcoralsolution');
 Route::get('/rrlcspecialtyproduct','PagesController@rrlcspecialtyproduct')->name('rrlcspecialtyproduct');
 Route::get('/keminproduct','PagesController@keminproduct')->name('keminproduct');
 Route::get('/enzymeproduct','PagesController@enzymeproduct')->name('enzymeproduct');
