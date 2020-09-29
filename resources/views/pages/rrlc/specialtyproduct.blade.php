@@ -4,29 +4,15 @@
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="/images/carousel1/header6.png" alt="First slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="/images/carousel1/header7.png" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="/images/carousel1/header1.jpg" alt="Third slide">
+                <img class="d-block w-100" src="/images/rrlcheader.jpg" alt="First slide">
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
     <br>
     <section class="page-title">
         <div class="container">
             <div class="col-md-12">
-                <h3>OUR PRODUCTS</h3>
+                <h3>OUR PRODUCTS</h3> 
             </div>
         </div>
     </section>
@@ -36,20 +22,16 @@
             <hr class="hr">
             <div class="specialproduct-wrapper">
                 <div class="card">
-                    <h3><img src="/images/blank.png" width="350px;"></h3>
-                    <h5><img src="/images/logo/adisseo.png" width="250px;">  <span class="fa fa-link"></span></h5>
+                    <h5><img src="/images/logo/adisseo.png" width="200px;"></h5>
                 </div>
                 <div class="card">
-                    <h3><img src="/images/blank.png" width="350px;"></h3>
-                    <h5><img src="/images/logo/cbs.png" width="250px;" >  <span class="fa fa-link"></span></h5>
+                    <h5><img src="/images/logo/cbs.png" width="200px;"></h5>
                 </div>
                 <div class="card">
-                    <h3><img src="/images/blank.png" width="350px;"></h3>
-                    <h5><img src="/images/logo/advance.png" width="250px;">  <span class="fa fa-link"></span></h5>
+                    <h5><img src="/images/logo/advance.png" width="200px;"></h5>
                 </div>
                 <div class="card">
-                    <h3><img src="/images/blank.png" width="350px;"></h3>
-                    <h5><img src="/images/logo/kemin.png" width="250px;">  <span class="fa fa-link"></span></h5>
+                    <h5><img src="/images/logo/kemin.png" width="200px;"></h5>
                 </div>
             </div>
         </div>

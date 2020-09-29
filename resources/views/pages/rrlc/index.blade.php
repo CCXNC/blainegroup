@@ -9,7 +9,7 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="/images/carousel/img1.jpg" alt="First slide">
+                <img class="d-block w-100" src="/images/rrlcheader.jpg" alt="First slide">
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="/images/carousel/img2.jpg" alt="Second slide">
@@ -73,23 +73,23 @@
             <hr class="hr">
             <div class="content-2-wrapper">
                 <div class="card">
-                    <h3><img src="/images/products/prod1.jpg" width="150px;"></h3>
-                    <h5>Product 1</h5>
+                    <h3><img src="/images/rrlc/primeproduct/wsp/biotrol.png" width="130px;"></h3>
+                    <h5>BIOTROL</h5>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="card">
-                    <h3><img src="/images/products/prod2.jpg" width="150px;"></h3>
-                    <h5>Product 2</h5>
+                    <h3><img src="/images/rrlc/primeproduct/wsp/cetrolyteplus.png" width="130px;"></h3>
+                    <h5>CETROLYTE PLUS</h5>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="card">
-                    <h3><img src="/images/products/prod3.jpg" width="150px;"></h3>
-                    <h5>Product 3</h5>
+                    <h3><img src="/images/rrlc/primeproduct/wsp/levammisole.png" width="130px;"></h3>
+                    <h5>LEVAMMISOLE</h5>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="card">
-                    <h3><img src="/images/products/prod3.jpg" width="150px;"></h3>
-                    <h5>Product 4</h5>
+                    <h3><img src="/images/rrlc/primeproduct/wsp/Neocin.png" width="130px;"></h3>
+                    <h5>NEOCIN</h5>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
             </div>
