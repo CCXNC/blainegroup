@@ -13485,3 +13485,225 @@ section {
   border-radius: 50%;
 }
 
+.rawmats-content1 .p {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.rawmats-content2 {
+  background-color: white;
+}
+
+.rawmats-content2 img {
+  padding-bottom: 20px;
+}
+
+.rawmats-content2 h3 {
+  text-align: center;
+}
+
+.rawmats-content2 hr {
+  border: 1px solid #251F5D;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 150px;
+}
+
+.rawmats-content2 h3 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.rawmats-content2-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1em;
+  grid-row-gap: 2em;
+}
+
+.rawmats-content2-wrapper .card {
+  background-color: white;
+  padding: 20px;
+}
+
+.rawmats-content2-wrapper .card h5 {
+  font-weight: 800;
+  font-size: 23px;
+  color: #251F5D;
+  margin: 15px 0 5px;
+  text-align: center;
+}
+
+.rawmats-content2-wrapper .card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #251F5D;
+  text-align: center;
+}
+
+.rawmats-content2-wrapper span {
+  float: right;
+}
+
+@media (max-width: 800px) {
+  .rawmats-content2 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 1em;
+    grid-auto-rows: minmax(220px, auto);
+  }
+}
+
+.rawmats-content3 {
+  background-color: white;
+  text-align: justify;
+}
+
+.rawmats-content3 .row {
+  padding: 10px 10px 10px 10px;
+}
+
+.rawmats-content3 hr {
+  border: 1px solid #251F5D;
+  text-align: left;
+}
+
+.rawmats-content3 h3 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.rawmats-content3 .header {
+  background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+  padding: 20px;
+  color: #f4f4f4;
+}
+
+.rawmats-content3 .header hr {
+  border: 1px solid #f4f4f4;
+  text-align: left;
+}
+
+.rawmats-content3 .header h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.rawmats-content3 .header p {
+  padding: 10px 5px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #34495e;
+  justify-content: space-between;
+}
+
+.rawmats-content3 p {
+  padding: 10px 5px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #34495e;
+  justify-content: space-between;
+}
+
+.rawmats-content3 .card-body {
+  text-align: justify;
+}
+
+.rawmats-content3 .card-header {
+  text-align: left;
+  background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+  color: #efefef;
+}
+
+.rawmats-content3-wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 3em;
+  grid-row-gap: 1em;
+  text-align: justify;
+}
+
+.rawmats-content3-wrapper .card {
+  background-color: white;
+  padding: 20px;
+}
+
+.rawmats-content3-wrapper .card h5 {
+  margin: 15px 0 25px;
+}
+
+.rawmats-content3-wrapper .card p {
+  text-align: justify;
+  padding: 10px 5px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #34495e;
+  justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .rawmats-content3-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 1em;
+    grid-auto-rows: minmax(220px, auto);
+  }
+}
+
+.rawmatsproducts {
+  background-color: white;
+}
+
+.rawmatsproducts hr {
+  border: 1px solid #251F5D;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 150px;
+}
+
+.rawmatsproducts h3 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.rawmatsproducts .card-body {
+  text-align: justify;
+}
+
+.rawmatsproducts .card-header {
+  background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+  color: #efefef;
+}
+
+.rawmatsproducts-wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 3em;
+  grid-row-gap: 1em;
+  text-align: left;
+}
+
+.rawmatsproducts-wrapper .card {
+  background-color: white;
+  padding: 20px;
+}
+
+.rawmatsproducts-wrapper .card h5 {
+  margin: 15px 0 25px;
+}
+
+.rawmatsproducts-wrapper .card p {
+  text-align: justify;
+  padding: 10px 5px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #251F5D;
+  justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .rawmatsproducts-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 1em;
+    grid-auto-rows: minmax(220px, auto);
+  }
+}
+

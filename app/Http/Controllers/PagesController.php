@@ -88,6 +88,19 @@ class PagesController extends Controller
         return view('pages.bc.product');
     }
 
+    // BC RAW MATS
+    public function bcrawmats() {
+        return view('pages.bc.rawmats');
+    }
+
+    public function bcrawmatsstory() {
+        return view('pages.bc.rawmatsstory');
+    }
+
+    public function bcrawmatsproducts() {
+        return view('pages.bc.rawmatsproducts');
+    }
+
     // BMC HOMEPAGE
     public function bmcindex() {
         return view('pages.bmc.index');

@@ -39,6 +39,11 @@ Route::get('/bcindex', 'PagesController@bcindex')->name('bcindex'); // BC HOMEPA
 Route::get('/bcaboutus', 'PagesController@bcaboutus')->name('bcaboutus');
 Route::get('/bcproduct','PagesController@bcproduct')->name('bcproduct');
 
+// BC RAWMATS
+Route::get('/bcrawmats', 'PagesController@bcrawmats')->name('rawmats');
+Route::get('/bcrawmatsstory', 'PagesController@bcrawmatsstory')->name('rawmatsstory');
+Route::get('/bcrawmatsproducts', 'PagesController@bcrawmatsproducts')->name('rawmatsproducts');
+
 
 Route::get('/bmcindex', 'PagesController@bmcindex')->name('bmcindex'); // BMC HOMEPAGE
 

@@ -2638,3 +2638,248 @@ section {
          border-radius: 50%;
      }
  } 
+
+ $color-white:#fff;
+$brand-color-g:#348e80;
+$brand-color:#df8625;
+
+@mixin respond-to($breakpoint) {
+    @if $breakpoint == "xs" {
+        @media screen and (max-width: 767px) {
+          @content;
+        }
+    }
+    @else if $breakpoint == "sm" {
+        @media (min-width: 768px) and (max-width: 991px) {
+            @content;
+        }
+    }
+    @else if $breakpoint == "md" {
+        @media (min-width: 992px) and (max-width: 1199px) {
+            @content;
+        }
+    }
+    @else if $breakpoint == "lg" {
+        @media screen and (min-width: 1200px) {
+            @content;
+        }
+    }
+}
+
+
+
+.rawmats-content1 {
+    .p {
+        vertical-align: middle;
+        text-align: center;
+    }
+}
+
+.rawmats-content2{
+    background-color: white;
+        
+    img {
+        padding-bottom: 20px;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    hr {
+        border: 1px solid $primary-color;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 150px;
+    }
+    h3 {
+        font-size: 26px;
+        font-weight: 600;
+    }
+    
+
+    &-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 1em;
+        grid-row-gap: 2em;
+
+        .card {
+            background-color: lighten(white, 15%);
+            padding: 20px;
+
+            h5 {
+                font-weight: 800;
+                font-size: 23px;
+                color: $primary-color;
+                margin: 15px 0 5px;
+                text-align: center;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                color: $primary-color;
+                text-align: center;
+            }
+        }
+        span {
+            float:right;
+        }
+    }
+
+    @media (max-width: 800px) {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 1em;
+        grid-auto-rows: minmax(220px, auto);
+    }
+}
+
+.rawmats-content3 {
+    background-color: white;
+    text-align: justify;
+    .row {
+        padding: 10px 10px 10px 10px;
+    }
+
+    hr {
+        border: 1px solid $primary-color;
+        text-align: left;
+    }
+
+    h3 {
+        font-size: 26px; 
+        font-weight: 600;
+    }
+
+    .header {
+        background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+        padding: 20px;
+        color: $light-color;
+
+        hr {
+            border: 1px solid $light-color;
+            text-align: left;
+        }
+
+        h5 {
+            font-size: 18px; 
+            font-weight: 600;
+        }
+        p {
+            padding: 10px 5px;
+            font-size: 16px;
+            font-weight: 400;
+            color: $dark-color;
+            justify-content: space-between;
+        }
+    }
+   
+    p {
+        padding: 10px 5px;
+        font-size: 16px;
+        font-weight: 400;
+        color: $dark-color;
+        justify-content: space-between;
+    }
+    .card-body {
+        text-align: justify;
+    }
+
+    .card-header {
+        text-align: left;
+        background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+        color: $light-bg;
+    }
+
+    &-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 3em;
+        grid-row-gap: 1em;
+        text-align: justify;
+
+        .card {
+            background-color: lighten(white, 15%);
+            padding: 20px;
+
+            h5 {
+                margin: 15px 0 25px;
+            }
+
+            p {
+                text-align: justify;
+                padding: 10px 5px;
+                font-size: 16px;
+                font-weight: 400;
+                color: $dark-color;
+                justify-content: space-between;
+            }
+
+        }
+
+        @media (max-width: 800px) {
+            grid-template-columns: repeat(2, 1fr);
+            grid-row-gap: 1em;
+            grid-auto-rows: minmax(220px, auto);
+        }
+    }
+ }
+
+ .rawmatsproducts { 
+    background-color: white;
+
+    hr {
+        border: 1px solid $primary-color;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 150px;
+    }
+
+    h3 {
+        font-size: 26px; 
+        font-weight: 600;
+    }
+    .card-body {
+        text-align: justify;
+    }
+
+    .card-header {
+        background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+        color: $light-bg;
+    }
+
+    &-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 3em;
+        grid-row-gap: 1em;
+        text-align: left;
+
+        .card {
+            background-color: lighten(white, 15%);
+            padding: 20px;
+
+            h5 {
+                margin: 15px 0 25px;
+            }
+
+            p {
+                text-align: justify;
+                padding: 10px 5px;
+                font-size: 16px;
+                font-weight: 400;
+                color: $primary-color;
+                justify-content: space-between;
+
+            }
+
+        }
+
+        @media (max-width: 800px) {
+            grid-template-columns: repeat(2, 1fr);
+            grid-row-gap: 1em;
+            grid-auto-rows: minmax(220px, auto);
+        }
+    }
+ }
