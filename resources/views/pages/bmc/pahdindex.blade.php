@@ -4,7 +4,7 @@
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="/images/pahd-header.png" alt="First slide">
+                <img class="d-block w-100" src="/images/bmcpc/pahd-header4.jpg" alt="First slide">
                 <div class="carousel-caption">
                     <h3><i>Blaine Manufacturing Corporation</i></h3>
                     <h5> Personal and Home Care Division</h5>

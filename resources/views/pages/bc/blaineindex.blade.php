@@ -131,7 +131,7 @@
                 <div class="col-sm-4">
                     <div class="card">
                         <div class="card-body">
-                            <img class="d-block w-100" src="/images/Adisseo.png" alt="Third slide">
+                            <img class="d-block w-100" src="/images/logo/Adisseo.png" alt="Third slide">
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                             <!--<a href="#" class="btn btn-primary">Get Started</a>-->
                         </div>
@@ -140,7 +140,7 @@
                 <div class="col-sm-4">
                     <div class="card">
                         <div class="card-body">
-                            <img class="d-block w-100" src="/images/Advance.png" alt="Third slide">
+                            <img class="d-block w-100" src="/images/logo/Advance.png" alt="Third slide">
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                             <!--<a href="#" class="btn btn-primary">Get Started</a>-->
                         </div>
@@ -149,7 +149,7 @@
                 <div class="col-sm-4">
                     <div class="card">
                         <div class="card-body">
-                            <img class="d-block w-100" src="/images/Advance.png" alt="Third slide">
+                            <img class="d-block w-100" src="/images/logo/Advance.png" alt="Third slide">
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                             <!--<a href="#" class="btn btn-primary">Get Started</a>-->
                         </div>
@@ -164,7 +164,7 @@
                 <div class="col-sm-4">
                     <div class="card">
                         <div class="card-body">
-                            <img class="d-block w-100" src="/images/Adisseo.png" alt="Third slide">
+                            <img class="d-block w-100" src="/images/logo/Adisseo.png" alt="Third slide">
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                             <!--<a href="#" class="btn btn-primary">Get Started</a>-->
                         </div>
@@ -173,7 +173,7 @@
                 <div class="col-sm-4">
                     <div class="card">
                         <div class="card-body">
-                            <img class="d-block w-100" src="/images/Advance.png" alt="Third slide">
+                            <img class="d-block w-100" src="/images/logo/Advance.png" alt="Third slide">
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                             <!--<a href="#" class="btn btn-primary">Get Started</a>-->
                         </div>

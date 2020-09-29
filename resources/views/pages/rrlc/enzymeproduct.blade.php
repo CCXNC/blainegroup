@@ -37,7 +37,7 @@
             <div class="keminproduct-wrapper">
                 <div class="card">
                     <h3><img src="/images/blank.png" width="600px;" height="300px"></h3>
-                    <h5><img src="/images/advance.png" width="250px;"></h5>
+                    <h5><img src="/images/logo/advance.png" width="250px;"></h5>
                 </div>
         </div>
     </section> 
@@ -48,16 +48,16 @@
             <hr class="hr">
             <div class="category-wrapper">
                 <div class="card">
-                    <h5><img src="/images/adisseo.png" width="200px;">  <span class="fa fa-link"></span></h5>
+                    <h5><img src="/images/logo/adisseo.png" width="200px;">  <span class="fa fa-link"></span></h5>
                 </div>
                 <div class="card">
-                    <h5><img src="/images/cbs.png" width="200px;">  <span class="fa fa-link"></span></h5>
+                    <h5><img src="/images/logo/cbs.png" width="200px;">  <span class="fa fa-link"></span></h5>
                 </div>
                 <div class="card">
-                    <h5><img src="/images/advance.png" width="200px;">  <span class="fa fa-link"></span></h5>
+                    <h5><img src="/images/logo/advance.png" width="200px;">  <span class="fa fa-link"></span></h5>
                 </div>
                 <div class="card">
-                    <h5><img src="/images/kemin.png" width="200px;">  <span class="fa fa-link"></span></h5>
+                    <h5><img src="/images/logo/kemin.png" width="200px;">  <span class="fa fa-link"></span></h5>
                 </div>
             </div>
         </div>
