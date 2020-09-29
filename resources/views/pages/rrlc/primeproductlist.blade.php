@@ -4,7 +4,7 @@
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="/images/carousel1/header6.png" alt="First slide">
+                <img class="d-block w-100" src="/images/123.png" alt="First slide">
             </div>
         </div>
     </div>

@@ -1,7 +1,7 @@
 @extends('layouts.rrlcapp')
 
 @section('content')
-    <img class="d-block w-100" src="/images/carousel1/header6.png" alt="First slide">
+    <img class="d-block w-100" src="/images/123.png" alt="First slide">
     <br>
     <section class="page-title">
         <div class="container">
