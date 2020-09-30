@@ -81,15 +81,20 @@ class PagesController extends Controller
 
     // BC HOMEPAGE
     public function bcindex() {
-        return view('pages.bc.blaineindex');
+        return view('pages.bc.rawmats');
     }
 
     public function bcaboutus() {
-        return view('pages.bc.aboutus');
+        Mapper::map(14.289683, 121.011593);
+        return view('pages.bc.rawmatsstory');
     }
 
     public function bcproduct() {
-        return view('pages.bc.product');
+        return view('pages.bc.rawmatsproducts');
+    }
+
+    public function bccontactus() {
+        return view('pages.bc.rawmatscontactus');
     }
 
     // BC RAW MATS

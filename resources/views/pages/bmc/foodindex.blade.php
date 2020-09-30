@@ -81,17 +81,17 @@
             </p>
             <div class="bmc-content-3-wrapper">
                 <div class="card">
-                    <h3><img src="/images/123.jpg" width="150px;"></h3>
+                    <h3><img src="/images/blank.png" width="250px;"></h3>
                     <h5>Product 1</h5>
                     <p style="color: red">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="card">
-                    <h3><img src="/images/123.jpg" width="150px;"></h3>
+                    <h3><img src="/images/blank.png" width="250px;"></h3>
                     <h5>Product 2</h5>
                     <p style="color: red">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="card">
-                    <h3><img src="/images/123.jpg" width="150px;"></h3>
+                    <h3><img src="/images/blank.png" width="250px;"></h3>
                     <h5>Product 3</h5>
                     <p style="color: red">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>

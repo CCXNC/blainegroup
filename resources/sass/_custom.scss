@@ -985,6 +985,7 @@ section {
 
 .newsarticleblog {
     background-color: white;
+    
 
     hr {
         border: 1px solid $primary-color;
@@ -1026,7 +1027,8 @@ section {
                 color: $light-bg;
 
                 p {
-                    color: $light-bg;
+                    //color: $light-bg;
+                    color: red;
                 }
             }
             img {
@@ -1040,11 +1042,12 @@ section {
             }
 
             p {
+                color: red;
                 text-align: justify;
                 padding: 10px 5px;
                 font-size: 16px;
                 font-weight: 400;
-                color: $primary-color;
+                //color: $primary-color;
                 justify-content: space-between;
             }
 
@@ -1240,7 +1243,7 @@ section {
     }
 }
 
-.about-1 {
+.about-1 { 
     background-color: white;
     text-align: justify;
     .row {
@@ -1643,6 +1646,45 @@ font-size: 19px !important;
      }
 }
 
+.bc-contactus1 {
+    background-color: white;
+    text-align: left;
+     
+     h3 {
+         font-weight: 600;
+         color: $primary-color;
+         margin-bottom: 15px;
+     }
+ 
+     .btn-primary {
+         font-weight: 600;
+         color: $light-color;
+         background-color: $primary-color;
+         border: 1.5px solid $primary-color;
+         transition-duration: 1s;
+         transition-property: color $primary-color;
+ 
+         &:hover {
+             color: $primary-color;
+             background-color: $light-bg;
+         }
+     }
+ 
+     p {
+         font-size:20px;
+         padding-left: 20px;
+         font-weight: 600;
+        
+     }
+     span {
+         color: $primary-color;
+         text-align: center;
+         padding:30px;
+         border: 1px solid $primary-color;
+         border-radius: 50%;
+     }
+} 
+
 
 .bc-about1 {
     font-weight: 400;
@@ -1735,7 +1777,7 @@ font-size: 19px !important;
 }
 
 .bmc-content-2 {
-    background-color: $primary-color;
+    background: linear-gradient(to bottom, $bmcfood-color 100%, $bmcfood-color 100%);
     //background: linear-gradient(to bottom, #007730 0%, #99ff99 170%);
     color: $light-color;
 
@@ -1818,7 +1860,7 @@ font-size: 19px !important;
 }
 
 .bmc-content-4 {
-    background-color: $primary-color;
+    background: linear-gradient(to bottom, $bmcfood-color 100%, $bmcfood-color 100%);
     //background: linear-gradient(to bottom, #007730 0%, #99ff99 170%);
     color: $light-color;
 
@@ -2534,7 +2576,7 @@ font-size: 19px !important;
 }
 
 .bc-content2 {
-    background: $primary-color;
+    background: linear-gradient(to bottom, #251F5D 100%, #251F5D 100%);
     color: $light-color;
 
     hr {
@@ -2585,7 +2627,7 @@ font-size: 19px !important;
 
 
 .bc-careeropp {
-    background: linear-gradient(to bottom,  #251F5D 0%,  #251F5D 170%);
+    background: linear-gradient(to bottom, #251F5D 100%, #251F5D 100%);
     color: $light-color;
 
     h3 {
@@ -2784,7 +2826,7 @@ $brand-color:#df8625;
     }
 
     .header {
-        background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+        background: linear-gradient(to bottom, #251F5D 100%, #251F5D 100%);
         padding: 20px;
         color: $light-color;
 

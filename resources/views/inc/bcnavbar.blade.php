@@ -61,7 +61,7 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link " href="{{ url('/rrlccontactus') }}">
+                        <a class="nav-link " href="{{ url('/bccontactus') }}">
                             <b style="color:#251F5D;">CONTACT US</b>
                         </a>
                     </li>

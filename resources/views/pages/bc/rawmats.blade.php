@@ -29,14 +29,14 @@
     <section class="section bc-partners">
         <div class="container">
             <h2>Global Partners</h2>
-            <p>Global Partners</p>
+            <p style="color:red;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, fugiat?</p>
             <hr class="hr">
             <div class="row">
                 <div class="col-sm-4">
                     <div class="card">
                         <div class="card-body">
                             <img class="d-block w-100" src="/images/logo/Adisseo.png" alt="Third slide">
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <p class="card-text" style="color:red">With supporting text below as a natural lead-in to additional content.</p>
                         </div>
                     </div>
                 </div>
@@ -44,37 +44,39 @@
                     <div class="card">
                         <div class="card-body">
                             <img class="d-block w-100" src="/images/logo/Advance.png" alt="Third slide">
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <p class="card-text" style="color:red">With supporting text below as a natural lead-in to additional content.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="card">
                         <div class="card-body">
-                            <img class="d-block w-100" src="/images/logo/Advance.png" alt="Third slide">
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <img class="d-block w-100" src="/images/logo/corel.png" alt="Third slide">
+                            <br><br>
+                            <p class="card-text" style="color:red">With supporting text below as a natural lead-in to additional content.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="section bc-partners">
+    <section class="bc-partners">
         <div class="container">
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-md-4">
                     <div class="card">
                         <div class="card-body">
-                            <img class="d-block w-100" src="/images/logo/Adisseo.png" alt="Third slide">
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <img class="d-block w-100" src="/images/logo/Cleo.png" alt="Third slide">
+                            <br><br>
+                            <p class="card-text" style="color:red">With supporting text below as a natural lead-in to additional content.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="card">
                         <div class="card-body">
-                            <img class="d-block w-100" src="/images/logo/Advance.png" alt="Third slide">
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <img class="d-block w-100" src="/images/logo/Fruita.jpg" alt="Third slide">
+                            <p class="card-text" style="color:red">With supporting text below as a natural lead-in to additional content.</p>
                         </div>
                     </div>
                 </div>

@@ -11903,7 +11903,7 @@ section {
 }
 
 .newsarticleblog-wrapper .card .bg-color p {
-  color: #efefef;
+  color: red;
 }
 
 .newsarticleblog-wrapper .card img {
@@ -11915,11 +11915,11 @@ section {
 }
 
 .newsarticleblog-wrapper .card p {
+  color: red;
   text-align: justify;
   padding: 10px 5px;
   font-size: 16px;
   font-weight: 400;
-  color: #251F5D;
   justify-content: space-between;
 }
 
@@ -12512,6 +12512,45 @@ section {
   border-radius: 50%;
 }
 
+.bc-contactus1 {
+  background-color: white;
+  text-align: left;
+}
+
+.bc-contactus1 h3 {
+  font-weight: 600;
+  color: #251F5D;
+  margin-bottom: 15px;
+}
+
+.bc-contactus1 .btn-primary {
+  font-weight: 600;
+  color: #f4f4f4;
+  background-color: #251F5D;
+  border: 1.5px solid #251F5D;
+  transition-duration: 1s;
+  transition-property: color #251F5D;
+}
+
+.bc-contactus1 .btn-primary:hover {
+  color: #251F5D;
+  background-color: #efefef;
+}
+
+.bc-contactus1 p {
+  font-size: 20px;
+  padding-left: 20px;
+  font-weight: 600;
+}
+
+.bc-contactus1 span {
+  color: #251F5D;
+  text-align: center;
+  padding: 30px;
+  border: 1px solid #251F5D;
+  border-radius: 50%;
+}
+
 .bc-about1 {
   font-weight: 400;
   color: #251F5D;
@@ -12602,7 +12641,7 @@ section {
 }
 
 .bmc-content-2 {
-  background-color: #251F5D;
+  background: linear-gradient(to bottom, #5e8836 100%, #5e8836 100%);
   color: #f4f4f4;
 }
 
@@ -12682,7 +12721,7 @@ section {
 }
 
 .bmc-content-4 {
-  background-color: #251F5D;
+  background: linear-gradient(to bottom, #5e8836 100%, #5e8836 100%);
   color: #f4f4f4;
 }
 
@@ -13387,7 +13426,7 @@ section {
 }
 
 .bc-content2 {
-  background: #251F5D;
+  background: linear-gradient(to bottom, #251F5D 100%, #251F5D 100%);
   color: #f4f4f4;
 }
 
@@ -13438,7 +13477,7 @@ section {
 }
 
 .bc-careeropp {
-  background: linear-gradient(to bottom, #251F5D 0%, #251F5D 170%);
+  background: linear-gradient(to bottom, #251F5D 100%, #251F5D 100%);
   color: #f4f4f4;
 }
 
@@ -13609,7 +13648,7 @@ section {
 }
 
 .rawmats-content3 .header {
-  background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+  background: linear-gradient(to bottom, #251F5D 100%, #251F5D 100%);
   padding: 20px;
   color: #f4f4f4;
 }

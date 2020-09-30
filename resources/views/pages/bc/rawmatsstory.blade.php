@@ -24,7 +24,7 @@
     <section class="rawmats-content3">
         <div class="container">
             <div class="header">
-                <div class="col-md-12">
+                <div class="col-md-12"> 
                     <h2>Address</h2>
                     <hr class="hr">
                 </div>    

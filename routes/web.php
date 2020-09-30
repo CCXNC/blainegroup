@@ -39,6 +39,7 @@ Route::get('rrlccontactus','PagesController@rrlccontactus')->name('rrlccontactus
 Route::get('/bcindex', 'PagesController@bcindex')->name('bcindex'); // BC HOMEPAGE
 Route::get('/bcaboutus', 'PagesController@bcaboutus')->name('bcaboutus');
 Route::get('/bcproduct','PagesController@bcproduct')->name('bcproduct');
+Route::get('/bccontactus','PagesController@bccontactus')->name('bccontactus');
 
 // BC RAWMATS
 Route::get('/bcrawmats', 'PagesController@bcrawmats')->name('rawmats');
