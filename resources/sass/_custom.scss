@@ -88,7 +88,7 @@ body {
 
         span {
             font-size:20px;
-            float:right;
+            float:right; 
         }
     }
 }
@@ -599,16 +599,6 @@ section {
             border-radius: 15px;
             box-shadow: 3px 7px $primary-bg;
             background-color: lighten(white, 15%);
-            /*padding: 15px;
-            cursor: pointer;
-            overflow: hidden;
-            position: relative;
-            border: none;
-            border-radius: 2px;
-            -webkit-box-shadow: 0 1px 3px 0 $primary-bg, 0 1px 2px 0 $primary-bg;
-            -moz-box-shadow: 0 1px 3px 0 $primary-bg, 0 1px 2px 0 $primary-bg;
-            box-shadow: 0 1px 3px 0 $primary-bg, 0 1px 2px 0 $primary-bg;
-            background-color: lighten(white, 15%);*/
 
             h5 {
                 font-weight: 800;
@@ -639,74 +629,60 @@ section {
     }
 }
 
-.keminproduct {
+.advanceproduct {
     background-color: white;
-  
+
     hr {
         border: 1px solid $primary-color;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;
         width: 150px;
-    }
-        
-    img {
-        padding-bottom: 20px;
     }
 
     h3 {
-        font-size: 26px;
+        font-size: 24px; 
         font-weight: 600;
-        color: $primary-color;
-        justify-content: space-between;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 500;
     }
 
     &-wrapper {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
         .card {
-            /*background-color: lighten(white, 15%);
-            padding: 20px;*/
-
             padding: 15px;
-            cursor: pointer;
-            overflow: hidden;
-            position: relative;
-            border: none;
-            border-radius: 2px;
-            -webkit-box-shadow: 2px 1px 3px 2px $primary-bg, 2px 1px 2px 2px $primary-bg;
-            -moz-box-shadow: 0 1px 3px 0 $primary-bg, 0 1px 2px 0 $primary-bg;
-            box-shadow: 0 1px 3px 1px $primary-bg, 0 1px 2px 1px $primary-bg;
-            border-radius: 10px;
-            background-color: lighten(white, 15%);
+           
+            h3 {
+                font-size: 24px; 
+                font-weight: 600;
+            }
+            ul li {
+                text-align: left;
+            }
 
             h5 {
-                font-weight: 800;
-                font-size: 23px;
+                text-align: left;
+                font-weight: 600;
+                font-size: 20px;
                 color: $primary-color;
-                margin: 15px 0 5px;
-                text-align: center;
-                justify-content: space-between;
+                margin: 15px 0 15px;
             }
 
             p {
-                font-size: 16px;
-                font-weight: 400;
-                color: $primary-color;
                 text-align: left;
+                font-size: 16px;
+                color: $primary-color;
+                justify-content: space-between;
             }
-        }
-        span {
-            padding-top: 40px;
-            font-size: 30px;
-            float:right;
+
         }
 
-    }
-
-    @media (max-width: 800px) {
-        grid-template-columns: repeat(1, 1fr);
-        grid-row-gap: 1em;
-        grid-auto-rows: minmax(220px, auto);
+        @media (max-width: 800px) {
+            grid-template-columns: repeat(2, 1fr);
+            grid-row-gap: 1em;
+            grid-auto-rows: minmax(220px, auto);
+        }
     }
 }
 
@@ -715,73 +691,124 @@ section {
 
     hr {
         border: 1px solid $primary-color;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;
         width: 150px;
-    }
-    
-        
-    img {
-        padding-bottom: 20px;
     }
 
     h3 {
-        font-size: 26px;
+        font-size: 24px; 
         font-weight: 600;
-        color: $primary-color;
-        justify-content: space-between;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 500;
     }
 
     &-wrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-column-gap: 1em;
+        grid-column-gap: 2em;
         grid-row-gap: 2em;
+        text-align: center;
 
         .card {
-            /*background-color: lighten(white, 15%);
-            padding: 20px;*/
-
             padding: 15px;
-            cursor: pointer;
-            overflow: hidden;
-            position: relative;
-            border: none;
-            border-radius: 2px;
-            -webkit-box-shadow: 2px 1px 3px 2px $primary-bg, 2px 1px 2px 2px $primary-bg;
-            -moz-box-shadow: 0 1px 3px 0 $primary-bg, 0 1px 2px 0 $primary-bg;
-            box-shadow: 0 1px 3px 1px $primary-bg, 0 1px 2px 1px $primary-bg;
-            border-radius: 10px;
-            background-color: lighten(white, 15%);
+           
+            h3 {
+                font-size: 24px; 
+                font-weight: 600;
+            }
+            ul li {
+                text-align: left;
+            }
 
             h5 {
-                font-weight: 800;
-                font-size: 23px;
+                text-align: left;
+                font-weight: 600;
+                font-size: 20px;
                 color: $primary-color;
-                margin: 15px 0 5px;
-                text-align: center;
-                justify-content: space-between;
+                margin: 15px 0 15px;
             }
 
             p {
-                font-size: 16px;
-                font-weight: 400;
-                color: $primary-color;
                 text-align: left;
+                font-size: 16px;
+                color: $primary-color;
+                justify-content: space-between;
             }
-        }
-        span {
-            padding-top: 30px;
-            font-size: 30px;
-            float:right;
+
         }
 
+        @media (max-width: 800px) {
+            grid-template-columns: repeat(2, 1fr);
+            grid-row-gap: 1em;
+            grid-auto-rows: minmax(220px, auto);
+        }
+    }
+}
+
+.keminproduct {
+    background-color: white;
+
+    hr {
+        border: 1px solid $primary-color;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 150px;
     }
 
-    @media (max-width: 800px) {
-        grid-template-columns: repeat(1, 1fr);
-        grid-row-gap: 1em;
-        grid-auto-rows: minmax(220px, auto);
+    h3 {
+        font-size: 24px; 
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    &-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 2em;
+        grid-row-gap: 2em;
+        text-align: center;
+
+        .card {
+            padding: 15px;
+           
+            h3 {
+                font-size: 24px; 
+                font-weight: 600;
+            }
+            ul li {
+                text-align: left;
+            }
+
+            h5 {
+                text-align: left;
+                font-weight: 600;
+                font-size: 20px;
+                color: $primary-color;
+                margin: 15px 0 15px;
+            }
+
+            p {
+                text-align: left;
+                font-size: 16px;
+                color: $primary-color;
+                justify-content: space-between;
+            }
+
+        }
+
+        @media (max-width: 800px) {
+            grid-template-columns: repeat(2, 1fr);
+            grid-row-gap: 1em;
+            grid-auto-rows: minmax(220px, auto);
+        }
     }
 }
 
@@ -791,8 +818,8 @@ section {
 
     hr {
         border: 1px solid $primary-color;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;
         width: 150px;
     }
     
@@ -802,10 +829,9 @@ section {
     }
 
     h3 {
-        font-size: 26px;
+        font-size: 24px;
         font-weight: 600;
         color: $primary-color;
-        justify-content: space-between;
     }
 
     &-wrapper {
@@ -862,13 +888,13 @@ section {
 
     hr {
         border: 1px solid $primary-color;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;
         width: 150px;
     }
 
     h3 {
-        font-size: 26px; 
+        font-size: 24px; 
         font-weight: 600;
     }
 
@@ -880,36 +906,32 @@ section {
     &-wrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-column-gap: 3em;
-        grid-row-gap: 3em;
+        grid-column-gap: 2em;
+        grid-row-gap: 2em;
         text-align: center;
 
         .card {
-            /*background-color: lighten(white, 15%);
-            padding: 20px;*/
-
             padding: 15px;
-            cursor: pointer;
-            overflow: hidden;
-            position: relative;
-            border: none;
-            border-radius: 2px;
-            -webkit-box-shadow: 2px 1px 3px 2px $primary-bg, 2px 1px 2px 2px $primary-bg;
-            -moz-box-shadow: 0 1px 3px 0 $primary-bg, 0 1px 2px 0 $primary-bg;
-            box-shadow: 0 1px 3px 1px $primary-bg, 0 1px 2px 1px $primary-bg;
-            border-radius: 10px;
-            background-color: lighten(white, 15%);
+           
+            h3 {
+                font-size: 24px; 
+                font-weight: 600;
+            }
+            ul li {
+                text-align: left;
+            }
 
             h5 {
-                font-weight: 800;
-                font-size: 15px;
+                text-align: left;
+                font-weight: 600;
+                font-size: 20px;
                 color: $primary-color;
-                margin: 15px 0 25px;
+                margin: 15px 0 15px;
             }
 
             p {
-                font-size: 15px;
-                font-weight: 400;
+                text-align: left;
+                font-size: 16px;
                 color: $primary-color;
                 justify-content: space-between;
             }
@@ -2185,28 +2207,47 @@ font-size: 19px !important;
         height:100%;
         color: black !important;
         text-align: left;
-        h3 {
-            font-size: 26px;
-            color: $bmcpahd-color;
-            font-weight: 600;
-            text-align:left;
-            margin-top: 70px;
+        .caption {
+            h3 {
+                font-size: 26px;
+                color: $bmcpahd-color;
+                font-weight: 600;
+                text-align:left;
+                margin-top: 70px;
+            }
+    
+            h5 {
+                font-size: 18px;
+                text-align:left;
+                color: $primary-color;
+                font-weight: 600;
+            }
+            
+            p {
+                text-align:left;
+                font-size: 15px;
+                color: $primary-color;
+                width: 35%;
+            }
         }
-
-        h5 {
-            font-size: 18px;
-            text-align:left;
-            color: $primary-color;
-            font-weight: 600;
-        }
-        
-        p {
-            text-align:left;
-            font-size: 15px;
-            color: $primary-color;
-            width: 35%;
+        .caption-1 {
+            h3 {
+                font-size: 32px;
+                color: $primary-color;
+                font-weight: 600;
+                text-align:left;
+                margin-top: 150px;
+            }
+    
+            h5 {
+                font-size: 24px;
+                text-align:left;
+                color: $primary-color;
+                font-weight: 600;
+            }
         }
     }
+    
    
  /*.carousel-caption {
     color: black !important;

@@ -16,15 +16,32 @@
             </div>
         </div>
     </section>
-    <section class="keminproduct">
+    <section class="advanceproduct">
         <div class="container">
             <h3>SPECIAL PRODUCT PORTFOLIO ADVANCE ENZYME</h3>
             <hr class="hr">
-            <div class="keminproduct-wrapper">
-                <div class="card">
-                    <h3><img src="/images/blank.png" width="600px;" height="300px"></h3>
-                    <h5><img src="/images/logo/advance.png" width="250px;"></h5>
-                </div>
+            <div class="advanceproduct-wrapper">
+                <center>
+                    <div class="card" style="width: 30rem; ">
+                        <br>
+                        <h3><img src="/images/rrlc/specialproduct/advance1.png" width="300px;"></h3>
+                        <br>
+                        <h5>Description</h5>
+                        <p>Complete Enzyme for Complex Feeds</p>
+                        <h5>FEATURES AND BENEFITS</h5>
+                        <p>A complete multienzymes applicable for both Corn-Soya and Wheat-Soya base feed formulation:</p>
+                        <ul>
+                            <li>Feed Efficiency</li>
+                            <li>Feed Cost Savings</li>
+                        </ul>
+                        <h5>RECOMMENDED DOSAGE</h5>
+                        <p>
+                            Dosage: 200-300 g/ton
+                        </p>
+                        <p>Packaging: 25 kg kraft bag</p>
+                    </div>
+                </center>
+                
         </div>
     </section> 
 
