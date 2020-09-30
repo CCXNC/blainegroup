@@ -21,9 +21,39 @@
             <h3>SPECIAL PRODUCT PORTFOLIO KEMIN</h3>
             <hr class="hr">
             <div class="keminproduct-wrapper">
-                <div class="card">
-                    <h3><img src="/images/blank.png" width="700px;" height="300px"></h3>
-                    <h5><img src="/images/logo/kemin.png" width="250px;"></h5>
+                <div class="card" style="width: 30rem; ">
+                    <br>
+                    <h3><img src="/images/rrlc/specialproduct/kemin1.png" width="300px;"></h3>
+                    <br>
+                    <h5>Description</h5>
+                    <p>The Molecularly Activated Mycotoxin Binder</p>
+                    <h5>FEATURES AND BENEFITS</h5>
+                    <p>A high-end, purified and activated adsorbent that binds wide range of feed mycotoxins.</p>
+                    <h5>RECOMMENDED DOSAGE</h5>
+                    <p>
+                        Regular Dosage: 1 kg/ ton
+                    </p>
+                    <p>High Mycotoxin </p>
+                    <p>Contamination: 2-3 kg/ton</p>
+                    <p>Packaging: 25 kg kraft bag</p>
+                </div>
+                <div class="card" style="width: 30rem; ">
+                    <br><br><br>
+                    <h3><img src="/images/rrlc/specialproduct/kemin2.png" width="300px;"></h3>
+                    <br>
+                    <h5>Description</h5>
+                    <p>Blend Synergy of Multi Organic Acids</p>
+                    <h5>FEATURES AND BENEFITS</h5>
+                    <p>Synergistic blend of most effective organic acids for better gut acidification and stronger antimicrobial activity:</p>
+                    <ul>
+                        <li>Better gut health</li>
+                    </ul>
+                    <h5>RECOMMENDED DOSAGE</h5>
+                    <p>
+                        Regular Dosage: 1 kg/ton
+                    </p>
+                    <p>With Incidence of Diarrhea/wet droppings: 2 to 3 kg/ton</p>
+                    <p>Packaging: 25 kg kraft bag</p>
                 </div>
         </div>
     </section> 

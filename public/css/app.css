@@ -11473,16 +11473,6 @@ section {
   border-radius: 15px;
   box-shadow: 3px 7px #007730;
   background-color: white;
-  /*padding: 15px;
-  cursor: pointer;
-  overflow: hidden;
-  position: relative;
-  border: none;
-  border-radius: 2px;
-  -webkit-box-shadow: 0 1px 3px 0 $primary-bg, 0 1px 2px 0 $primary-bg;
-  -moz-box-shadow: 0 1px 3px 0 $primary-bg, 0 1px 2px 0 $primary-bg;
-  box-shadow: 0 1px 3px 0 $primary-bg, 0 1px 2px 0 $primary-bg;
-  background-color: lighten(white, 15%);*/
 }
 
 .specialproduct-wrapper .card h5 {
@@ -11514,72 +11504,58 @@ section {
   }
 }
 
-.keminproduct {
+.advanceproduct {
   background-color: white;
 }
 
-.keminproduct hr {
+.advanceproduct hr {
   border: 1px solid #251F5D;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   width: 150px;
 }
 
-.keminproduct img {
-  padding-bottom: 20px;
-}
-
-.keminproduct h3 {
-  font-size: 26px;
+.advanceproduct h3 {
+  font-size: 24px;
   font-weight: 600;
-  color: #251F5D;
-  justify-content: space-between;
 }
 
-.keminproduct-wrapper {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
+.advanceproduct p {
+  font-size: 20px;
+  font-weight: 500;
 }
 
-.keminproduct-wrapper .card {
-  /*background-color: lighten(white, 15%);
-  padding: 20px;*/
+.advanceproduct-wrapper .card {
   padding: 15px;
-  cursor: pointer;
-  overflow: hidden;
-  position: relative;
-  border: none;
-  border-radius: 2px;
-  box-shadow: 0 1px 3px 1px #007730, 0 1px 2px 1px #007730;
-  border-radius: 10px;
-  background-color: white;
 }
 
-.keminproduct-wrapper .card h5 {
-  font-weight: 800;
-  font-size: 23px;
-  color: #251F5D;
-  margin: 15px 0 5px;
-  text-align: center;
-  justify-content: space-between;
+.advanceproduct-wrapper .card h3 {
+  font-size: 24px;
+  font-weight: 600;
 }
 
-.keminproduct-wrapper .card p {
-  font-size: 16px;
-  font-weight: 400;
-  color: #251F5D;
+.advanceproduct-wrapper .card ul li {
   text-align: left;
 }
 
-.keminproduct-wrapper span {
-  padding-top: 40px;
-  font-size: 30px;
-  float: right;
+.advanceproduct-wrapper .card h5 {
+  text-align: left;
+  font-weight: 600;
+  font-size: 20px;
+  color: #251F5D;
+  margin: 15px 0 15px;
+}
+
+.advanceproduct-wrapper .card p {
+  text-align: left;
+  font-size: 16px;
+  color: #251F5D;
+  justify-content: space-between;
 }
 
 @media (max-width: 800px) {
-  .keminproduct {
-    grid-template-columns: repeat(1, 1fr);
+  .advanceproduct-wrapper {
+    grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
   }
@@ -11591,68 +11567,125 @@ section {
 
 .cbsproduct hr {
   border: 1px solid #251F5D;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   width: 150px;
 }
 
-.cbsproduct img {
-  padding-bottom: 20px;
+.cbsproduct h3 {
+  font-size: 24px;
+  font-weight: 600;
 }
 
-.cbsproduct h3 {
-  font-size: 26px;
-  font-weight: 600;
-  color: #251F5D;
-  justify-content: space-between;
+.cbsproduct p {
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .cbsproduct-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 1em;
+  grid-column-gap: 2em;
   grid-row-gap: 2em;
+  text-align: center;
 }
 
 .cbsproduct-wrapper .card {
-  /*background-color: lighten(white, 15%);
-  padding: 20px;*/
   padding: 15px;
-  cursor: pointer;
-  overflow: hidden;
-  position: relative;
-  border: none;
-  border-radius: 2px;
-  box-shadow: 0 1px 3px 1px #007730, 0 1px 2px 1px #007730;
-  border-radius: 10px;
-  background-color: white;
 }
 
-.cbsproduct-wrapper .card h5 {
-  font-weight: 800;
-  font-size: 23px;
-  color: #251F5D;
-  margin: 15px 0 5px;
-  text-align: center;
-  justify-content: space-between;
+.cbsproduct-wrapper .card h3 {
+  font-size: 24px;
+  font-weight: 600;
 }
 
-.cbsproduct-wrapper .card p {
-  font-size: 16px;
-  font-weight: 400;
-  color: #251F5D;
+.cbsproduct-wrapper .card ul li {
   text-align: left;
 }
 
-.cbsproduct-wrapper span {
-  padding-top: 30px;
-  font-size: 30px;
-  float: right;
+.cbsproduct-wrapper .card h5 {
+  text-align: left;
+  font-weight: 600;
+  font-size: 20px;
+  color: #251F5D;
+  margin: 15px 0 15px;
+}
+
+.cbsproduct-wrapper .card p {
+  text-align: left;
+  font-size: 16px;
+  color: #251F5D;
+  justify-content: space-between;
 }
 
 @media (max-width: 800px) {
-  .cbsproduct {
-    grid-template-columns: repeat(1, 1fr);
+  .cbsproduct-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 1em;
+    grid-auto-rows: minmax(220px, auto);
+  }
+}
+
+.keminproduct {
+  background-color: white;
+}
+
+.keminproduct hr {
+  border: 1px solid #251F5D;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 150px;
+}
+
+.keminproduct h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.keminproduct p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.keminproduct-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 2em;
+  grid-row-gap: 2em;
+  text-align: center;
+}
+
+.keminproduct-wrapper .card {
+  padding: 15px;
+}
+
+.keminproduct-wrapper .card h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.keminproduct-wrapper .card ul li {
+  text-align: left;
+}
+
+.keminproduct-wrapper .card h5 {
+  text-align: left;
+  font-weight: 600;
+  font-size: 20px;
+  color: #251F5D;
+  margin: 15px 0 15px;
+}
+
+.keminproduct-wrapper .card p {
+  text-align: left;
+  font-size: 16px;
+  color: #251F5D;
+  justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .keminproduct-wrapper {
+    grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
   }
@@ -11664,8 +11697,8 @@ section {
 
 .category hr {
   border: 1px solid #251F5D;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   width: 150px;
 }
 
@@ -11674,10 +11707,9 @@ section {
 }
 
 .category h3 {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 600;
   color: #251F5D;
-  justify-content: space-between;
 }
 
 .category-wrapper {
@@ -11735,13 +11767,13 @@ section {
 
 .adisseoproduct hr {
   border: 1px solid #251F5D;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   width: 150px;
 }
 
 .adisseoproduct h3 {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 600;
 }
 
@@ -11753,35 +11785,35 @@ section {
 .adisseoproduct-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 3em;
-  grid-row-gap: 3em;
+  grid-column-gap: 2em;
+  grid-row-gap: 2em;
   text-align: center;
 }
 
 .adisseoproduct-wrapper .card {
-  /*background-color: lighten(white, 15%);
-  padding: 20px;*/
   padding: 15px;
-  cursor: pointer;
-  overflow: hidden;
-  position: relative;
-  border: none;
-  border-radius: 2px;
-  box-shadow: 0 1px 3px 1px #007730, 0 1px 2px 1px #007730;
-  border-radius: 10px;
-  background-color: white;
+}
+
+.adisseoproduct-wrapper .card h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.adisseoproduct-wrapper .card ul li {
+  text-align: left;
 }
 
 .adisseoproduct-wrapper .card h5 {
-  font-weight: 800;
-  font-size: 15px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 20px;
   color: #251F5D;
-  margin: 15px 0 25px;
+  margin: 15px 0 15px;
 }
 
 .adisseoproduct-wrapper .card p {
-  font-size: 15px;
-  font-weight: 400;
+  text-align: left;
+  font-size: 16px;
   color: #251F5D;
   justify-content: space-between;
 }
@@ -13038,7 +13070,7 @@ section {
   text-align: left;
 }
 
-.carousel-caption h3 {
+.carousel-caption .caption h3 {
   font-size: 26px;
   color: #d04a96;
   font-weight: 600;
@@ -13046,18 +13078,33 @@ section {
   margin-top: 70px;
 }
 
-.carousel-caption h5 {
+.carousel-caption .caption h5 {
   font-size: 18px;
   text-align: left;
   color: #251F5D;
   font-weight: 600;
 }
 
-.carousel-caption p {
+.carousel-caption .caption p {
   text-align: left;
   font-size: 15px;
   color: #251F5D;
   width: 35%;
+}
+
+.carousel-caption .caption-1 h3 {
+  font-size: 32px;
+  color: #251F5D;
+  font-weight: 600;
+  text-align: left;
+  margin-top: 150px;
+}
+
+.carousel-caption .caption-1 h5 {
+  font-size: 24px;
+  text-align: left;
+  color: #251F5D;
+  font-weight: 600;
 }
 
 /*.carousel-caption {
