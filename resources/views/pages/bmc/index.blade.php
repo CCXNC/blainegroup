@@ -4,13 +4,7 @@
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="/images/SampleCarousel/Picture3.jpg" alt="First slide">
-                <div class="carousel-caption">
-                    <h2 class="animated fadeInLeft">Taste the world with us</h2>
-                    <p class="animated fadeInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                    <br><br>
-                    <p class="animated fadeInUp"><a href="#" class="btn btn-transparent btn-rounded btn-large">Read More</a></p>
-                </div>
+                <img class="d-block w-100" src="/images/123.jpg" alt="First slide">
             </div>
         </div>
     </div>
@@ -35,8 +29,18 @@
             <p>Blaine Manufacturing Corporation (BMC) was founded in 2016 with the primary goal to create a synergy and efficiency between two business units–Blaine Food and Blaine Personal & Home Care that focus on human needs and goals on areas of food, personal care and home care. Major business activities presently engaged-in are manufacturing, selling, marketing and distribution of food/ beverage ingredients, personals and home care products and its raw materials.</p>
             <div class="row">
                 <div class="col-md-6">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae repellendus, quas quia eveniet perferendis at eum, in iusto odio voluptate, sint nulla inventore quaerat ab vitae amet! Earum itaque est aliquam, illo vitae ratione magni, explicabo in tenetur, amet reprehenderit?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus ex laborum consequuntur neque nulla alias voluptatibus eveniet illo pariatur maxime expedita, dolorum beatae obcaecati similique dolorem quaerat iusto cupiditate fugit.</p>
+                    <p>
+                        Blaine intensifies expansion to respon to the growing demand of food Industry. Blaine Corporation
+                        established its food division, Blaine Food Corporation in 2004. It started as a supplier of various
+                        flavors, savory ingredients, vitamins and minerals for food and beverage products. It expands and it
+                        becomes one of the preferred suppliers of high-quality raw materials and it now offers its own
+                        manufactured products. It is known as a local vitamin premix company for its strength in vitamin
+                        fortification.
+                        <br><br>
+                        In 2018, Blaine Manufacturing Corporation was formed to respond to the increasing demand of the food
+                        industry. The resources and capabilities of Blaine Food Corporation and Blaine Personal and Home Care
+                        were consolidated to have a strong presence in the Philippine market.
+                    </p>
                 </div>
                 <div class="col-md-6">
                     <img src="/images/blank.png" width="400px;" alt="Video">
