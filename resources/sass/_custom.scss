@@ -631,10 +631,11 @@ section {
             float:right;
     }
 
-    @media (max-width: 800px) {
-        grid-template-columns: repeat(1, 1fr);
-        grid-row-gap: 1em;
-        grid-auto-rows: minmax(220px, auto);
+        @media (max-width: 800px) {
+            grid-template-columns: repeat(1, 1fr);
+            grid-row-gap: 1em;
+            grid-auto-rows: minmax(220px, auto);
+        }
     }
 }
 
@@ -846,10 +847,6 @@ section {
                 text-align: left;
             }
         }
-        span {
-            font-size: 30px;
-            float:right;
-        }
 
     }
 
@@ -925,11 +922,11 @@ section {
             grid-auto-rows: minmax(220px, auto);
         }
     }
- }
+}
 
  .newsarticle { 
     background-color: white;
-
+    color: red;
     hr {
         border: 1px solid $primary-color;
         margin-top: 30px;
@@ -966,11 +963,11 @@ section {
             }
 
             p {
+                color: red;
                 text-align: justify;
                 padding: 10px 5px;
                 font-size: 16px;
                 font-weight: 400;
-                color: $primary-color;
                 justify-content: space-between;
 
             }
@@ -983,10 +980,10 @@ section {
             grid-auto-rows: minmax(220px, auto);
         }
     }
- }
+}
 
 
- .newsarticleblog {
+.newsarticleblog {
     background-color: white;
 
     hr {
@@ -1241,9 +1238,9 @@ section {
             grid-auto-rows: minmax(220px, auto);
         }
     }
- }
+}
 
- .about-1 {
+.about-1 {
     background-color: white;
     text-align: justify;
     .row {
@@ -1332,9 +1329,9 @@ section {
             grid-auto-rows: minmax(220px, auto);
         }
     }
- }
+}
 
- .contact-1 {
+.contact-1 {
     padding: 20px;
     margin-top: 20px;
     
@@ -1343,13 +1340,13 @@ section {
         font-size: 22px;
         font-weight: 600;
     }
- }
+}
 
- .fw {
-    font-size: 19px !important;
- }
+.fw {
+font-size: 19px !important;
+}
 
- .content-3 {
+.content-3 {
    background-color: white;
 
     hr {
@@ -1552,32 +1549,29 @@ section {
         width: 150px;
 
     }
-    
-
-    
 }
 
 .bc-partners1 {
     background-color: white;
  
-     hr {
-         border: 1px solid $primary-color;
-         margin-top: 30px;
-         margin-bottom: 30px;
-         width: 150px;
-     }
+    hr {
+        border: 1px solid $primary-color;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 150px;
+    }
+
+    h3 {
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 500;
+    }
  
-     h3 {
-         font-size: 26px;
-         font-weight: 600;
-     }
- 
-     p {
-         font-size: 20px;
-         font-weight: 500;
-     }
- 
-     &-wrapper {
+    &-wrapper {
          display: grid;
          grid-template-columns: repeat(2, 1fr);
          grid-column-gap: 1em;
@@ -1608,8 +1602,8 @@ section {
              grid-row-gap: 1em;
              grid-auto-rows: minmax(220px, auto);
          }
-     }
- }
+    }
+}
 
 .bc-contactus {
     background-color: white;
@@ -1647,7 +1641,7 @@ section {
          border: 1px solid black;
          border-radius: 50%;
      }
- }
+}
 
 
 .bc-about1 {
@@ -2415,12 +2409,12 @@ section {
     }
 }
 
-    @media screen and (max-width: 479px) {
-        #parallax-world-of-ugg .block {
-            padding: 30px 15px; 
-            width:290px;
-        }
+@media screen and (max-width: 479px) {
+    #parallax-world-of-ugg .block {
+        padding: 30px 15px; 
+        width:290px;
     }
+}
     
 @media screen and (max-width: 479px) {
   #parallax-world-of-ugg .block {padding: 30px 15px; width:290px;}
@@ -2674,13 +2668,13 @@ section {
          border: 1px solid $primary-color;
          border-radius: 50%;
      }
- } 
+} 
 
- $color-white:#fff;
+$color-white:#fff;
 $brand-color-g:#348e80;
 $brand-color:#df8625;
 
-@mixin respond-to($breakpoint) {
+    @mixin respond-to($breakpoint) {
     @if $breakpoint == "xs" {
         @media screen and (max-width: 767px) {
           @content;
@@ -2861,9 +2855,9 @@ $brand-color:#df8625;
             grid-auto-rows: minmax(220px, auto);
         }
     }
- }
+}
 
- .rawmatsproducts { 
+.rawmatsproducts { 
     background-color: white;
 
     hr {
@@ -2919,5 +2913,4 @@ $brand-color:#df8625;
             grid-auto-rows: minmax(220px, auto);
         }
     }
-}
 }

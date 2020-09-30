@@ -22,16 +22,18 @@
                 <div class="col-md-8">
                     <div class="newsarticle-wrapper">
                         <div class="card">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <h5><img src="/images/blank.png" width="200px;">  </h5>
-                                </div>
-                                <div class="col-md-8">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, esse adipisci velit consequuntur optio laudantium quae ullam nesciunt pariatur doloremque totam suscipit voluptatem! Quis mollitia ad, qui quas alias facere!
-                                        <a href="#" class="pull-right">READ MORE</a>
-                                    </p>
-                                </div>
-                            </div>    
+                            <a href="#">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <h5><img src="/images/blank.png" width="200px;">  </h5>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, esse adipisci velit consequuntur optio laudantium quae ullam nesciunt pariatur doloremque totam suscipit voluptatem! Quis mollitia ad, qui quas alias facere!
+                                            <a href="#" class="pull-right">READ MORE</a>
+                                        </p>
+                                    </div>
+                                </div>  
+                            </a>
                         </div>
                         <div class="card">
                             <div class="row">

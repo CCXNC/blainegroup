@@ -4,7 +4,7 @@
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="/images/carousel1/123.png" alt="First slide">
+                <img class="d-block w-100" src="/images/123.png" alt="First slide">
             </div>
         </div>
     </div>
@@ -33,18 +33,26 @@
             <h3>CATEGORY AREA</h3>
             <hr class="hr">
             <div class="category-wrapper">
-                <div class="card">
-                    <h5><img src="/images/logo/adisseo.png" width="200px;">  <span class="fa fa-link"></span></h5>
-                </div>
-                <div class="card">
-                    <h5><img src="/images/logo/cbs.png" width="200px;">  <span class="fa fa-link"></span></h5>
-                </div>
-                <div class="card">
-                    <h5><img src="/images/logo/advance.png" width="200px;">  <span class="fa fa-link"></span></h5>
-                </div>
-                <div class="card">
-                    <h5><img src="/images/logo/kemin.png" width="200px;">  <span class="fa fa-link"></span></h5>
-                </div>
+                <a href="{{ url('/adisseoproduct') }}">
+                    <div class="card">
+                        <h5><img src="/images/logo/adisseo.png" width="220px;"></h5>
+                    </div>
+                </a> 
+                <a href="{{ url('/cbsproduct')}}">
+                    <div class="card">
+                        <h5><img src="/images/logo/cbs.png" width="220px;"></h5>
+                    </div>
+                </a>
+                <a href="{{ url('/enzymeproduct')}}">
+                    <div class="card">
+                        <h5><img src="/images/logo/advance.png" width="220px;"></h5>
+                    </div>
+                </a>    
+                <a href="{{ url('/keminproduct') }}">
+                    <div class="card">
+                        <h5><img src="/images/logo/kemin.png" width="220px;"></h5>
+                    </div>
+                </a>
             </div>
         </div>
     </section> 

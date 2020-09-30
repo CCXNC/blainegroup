@@ -11440,63 +11440,6 @@ section {
 
 .specialproduct {
   background-color: white;
-  /**
-   * Button
-   * Carousel Button
-   */
-  /**
-   * Change animation duration
-   * BMC FOOD Carousel Homepage
-   */
-  /*.carousel-caption {
-     color: black !important;
-     text-align: left;
-     margin-top: -100px;
-
-     h2 {
-         font-size: 29px;
-         color: $bmcpahd-color;
-         font-weight: 600;
-     }
-     h5 {
-         font-size: 20px;
-         color: $primary-color;
-         font-weight: 600;
-     }
-     p {
-         font-size: 18px;
-         color: $primary-color;
-     }
-  }*/
-  /* Override UGG site */
-  /* Helpers */
-  /**************************/
-  /* Typography */
-  /**************************/
-  /* Section - Title */
-  /**************************/
-  /* Section - Block */
-  /**************************/
-  /* Section - Parallax */
-  /**************************/
-  /*#parallax-world-of-ugg .parallax-three {
-      padding-top: 200px; 
-      padding-bottom: 200px; 
-      overflow: hidden; 
-      position: relative; 
-      width: 100%; 
-      background-image: url(https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=); 
-      background-attachment: fixed; 
-      background-size: cover; 
-      -moz-background-size: cover; 
-      -webkit-background-size: cover; 
-      background-repeat: no-repeat; 
-      background-position: center center;
-  }*/
-  /* Extras */
-  /**************************/
-  /* Media Queries */
-  /**************************/
 }
 
 .specialproduct hr {
@@ -11571,34 +11514,34 @@ section {
   }
 }
 
-.specialproduct .keminproduct {
+.keminproduct {
   background-color: white;
 }
 
-.specialproduct .keminproduct hr {
+.keminproduct hr {
   border: 1px solid #251F5D;
   margin-top: 30px;
   margin-bottom: 30px;
   width: 150px;
 }
 
-.specialproduct .keminproduct img {
+.keminproduct img {
   padding-bottom: 20px;
 }
 
-.specialproduct .keminproduct h3 {
+.keminproduct h3 {
   font-size: 26px;
   font-weight: 600;
   color: #251F5D;
   justify-content: space-between;
 }
 
-.specialproduct .keminproduct-wrapper {
+.keminproduct-wrapper {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
 }
 
-.specialproduct .keminproduct-wrapper .card {
+.keminproduct-wrapper .card {
   /*background-color: lighten(white, 15%);
   padding: 20px;*/
   padding: 15px;
@@ -11612,7 +11555,7 @@ section {
   background-color: white;
 }
 
-.specialproduct .keminproduct-wrapper .card h5 {
+.keminproduct-wrapper .card h5 {
   font-weight: 800;
   font-size: 23px;
   color: #251F5D;
@@ -11621,57 +11564,57 @@ section {
   justify-content: space-between;
 }
 
-.specialproduct .keminproduct-wrapper .card p {
+.keminproduct-wrapper .card p {
   font-size: 16px;
   font-weight: 400;
   color: #251F5D;
   text-align: left;
 }
 
-.specialproduct .keminproduct-wrapper span {
+.keminproduct-wrapper span {
   padding-top: 40px;
   font-size: 30px;
   float: right;
 }
 
 @media (max-width: 800px) {
-  .specialproduct .keminproduct {
+  .keminproduct {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
   }
 }
 
-.specialproduct .cbsproduct {
+.cbsproduct {
   background-color: white;
 }
 
-.specialproduct .cbsproduct hr {
+.cbsproduct hr {
   border: 1px solid #251F5D;
   margin-top: 30px;
   margin-bottom: 30px;
   width: 150px;
 }
 
-.specialproduct .cbsproduct img {
+.cbsproduct img {
   padding-bottom: 20px;
 }
 
-.specialproduct .cbsproduct h3 {
+.cbsproduct h3 {
   font-size: 26px;
   font-weight: 600;
   color: #251F5D;
   justify-content: space-between;
 }
 
-.specialproduct .cbsproduct-wrapper {
+.cbsproduct-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 1em;
   grid-row-gap: 2em;
 }
 
-.specialproduct .cbsproduct-wrapper .card {
+.cbsproduct-wrapper .card {
   /*background-color: lighten(white, 15%);
   padding: 20px;*/
   padding: 15px;
@@ -11685,7 +11628,7 @@ section {
   background-color: white;
 }
 
-.specialproduct .cbsproduct-wrapper .card h5 {
+.cbsproduct-wrapper .card h5 {
   font-weight: 800;
   font-size: 23px;
   color: #251F5D;
@@ -11694,57 +11637,57 @@ section {
   justify-content: space-between;
 }
 
-.specialproduct .cbsproduct-wrapper .card p {
+.cbsproduct-wrapper .card p {
   font-size: 16px;
   font-weight: 400;
   color: #251F5D;
   text-align: left;
 }
 
-.specialproduct .cbsproduct-wrapper span {
+.cbsproduct-wrapper span {
   padding-top: 30px;
   font-size: 30px;
   float: right;
 }
 
 @media (max-width: 800px) {
-  .specialproduct .cbsproduct {
+  .cbsproduct {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
   }
 }
 
-.specialproduct .category {
+.category {
   background-color: white;
 }
 
-.specialproduct .category hr {
+.category hr {
   border: 1px solid #251F5D;
   margin-top: 30px;
   margin-bottom: 30px;
   width: 150px;
 }
 
-.specialproduct .category img {
+.category img {
   padding-bottom: 20px;
 }
 
-.specialproduct .category h3 {
+.category h3 {
   font-size: 26px;
   font-weight: 600;
   color: #251F5D;
   justify-content: space-between;
 }
 
-.specialproduct .category-wrapper {
+.category-wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 1em;
   grid-row-gap: 2em;
 }
 
-.specialproduct .category-wrapper .card {
+.category-wrapper .card {
   border: 1px solid #007730;
   padding: 15px;
   border-radius: 15px;
@@ -11762,7 +11705,7 @@ section {
   background-color: lighten(white, 15%);*/
 }
 
-.specialproduct .category-wrapper .card h5 {
+.category-wrapper .card h5 {
   font-weight: 800;
   font-size: 23px;
   color: #251F5D;
@@ -11771,48 +11714,43 @@ section {
   justify-content: space-between;
 }
 
-.specialproduct .category-wrapper .card p {
+.category-wrapper .card p {
   font-size: 16px;
   font-weight: 400;
   color: #251F5D;
   text-align: left;
 }
 
-.specialproduct .category-wrapper span {
-  font-size: 30px;
-  float: right;
-}
-
 @media (max-width: 800px) {
-  .specialproduct .category {
+  .category {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
   }
 }
 
-.specialproduct .adisseoproduct {
+.adisseoproduct {
   background-color: white;
 }
 
-.specialproduct .adisseoproduct hr {
+.adisseoproduct hr {
   border: 1px solid #251F5D;
   margin-top: 30px;
   margin-bottom: 30px;
   width: 150px;
 }
 
-.specialproduct .adisseoproduct h3 {
+.adisseoproduct h3 {
   font-size: 26px;
   font-weight: 600;
 }
 
-.specialproduct .adisseoproduct p {
+.adisseoproduct p {
   font-size: 20px;
   font-weight: 500;
 }
 
-.specialproduct .adisseoproduct-wrapper {
+.adisseoproduct-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 3em;
@@ -11820,7 +11758,7 @@ section {
   text-align: center;
 }
 
-.specialproduct .adisseoproduct-wrapper .card {
+.adisseoproduct-wrapper .card {
   /*background-color: lighten(white, 15%);
   padding: 20px;*/
   padding: 15px;
@@ -11834,14 +11772,14 @@ section {
   background-color: white;
 }
 
-.specialproduct .adisseoproduct-wrapper .card h5 {
+.adisseoproduct-wrapper .card h5 {
   font-weight: 800;
   font-size: 15px;
   color: #251F5D;
   margin: 15px 0 25px;
 }
 
-.specialproduct .adisseoproduct-wrapper .card p {
+.adisseoproduct-wrapper .card p {
   font-size: 15px;
   font-weight: 400;
   color: #251F5D;
@@ -11849,39 +11787,40 @@ section {
 }
 
 @media (max-width: 800px) {
-  .specialproduct .adisseoproduct-wrapper {
+  .adisseoproduct-wrapper {
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
   }
 }
 
-.specialproduct .newsarticle {
+.newsarticle {
   background-color: white;
+  color: red;
 }
 
-.specialproduct .newsarticle hr {
+.newsarticle hr {
   border: 1px solid #251F5D;
   margin-top: 30px;
   margin-bottom: 30px;
   width: 150px;
 }
 
-.specialproduct .newsarticle h3 {
+.newsarticle h3 {
   font-size: 26px;
   font-weight: 600;
 }
 
-.specialproduct .newsarticle .card-body {
+.newsarticle .card-body {
   text-align: justify;
 }
 
-.specialproduct .newsarticle .card-header {
+.newsarticle .card-header {
   background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
   color: #efefef;
 }
 
-.specialproduct .newsarticle-wrapper {
+.newsarticle-wrapper {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-column-gap: 3em;
@@ -11889,62 +11828,62 @@ section {
   text-align: left;
 }
 
-.specialproduct .newsarticle-wrapper .card {
+.newsarticle-wrapper .card {
   background-color: white;
   padding: 20px;
 }
 
-.specialproduct .newsarticle-wrapper .card h5 {
+.newsarticle-wrapper .card h5 {
   margin: 15px 0 25px;
 }
 
-.specialproduct .newsarticle-wrapper .card p {
+.newsarticle-wrapper .card p {
+  color: red;
   text-align: justify;
   padding: 10px 5px;
   font-size: 16px;
   font-weight: 400;
-  color: #251F5D;
   justify-content: space-between;
 }
 
 @media (max-width: 800px) {
-  .specialproduct .newsarticle-wrapper {
+  .newsarticle-wrapper {
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
   }
 }
 
-.specialproduct .newsarticleblog {
+.newsarticleblog {
   background-color: white;
 }
 
-.specialproduct .newsarticleblog hr {
+.newsarticleblog hr {
   border: 1px solid #251F5D;
   margin-top: 30px;
   margin-bottom: 30px;
   width: 150px;
 }
 
-.specialproduct .newsarticleblog h3 {
+.newsarticleblog h3 {
   font-size: 26px;
   font-weight: 600;
 }
 
-.specialproduct .newsarticleblog .card-body {
+.newsarticleblog .card-body {
   text-align: justify;
 }
 
-.specialproduct .newsarticleblog span {
+.newsarticleblog span {
   font-size: 10px;
 }
 
-.specialproduct .newsarticleblog .card-header {
+.newsarticleblog .card-header {
   background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
   color: #efefef;
 }
 
-.specialproduct .newsarticleblog-wrapper {
+.newsarticleblog-wrapper {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-column-gap: 3em;
@@ -11952,30 +11891,30 @@ section {
   text-align: justify;
 }
 
-.specialproduct .newsarticleblog-wrapper .card {
+.newsarticleblog-wrapper .card {
   background-color: white;
   padding: 20px;
 }
 
-.specialproduct .newsarticleblog-wrapper .card .bg-color {
+.newsarticleblog-wrapper .card .bg-color {
   background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
   padding: 20px;
   color: #efefef;
 }
 
-.specialproduct .newsarticleblog-wrapper .card .bg-color p {
+.newsarticleblog-wrapper .card .bg-color p {
   color: #efefef;
 }
 
-.specialproduct .newsarticleblog-wrapper .card img {
+.newsarticleblog-wrapper .card img {
   padding-bottom: 20px;
 }
 
-.specialproduct .newsarticleblog-wrapper .card h5 {
+.newsarticleblog-wrapper .card h5 {
   margin: 15px 0 25px;
 }
 
-.specialproduct .newsarticleblog-wrapper .card p {
+.newsarticleblog-wrapper .card p {
   text-align: justify;
   padding: 10px 5px;
   font-size: 16px;
@@ -11984,11 +11923,11 @@ section {
   justify-content: space-between;
 }
 
-.specialproduct .newsarticleblog-wrapper .card span {
+.newsarticleblog-wrapper .card span {
   font-size: 14px;
 }
 
-.specialproduct .newsarticleblog-wrapper .card hr {
+.newsarticleblog-wrapper .card hr {
   border: 1px solid #251F5D;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -11996,137 +11935,137 @@ section {
 }
 
 @media (max-width: 800px) {
-  .specialproduct .newsarticleblog-wrapper {
+  .newsarticleblog-wrapper {
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
   }
 }
 
-.specialproduct .productblog-1 {
+.productblog-1 {
   background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
   padding: 20px;
   color: #efefef;
 }
 
-.specialproduct .productblog-1 h3 {
+.productblog-1 h3 {
   font-size: 26px;
   font-weight: 600;
   margin: 0;
   text-align: left;
 }
 
-.specialproduct .productblog-1 p {
+.productblog-1 p {
   text-align: left;
 }
 
-.specialproduct .productblog-2 h3 {
+.productblog-2 h3 {
   font-size: 26px;
   font-weight: 600;
   margin: 0;
   text-align: left;
 }
 
-.specialproduct .productblog-2 p {
+.productblog-2 p {
   text-align: left;
 }
 
-.specialproduct .productblog-2 .list {
+.productblog-2 .list {
   padding-left: 15px;
 }
 
-.specialproduct .productblog-3 {
+.productblog-3 {
   background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
   padding: 20px;
   color: #efefef;
 }
 
-.specialproduct .productblog-3 h3 {
+.productblog-3 h3 {
   font-size: 26px;
   font-weight: 600;
   margin: 0;
   text-align: left;
 }
 
-.specialproduct .productblog-3 p {
+.productblog-3 p {
   text-align: left;
 }
 
-.specialproduct .productblog-4 {
+.productblog-4 {
   background-color: white;
 }
 
-.specialproduct .productblog-4 img {
+.productblog-4 img {
   padding-bottom: 20px;
 }
 
-.specialproduct .productblog-4 .spec {
+.productblog-4 .spec {
   text-align: left;
 }
 
-.specialproduct .productblog-4 .info-1 {
+.productblog-4 .info-1 {
   padding-left: 25px;
 }
 
-.specialproduct .productblog-4 .info-2 {
+.productblog-4 .info-2 {
   text-align: justify;
 }
 
-.specialproduct .productblog-4-wrapper {
+.productblog-4-wrapper {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
 }
 
-.specialproduct .productblog-4-wrapper .card {
+.productblog-4-wrapper .card {
   background-color: white;
   padding: 20px;
 }
 
-.specialproduct .productblog-4-wrapper span {
+.productblog-4-wrapper span {
   padding-top: 40px;
   font-size: 30px;
   float: right;
 }
 
 @media (max-width: 800px) {
-  .specialproduct .productblog-4 {
+  .productblog-4 {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
   }
 }
 
-.specialproduct .productblog-5 {
+.productblog-5 {
   background-color: white;
 }
 
-.specialproduct .productblog-5 .row {
+.productblog-5 .row {
   padding: 10px 10px 10px 10px;
 }
 
-.specialproduct .productblog-5 hr {
+.productblog-5 hr {
   border: 1px solid #007730;
   margin-top: 30px;
   margin-bottom: 30px;
   width: 150px;
 }
 
-.specialproduct .productblog-5 h3 {
+.productblog-5 h3 {
   font-size: 26px;
   font-weight: 600;
 }
 
-.specialproduct .productblog-5 .card-body {
+.productblog-5 .card-body {
   text-align: left;
 }
 
-.specialproduct .productblog-5 .card-header {
+.productblog-5 .card-header {
   text-align: left;
   background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
   color: #efefef;
 }
 
-.specialproduct .productblog-5-wrapper {
+.productblog-5-wrapper {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-column-gap: 3em;
@@ -12134,16 +12073,16 @@ section {
   text-align: left;
 }
 
-.specialproduct .productblog-5-wrapper .card {
+.productblog-5-wrapper .card {
   background-color: white;
   padding: 20px;
 }
 
-.specialproduct .productblog-5-wrapper .card h5 {
+.productblog-5-wrapper .card h5 {
   margin: 15px 0 25px;
 }
 
-.specialproduct .productblog-5-wrapper .card p {
+.productblog-5-wrapper .card p {
   text-align: left;
   padding: 10px 5px;
   font-size: 16px;
@@ -12153,49 +12092,49 @@ section {
 }
 
 @media (max-width: 800px) {
-  .specialproduct .productblog-5-wrapper {
+  .productblog-5-wrapper {
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
   }
 }
 
-.specialproduct .about-1 {
+.about-1 {
   background-color: white;
   text-align: justify;
 }
 
-.specialproduct .about-1 .row {
+.about-1 .row {
   padding: 10px 10px 10px 10px;
 }
 
-.specialproduct .about-1 hr {
+.about-1 hr {
   border: 1px solid #251F5D;
   text-align: left;
 }
 
-.specialproduct .about-1 h3 {
+.about-1 h3 {
   font-size: 26px;
   font-weight: 600;
 }
 
-.specialproduct .about-1 .header {
+.about-1 .header {
   background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
   padding: 20px;
   color: #f4f4f4;
 }
 
-.specialproduct .about-1 .header hr {
+.about-1 .header hr {
   border: 1px solid #f4f4f4;
   text-align: left;
 }
 
-.specialproduct .about-1 .header h5 {
+.about-1 .header h5 {
   font-size: 18px;
   font-weight: 600;
 }
 
-.specialproduct .about-1 .header p {
+.about-1 .header p {
   padding: 10px 5px;
   font-size: 16px;
   font-weight: 400;
@@ -12203,7 +12142,7 @@ section {
   justify-content: space-between;
 }
 
-.specialproduct .about-1 p {
+.about-1 p {
   padding: 10px 5px;
   font-size: 16px;
   font-weight: 400;
@@ -12211,17 +12150,17 @@ section {
   justify-content: space-between;
 }
 
-.specialproduct .about-1 .card-body {
+.about-1 .card-body {
   text-align: justify;
 }
 
-.specialproduct .about-1 .card-header {
+.about-1 .card-header {
   text-align: left;
   background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
   color: #efefef;
 }
 
-.specialproduct .about-1-wrapper {
+.about-1-wrapper {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-column-gap: 3em;
@@ -12229,16 +12168,16 @@ section {
   text-align: justify;
 }
 
-.specialproduct .about-1-wrapper .card {
+.about-1-wrapper .card {
   background-color: white;
   padding: 20px;
 }
 
-.specialproduct .about-1-wrapper .card h5 {
+.about-1-wrapper .card h5 {
   margin: 15px 0 25px;
 }
 
-.specialproduct .about-1-wrapper .card p {
+.about-1-wrapper .card p {
   text-align: justify;
   padding: 10px 5px;
   font-size: 16px;
@@ -12248,50 +12187,50 @@ section {
 }
 
 @media (max-width: 800px) {
-  .specialproduct .about-1-wrapper {
+  .about-1-wrapper {
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
   }
 }
 
-.specialproduct .contact-1 {
+.contact-1 {
   padding: 20px;
   margin-top: 20px;
 }
 
-.specialproduct .contact-1 p {
+.contact-1 p {
   color: #262626;
   font-size: 22px;
   font-weight: 600;
 }
 
-.specialproduct .fw {
+.fw {
   font-size: 19px !important;
 }
 
-.specialproduct .content-3 {
+.content-3 {
   background-color: white;
 }
 
-.specialproduct .content-3 hr {
+.content-3 hr {
   border: 1px solid #251F5D;
   margin-top: 30px;
   margin-bottom: 30px;
   width: 150px;
 }
 
-.specialproduct .content-3 h3 {
+.content-3 h3 {
   font-size: 26px;
   font-weight: 600;
 }
 
-.specialproduct .content-3 p {
+.content-3 p {
   font-size: 20px;
   font-weight: 500;
 }
 
-.specialproduct .content-3-wrapper {
+.content-3-wrapper {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-column-gap: 1em;
@@ -12299,69 +12238,69 @@ section {
   text-align: center;
 }
 
-.specialproduct .content-3-wrapper .card {
+.content-3-wrapper .card {
   background-color: white;
   padding: 20px;
 }
 
-.specialproduct .content-3-wrapper .card h5 {
+.content-3-wrapper .card h5 {
   font-weight: 800;
   font-size: 15px;
   color: #251F5D;
   margin: 15px 0 25px;
 }
 
-.specialproduct .content-3-wrapper .card p {
+.content-3-wrapper .card p {
   font-size: 14px;
   font-weight: 400;
   color: #34495e;
 }
 
 @media (max-width: 800px) {
-  .specialproduct .content-3-wrapper {
+  .content-3-wrapper {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
   }
 }
 
-.specialproduct .bc-aboutus {
+.bc-aboutus {
   background-color: white;
 }
 
-.specialproduct .bc-aboutus img {
+.bc-aboutus img {
   padding-bottom: 20px;
 }
 
-.specialproduct .bc-aboutus h3 {
+.bc-aboutus h3 {
   text-align: center;
 }
 
-.specialproduct .bc-aboutus hr {
+.bc-aboutus hr {
   border: 1px solid #251F5D;
   margin-top: 30px;
   margin-bottom: 30px;
   width: 150px;
 }
 
-.specialproduct .bc-aboutus h3 {
+.bc-aboutus h3 {
   font-size: 26px;
   font-weight: 600;
 }
 
-.specialproduct .bc-aboutus-wrapper {
+.bc-aboutus-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 1em;
   grid-row-gap: 2em;
 }
 
-.specialproduct .bc-aboutus-wrapper .card {
+.bc-aboutus-wrapper .card {
   background-color: white;
   padding: 20px;
 }
 
-.specialproduct .bc-aboutus-wrapper .card h5 {
+.bc-aboutus-wrapper .card h5 {
   font-weight: 800;
   font-size: 23px;
   color: #251F5D;
@@ -12369,78 +12308,78 @@ section {
   text-align: center;
 }
 
-.specialproduct .bc-aboutus-wrapper .card p {
+.bc-aboutus-wrapper .card p {
   font-size: 16px;
   font-weight: 400;
   color: #251F5D;
   text-align: center;
 }
 
-.specialproduct .bc-aboutus-wrapper span {
+.bc-aboutus-wrapper span {
   float: right;
 }
 
 @media (max-width: 800px) {
-  .specialproduct .bc-aboutus {
+  .bc-aboutus {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
   }
 }
 
-.specialproduct .bc-csr {
+.bc-csr {
   background-color: white;
 }
 
-.specialproduct .bc-csr hr {
+.bc-csr hr {
   border: 1px solid #251F5D;
   margin-top: 20px;
   margin-bottom: 20px;
   width: 150px;
 }
 
-.specialproduct .bc-csr h3 {
+.bc-csr h3 {
   font-size: 26px;
   font-weight: 600;
 }
 
-.specialproduct .bc-products {
+.bc-products {
   background-color: white;
 }
 
-.specialproduct .bc-products img {
+.bc-products img {
   padding-bottom: 20px;
 }
 
-.specialproduct .bc-products h3 {
+.bc-products h3 {
   text-align: center;
 }
 
-.specialproduct .bc-products hr {
+.bc-products hr {
   border: 1px solid #251F5D;
   margin-top: 30px;
   margin-bottom: 30px;
   width: 150px;
 }
 
-.specialproduct .bc-products h3 {
+.bc-products h3 {
   font-size: 26px;
   font-weight: 600;
 }
 
-.specialproduct .bc-products-wrapper {
+.bc-products-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 1em;
   grid-row-gap: 2em;
 }
 
-.specialproduct .bc-products-wrapper .card {
+.bc-products-wrapper .card {
   background-color: white;
   padding: 20px;
 }
 
-.specialproduct .bc-products-wrapper .card h5 {
+.bc-products-wrapper .card h5 {
   font-weight: 800;
   font-size: 23px;
   color: #251F5D;
@@ -12448,60 +12387,60 @@ section {
   text-align: center;
 }
 
-.specialproduct .bc-products-wrapper .card p {
+.bc-products-wrapper .card p {
   font-size: 5px;
   font-weight: 400;
   color: #251F5D;
   text-align: center;
 }
 
-.specialproduct .bc-products-wrapper span {
+.bc-products-wrapper span {
   float: right;
 }
 
 @media (max-width: 800px) {
-  .specialproduct .bc-products {
+  .bc-products {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
   }
 }
 
-.specialproduct .bc-products .card-header {
+.bc-products .card-header {
   background: linear-gradient(to bottom right, #251F5D 0%, #251F5D 200%);
   color: #efefef;
   align-items: left;
 }
 
-.specialproduct .bc-partners hr {
+.bc-partners hr {
   border: 1px solid #251F5D;
   margin-top: 30px;
   margin-bottom: 30px;
   width: 150px;
 }
 
-.specialproduct .bc-partners1 {
+.bc-partners1 {
   background-color: white;
 }
 
-.specialproduct .bc-partners1 hr {
+.bc-partners1 hr {
   border: 1px solid #251F5D;
   margin-top: 30px;
   margin-bottom: 30px;
   width: 150px;
 }
 
-.specialproduct .bc-partners1 h3 {
+.bc-partners1 h3 {
   font-size: 26px;
   font-weight: 600;
 }
 
-.specialproduct .bc-partners1 p {
+.bc-partners1 p {
   font-size: 20px;
   font-weight: 500;
 }
 
-.specialproduct .bc-partners1-wrapper {
+.bc-partners1-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 1em;
@@ -12509,44 +12448,44 @@ section {
   text-align: center;
 }
 
-.specialproduct .bc-partners1-wrapper .card {
+.bc-partners1-wrapper .card {
   background-color: white;
   padding: 20px;
 }
 
-.specialproduct .bc-partners1-wrapper .card h5 {
+.bc-partners1-wrapper .card h5 {
   font-weight: 800;
   font-size: 15px;
   color: #251F5D;
   margin: 15px 0 25px;
 }
 
-.specialproduct .bc-partners1-wrapper .card p {
+.bc-partners1-wrapper .card p {
   font-size: 14px;
   font-weight: 400;
   color: #34495e;
 }
 
 @media (max-width: 800px) {
-  .specialproduct .bc-partners1-wrapper {
+  .bc-partners1-wrapper {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
   }
 }
 
-.specialproduct .bc-contactus {
+.bc-contactus {
   background-color: white;
   text-align: left;
 }
 
-.specialproduct .bc-contactus h3 {
+.bc-contactus h3 {
   font-weight: 600;
   color: #251F5D;
   margin-bottom: 15px;
 }
 
-.specialproduct .bc-contactus .btn-primary {
+.bc-contactus .btn-primary {
   font-weight: 600;
   color: #f4f4f4;
   background-color: #251F5D;
@@ -12555,64 +12494,64 @@ section {
   transition-property: color background-color;
 }
 
-.specialproduct .bc-contactus .btn-primary:hover {
+.bc-contactus .btn-primary:hover {
   color: #251F5D;
   background-color: #efefef;
 }
 
-.specialproduct .bc-contactus p {
+.bc-contactus p {
   font-size: 20px;
   padding-left: 20px;
   font-weight: 600;
 }
 
-.specialproduct .bc-contactus span {
+.bc-contactus span {
   text-align: center;
   padding: 30px;
   border: 1px solid black;
   border-radius: 50%;
 }
 
-.specialproduct .bc-about1 {
+.bc-about1 {
   font-weight: 400;
   color: #251F5D;
 }
 
-.specialproduct .bc-about1 title .col-md-12 {
+.bc-about1 title .col-md-12 {
   padding-bottom: 15px;
   position: left;
 }
 
-.specialproduct .bc-about1 h3 {
+.bc-about1 h3 {
   text-align: left;
 }
 
-.specialproduct .bc-about1 .info {
+.bc-about1 .info {
   text-align: left;
   font-size: 17px;
   font-weight: 550;
 }
 
-.specialproduct .bc-about1 h5 {
+.bc-about1 h5 {
   font-size: 15px;
 }
 
-.specialproduct .bc-about1 .policy {
+.bc-about1 .policy {
   font-size: 12px;
   text-align: justify;
 }
 
-.specialproduct .bmc-header-1 {
+.bmc-header-1 {
   background-color: white;
 }
 
-.specialproduct .bmc-header-1-wrapper {
+.bmc-header-1-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
 }
 
-.specialproduct .bmc-header-1-wrapper .card {
+.bmc-header-1-wrapper .card {
   background-color: white;
   align-items: center;
   border: none;
@@ -12624,7 +12563,7 @@ section {
   -ms-transition: all 0.5s;
 }
 
-.specialproduct .bmc-header-1-wrapper .card:hover {
+.bmc-header-1-wrapper .card:hover {
   transform: scale(1.25);
   -moz-transform: scale(1.25);
   -webkit-transform: scale(1.25);
@@ -12633,81 +12572,81 @@ section {
 }
 
 @media (max-width: 800px) {
-  .specialproduct .bmc-header-1-wrapper {
+  .bmc-header-1-wrapper {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
   }
 }
 
-.specialproduct .bmc-content-1 {
+.bmc-content-1 {
   background-color: white;
 }
 
-.specialproduct .bmc-content-1 h3 {
+.bmc-content-1 h3 {
   font-size: 26px;
   font-weight: 600;
 }
 
-.specialproduct .bmc-content-1 .hr {
+.bmc-content-1 .hr {
   border: 1px solid #251F5D;
   margin-top: 15px;
   margin-bottom: 15px;
   width: 150px;
 }
 
-.specialproduct .bmc-content-1 .col-md-6 p {
+.bmc-content-1 .col-md-6 p {
   text-align: left;
   font-size: 16px;
   font-weight: 550;
 }
 
-.specialproduct .bmc-content-2 {
+.bmc-content-2 {
   background-color: #251F5D;
   color: #f4f4f4;
 }
 
-.specialproduct .bmc-content-2 h3 {
+.bmc-content-2 h3 {
   font-size: 30px;
   font-weight: 600;
 }
 
-.specialproduct .bmc-content-2 .hr {
+.bmc-content-2 .hr {
   border: 1px solid #f4f4f4;
   margin-top: 15px;
   margin-bottom: 15px;
   width: 130px;
 }
 
-.specialproduct .bmc-content-2 .col-md-6 p {
+.bmc-content-2 .col-md-6 p {
   text-align: left;
   font-size: 16px;
   font-weight: 550;
 }
 
-.specialproduct .bmc-content-3 {
+.bmc-content-3 {
   background-color: white;
 }
 
-.specialproduct .bmc-content-3 h3 {
+.bmc-content-3 h3 {
   font-size: 26px;
   font-weight: 600;
 }
 
-.specialproduct .bmc-content-3 .hr {
+.bmc-content-3 .hr {
   border: 1px solid #251F5D;
   margin-top: 15px;
   margin-bottom: 15px;
   width: 150px;
 }
 
-.specialproduct .bmc-content-3 .p {
+.bmc-content-3 .p {
   text-align: justify;
   font-size: 16px;
   font-weight: 550;
 }
 
-.specialproduct .bmc-content-3-wrapper {
+.bmc-content-3-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 1em;
@@ -12715,19 +12654,19 @@ section {
   text-align: center;
 }
 
-.specialproduct .bmc-content-3-wrapper .card {
+.bmc-content-3-wrapper .card {
   background-color: white;
   padding: 20px;
 }
 
-.specialproduct .bmc-content-3-wrapper .card h5 {
+.bmc-content-3-wrapper .card h5 {
   font-weight: 800;
   font-size: 15px;
   color: #251F5D;
   margin: 15px 0 25px;
 }
 
-.specialproduct .bmc-content-3-wrapper .card .col-md-6 p {
+.bmc-content-3-wrapper .card .col-md-6 p {
   padding: 10px;
   text-align: left;
   font-size: 16px;
@@ -12735,81 +12674,81 @@ section {
 }
 
 @media (max-width: 800px) {
-  .specialproduct .bmc-content-3-wrapper {
+  .bmc-content-3-wrapper {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
   }
 }
 
-.specialproduct .bmc-content-4 {
+.bmc-content-4 {
   background-color: #251F5D;
   color: #f4f4f4;
 }
 
-.specialproduct .bmc-content-4 h3 {
+.bmc-content-4 h3 {
   font-size: 28px;
   font-weight: 600;
 }
 
-.specialproduct .bmc-content-4 .hr {
+.bmc-content-4 .hr {
   border: 1px solid #f4f4f4;
   margin-top: 15px;
   margin-bottom: 15px;
   width: 50px;
 }
 
-.specialproduct .bmc-content-4 .col-md-6 p {
+.bmc-content-4 .col-md-6 p {
   text-align: left;
   font-size: 16px;
   font-weight: 550;
 }
 
-.specialproduct .bmc-content-5 {
+.bmc-content-5 {
   background-color: white;
 }
 
-.specialproduct .bmc-content-5 h3 {
+.bmc-content-5 h3 {
   font-size: 26px;
   font-weight: 600;
 }
 
-.specialproduct .bmc-content-5 .hr {
+.bmc-content-5 .hr {
   border: 1px solid #251F5D;
   margin-top: 15px;
   margin-bottom: 15px;
   width: 50px;
 }
 
-.specialproduct .bmc-content-5 .col-md-6 p {
+.bmc-content-5 .col-md-6 p {
   text-align: left;
   font-size: 16px;
   font-weight: 550;
 }
 
-.specialproduct .tech-1 {
+.tech-1 {
   background-color: white;
 }
 
-.specialproduct .tech-1 h3 {
+.tech-1 h3 {
   font-size: 26px;
   font-weight: 600;
 }
 
-.specialproduct .tech-1 .hr {
+.tech-1 .hr {
   border: 1px solid #251F5D;
   margin-top: 15px;
   margin-bottom: 15px;
   width: 150px;
 }
 
-.specialproduct .tech-1 .p {
+.tech-1 .p {
   text-align: justify;
   font-size: 16px;
   font-weight: 550;
 }
 
-.specialproduct .tech-1-wrapper {
+.tech-1-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 1em;
@@ -12817,23 +12756,23 @@ section {
   text-align: center;
 }
 
-.specialproduct .tech-1-wrapper .card {
+.tech-1-wrapper .card {
   background-color: white;
   padding: 20px;
 }
 
-.specialproduct .tech-1-wrapper .card .col-md-4 {
+.tech-1-wrapper .card .col-md-4 {
   padding: 20px;
 }
 
-.specialproduct .tech-1-wrapper .card h5 {
+.tech-1-wrapper .card h5 {
   font-weight: 800;
   font-size: 15px;
   color: #251F5D;
   margin: 15px 0 25px;
 }
 
-.specialproduct .tech-1-wrapper .card .col-md-8 p {
+.tech-1-wrapper .card .col-md-8 p {
   padding-left: 50px;
   text-align: justify;
   font-size: 16px;
@@ -12841,36 +12780,36 @@ section {
 }
 
 @media (max-width: 800px) {
-  .specialproduct .tech-1-wrapper {
+  .tech-1-wrapper {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
   }
 }
 
-.specialproduct .bc-product-1 {
+.bc-product-1 {
   background-color: white;
 }
 
-.specialproduct .bc-product-1 h3 {
+.bc-product-1 h3 {
   font-size: 26px;
   font-weight: 600;
 }
 
-.specialproduct .bc-product-1 .hr {
+.bc-product-1 .hr {
   border: 1px solid #251F5D;
   margin-top: 15px;
   margin-bottom: 15px;
   width: 150px;
 }
 
-.specialproduct .bc-product-1 .p {
+.bc-product-1 .p {
   text-align: justify;
   font-size: 16px;
   font-weight: 550;
 }
 
-.specialproduct .bc-product-1-wrapper {
+.bc-product-1-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 1em;
@@ -12879,7 +12818,7 @@ section {
   border-radius: 5px;
 }
 
-.specialproduct .bc-product-1-wrapper .card {
+.bc-product-1-wrapper .card {
   background-color: white !important;
   /*&:hover {
       border: 2px solid $primary-color !important;
@@ -12893,47 +12832,47 @@ section {
   }*/
 }
 
-.specialproduct .bc-product-1-wrapper .card .card-footer {
+.bc-product-1-wrapper .card .card-footer {
   font-size: 20px !important;
   font-weight: 600;
 }
 
-.specialproduct .bc-product-1-wrapper .card .card-body {
+.bc-product-1-wrapper .card .card-body {
   padding: 0 !important;
 }
 
 @media (max-width: 800px) {
-  .specialproduct .bc-product-1-wrapper {
+  .bc-product-1-wrapper {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
   }
 }
 
-.specialproduct .bc-product-2 {
+.bc-product-2 {
   background-color: white;
 }
 
-.specialproduct .bc-product-2 h3 {
+.bc-product-2 h3 {
   text-align: left;
   font-size: 26px;
   font-weight: 600;
 }
 
-.specialproduct .bc-product-2 .hr {
+.bc-product-2 .hr {
   border: 1px solid #251F5D;
   margin-top: 15px;
   margin-bottom: 15px;
   width: 150px;
 }
 
-.specialproduct .bc-product-2 .p {
+.bc-product-2 .p {
   text-align: justify;
   font-size: 16px;
   font-weight: 550;
 }
 
-.specialproduct .bc-product-2-wrapper {
+.bc-product-2-wrapper {
   display: grid;
   grid-template-columns: 1, 1fr;
   grid-column-gap: 1em;
@@ -12941,12 +12880,12 @@ section {
   text-align: center;
 }
 
-.specialproduct .bc-product-2-wrapper .card {
+.bc-product-2-wrapper .card {
   background-color: white;
   padding: 20px;
 }
 
-.specialproduct .bc-product-2-wrapper .card h5 {
+.bc-product-2-wrapper .card h5 {
   font-weight: 800;
   font-size: 17px;
   color: #251F5D;
@@ -12954,60 +12893,70 @@ section {
   text-align: left;
 }
 
-.specialproduct .bc-product-2-wrapper .card ul li {
+.bc-product-2-wrapper .card ul li {
   color: #251F5D;
   text-align: left;
   font-size: 16px;
 }
 
 @media (max-width: 800px) {
-  .specialproduct .bc-product-2-wrapper {
+  .bc-product-2-wrapper {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
   }
 }
 
-.specialproduct .btn-transparent {
+/**
+ * Button
+ * Carousel Button
+ */
+
+.btn-transparent {
   background: white;
   color: black;
   border: 2px solid #fff;
 }
 
-.specialproduct .btn-transparent:hover {
+.btn-transparent:hover {
   background-color: #fff;
 }
 
-.specialproduct .btn-rounded {
+.btn-rounded {
   border-radius: 70px;
 }
 
-.specialproduct .btn-large {
+.btn-large {
   padding: 11px 45px;
   font-size: 18px;
 }
 
-.specialproduct .btn-transparent1 {
+.btn-transparent1 {
   background-color: #fff;
   color: #d04a96;
   border: 1px solid #d04a96;
 }
 
-.specialproduct .btn-transparent1:hover {
+.btn-transparent1:hover {
   background: #d04a96;
   color: #fff;
 }
 
-.specialproduct .btn-rounded1 {
+.btn-rounded1 {
   border-radius: 70px;
 }
 
-.specialproduct .btn-large1 {
+.btn-large1 {
   padding: 11px 45px;
   font-size: 18px;
 }
 
-.specialproduct .animated {
+/**
+ * Change animation duration
+ * BMC FOOD Carousel Homepage
+ */
+
+.animated {
   -webkit-animation-duration: 1.5s;
   animation-duration: 1.5s;
   transform: translateY(-200%);
@@ -13038,19 +12987,19 @@ section {
   }
 }
 
-.specialproduct .fadeInRight {
+.fadeInRight {
   -webkit-animation-name: fadeInRight;
   animation-name: fadeInRight;
 }
 
-.specialproduct .carousel-caption {
+.carousel-caption {
   width: 100%;
   height: 100%;
   color: black !important;
   text-align: left;
 }
 
-.specialproduct .carousel-caption h3 {
+.carousel-caption h3 {
   font-size: 26px;
   color: #d04a96;
   font-weight: 600;
@@ -13058,42 +13007,73 @@ section {
   margin-top: 70px;
 }
 
-.specialproduct .carousel-caption h5 {
+.carousel-caption h5 {
   font-size: 18px;
   text-align: left;
   color: #251F5D;
   font-weight: 600;
 }
 
-.specialproduct .carousel-caption p {
+.carousel-caption p {
   text-align: left;
   font-size: 15px;
   color: #251F5D;
   width: 35%;
 }
 
-.specialproduct #main {
+/*.carousel-caption {
+   color: black !important;
+   text-align: left;
+   margin-top: -100px;
+
+   h2 {
+       font-size: 29px;
+       color: $bmcpahd-color;
+       font-weight: 600;
+   }
+   h5 {
+       font-size: 20px;
+       color: $primary-color;
+       font-weight: 600;
+   }
+   p {
+       font-size: 18px;
+       color: $primary-color;
+   }
+}*/
+
+/* Override UGG site */
+
+#main {
   width: 100%;
   padding: 0;
 }
 
-.specialproduct .content-asset p {
+.content-asset p {
   margin: 0 auto;
 }
 
-.specialproduct .breadcrumb {
+.breadcrumb {
   display: none;
 }
 
-.specialproduct .margin-top-10 {
+/* Helpers */
+
+/**************************/
+
+.margin-top-10 {
   padding-top: 10px;
 }
 
-.specialproduct .margin-bot-10 {
+.margin-bot-10 {
   padding-bottom: 10px;
 }
 
-.specialproduct #parallax-world-of-ugg h1 {
+/* Typography */
+
+/**************************/
+
+#parallax-world-of-ugg h1 {
   font-family: "Oswald", sans-serif;
   font-size: 24px;
   font-weight: 400;
@@ -13103,22 +13083,22 @@ section {
   margin: 0;
 }
 
-.specialproduct #parallax-world-of-ugg h2 {
+#parallax-world-of-ugg h2 {
   color: black;
   font-weight: 400;
   z-index: 10;
   opacity: 0.9;
 }
 
-.specialproduct #parallax-world-of-ugg h2 .bmc-pc2 {
+#parallax-world-of-ugg h2 .bmc-pc2 {
   font-family: "Times New Roman";
 }
 
-.specialproduct #parallax-world-of-ugg h3 {
+#parallax-world-of-ugg h3 {
   color: black;
 }
 
-.specialproduct #parallax-world-of-ugg p {
+#parallax-world-of-ugg p {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -13126,7 +13106,7 @@ section {
   color: black;
 }
 
-.specialproduct .first-character {
+.first-character {
   font-weight: 400;
   float: left;
   font-size: 84px;
@@ -13137,31 +13117,39 @@ section {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-.specialproduct .sc {
+.sc {
   color: #3b8595;
 }
 
-.specialproduct .ny {
+.ny {
   color: #3d3c3a;
 }
 
-.specialproduct .atw {
+.atw {
   color: #c48660;
 }
 
-.specialproduct #parallax-world-of-ugg .title {
+/* Section - Title */
+
+/**************************/
+
+#parallax-world-of-ugg .title {
   background: white;
   padding: 60px;
   margin: 0 auto;
   text-align: center;
 }
 
-.specialproduct #parallax-world-of-ugg .title h1 {
+#parallax-world-of-ugg .title h1 {
   font-size: 35px;
   letter-spacing: 8px;
 }
 
-.specialproduct #parallax-world-of-ugg .block {
+/* Section - Block */
+
+/**************************/
+
+#parallax-world-of-ugg .block {
   background: white;
   padding: 60px;
   width: 820px;
@@ -13169,12 +13157,12 @@ section {
   text-align: justify;
 }
 
-.specialproduct #parallax-world-of-ugg .block-gray {
+#parallax-world-of-ugg .block-gray {
   background: #f2f2f2;
   padding: 60px;
 }
 
-.specialproduct #parallax-world-of-ugg .section-overlay-mask {
+#parallax-world-of-ugg .section-overlay-mask {
   position: absolute;
   top: 0;
   left: 0;
@@ -13184,7 +13172,11 @@ section {
   opacity: 0.7;
 }
 
-.specialproduct #parallax-world-of-ugg .parallax-one {
+/* Section - Parallax */
+
+/**************************/
+
+#parallax-world-of-ugg .parallax-one {
   padding-top: 200px;
   padding-bottom: 200px;
   overflow: hidden;
@@ -13199,7 +13191,7 @@ section {
   background-position: top center;
 }
 
-.specialproduct #parallax-world-of-ugg .parallax-two {
+#parallax-world-of-ugg .parallax-two {
   padding-top: 200px;
   padding-bottom: 200px;
   overflow: hidden;
@@ -13214,121 +13206,144 @@ section {
   background-position: center center;
 }
 
-.specialproduct #parallax-world-of-ugg .line-break {
+/*#parallax-world-of-ugg .parallax-three {
+    padding-top: 200px; 
+    padding-bottom: 200px; 
+    overflow: hidden; 
+    position: relative; 
+    width: 100%; 
+    background-image: url(https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=); 
+    background-attachment: fixed; 
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+}*/
+
+/* Extras */
+
+/**************************/
+
+#parallax-world-of-ugg .line-break {
   border-bottom: 1px solid black;
   width: 150px;
   margin: 0 auto;
 }
 
+/* Media Queries */
+
+/**************************/
+
 @media screen and (max-width: 959px) and (min-width: 768px) {
-  .specialproduct #parallax-world-of-ugg .block {
+  #parallax-world-of-ugg .block {
     padding: 40px;
     width: 620px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .specialproduct #parallax-world-of-ugg .block {
+  #parallax-world-of-ugg .block {
     padding: 30px;
     width: 420px;
   }
 
-  .specialproduct #parallax-world-of-ugg h2 {
+  #parallax-world-of-ugg h2 {
     font-size: 26px;
   }
 
-  .specialproduct #parallax-world-of-ugg .block {
+  #parallax-world-of-ugg .block {
     padding: 30px;
   }
 
-  .specialproduct #parallax-world-of-ugg .parallax-one,
-  .specialproduct #parallax-world-of-ugg .parallax-two,
-  .specialproduct #parallax-world-of-ugg .parallax-three {
+  #parallax-world-of-ugg .parallax-one,
+  #parallax-world-of-ugg .parallax-two,
+  #parallax-world-of-ugg .parallax-three {
     padding-top: 100px;
     padding-bottom: 100px;
   }
 }
 
 @media screen and (max-width: 479px) {
-  .specialproduct #parallax-world-of-ugg .block {
+  #parallax-world-of-ugg .block {
     padding: 30px 15px;
     width: 290px;
   }
 }
 
 @media screen and (max-width: 479px) {
-  .specialproduct #parallax-world-of-ugg .block {
+  #parallax-world-of-ugg .block {
     padding: 30px 15px;
     width: 290px;
   }
 }
 
-.specialproduct .bmcpahd-product-1 {
+.bmcpahd-product-1 {
   background-color: white;
 }
 
-.specialproduct .bmcpahd-product-1 .card {
+.bmcpahd-product-1 .card {
   background-color: white !important;
 }
 
-.specialproduct .bmcpahd-product-1 .card .card-header {
+.bmcpahd-product-1 .card .card-header {
   font-size: 20px !important;
   font-weight: 600 !important;
 }
 
-.specialproduct .bmcpahd-product-1 .card .list-group-item {
+.bmcpahd-product-1 .card .list-group-item {
   font-size: 16px;
 }
 
 @media (max-width: 800px) {
-  .specialproduct .bmcpahd-product-1 .card {
+  .bmcpahd-product-1 .card {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
   }
 }
 
-.specialproduct .bmcpahd-homepage-1 .col-md-7 {
+.bmcpahd-homepage-1 .col-md-7 {
   text-align: left;
 }
 
-.specialproduct .bmcpahd-homepage-1 .col-md-7 h2 {
+.bmcpahd-homepage-1 .col-md-7 h2 {
   color: #d04a96;
   font-size: 28px;
   font-weight: 600;
 }
 
-.specialproduct .bmcpahd-homepage-1 .col-md-7 p {
+.bmcpahd-homepage-1 .col-md-7 p {
   color: #251F5D;
 }
 
-.specialproduct .bmcpahd-homepage-1 .col-md-7 p b {
+.bmcpahd-homepage-1 .col-md-7 p b {
   font-size: 15px;
 }
 
-.specialproduct .bc-content1 {
+.bc-content1 {
   background-color: #fff;
 }
 
-.specialproduct .bc-content1 hr {
+.bc-content1 hr {
   border: 1px solid #efefef;
   margin-top: 30px;
   margin-bottom: 30px;
   width: 150px;
 }
 
-.specialproduct .bc-content1 h3 {
+.bc-content1 h3 {
   font-size: 26px;
   font-weight: 600;
 }
 
-.specialproduct .bc-content1 p {
+.bc-content1 p {
   padding: 15px 0;
   font-size: 20px;
   font-weight: 500;
 }
 
-.specialproduct .bc-content1-wrapper {
+.bc-content1-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 1em;
@@ -13336,26 +13351,26 @@ section {
   text-align: center;
 }
 
-.specialproduct .bc-content1-wrapper .card {
+.bc-content1-wrapper .card {
   background-color: white;
   padding: 20px;
   border: none;
 }
 
-.specialproduct .bc-content1-wrapper .card h5 {
+.bc-content1-wrapper .card h5 {
   font-weight: 800;
   font-size: 16px;
   color: #251F5D;
   margin: 15px 0 25px;
 }
 
-.specialproduct .bc-content1-wrapper .card p {
+.bc-content1-wrapper .card p {
   font-size: 16px;
   font-weight: 400;
   color: #251F5D;
 }
 
-.specialproduct .bc-content1-wrapper .card .btn {
+.bc-content1-wrapper .card .btn {
   background-color: #251F5D;
   color: white;
   width: 50%;
@@ -13364,31 +13379,31 @@ section {
 }
 
 @media (max-width: 800px) {
-  .specialproduct .bc-content1-wrapper {
+  .bc-content1-wrapper {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
   }
 }
 
-.specialproduct .bc-content2 {
+.bc-content2 {
   background: #251F5D;
   color: #f4f4f4;
 }
 
-.specialproduct .bc-content2 hr {
+.bc-content2 hr {
   border: 1px solid #f4f4f4;
   margin-top: 20px;
   margin-bottom: 20px;
   width: 120px;
 }
 
-.specialproduct .bc-content2 h3 {
+.bc-content2 h3 {
   font-size: 26px;
   font-weight: 600;
 }
 
-.specialproduct .bc-content2-wrapper {
+.bc-content2-wrapper {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-column-gap: 1em;
@@ -13396,89 +13411,89 @@ section {
   text-align: center;
 }
 
-.specialproduct .bc-content2-wrapper .card {
+.bc-content2-wrapper .card {
   background-color: white;
   padding: 20px;
 }
 
-.specialproduct .bc-content2-wrapper .card h5 {
+.bc-content2-wrapper .card h5 {
   font-weight: 800;
   font-size: 15px;
   color: #251F5D;
   margin: 15px 0 25px;
 }
 
-.specialproduct .bc-content2-wrapper .card p {
+.bc-content2-wrapper .card p {
   font-size: 14px;
   font-weight: 400;
   color: #34495e;
 }
 
 @media (max-width: 800px) {
-  .specialproduct .bc-content2-wrapper {
+  .bc-content2-wrapper {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
   }
 }
 
-.specialproduct .bc-careeropp {
+.bc-careeropp {
   background: linear-gradient(to bottom, #251F5D 0%, #251F5D 170%);
   color: #f4f4f4;
 }
 
-.specialproduct .bc-careeropp h3 {
+.bc-careeropp h3 {
   font-size: 24px;
   font-weight: 600;
 }
 
-.specialproduct .bc-careeropp .hr {
+.bc-careeropp .hr {
   border: 1px solid #f4f4f4;
   margin-top: 15px;
   margin-bottom: 15px;
   width: 130px;
 }
 
-.specialproduct .bc-careeropp .col-md-6 p {
+.bc-careeropp .col-md-6 p {
   text-align: left;
   font-size: 16px;
   font-weight: 550;
 }
 
-.specialproduct .bc-newsarticle {
+.bc-newsarticle {
   color: black;
 }
 
-.specialproduct .bc-newsarticle h3 {
+.bc-newsarticle h3 {
   font-size: 24px;
   font-weight: 600;
 }
 
-.specialproduct .bc-newsarticle .hr {
+.bc-newsarticle .hr {
   border: 1px solid #251F5D;
   margin-top: 15px;
   margin-bottom: 15px;
   width: 100px;
 }
 
-.specialproduct .bc-newsarticle .col-md-6 p {
+.bc-newsarticle .col-md-6 p {
   text-align: left;
   font-size: 16px;
   font-weight: 550;
 }
 
-.specialproduct .bmcpahd-contactus {
+.bmcpahd-contactus {
   background-color: white;
   text-align: left;
 }
 
-.specialproduct .bmcpahd-contactus h3 {
+.bmcpahd-contactus h3 {
   font-weight: 600;
   color: #251F5D;
   margin-bottom: 15px;
 }
 
-.specialproduct .bmcpahd-contactus .btn-primary {
+.bmcpahd-contactus .btn-primary {
   font-weight: 600;
   color: #f4f4f4;
   background-color: #d04a96;
@@ -13487,18 +13502,18 @@ section {
   transition-property: color #d04a96;
 }
 
-.specialproduct .bmcpahd-contactus .btn-primary:hover {
+.bmcpahd-contactus .btn-primary:hover {
   color: #d04a96;
   background-color: #efefef;
 }
 
-.specialproduct .bmcpahd-contactus p {
+.bmcpahd-contactus p {
   font-size: 20px;
   padding-left: 20px;
   font-weight: 600;
 }
 
-.specialproduct .bmcpahd-contactus span {
+.bmcpahd-contactus span {
   color: #d04a96;
   text-align: center;
   padding: 30px;
@@ -13506,48 +13521,48 @@ section {
   border-radius: 50%;
 }
 
-.specialproduct .rawmats-content1 .p {
+.rawmats-content1 .p {
   vertical-align: middle;
   text-align: center;
 }
 
-.specialproduct .rawmats-content2 {
+.rawmats-content2 {
   background-color: white;
 }
 
-.specialproduct .rawmats-content2 img {
+.rawmats-content2 img {
   padding-bottom: 20px;
 }
 
-.specialproduct .rawmats-content2 h3 {
+.rawmats-content2 h3 {
   text-align: center;
 }
 
-.specialproduct .rawmats-content2 hr {
+.rawmats-content2 hr {
   border: 1px solid #251F5D;
   margin-top: 30px;
   margin-bottom: 30px;
   width: 150px;
 }
 
-.specialproduct .rawmats-content2 h3 {
+.rawmats-content2 h3 {
   font-size: 26px;
   font-weight: 600;
 }
 
-.specialproduct .rawmats-content2-wrapper {
+.rawmats-content2-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 1em;
   grid-row-gap: 2em;
 }
 
-.specialproduct .rawmats-content2-wrapper .card {
+.rawmats-content2-wrapper .card {
   background-color: white;
   padding: 20px;
 }
 
-.specialproduct .rawmats-content2-wrapper .card h5 {
+.rawmats-content2-wrapper .card h5 {
   font-weight: 800;
   font-size: 23px;
   color: #251F5D;
@@ -13555,61 +13570,61 @@ section {
   text-align: center;
 }
 
-.specialproduct .rawmats-content2-wrapper .card p {
+.rawmats-content2-wrapper .card p {
   font-size: 16px;
   font-weight: 400;
   color: #251F5D;
   text-align: center;
 }
 
-.specialproduct .rawmats-content2-wrapper span {
+.rawmats-content2-wrapper span {
   float: right;
 }
 
 @media (max-width: 800px) {
-  .specialproduct .rawmats-content2 {
+  .rawmats-content2 {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
   }
 }
 
-.specialproduct .rawmats-content3 {
+.rawmats-content3 {
   background-color: white;
   text-align: justify;
 }
 
-.specialproduct .rawmats-content3 .row {
+.rawmats-content3 .row {
   padding: 10px 10px 10px 10px;
 }
 
-.specialproduct .rawmats-content3 hr {
+.rawmats-content3 hr {
   border: 1px solid #251F5D;
   text-align: left;
 }
 
-.specialproduct .rawmats-content3 h3 {
+.rawmats-content3 h3 {
   font-size: 26px;
   font-weight: 600;
 }
 
-.specialproduct .rawmats-content3 .header {
+.rawmats-content3 .header {
   background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
   padding: 20px;
   color: #f4f4f4;
 }
 
-.specialproduct .rawmats-content3 .header hr {
+.rawmats-content3 .header hr {
   border: 1px solid #f4f4f4;
   text-align: left;
 }
 
-.specialproduct .rawmats-content3 .header h5 {
+.rawmats-content3 .header h5 {
   font-size: 18px;
   font-weight: 600;
 }
 
-.specialproduct .rawmats-content3 .header p {
+.rawmats-content3 .header p {
   padding: 10px 5px;
   font-size: 16px;
   font-weight: 400;
@@ -13617,7 +13632,7 @@ section {
   justify-content: space-between;
 }
 
-.specialproduct .rawmats-content3 p {
+.rawmats-content3 p {
   padding: 10px 5px;
   font-size: 16px;
   font-weight: 400;
@@ -13625,17 +13640,17 @@ section {
   justify-content: space-between;
 }
 
-.specialproduct .rawmats-content3 .card-body {
+.rawmats-content3 .card-body {
   text-align: justify;
 }
 
-.specialproduct .rawmats-content3 .card-header {
+.rawmats-content3 .card-header {
   text-align: left;
   background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
   color: #efefef;
 }
 
-.specialproduct .rawmats-content3-wrapper {
+.rawmats-content3-wrapper {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-column-gap: 3em;
@@ -13643,16 +13658,16 @@ section {
   text-align: justify;
 }
 
-.specialproduct .rawmats-content3-wrapper .card {
+.rawmats-content3-wrapper .card {
   background-color: white;
   padding: 20px;
 }
 
-.specialproduct .rawmats-content3-wrapper .card h5 {
+.rawmats-content3-wrapper .card h5 {
   margin: 15px 0 25px;
 }
 
-.specialproduct .rawmats-content3-wrapper .card p {
+.rawmats-content3-wrapper .card p {
   text-align: justify;
   padding: 10px 5px;
   font-size: 16px;
@@ -13662,39 +13677,39 @@ section {
 }
 
 @media (max-width: 800px) {
-  .specialproduct .rawmats-content3-wrapper {
+  .rawmats-content3-wrapper {
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
   }
 }
 
-.specialproduct .rawmatsproducts {
+.rawmatsproducts {
   background-color: white;
 }
 
-.specialproduct .rawmatsproducts hr {
+.rawmatsproducts hr {
   border: 1px solid #251F5D;
   margin-top: 30px;
   margin-bottom: 30px;
   width: 150px;
 }
 
-.specialproduct .rawmatsproducts h3 {
+.rawmatsproducts h3 {
   font-size: 26px;
   font-weight: 600;
 }
 
-.specialproduct .rawmatsproducts .card-body {
+.rawmatsproducts .card-body {
   text-align: justify;
 }
 
-.specialproduct .rawmatsproducts .card-header {
+.rawmatsproducts .card-header {
   background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
   color: #efefef;
 }
 
-.specialproduct .rawmatsproducts-wrapper {
+.rawmatsproducts-wrapper {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-column-gap: 3em;
@@ -13702,16 +13717,16 @@ section {
   text-align: left;
 }
 
-.specialproduct .rawmatsproducts-wrapper .card {
+.rawmatsproducts-wrapper .card {
   background-color: white;
   padding: 20px;
 }
 
-.specialproduct .rawmatsproducts-wrapper .card h5 {
+.rawmatsproducts-wrapper .card h5 {
   margin: 15px 0 25px;
 }
 
-.specialproduct .rawmatsproducts-wrapper .card p {
+.rawmatsproducts-wrapper .card p {
   text-align: justify;
   padding: 10px 5px;
   font-size: 16px;
@@ -13721,7 +13736,7 @@ section {
 }
 
 @media (max-width: 800px) {
-  .specialproduct .rawmatsproducts-wrapper {
+  .rawmatsproducts-wrapper {
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
