@@ -81,17 +81,17 @@
             </p>
             <div class="bmc-content-3-wrapper">
                 <div class="card">
-                    <h3><img src="/images/products/prod1.jpg" width="150px;"></h3>
+                    <h3><img src="/images/123.jpg" width="150px;"></h3>
                     <h5>Product 1</h5>
                     <p style="color: red">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="card">
-                    <h3><img src="/images/products/prod2.jpg" width="150px;"></h3>
+                    <h3><img src="/images/123.jpg" width="150px;"></h3>
                     <h5>Product 2</h5>
                     <p style="color: red">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="card">
-                    <h3><img src="/images/products/prod3.jpg" width="150px;"></h3>
+                    <h3><img src="/images/123.jpg" width="150px;"></h3>
                     <h5>Product 3</h5>
                     <p style="color: red">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
@@ -103,11 +103,25 @@
         <div class="container">
             <h3>Services</h3>
             <hr class="hr">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, alias exercitationem! Praesentium maiores obcaecati tempora fugit ex perferendis accusantium, odit similique sunt unde iste molestias pariatur assumenda. Porro id, reprehenderit culpa enim veritatis maxime recusandae provident eos voluptatem. Molestias consequuntur ipsam pariatur vel numquam. Tenetur beatae provident illum ullam enim.</p>
+            <p>
+                Versatile Product Customization
+                <br>
+                Through our innovative Research and Development team, BMC boasts a wide range of customization 
+                options for Vitamin and Mineral Premixes, Liquid and Pwdered Flavorings, and Herb and Seasoning
+                Mixes. Our customized products have been utilized by numerous companied from various industries
+                such as Bakery, Beverages, Confectionary, Dairy, Fats and Oils, Meat, Sauces, Flour and Snacks.
+            </p>
+
             <div class="row">
                 <div class="col-md-6">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque architecto accusantium, sapiente rerum blanditiis praesentium molestiae perspiciatis quis explicabo? Perspiciatis, officiis harum. Odio, eum? Nemo ut architecto qui laboriosam et numquam vel soluta quis quas voluptatibus. Rerum officia magnam tempore.</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, unde. Tempore, voluptatibus aliquam odit laborum earum ipsa ipsum maxime culpa labore excepturi perferendis architecto hic veritatis dignissimos exercitationem molestias qui maiores at obcaecati fugiat. Sit.</p>
+                    <p>
+                        Versatile Product Customization
+                        <br>
+                        Through our innovative Research and Development team, BMC boasts a wide range of customization 
+                        options for Vitamin and Mineral Premixes, Liquid and Pwdered Flavorings, and Herb and Seasoning
+                        Mixes. Our customized products have been utilized by numerous companied from various industries
+                        such as Bakery, Beverages, Confectionary, Dairy, Fats and Oils, Meat, Sauces, Flour and Snacks.
+                    </p>
                  </div>
                 <div class="col-md-6">
                     <img src="/images/blank.png" width="400px;" alt="Video">

@@ -20,8 +20,8 @@
         <section>
             <div class="parallax-one">
                 <div class="col-md-6" class="bmc-pc3">
-                    <h3 style="text-align: left; color:white; padding-left:15px" class="text-opacity">Blaine intensifies expansion to respond to the growing demand of food industry.</h3>
-                    <p style="text-align: left; color:white; padding-left:15px">Blaine Corporation established its personal and home care division in 2009 to 
+                    <h3 style="text-align: left; color:black; padding-left:15px" class="text-opacity">Blaine intensifies expansion to respond to the growing demand of food industry.</h3>
+                    <p style="text-align: left; color:black; padding-left:15px">Blaine Corporation established its personal and home care division in 2009 to 
                             cater to the basic cleaning care needs of its employees, manufacturing facilities and existing clients. 
                             The division expanded into a toller, trader and manufacturer of personal and home care products of 
                             various reputable companies.<br><br>
@@ -35,8 +35,8 @@
         <section>
             <div class="parallax-two">
                 <div class="col-md-6" style="float: right;">
-                    <h2 style="text-align: left; color:white;">Blaine Manufacturing Corporation is committed to safety and quality.</h2>
-                    <p style="text-align:left; color:white;">Blaine complies and upholds the highest standards of quality and safety management. 
+                    <h2 style="text-align: left; color:black;">Blaine Manufacturing Corporation is committed to safety and quality.</h2>
+                    <p style="text-align:left; color:black;">Blaine complies and upholds the highest standards of quality and safety management. 
                     The company is certified by local and international regulatory body:
                     <br><br>
                     • License to Operate (LTO) as Cosmetic Manufacturer
