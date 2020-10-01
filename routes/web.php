@@ -65,6 +65,18 @@ Route::get('/bmcpahdcontactus', 'PagesController@bmcpahdcontactus')->name('pahdc
 Route::get('/bmcpahdaboutus','PagesController@bmcpahdaboutus')->name('bmcpahdaboutus');
 
 Route::get('/bmcfoodindex', 'PagesController@bmcfoodindex')->name('bmcfoodindex'); //BMC FOOD 
+Route::get('/bmcfoodhome', 'PagesController@bmcfoodhome')->name('bmcfoodhome');
+Route::get('/bmcfoodabouthistory', 'PagesController@bmcfoodabouthistory')->name('bmcfoodabouthistory');
+Route::get('/bmcfoodaboutdivision', 'PagesController@bmcfoodaboutdivision')->name('bmcfoodaboutdivision');
+Route::get('/bmcfoodspices', 'PagesController@bmcfoodspices')->name('bmcfoodspices');
+Route::get('/bmcfooddehydratedherbs', 'PagesController@bmcfooddehydratedherbs')->name('bmcfooddehydratedherbs');
+Route::get('/bmcfoodoleoresins', 'PagesController@bmcfoodoleoresins')->name('bmcfoodoleoresins');
+Route::get('/bmcfoodiqf', 'PagesController@bmcfoodiqf')->name('bmcfoodiqf');
+Route::get('/bmcfooddaregal', 'PagesController@bmcfooddaregal')->name('bmcfooddaregal');
+Route::get('/bmcfoodnutritional', 'PagesController@bmcfoodnutritional')->name('bmcfoodnutritional');
+Route::get('/bmcfoodrawmats', 'PagesController@bmcfoodrawmats')->name('bmcfoodrawmats');
+Route::get('/bmcfoodtechnicalproduct', 'PagesController@bmcfoodtechnicalproducts')->name('bmcfoodtechnicalproduct');
+Route::get('/bmcfoodtechnicaltolling', 'PagesController@bmcfoodtechnicaltolling')->name('bmcfoodtechnicaltolling');
 
 
 // BACKEND

@@ -3207,3 +3207,130 @@ $brand-color:#df8625;
         #parallax-world-of-ugg .block {padding: 30px 15px; width:290px;}
     }
 }
+
+// FOOD
+.bmcfood-contactus {
+    background-color: white;
+    text-align: left;
+     
+     h3 {
+         font-weight: 600;
+         color: $primary-color;
+         margin-bottom: 15px;
+     }
+ 
+     .btn-primary {
+         font-weight: 600;
+         color: $light-color;
+         background-color: green;
+         border: 1.5px solid green;
+         transition-duration: 1s;
+         transition-property: color green;
+ 
+         &:hover {
+             color: green;
+             background-color: $light-bg;
+         }
+     }
+ 
+     p {
+         font-size:20px;
+         padding-left: 20px;
+         font-weight: 600;
+        
+     }
+     span {
+         color: green;
+         text-align: center;
+         padding:30px;
+         border: 1px solid $primary-color;
+         border-radius: 50%;
+     }
+}
+
+.page-title-bmcfoodupdated {
+    background: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: $light-bg;
+
+    h3 {
+        font-size: 26px;
+        font-weight: 600;
+        margin: 0;
+    }
+}
+
+.history {
+    height:450px; 
+    background-repeat: no-repeat;
+
+   
+    //background: linear-gradient(to bottom,  #251F5D 0%,  #251F5D 170%);
+    color: black;
+    
+    h1 {
+        //font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .hr {
+        border: 1px solid #251F5D;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 200px;
+    }
+    
+    p {
+        text-align: justify;
+        font-size: 16px;
+        font-weight: 550;
+    }
+    
+    h5 {
+        text-align: center;
+    }
+}
+
+.page-title-bmcfoodupdated {
+    background: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: $light-bg;
+
+    h3 {
+        font-size: 26px;
+        font-weight: 600;
+        margin: 0;
+    }
+}
+
+.bmcfood-product-1 {
+    background-color: white;
+    .card {
+        background-color: lighten(white, 15%) !important;
+        
+        .card-header {
+            font-size: 20px !important;
+            font-weight: 600 !important;
+            background-color: #33ff77 !important;
+            //color: white !important;
+        }
+        .list-group-item {
+            font-size: 16px;
+        }
+   
+        @media (max-width: 800px) {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 1em;
+        grid-auto-rows: minmax(220px, auto);
+
+        }
+    }   
+ 
+}

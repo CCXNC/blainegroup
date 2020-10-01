@@ -23,29 +23,21 @@
                 <ul class="navbar-nav ml-auto fw">
                     <li class="nav-item dropdown">
                     <a class="nav-link " href="{{ url('/bmcfoodindex') }}">
-                            <b style="color: rgb(94,136,54);">HOME</b>
-                        </a>
+                        <b style="color: rgb(94,136,54);">HOME</b>
+                    </a>
                     </li>
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
-                            <b style="color: rgb(94,136,54);">OUR COMPANIES</b>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{{ url('/bcindex') }}">
-                                    <img src="images/logo/BC.png" style="width:60px;" alt="">&nbsp;&nbsp;&nbsp;<b style="color:#251F5D;">BLAINE CORPORATION </b>
-                                </a>
-                            <a class="dropdown-item" href="{{ url('/rrlcindex') }}">
-                                    <img src="images/logo/rrlc.jpg" style="width:50px;" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b style="color:#251F5D;">REFAMED RESEARCHED LABORATORY CORPORATION</b>
-                                </a>
-                            <a class="dropdown-item" href="{{ url('/bmcindex') }}">
-                                <img src="images/logo/BMC.jpg" style="width:60px;" alt="">&nbsp;&nbsp;<b style="color:#251F5D;"> BLAINE MANUFACTURING CORPORATION </b>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link " href="#">
                             <b style="color: rgb(94,136,54);">ABOUT US</b>
                         </a>
+                        <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">
+                                <b>History</b>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <b>Food Division</b>
+                            </a>
+                        </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
@@ -53,17 +45,40 @@
                         </a>
                         <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#">
-                                <b>Premium Innovative Products</b>
+                                <b>Spices</b>
                             </a>
                             <a class="dropdown-item" href="#">
-                                <b>Nutritional & Functional Ingredients</b>
+                                <b>Dehydrated Herbs</b>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <b>Oleoresins</b>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <b>Individually Quick Frozen (IQF) Herbs</b>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <b>Daregal Chili Collections</b>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <b>Nutritional and Functional Ingredients</b>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <b>Other Raw Materials</b>
                             </a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link " href="#">
+                        <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
                             <b style="color: rgb(94,136,54);">TECHNICAL SERVICES</b>
                         </a>
+                        <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">
+                                <b>Product Customization</b>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <b>Expert Tolling Services</b>
+                            </a>
+                        </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link " href="#">

@@ -162,4 +162,51 @@ class PagesController extends Controller
         return view('pages.bmc.foodindex');
     }
 
+    public function bmcfoodhome() {
+        return view('pages.bmc.foodhome');
+    }
+
+    public function bmcfoodabouthistory() {
+        return view('pages.bmc.foodabouthistory');
+    }
+
+    public function bmcfoodaboutdivision() {
+        return view('pages.bmc.foodaboutdivision');
+    }
+
+    public function bmcfoodspices() {
+        return view('pages.bmc.foodspices');
+    }
+
+    public function bmcfooddehydratedherbs() {
+        return view('pages.bmc.fooddehydratedherbs');
+    }
+
+    public function bmcfoodoleoresins() {
+        return view('pages.bmc.foodoleoresins');
+    }
+
+    public function bmcfoodiqf() {
+        return view('pages.bmc.foodiqf');
+    }
+
+    public function bmcfooddaregal() {
+        return view('pages.bmc.fooddaregal');
+    }
+
+    public function bmcfoofnutritional() {
+        return view('pages.bmc.foodnutritional');
+    }
+
+    public function bmcfoodrawmats() {
+        return view('pages.bmc.foodrawmats');
+    }
+
+    public function bmcfoodtechnicalproduct() {
+        return view('pages.bmc.foodtechnicalproduct');
+    }
+
+    public function bmcfoodtechnicaltolling() {
+        return view('pages.bmc.foodtechnicaltolling');
+    }
 } 
