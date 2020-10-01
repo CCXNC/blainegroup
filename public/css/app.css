@@ -14006,3 +14006,127 @@ section {
   }
 }
 
+.bmcfood-contactus {
+  background-color: white;
+  text-align: left;
+}
+
+.bmcfood-contactus h3 {
+  font-weight: 600;
+  color: #251F5D;
+  margin-bottom: 15px;
+}
+
+.bmcfood-contactus .btn-primary {
+  font-weight: 600;
+  color: #f4f4f4;
+  background-color: green;
+  border: 1.5px solid green;
+  transition-duration: 1s;
+  transition-property: color green;
+}
+
+.bmcfood-contactus .btn-primary:hover {
+  color: green;
+  background-color: #efefef;
+}
+
+.bmcfood-contactus p {
+  font-size: 20px;
+  padding-left: 20px;
+  font-weight: 600;
+}
+
+.bmcfood-contactus span {
+  color: green;
+  text-align: center;
+  padding: 30px;
+  border: 1px solid #251F5D;
+  border-radius: 50%;
+}
+
+.page-title-bmcfoodupdated {
+  background: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: #efefef;
+}
+
+.page-title-bmcfoodupdated h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.history {
+  height: 450px;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+.history h1 {
+  font-weight: 600;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.history .hr {
+  border: 1px solid #251F5D;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 200px;
+}
+
+.history p {
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 550;
+}
+
+.history h5 {
+  text-align: center;
+}
+
+.page-title-bmcfoodupdated {
+  background: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: #efefef;
+}
+
+.page-title-bmcfoodupdated h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.bmcfood-product-1 {
+  background-color: white;
+}
+
+.bmcfood-product-1 .card {
+  background-color: white !important;
+}
+
+.bmcfood-product-1 .card .card-header {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  background-color: #33ff77 !important;
+}
+
+.bmcfood-product-1 .card .list-group-item {
+  font-size: 16px;
+}
+
+@media (max-width: 800px) {
+  .bmcfood-product-1 .card {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 1em;
+    grid-auto-rows: minmax(220px, auto);
+  }
+}
+
