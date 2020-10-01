@@ -46,35 +46,22 @@
                     <div class="newsarticleblog-wrapper">
                         <div class="card">
                             <div class="bg-color">
-                                <h3>REFAMED Participates in the 26th National Hog Convention</h3>
+                                <h3>REFAMED Participates in the 26th National Hog Convention </h3>
                                 <span>Related acticle written by Animal Nutrition team, On Sept-18-2020 10:47:09</span>
                             </div>
                             <br>
-                            <center><img src="/images/rrlc/newsarticle/newsarticle1.jpg" width="650px;" height="350px"></center>
+                            <center><img src="/images/rrlc/newsarticle/newsarticle2.png" width="650px;" height="350px"></center>
                             <br>
                             <p>
-                                During the Livestock Philippines Expo 2017 held at SMX Convention Center Mall of Asia on May 24, REFAMED was awarded by the Bureau of Animal Industry (BAI) as distinguished veterinary drugs and manufacturing company with facilities certified and conforming to international standards.
+                                Refamed Research Laboratory Corp (REFAMED) took part in the 26th National Hog Convention and Trade Exhibits at the SMX Convention Center, Mall of Asia, Pasay City last March 30 to April 1, 2017.
                             </p>
                             <p>
-                                The award was presented by BAI through Dr. Marife Fe Cabullo, the Chief of Animal Feeds and Veterinary Drugs Division together with Senator Cynthia Villar, the Chairperson of the Senate Committee on Agriculture. REFAMED’s Sales & Marketing Director, Ms. Virgie Pagaspas and Ms. Nema Macatugob, President & CEO of Blaine Group of Companies accepted the said award.
+                                The theme of REFAMED’s booth for this year was “REFAMED PIGS IN SUMMER”--riding on a very timely period and warmest season of the year, Summer. REFAMED came up with this theme to raise awareness to its clients and consumers that summer means excessive heat for animals, thus they’re more prone to dehydration and stress that can affect their feed intake and health resistance. Refamed as an innovative solution provider in animal health and nutrition, has a wide range of products like liquid methionine (Rhodimet AT88), oral solutions, vitamin-mineral premixes (Refavit & Refamin), probiotic (Alterion) and organic selenium (Selisseo) that can help farmers and business men during this challenging time. Aside from the fascinating booth design, Refamed team also prepared exciting gimmicks like engaging games, serving of complimentary fruit juices and giveaways.
                             </p>
                             <p>
-                                The selection process in getting the award was done by BAI who made the assessment thru an Internationally Recognized Institution. The basis for the evaluation was the company’s conformance to the provisions of the International Standards Organization (ISO), particularly:
+                                For this year, the convention focused on its group’s tagline of “Change is Now, Pinoy Pork Wow na Wow!” which emphasized on how the stakeholders of the hog industry can work together to strengthen, protect and promote the local pork industry.The Hog Convention is an annual exhibition jointly organized by the Pork Producers Federation of the Philippines, Inc. (ProPork) headed by Eliseo S. Yu and National Federation of Hog Farmers, Inc. (NFHFI) headed by Chester Warren Y. Tan. This event specifically targets commercial and backyard pork producers from all over the country. It features live hog exhibits, latest veterinary products, innovative equipment and various seminars on hog raising. It is also a venue for the pork producers and hog raisers to share their experiences, tips and to learn from each other.
+                                The venue for next year’s convention is in Cagayan De Oro and this will be in partnership with North Mindanao Hog Raisers Association (NorMinHog).
                             </p>
-                            <ul>
-                                <li>Design, Development, Manufacture and Distribution of Animal Health Products</li>
-                                <li>Provision of Laboratory Services for Quality Analysis and Packaging Services of Veterinary and Animal Health Products</li>
-                            </ul>
-                            <p>
-                                These were further assessed and validated by the Food and Drug Administration of the Department of Health after compliance to the requirements of Administrative Order No. 56 s. 1989 or the Revised Administrative Order No. 2012-008 s. 2012 or the Adaption and Implementation of the Pharmaceutical Cooperation Scheme (PIC/S) Guides for the Good Manufacturing Practice (GMP) for Medicinal Products.
-                            </p>
-                            <p>
-                                Livestock Philippines is the Philippines' 1st International Livestock Nutrition, Health and Production and Meat Industry Expo which has developed an outstanding reputation as the Philippines' premier event for the livestock, feed milling and meat industries. 
-                            </p>
-                            <p>
-                                This event is supported by the Department of Agriculture which brings together thousands of decision makers including integrators, farmers, feed millers, pre-mixers, meat processors, slaughter houses, veterinarians, distributors, retailers and other industry.
-                            </p>
-            
                         </div>
                         <section class="section content-5">
                             <div class="container container1">

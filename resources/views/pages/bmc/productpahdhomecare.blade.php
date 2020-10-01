@@ -32,7 +32,8 @@
                     </div>
                     <div class="card-body">
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Diswashing Liquid</li>
+                            <li class="list-group-item">Liquid Detergent</li>
+                            <li class="list-group-item">Dishwashing Liquid</li>
                             <li class="list-group-item">Multipurpose Cleaner</li>
                             <li class="list-group-item">Tile Cleaner</li>
                             <li class="list-group-item">Bleaches</li>

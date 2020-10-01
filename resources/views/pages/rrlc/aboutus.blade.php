@@ -4,7 +4,7 @@
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="/images/123.png" alt="First slide">
+                <img class="d-block w-100" src="/images/rrlc/aboutus22.jpg" alt="First slide">
             </div>
         </div>
     </div>
@@ -12,24 +12,33 @@
     <section class="page-title">
         <div class="container">
             <div class="col-md-12">
-                <h3>About Us</h3>
+                <h3>ABOUT US</h3>
             </div>
         </div>
     </section>
     <section class="about-1">
         <div class="container">
             <div class="col-md-12">
-                <h2>Refamed About Us</h2>
+                <p>
+                    Refamed Research Laboratory Corporation is a globally competitive, 100% Filipino-owned company engaged in manufacturing, marketing, and distribution of animal health and nutrition products since 1999. Refamed also boasts its achievement of attaining FDA cGMP (Certificate of Current Good Manufacturing Practice) and SGS ISO 9001-2015 certification for quality manufacturing systems and processes.
+                </p>
+                <p>    
+                    Aside from its excellent quality products Refamed is also the exclusive distributor of Adisseo, a world leader in nutritional solutions and additives for animal feeds. Refamed and Adisseo work hand-in-hand to make safe and quality methionine, enzymes, vitamins, organic selenium, and probiotics available in the market. Its renowned products include Rhodimet AT88®, Rovabio®, Microvit®, Selisseo®, and Alterion®. In addition to its portfolio, Refamed also partners with Kemin (for Toxfin Dry® and Acid Lac® Premium Dry) and Canadian Biosystem (Phytomax® and Maxigen Plus ®).
+                </p>
+                <p>
+                    Located in Blaine Industrial Complex, a 1.6-hectare animal health and premixing facility in Carmona, Cavite, Philippines.
+                </p>
+                <h3>Our Vision</h3>
                 <hr class="hr">
-                <p  style="color: red;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, modi dolorum. Dolores aliquam voluptatem earum alias molestiae quas similique, corporis nemo totam illum, illo numquam quis. Ratione perferendis, maiores sed nostrum mollitia soluta quos amet inventore impedit laboriosam laudantium asperiores corrupti obcaecati. Necessitatibus impedit est minus fugit. Mollitia facilis eligendi expedita architecto minima laudantium suscipit alias maxime ratione! Eaque consequuntur voluptas provident ipsa dignissimos quae placeat! Architecto eligendi rerum veniam ipsum exercitationem alias deleniti, ratione, omnis reiciendis nam at aut necessitatibus iste quae sit cum nostrum! Facilis magnam eum, excepturi quod officiis maiores accusamus quis veritatis repellat ipsam corporis possimus a illum aperiam! Expedita laborum nisi accusamus ad aliquam et dolor sint dignissimos, quia voluptates nostrum repudiandae. Velit, repellat. Iusto harum omnis, ipsum atque molestiae similique saepe libero cupiditate inventore rerum minus possimus sint quo consequatur quisquam assumenda consequuntur iure quibusdam illum ipsa, provident perferendis aliquam! Earum ab dolore excepturi!</p>
+                    <p>REFAMED as a leading innovative company in manufacturing and marketing animal health and nutrition products that foster development of globally competitive Farmers.</p> 
             </div>
             <div class="header">
                 <div class="col-md-12">
-                    <h2>Address</h2>
+                    <h3>Address</h3>
                     <hr class="hr">
                 </div>    
                 <div class="col-md-8">    
-                    <h5><span class="fa fa-map-marker">&nbsp;</span><span>Main Office:</span>Blaine Industrial Complex Brgy.14 Kamias Road Governor`s Drive Bo.Bancal Carmona, Cavite, Philippines 4116</h5>
+                    <h5><span class="fa fa-map-marker">&nbsp;</span>Main Office:Blaine Industrial Complex Brgy.14 Kamias Road Governor`s Drive Bo.Bancal Carmona, Cavite, Philippines 4116</h5>
                 </div>
             </div>
             <br>
@@ -42,11 +51,12 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        CORPORATE SOCIAL RESPONSIBILITY
+                        REFAMED CARES
                     </div>
                     <div class="card-body">
-                    <center><img src="/images/blank.png" width="1000px;" height="350px;" alt=""></center>
-                      <p style="color: red;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis eligendi reiciendis impedit architecto quaerat quisquam incidunt sapiente sed odio dignissimos nihil modi, facilis porro illo illum. Odit dolore exercitationem minima natus, eligendi tempora in assumenda vero pariatur doloribus, cupiditate similique provident excepturi fugit libero modi dignissimos, laborum sint ipsam consectetur. Placeat ipsum quam fuga vel earum laudantium porro ut quis libero, nihil ab voluptas tempore quasi id aut sed? Possimus inventore sint quo eaque nihil facere sapiente velit reiciendis? Modi dignissimos provident quisquam eius, fugiat nostrum quibusdam deserunt, error cum dolorem vel in, unde distinctio nihil! Blanditiis reiciendis quae, et ea, placeat nesciunt alias omnis sed soluta fugit impedit similique id temporibus dignissimos numquam sunt rerum consectetur ad ratione. Nesciunt facilis fuga delectus ex quam nobis. Excepturi, vitae? Ipsum, natus. Nulla nam inventore ducimus sapiente, ipsum tenetur, dignissimos itaque blanditiis non, corrupti veritatis provident odio aliquam sequi? Deleniti, minima perspiciatis.</P>
+                    <center><img src="/images/rrlc/aboutus2.png" width="600px;" height="350px;" alt=""></center>
+                    <p>REFAMED believes that giving back to the Filipino community is a responsibility of everybody. It is our commitment that we want to continue for a long time.  
+                    </p>
                     </div>
                 </div>
             </div>

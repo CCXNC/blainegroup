@@ -46,35 +46,20 @@
                     <div class="newsarticleblog-wrapper">
                         <div class="card">
                             <div class="bg-color">
-                                <h3>REFAMED Participates in the 26th National Hog Convention</h3>
+                                <h3> REFAMED joins 2019 Philippine Poultry Show </h3>
                                 <span>Related acticle written by Animal Nutrition team, On Sept-18-2020 10:47:09</span>
                             </div>
                             <br>
                             <center><img src="/images/rrlc/newsarticle/newsarticle1.jpg" width="650px;" height="350px"></center>
                             <br>
                             <p>
-                                During the Livestock Philippines Expo 2017 held at SMX Convention Center Mall of Asia on May 24, REFAMED was awarded by the Bureau of Animal Industry (BAI) as distinguished veterinary drugs and manufacturing company with facilities certified and conforming to international standards.
+                                REFAMED Research Laboratory had joined the biggest and the largest poultry event in the Philippines. The Philippine Poultry Show and Fiestag 2019 was held last August 23-25, 2019, at the SMX Convention Center, Mall of Asia, Pasay City.                                 </p>
+                            <p>
+                                The three-day event features exhibits from feed products, equipment, animal health products, and gamefowl supplies. This is organized by the National Federation of Egg Producers,  International Federation of Gamefowl Breeders, Associations, Inc (FIGBA) and the United Broiler Raisers Associations (UBRA). It is participated by stakeholders, consultants and gamefowl enthusiasts.
                             </p>
                             <p>
-                                The award was presented by BAI through Dr. Marife Fe Cabullo, the Chief of Animal Feeds and Veterinary Drugs Division together with Senator Cynthia Villar, the Chairperson of the Senate Committee on Agriculture. REFAMED’s Sales & Marketing Director, Ms. Virgie Pagaspas and Ms. Nema Macatugob, President & CEO of Blaine Group of Companies accepted the said award.
+                                REFAMED has been supportive of these events for several years now. This event showcased REFAMED’s products that will provide improvement in production as well as in animal health.
                             </p>
-                            <p>
-                                The selection process in getting the award was done by BAI who made the assessment thru an Internationally Recognized Institution. The basis for the evaluation was the company’s conformance to the provisions of the International Standards Organization (ISO), particularly:
-                            </p>
-                            <ul>
-                                <li>Design, Development, Manufacture and Distribution of Animal Health Products</li>
-                                <li>Provision of Laboratory Services for Quality Analysis and Packaging Services of Veterinary and Animal Health Products</li>
-                            </ul>
-                            <p>
-                                These were further assessed and validated by the Food and Drug Administration of the Department of Health after compliance to the requirements of Administrative Order No. 56 s. 1989 or the Revised Administrative Order No. 2012-008 s. 2012 or the Adaption and Implementation of the Pharmaceutical Cooperation Scheme (PIC/S) Guides for the Good Manufacturing Practice (GMP) for Medicinal Products.
-                            </p>
-                            <p>
-                                Livestock Philippines is the Philippines' 1st International Livestock Nutrition, Health and Production and Meat Industry Expo which has developed an outstanding reputation as the Philippines' premier event for the livestock, feed milling and meat industries. 
-                            </p>
-                            <p>
-                                This event is supported by the Department of Agriculture which brings together thousands of decision makers including integrators, farmers, feed millers, pre-mixers, meat processors, slaughter houses, veterinarians, distributors, retailers and other industry.
-                            </p>
-            
                         </div>
                         <section class="section content-5">
                             <div class="container container1">

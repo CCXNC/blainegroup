@@ -65,8 +65,18 @@ class PagesController extends Controller
         return view('pages.rrlc.newsarticle');
     }
 
+
     public function newsarticleblog() {
         return view('pages.rrlc.newsarticleblog');
+    }
+    public function newsarticleblog1() {
+        return view('pages.rrlc.newsarticleblog1');
+    }
+    public function newsarticleblog2() {
+        return view('pages.rrlc.newsarticleblog2');
+    }
+    public function newsarticleblog3() {
+        return view('pages.rrlc.newsarticleblog3');
     }
 
     public function rrlcaboutus() {

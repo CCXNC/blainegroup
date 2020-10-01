@@ -948,7 +948,6 @@ section {
 
  .newsarticle { 
     background-color: white;
-    color: red;
     hr {
         border: 1px solid $primary-color;
         margin-top: 30px;
@@ -967,6 +966,7 @@ section {
     .card-header {
         background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
         color: $light-bg;
+        font-weight: 600;
     }
 
     &-wrapper {
@@ -985,7 +985,7 @@ section {
             }
 
             p {
-                color: red;
+                color: $primary-color;
                 text-align: justify;
                 padding: 10px 5px;
                 font-size: 16px;
@@ -1008,7 +1008,6 @@ section {
 .newsarticleblog {
     background-color: white;
     
-
     hr {
         border: 1px solid $primary-color;
         margin-top: 30px;
@@ -1017,20 +1016,17 @@ section {
     }
 
     h3 {
-        font-size: 26px; 
+        font-size: 24px; 
         font-weight: 600;
     }
     .card-body {
         text-align: justify;
     }
-    span {
-        font-size: 10px;
-    }
     .card-header {
         background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
         color: $light-bg;
+        font-weight: 600;
     }
-    
     
     &-wrapper {
         display: grid;
@@ -1049,10 +1045,10 @@ section {
                 color: $light-bg;
 
                 p {
-                    //color: $light-bg;
-                    color: red;
+                    color: $light-bg;
                 }
             }
+
             img {
                
                 padding-bottom: 20px;
@@ -1064,13 +1060,19 @@ section {
             }
 
             p {
-                color: red;
+                padding: 0 10px 0 10px;
                 text-align: justify;
-                padding: 10px 5px;
                 font-size: 16px;
                 font-weight: 400;
-                //color: $primary-color;
+                color: $primary-color;
                 justify-content: space-between;
+            }
+            
+            ul li {
+                text-align: justify;
+                font-size: 14px;
+                font-weight: 400;
+                color: $primary-color;
             }
 
             span {
@@ -1278,13 +1280,14 @@ section {
     }
 
     h3 {
-        font-size: 26px; 
+        font-size: 25px; 
         font-weight: 600;
     }
 
+
     .header {
         background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
-        padding: 20px;
+        padding: 15px;
         color: $light-color;
 
         hr {
@@ -1293,32 +1296,30 @@ section {
         }
 
         h5 {
-            font-size: 18px; 
+            font-size: 16px; 
             font-weight: 600;
-        }
-        p {
-            padding: 10px 5px;
-            font-size: 16px;
-            font-weight: 400;
-            color: $dark-color;
-            justify-content: space-between;
         }
     }
    
     p {
-        padding: 10px 5px;
-        font-size: 16px;
-        font-weight: 400;
-        color: $dark-color;
-        justify-content: space-between;
+        font-size: 17px;
+        color: $primary-color;
+        text-align: justify;
     }
     .card-body {
         text-align: justify;
+
+        p {
+            font-size: 17px;
+            color: $primary-color;
+            text-align: justify;
+        }
     }
 
     .card-header {
         text-align: left;
         background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+        font-size: 18px !important;
         color: $light-bg;
     }
 
@@ -1936,21 +1937,6 @@ font-size: 19px !important;
         font-size: 26px;
         font-weight: 600;
     }
-    .hr {
-        border: 1px solid $primary-color;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        width: 150px;
-    }
-
-    .p {
-        
-        text-align: justify;
-        font-size: 16px;
-        font-weight: 550;
-    }
-
-   
 
     &-wrapper {
         display: grid;
@@ -1959,31 +1945,21 @@ font-size: 19px !important;
         grid-row-gap: 1em;
         text-align: center;
 
+        .card-header {
+            background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+            color: $light-bg;
+        }
+
         .card {
             background-color: lighten(white, 15%);
             padding: 20px;
+            
 
-
-            .col-md-4 {
-                padding: 20px;
+            p {
+                padding: 20px 0;
+                text-align: justify;
+                float: left;
             }
-
-            h5 {
-                font-weight: 800;
-                font-size: 15px;
-                color: $primary-color;
-                margin: 15px 0 25px;
-            }
-
-            .col-md-8 {
-                p {
-                    padding-left:50px;
-                    text-align: justify;
-                    font-size: 16px;
-                    font-weight: 550;
-                }
-            }
-
         }
 
         @media (max-width: 800px) {

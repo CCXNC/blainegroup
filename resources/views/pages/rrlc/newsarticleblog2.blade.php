@@ -46,39 +46,34 @@
                     <div class="newsarticleblog-wrapper">
                         <div class="card">
                             <div class="bg-color">
-                                <h3>REFAMED Participates in the 26th National Hog Convention</h3>
+                                <h3>African Swine Fever: Confirmed in the Philippines</h3>
                                 <span>Related acticle written by Animal Nutrition team, On Sept-18-2020 10:47:09</span>
                             </div>
                             <br>
-                            <center><img src="/images/rrlc/newsarticle/newsarticle1.jpg" width="650px;" height="350px"></center>
+                            <center><img src="/images/rrlc/newsarticle/newsarticle33.jpg" width="650px;" height="350px"></center>
                             <br>
                             <p>
-                                During the Livestock Philippines Expo 2017 held at SMX Convention Center Mall of Asia on May 24, REFAMED was awarded by the Bureau of Animal Industry (BAI) as distinguished veterinary drugs and manufacturing company with facilities certified and conforming to international standards.
+                                African swine fever spread rapidly in Asia last year. Outbreaks were seen in China last August 2018 and spread to Vietnam, Laos, Myanmar, Cambodia, Mongolia and North Korea.                             </p>
+                            <p>
+                                On August 16, 2019 the Bureau of Animal Industry informed the Department of Agriculture of an increased pig mortality reared on backyard farm in Rizal. Immediately, DA conducted an investigation and blood samples were collected, submitted to Pirbright’s reference laboratory in UK for PCR testing. 
+                                Last August 19, the Central Emergency Operation Center of Taiwan imposed a stricter checks on the carry-on luggage of all Filipinos entering their country as part of their precautionary measures but Secretary Dar assures the Filipino that there is no need to cause a panic in swine industry. In his interview, he never confirmed nor denied that African Swine Fever is the cause of the increasing pig deaths in Rizal province. He will give his final statement once the confirmatory result of submitted samples arrive. 
                             </p>
                             <p>
-                                The award was presented by BAI through Dr. Marife Fe Cabullo, the Chief of Animal Feeds and Veterinary Drugs Division together with Senator Cynthia Villar, the Chairperson of the Senate Committee on Agriculture. REFAMED’s Sales & Marketing Director, Ms. Virgie Pagaspas and Ms. Nema Macatugob, President & CEO of Blaine Group of Companies accepted the said award.
+                                After waiting for the results, on September 09, 2019, Sec Dar of Department of Agriculture announced that the samples sent from UK were PCR positive for African Swine Fever. He said that 14 of 20 samples tested positive but still need to check the virulence of the viral strain. This confirmation from Sec Dar made the Philippines as the ninth country in Asia affected by ASF after the Asian part of Russia, China, North Korea, Mongolia, Vietnam, Cambodia, Laos and Myanmar. 
+                                But what is African Swine Fever really all about? Is it a zoonotic disease? Will it cause harm in humans? How is the transmission of virus? And what will be the impact in the swine industry? These are some of the questions asked during the announcement of Sec. Dar. 
+                                African Swine Fever Virus is not harmful to humans but it can cause hemorrhagic fever in pigs that can lead to 100% mortality. As of today, there is NO cure and vaccine available. Implementation of strict biosecurity and cooperation of different agencies can prevent the spread of the disease. 
+                                Philippine outbreaks identified in two towns Rizal and Bulacan. Authorities already culled more than 7000 pigs within a one kilometer radius from the infected area. Suspected reasons for the virus entry in the Philippines were the backyard raisers who fed “pig swill” or food scrap coming from the hotels and restaurants nearby the area. They also added that the virus could be traced up from the smuggled frozen meat and returning overseas Filipino workers who brought back the infected meat products (canned, frozen or process meat). 
                             </p>
                             <p>
-                                The selection process in getting the award was done by BAI who made the assessment thru an Internationally Recognized Institution. The basis for the evaluation was the company’s conformance to the provisions of the International Standards Organization (ISO), particularly:
-                            </p>
-                            <ul>
-                                <li>Design, Development, Manufacture and Distribution of Animal Health Products</li>
-                                <li>Provision of Laboratory Services for Quality Analysis and Packaging Services of Veterinary and Animal Health Products</li>
-                            </ul>
-                            <p>
-                                These were further assessed and validated by the Food and Drug Administration of the Department of Health after compliance to the requirements of Administrative Order No. 56 s. 1989 or the Revised Administrative Order No. 2012-008 s. 2012 or the Adaption and Implementation of the Pharmaceutical Cooperation Scheme (PIC/S) Guides for the Good Manufacturing Practice (GMP) for Medicinal Products.
-                            </p>
-                            <p>
+                                Hog industry in the Philippines is around 260 billion worth and one of the critical industry in the Philippines. According to PSA the top three region contributes to the industry are the Central Luzon 21.72%, Calabarzon 16.03% and Central Visayas 8.38%. Despite of the confirmation from Sec Dar, Philippine authorities assured the public that they are in control of the situation by tightening quarantine checkpoints, including the airports and sea ports and imposed a strict monitoring in all smuggled imported meat to prevent disease spread. Implementation of 1-7-10 km protocol (1km for culling the animals, 7 km for the quarantine of animals and the 10 km for the surveillance of the animals in the area) the fast action and collaboration of government and private sector helps to contain the disease. 
+                                “We have never been in an epidemic, just to highlight that. We are responding to the increased number of deaths of pigs,” Dar said and urged the Filipino to continuously support eating Pinoy Pork. 
+                                                            <p>
                                 Livestock Philippines is the Philippines' 1st International Livestock Nutrition, Health and Production and Meat Industry Expo which has developed an outstanding reputation as the Philippines' premier event for the livestock, feed milling and meat industries. 
                             </p>
-                            <p>
-                                This event is supported by the Department of Agriculture which brings together thousands of decision makers including integrators, farmers, feed millers, pre-mixers, meat processors, slaughter houses, veterinarians, distributors, retailers and other industry.
-                            </p>
-            
                         </div>
                         <section class="section content-5">
                             <div class="container container1">
-                                <h3>Share your thoughts about this post</h3>
+                                <h3>African Swine Fever: Confirmed in the Philippines </h3>
                                 <form class="form-horizontal" action="">
                                     <div class="form-group">
                                         <label class="col-sm-4 control-label" for="name">Name (Required)</label>

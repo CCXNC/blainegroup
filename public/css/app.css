@@ -11828,7 +11828,6 @@ section {
 
 .newsarticle {
   background-color: white;
-  color: red;
 }
 
 .newsarticle hr {
@@ -11850,6 +11849,7 @@ section {
 .newsarticle .card-header {
   background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
   color: #efefef;
+  font-weight: 600;
 }
 
 .newsarticle-wrapper {
@@ -11870,7 +11870,7 @@ section {
 }
 
 .newsarticle-wrapper .card p {
-  color: red;
+  color: #251F5D;
   text-align: justify;
   padding: 10px 5px;
   font-size: 16px;
@@ -11898,7 +11898,7 @@ section {
 }
 
 .newsarticleblog h3 {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 600;
 }
 
@@ -11906,13 +11906,10 @@ section {
   text-align: justify;
 }
 
-.newsarticleblog span {
-  font-size: 10px;
-}
-
 .newsarticleblog .card-header {
   background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
   color: #efefef;
+  font-weight: 600;
 }
 
 .newsarticleblog-wrapper {
@@ -11935,7 +11932,7 @@ section {
 }
 
 .newsarticleblog-wrapper .card .bg-color p {
-  color: red;
+  color: #efefef;
 }
 
 .newsarticleblog-wrapper .card img {
@@ -11947,12 +11944,19 @@ section {
 }
 
 .newsarticleblog-wrapper .card p {
-  color: red;
+  padding: 0 10px 0 10px;
   text-align: justify;
-  padding: 10px 5px;
   font-size: 16px;
   font-weight: 400;
+  color: #251F5D;
   justify-content: space-between;
+}
+
+.newsarticleblog-wrapper .card ul li {
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 400;
+  color: #251F5D;
 }
 
 .newsarticleblog-wrapper .card span {
@@ -12146,13 +12150,13 @@ section {
 }
 
 .about-1 h3 {
-  font-size: 26px;
+  font-size: 25px;
   font-weight: 600;
 }
 
 .about-1 .header {
   background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
-  padding: 20px;
+  padding: 15px;
   color: #f4f4f4;
 }
 
@@ -12162,33 +12166,30 @@ section {
 }
 
 .about-1 .header h5 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
 }
 
-.about-1 .header p {
-  padding: 10px 5px;
-  font-size: 16px;
-  font-weight: 400;
-  color: #34495e;
-  justify-content: space-between;
-}
-
 .about-1 p {
-  padding: 10px 5px;
-  font-size: 16px;
-  font-weight: 400;
-  color: #34495e;
-  justify-content: space-between;
+  font-size: 17px;
+  color: #251F5D;
+  text-align: justify;
 }
 
 .about-1 .card-body {
   text-align: justify;
 }
 
+.about-1 .card-body p {
+  font-size: 17px;
+  color: #251F5D;
+  text-align: justify;
+}
+
 .about-1 .card-header {
   text-align: left;
   background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+  font-size: 18px !important;
   color: #efefef;
 }
 
@@ -12806,19 +12807,6 @@ section {
   font-weight: 600;
 }
 
-.tech-1 .hr {
-  border: 1px solid #251F5D;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  width: 150px;
-}
-
-.tech-1 .p {
-  text-align: justify;
-  font-size: 16px;
-  font-weight: 550;
-}
-
 .tech-1-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -12827,27 +12815,20 @@ section {
   text-align: center;
 }
 
+.tech-1-wrapper .card-header {
+  background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+  color: #efefef;
+}
+
 .tech-1-wrapper .card {
   background-color: white;
   padding: 20px;
 }
 
-.tech-1-wrapper .card .col-md-4 {
-  padding: 20px;
-}
-
-.tech-1-wrapper .card h5 {
-  font-weight: 800;
-  font-size: 15px;
-  color: #251F5D;
-  margin: 15px 0 25px;
-}
-
-.tech-1-wrapper .card .col-md-8 p {
-  padding-left: 50px;
+.tech-1-wrapper .card p {
+  padding: 20px 0;
   text-align: justify;
-  font-size: 16px;
-  font-weight: 550;
+  float: left;
 }
 
 @media (max-width: 800px) {

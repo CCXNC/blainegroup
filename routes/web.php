@@ -32,7 +32,12 @@ Route::get('/adisseoproduct','PagesController@adisseoproduct')->name('adisseopro
 Route::get('/productblog', 'PagesController@productblog')->name('productblog');
 Route::get('/technicalservice','PagesController@technicalservice')->name('technicalservice');
 Route::get('/newsarticle','PagesController@newsarticle')->name('newsarticle');
+
 Route::get('/newsarticleblog','PagesController@newsarticleblog')->name('newsarticleblog');
+Route::get('/newsarticleblog1','PagesController@newsarticleblog1')->name('newsarticleblog1');
+Route::get('/newsarticleblog2','PagesController@newsarticleblog2')->name('newsarticleblog2');
+Route::get('/newsarticleblog3','PagesController@newsarticleblog3')->name('newsarticleblog3');
+
 Route::get('/rrlcaboutus','PagesController@rrlcaboutus')->name('rrlcaboutus');
 Route::get('rrlccontactus','PagesController@rrlccontactus')->name('rrlccontactus');
 
