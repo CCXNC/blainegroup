@@ -14,7 +14,7 @@
                 <img class="d-block w-100" src="/images/bmcfood/Carousel2.jpg" alt="First slide">
                 <div class="carousel-caption">
                     <div class="caption-2">
-                        <h3><i>Blaine Manufacturing Corporation</i></h3>
+                        <h3><i>BLOG</i></h3>
                         <h5>Food Division</h5>
                         <p class="col-md-4">Blaine Manufacturing Corporation - Personal Home Care   (BMC-PHC) is a 100% Filipino-owned company established in 2008, 
                             with a vision to be the business partner of choice in the field of personal care, cosmetics, and home care.</p>
@@ -26,7 +26,7 @@
                 <img class="d-block w-100" src="/images/bmcfood/Carousel1.jpg" alt="First slide">
                 <div class="carousel-caption">
                     <div class="caption-2">
-                        <h3><i>Blaine Manufacturing Corporation</i></h3>
+                        <h3><i>VLOG</i></h3>
                         <h5>Food Division</h5>
                         <p class="col-md-4">Blaine Manufacturing Corporation - Personal Home Care   (BMC-PHC) is a 100% Filipino-owned company established in 2008, 
                             with a vision to be the business partner of choice in the field of personal care, cosmetics, and home care.</p>
@@ -38,7 +38,7 @@
                 <img class="d-block w-100" src="/images/bmcfood/Carousel3.jpg" alt="First slide">
                 <div class="carousel-caption">
                     <div class="caption-2">
-                        <h3><i>Blaine Manufacturing Corporation</i></h3>
+                        <h3><i>NEWS AND MARKETING UPDATES</i></h3>
                         <h5>Food Division</h5>
                         <p class="col-md-4">Blaine Manufacturing Corporation - Personal Home Care   (BMC-PHC) is a 100% Filipino-owned company established in 2008, 
                             with a vision to be the business partner of choice in the field of personal care, cosmetics, and home care.</p>
@@ -50,7 +50,7 @@
                 <img class="d-block w-100" src="/images/bmcfood/Carousel4.jpg" alt="First slide">
                 <div class="carousel-caption">
                     <div class="caption-2">
-                        <h3><i>Blaine Manufacturing Corporation</i></h3>
+                        <h3><i>RETAIL</i></h3>
                         <h5>Food Division</h5>
                         <p class="col-md-4">Blaine Manufacturing Corporation - Personal Home Care   (BMC-PHC) is a 100% Filipino-owned company established in 2008, 
                             with a vision to be the business partner of choice in the field of personal care, cosmetics, and home care.</p>
