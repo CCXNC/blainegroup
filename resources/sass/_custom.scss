@@ -3491,3 +3491,20 @@ $brand-color:#df8625;
          }
      }
  }
+
+ //Inquire BMCF
+ .page-title-inquire {
+    background: linear-gradient(to bottom, #EDEDED 100%, #EDEDED 200%);
+    display: flex;
+    justify-content: space-between;
+    //align-items: center;
+    text-align: left;
+    padding: 20px;
+    color: black;
+
+    h3 {
+        font-size: 26px;
+        font-weight: 600;
+        margin: 0;
+    }
+}

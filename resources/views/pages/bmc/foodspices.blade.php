@@ -57,5 +57,18 @@
             </div>
         </div>
     </section> 
+    <section class="page-title-inquire">
+        <div class="container">
+            <div class="col-md-12">
+                <h3>Got questions? Talk to us.</h3>
+                <p>
+                    <span class="fa fa-cart-plus"></span>&nbspShipping and Returns
+                    <br>
+                    <span class="fa fa-book"></span>&nbspTerms and Conditions <br>
+                    <span class="fa fa-question-circle"></span> FAQ 
+                </p>
+            </div>
+        </div>
+    </section>
 @endsection    
 
