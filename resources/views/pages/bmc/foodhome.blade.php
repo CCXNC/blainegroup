@@ -8,54 +8,57 @@
             <li data-target="#myCarousel" data-slide-to="2"></li>
             <li data-target="#myCarousel" data-slide-to="3"></li>
         </ol>
+        
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="/images/bmcfood/Carousel1.png" alt="First slide">
+                <img class="d-block w-100" src="/images/bmcfood/Carousel2.jpg" alt="First slide">
                 <div class="carousel-caption">
-                    <h3 style="color: white"><i>Blog</i></h3>
-                    <h5 style="color: white">Food Division</h5>
-                    <p style="color: white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Ut quos tenetur vitae dolorum voluptas! Temporibus expedita, 
-                        rem magni voluptate earum assumenda eveniet, sed saepe autem 
-                        laboriosam quibusdam porro architecto repellat!</p>
-                    <a href="#" class="btn btn-transparent1 btn-rounded1 btn-large1" >Read More</a>
+                    <div class="caption-2">
+                        <h3><i>Blaine Manufacturing Corporation</i></h3>
+                        <h5>Food Division</h5>
+                        <p class="col-md-4">Blaine Manufacturing Corporation - Personal Home Care   (BMC-PHC) is a 100% Filipino-owned company established in 2008, 
+                            with a vision to be the business partner of choice in the field of personal care, cosmetics, and home care.</p>
+                        <a href="#" class="btn btn-transparent2 btn-rounded2 btn-large2">Read More</a>
+                    </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="/images/bmcfood/Carousel2.png" alt="Second slide">
+                <img class="d-block w-100" src="/images/bmcfood/Carousel1.jpg" alt="First slide">
                 <div class="carousel-caption">
-                    <h3 style="color: white"><i>Vlog</i></h3>
-                    <h5 style="color: white">Food Division</h5>
-                    <p style="color: white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil 
-                        quasi veniam provident recusandae harum quae possimus asperiores 
-                        dolorem? Corrupti consequuntur autem quam architecto maiores, eum 
-                        magnam atque. Impedit, praesentium quibusdam!</p>
-                    <a href="#" class="btn btn-transparent1 btn-rounded1 btn-large1">Read More</a>
+                    <div class="caption-2">
+                        <h3><i>Blaine Manufacturing Corporation</i></h3>
+                        <h5>Food Division</h5>
+                        <p class="col-md-4">Blaine Manufacturing Corporation - Personal Home Care   (BMC-PHC) is a 100% Filipino-owned company established in 2008, 
+                            with a vision to be the business partner of choice in the field of personal care, cosmetics, and home care.</p>
+                        <a href="#" class="btn btn-transparent2 btn-rounded2 btn-large2">Read More</a>
+                    </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="/images/bmcfood/Carousel3.png" alt="Third slide">
+                <img class="d-block w-100" src="/images/bmcfood/Carousel3.jpg" alt="First slide">
                 <div class="carousel-caption">
-                    <h3 style="color: white"><i>News and Marketing Updates</i></h3>
-                    <h5 style="color: white">Food Division</h5>
-                    <p style="color: white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas laborum 
-                        consequatur nulla adipisci id qui illum et obcaecati illo eaque quo sapiente 
-                        totam similique, voluptatem, sed, ex porro est maiores!</p>
-                    <a href="#" class="btn btn-transparent1 btn-rounded1 btn-large1">Read More</a>
+                    <div class="caption-2">
+                        <h3><i>Blaine Manufacturing Corporation</i></h3>
+                        <h5>Food Division</h5>
+                        <p class="col-md-4">Blaine Manufacturing Corporation - Personal Home Care   (BMC-PHC) is a 100% Filipino-owned company established in 2008, 
+                            with a vision to be the business partner of choice in the field of personal care, cosmetics, and home care.</p>
+                        <a href="#" class="btn btn-transparent2 btn-rounded2 btn-large2">Read More</a>
+                    </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="/images/bmcfood/Carousel4.jpg" alt="Fourth slide">
+                <img class="d-block w-100" src="/images/bmcfood/Carousel4.jpg" alt="First slide">
                 <div class="carousel-caption">
-                    <h3 style="color: white"><i>Retail</i></h3>
-                    <h5 style="color: white">Food Division</h5>
-                    <p style="color: white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis at ut rerum
-                     doloremque exercitationem asperiores, est porro sunt consequatur sit, delectus 
-                     eius quam magnam vitae debitis beatae, et sequi laboriosam!</p>
-                    <a href="#" class="btn btn-transparent1 btn-rounded1 btn-large1">Read More</a>
+                    <div class="caption-2">
+                        <h3><i>Blaine Manufacturing Corporation</i></h3>
+                        <h5>Food Division</h5>
+                        <p class="col-md-4">Blaine Manufacturing Corporation - Personal Home Care   (BMC-PHC) is a 100% Filipino-owned company established in 2008, 
+                            with a vision to be the business partner of choice in the field of personal care, cosmetics, and home care.</p>
+                        <a href="#" class="btn btn-transparent2 btn-rounded2 btn-large2">Read More</a>
+                    </div>
                 </div>
             </div>
-        </div>
+        </div>    
         <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
@@ -65,7 +68,8 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-    <section class="page-title-bmcfoodupdated">
+    <br>
+    <section class="page-title-bmcfood">
         <div class="container">
             <div class="col-md-12">
                 <h3>Contact Us</h3>
@@ -139,7 +143,7 @@
                         </div>
                         <div class="col-md-10">
                             <br>
-                            <p>Customer Service:+632 584 4256 to 60 Email:refamed_info@blainegroup.com.ph</p>
+                            <p>Customer Service:+632 584 4256 to 60 Email:bmcfood_info@blainegroup.com.ph</p>
                         </div>
                     </div>
                 </div>

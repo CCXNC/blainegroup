@@ -1,44 +1,46 @@
 @extends('layouts.bmcfoodapp')
 
 @section('content')
-<section class="page-title-bmcfoodupdated">
+<section class="page-title-bmcfood">
     <div class="container">
         <div class="col-md-12">
             <h3>PRODUCTS</h3>
         </div>
     </div>
 </section>
-<section class="section bmcfood-product-1">
+<section class="section bmcfood-product-3" >
     <div class="container">
-        <center>
-            <div class="card" style="width: 25rem;">
-                <div class="card-header">
-                    Nutritional and Functional Ingredients
-                </div>
-                <div class="card-body">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Vitamin A Palmitate 250,000 IU
+        <h3>Nutritional and Functional Ingredients</h3>
+        <p><i>"Discover what makes you favorite spices and flavors taste SO good"</i></p>
+        <hr class="hr">
+        <div class="bmcfood-product-3-wrapper">
+                <div class="card">
+                    <h3><img src="/images/bmcfood/products/nutritional/image1.png" alt=""></h3> 
+                    <br>
+                    <h5>Blaine Manufacturing Corporation offers premium Nutritional and functional Ingerdients in Pure Form: <h5>
+                    <ul>
+                        <li>Vitamin A Palmitate 250,000 IU
                         </li>
-                        <li class="list-group-item">Vitamin A Oil Palmitate 1.7M IU
+                        <li>Vitamin A Oil Palmitate 1.7M IU
                         </li>
-                        <li class="list-group-item">Vitamin B (B1, B2, B3, B5, B6, B9 and B12)
+                        <li>Vitamin B (B1, B2, B3, B5, B6, B9 and B12)
                         </li>
-                        <li class="list-group-item">Vitamin C in Plain and Coated Form
+                        <li>Vitamin C in Plain and Coated Form
                         </li>
-                        <li class="list-group-item">Vitamin E Oil Acetate
+                        <li>Vitamin E Oil Acetate
                         </li>
-                        <li class="list-group-item">Ferrous Fumarate
+                        <li>Ferrous Fumarate
                         </li>
-                        <li class="list-group-item">Electrolytic Iron
+                        <li>Electrolytic Iron
                         </li>
-                        <li class="list-group-item">DHA 7%
+                        <li>DHA 7%
                         </li>
-                        <li class="list-group-item">Sodium Ascorbate
+                        <li>Sodium Ascorbate
                         </li>
                     </ul>
                 </div>
             </div>
-        </center>
-    </div>    
-</section>
+        </div>
+    </div>
+</section> 
 @endsection    

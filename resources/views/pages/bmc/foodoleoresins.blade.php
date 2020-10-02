@@ -1,32 +1,33 @@
 @extends('layouts.bmcfoodapp')
 
 @section('content')
-<section class="page-title-bmcfoodupdated">
+<section class="page-title-bmcfood">
     <div class="container">
         <div class="col-md-12">
             <h3>PRODUCTS</h3>
         </div>
     </div>
 </section>
-<section class="section bmcfood-product-1">
+<section class="section bmcfood-product-3" >
     <div class="container">
-        <center>
-            <div class="card" style="width: 25rem;">
-                <div class="card-header">
-                    Oleoresins
-                </div>
-                <div class="card-body">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">OR Capsicum</li>
-                        <li class="list-group-item">OR Paprika</li>
-                        <li class="list-group-item">OR Paprika with Rosemary</li>
-                        <li class="list-group-item">OR Nutmeg</li>
-                        <li class="list-group-item">OR Black Pepper</li>
-                        <li class="list-group-item">OR Garlic</li>
+        <h3>  Oleoresins</h3>
+        <p><i>"Discover what makes you favorite spices and flavors taste SO good"</i></p>
+        <hr class="hr">
+        <div class="bmcfood-product-3-wrapper">
+                <div class="card">
+                    <h3><img src="/images/bmcfood/products/oleoresins/image3.jpg" width="800px;"></h3>
+                    <br>
+                    <h5>Blaine Manufacturing Corporation offers premium Oleoresins Oil:<h5>
+                    <ul>
+                        <li>OR Capsicum</li>
+                        <li>OR Paprika</li>
+                        <li>OR Paprika with Rosemary</li>
+                        <li>OR Black Pepper</li>
+                        <li>OR Garlic</li>
                     </ul>
                 </div>
             </div>
-        </center>
-    </div>    
-</section>
+        </div>
+    </div>
+</section> 
 @endsection    

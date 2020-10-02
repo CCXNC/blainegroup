@@ -12,7 +12,9 @@ $light-bg: #efefef;
 $dark-bg: #d2d7d3;
 $light-yellow-bg: #fcd800;
 $bmcpahd-color : rgb(208, 74, 150);
-$bmcfood-color : rgb(94,136,54);
+$bmcfood-color : #097610;
+//$bmcfood-color: #0E2700;
+
 
 body {
     box-sizing: border-box;
@@ -76,7 +78,7 @@ body {
 .bmcfooter {
     .footer-section {
         color: $light-color;
-        background: linear-gradient(to bottom, #007730 100%, #99ff99 100%);
+        background: linear-gradient(to bottom, #097610 100%,  #097610 100%);
         //background: linear-gradient(to bottom, #007730 0%, #99ff99 100%);
         padding-top: 20px;
         padding-bottom: 20px;
@@ -117,7 +119,7 @@ body {
 .bmc2footer {
     .footer-section {
         color: $light-color;
-        background: $bmcfood-color;
+        background: linear-gradient(to bottom, $bmcfood-color 100%, $bmcfood-color 200%);
         //background: linear-gradient(to bottom, #007730 0%, #99ff99 100%);
         padding-top: 20px;
         padding-bottom: 20px;
@@ -135,7 +137,7 @@ body {
 }
 
 .page-title-bmcfood {
-    background: $bmcpahd-color;
+    background: linear-gradient(to bottom, $bmcfood-color 100%, $bmcfood-color 200%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -150,7 +152,7 @@ body {
 }
 
 .page-title {
-    background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+    background: linear-gradient(to bottom right, #007730 0%, #007730 200%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -967,7 +969,7 @@ section {
     }
 
     .card-header {
-        background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+        background: linear-gradient(to bottom right, #007730 0%, #007730 200%);
         color: $light-bg;
         font-weight: 600;
     }
@@ -1026,7 +1028,7 @@ section {
         text-align: justify;
     }
     .card-header {
-        background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+        background: linear-gradient(to bottom right, #007730 0%, #007730 200%);
         color: $light-bg;
         font-weight: 600;
     }
@@ -1043,7 +1045,7 @@ section {
             padding: 20px;
 
             .bg-color {
-                background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+                background: linear-gradient(to bottom right, #007730 0%,#007730 200%);
                 padding: 20px;
                 color: $light-bg;
 
@@ -1101,7 +1103,7 @@ section {
 
 .productblog-1 {
 
-    background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+    background: linear-gradient(to bottom right, #007730 0%, #007730 200%);
     //display: flex;
     //justify-content: space-between;
     //align-items: center;
@@ -1147,7 +1149,7 @@ section {
 
 .productblog-3 {
 
-    background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+    background: linear-gradient(to bottom right, #007730 0%, #007730 200%);
     //display: flex;
     //justify-content: space-between;
     //align-items: center;
@@ -1231,7 +1233,7 @@ section {
 
     .card-header {
         text-align: left;
-        background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+        background: linear-gradient(to bottom right, #007730 0%, #007730 200%);
         color: $light-bg;
     }
 
@@ -1289,7 +1291,7 @@ section {
 
 
     .header {
-        background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+        background: linear-gradient(to bottom right, #007730 0%, #007730 200%);
         padding: 15px;
         color: $light-color;
 
@@ -1321,7 +1323,7 @@ section {
 
     .card-header {
         text-align: left;
-        background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+        background: linear-gradient(to bottom right, #007730 0%, #007730 200%);
         font-size: 18px !important;
         color: $light-bg;
     }
@@ -1949,7 +1951,7 @@ font-size: 19px !important;
         text-align: center;
 
         .card-header {
-            background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+            background: linear-gradient(to bottom right, #007730 0%, #007730 200%);
             color: $light-bg;
         }
 
@@ -2134,6 +2136,28 @@ font-size: 19px !important;
     padding: 11px 45px;
     font-size: 18px;
   }
+
+    // BUTTON FOOD HOMEPAGE
+    .btn-transparent2 {
+        background-color: #fff;
+        color: $bmcfood-color;
+        font-weight: 550;
+        //border: 2px solid $bmcfood-color;
+      }
+      .btn-transparent2:hover {
+        
+        background: $bmcfood-color;
+        color: #fff;
+      }
+      
+      .btn-rounded2 {
+        border-radius: 70px;
+      }
+      
+      .btn-large2 {
+        padding: 11px 45px;
+        font-size: 18px;
+      }
   
   /**
    * Change animation duration
@@ -2223,6 +2247,26 @@ font-size: 19px !important;
                 text-align:left;
                 color: $primary-color;
                 font-weight: 600;
+            }
+        }
+        .caption-2 {
+            h3 {
+                font-size: 32px;
+                color: $light-color;
+                font-weight: 600;
+                text-align:left;
+                margin-top: 150px;
+            }
+    
+            h5 {
+                font-size: 24px;
+                text-align:left;
+                color: $light-color;
+                font-weight: 600;
+            }
+
+            p {
+                color: $light-color;
             }
         }
     }
@@ -3248,34 +3292,17 @@ $brand-color:#df8625;
      }
 }
 
-.page-title-bmcfoodupdated {
-    background: green;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    color: $light-bg;
-
-    h3 {
-        font-size: 26px;
-        font-weight: 600;
-        margin: 0;
-    }
-}
-
 .history {
     height:450px; 
     background-repeat: no-repeat;
-
-   
     //background: linear-gradient(to bottom,  #251F5D 0%,  #251F5D 170%);
     color: black;
     
-    h1 {
-        //font-size: 24px;
+    h3 {
+        font-size: 27px;
         font-weight: 600;
         text-align: center;
-        padding-top: 50px;
+        padding-top: 20px;
     }
     .hr {
         border: 1px solid #251F5D;
@@ -3286,12 +3313,13 @@ $brand-color:#df8625;
     
     p {
         text-align: justify;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 550;
     }
     
     h5 {
-        text-align: center;
+        font-size: 22px;
+        font-weight: 600;
     }
 }
 
@@ -3310,16 +3338,18 @@ $brand-color:#df8625;
     }
 }
 
-.bmcfood-product-1 {
+/*.bmcfood-product-1 {
     background-color: white;
     .card {
+        display: grid;
         background-color: lighten(white, 15%) !important;
         
         .card-header {
             font-size: 20px !important;
             font-weight: 600 !important;
-            background-color: #33ff77 !important;
+            background-color: $bmcfood-color !important;
             //color: white !important;
+            color: $light-color !important;
         }
         .list-group-item {
             font-size: 16px;
@@ -3333,4 +3363,176 @@ $brand-color:#df8625;
         }
     }   
  
-}
+}*/
+
+.bmcfood-product-1 {
+    background-color: white;
+ 
+     hr {
+         border: 1px solid $primary-color;
+         margin-top: 15px;
+         margin-bottom: 15px;
+         width: 150px;
+     }
+ 
+     h3 {
+         font-size: 22px;
+         font-weight: 600;
+     }
+ 
+     p {
+         font-size: 18px;
+         font-weight: 500;
+     }
+ 
+     &-wrapper {
+         display: grid;
+         grid-template-columns: repeat(4, 1fr);
+         grid-column-gap: 1em;
+         grid-row-gap: 1em;
+         text-align: center;
+ 
+         .card {
+             background-color: lighten(white, 15%);
+             border:none;
+            
+            .card-header {
+                font-size: 20px !important;
+                font-weight: 600 !important;
+                background-color: $bmcfood-color !important;
+                //color: white !important;
+                color: $light-color !important;
+            }
+             h5 {
+                 font-weight: 800;
+                 font-size: 15px;
+                 color: $primary-color;
+                 margin: 15px 0 25px;
+             }
+ 
+             p {
+                 font-size: 14px;
+                 font-weight: 400;
+                 color: $dark-color;
+             }
+ 
+         }
+ 
+         @media (max-width: 800px) {
+             grid-template-columns: repeat(1, 1fr);
+             grid-row-gap: 1em;
+             grid-auto-rows: minmax(220px, auto);
+         }
+     }
+ }
+
+ .bmcfood-product-2 {
+    background-color: white;
+ 
+     hr {
+         border: 1px solid $primary-color;
+         margin-top: 15px;
+         margin-bottom: 15px;
+         width: 150px;
+     }
+ 
+     h3 {
+         font-size: 22px;
+         font-weight: 600;
+     }
+ 
+     p {
+         font-size: 18px;
+         font-weight: 500;
+     }
+ 
+     &-wrapper {
+        .row {
+            float: left;
+            margin-left: 280px;
+        }
+         .card {
+             background-color: lighten(white, 15%);
+             border:none;
+            
+             h5 {
+                 font-weight: 800;
+                 font-size: 15px;
+                 color: $primary-color;
+                 margin: 15px 0 25px;
+             }
+ 
+             p {
+                 font-size: 14px;
+                 font-weight: 400;
+                 color: $dark-color;
+             }
+          
+ 
+         }
+ 
+         @media (max-width: 800px) {
+             grid-template-columns: repeat(1, 1fr);
+             grid-row-gap: 1em;
+             grid-auto-rows: minmax(220px, auto);
+         }
+     }
+ }
+
+ .bmcfood-product-3 {
+    background-color: white;
+ 
+     hr {
+         border: 1px solid $primary-color;
+         margin-top: 15px;
+         margin-bottom: 15px;
+         width: 150px;
+     }
+ 
+     h3 {
+         font-size: 26px;
+         font-weight: 600;
+     }
+ 
+     p {
+         font-size: 18px;
+         font-weight: 500;
+     }
+ 
+     &-wrapper {
+
+         .card {
+             background-color: lighten(white, 15%);
+             border:none;
+            
+             h5 {
+                padding-left: 150px;
+                 font-weight: 800;
+                 font-size: 18px;
+                 color: $primary-color;
+                 text-align: left;
+             }
+
+             ul li {
+                font-size: 18px;
+                font-weight: 400;
+                color: $primary-color;
+                text-align: left;
+             }
+ 
+             p {
+                 font-size: 14px;
+                 font-weight: 400;
+                 color: $dark-color;
+             }
+          
+ 
+         }
+ 
+         @media (max-width: 800px) {
+             grid-template-columns: repeat(1, 1fr);
+             grid-row-gap: 1em;
+             grid-auto-rows: minmax(220px, auto);
+         }
+     }
+ }

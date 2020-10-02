@@ -194,7 +194,7 @@ class PagesController extends Controller
         return view('pages.bmc.fooddaregal');
     }
 
-    public function bmcfoofnutritional() {
+    public function bmcfoodnutritional() {
         return view('pages.bmc.foodnutritional');
     }
 
@@ -202,7 +202,7 @@ class PagesController extends Controller
         return view('pages.bmc.foodrawmats');
     }
 
-    public function bmcfoodtechnicalproduct() {
+    public function bmcfoodtechnicalproducts() {
         return view('pages.bmc.foodtechnicalproduct');
     }
 

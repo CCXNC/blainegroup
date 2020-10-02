@@ -10961,7 +10961,7 @@ body {
 
 .bmcfooter .footer-section {
   color: #f4f4f4;
-  background: linear-gradient(to bottom, #007730 100%, #99ff99 100%);
+  background: linear-gradient(to bottom, #097610 100%, #097610 100%);
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -10997,7 +10997,7 @@ body {
 
 .bmc2footer .footer-section {
   color: #f4f4f4;
-  background: #5e8836;
+  background: linear-gradient(to bottom, #097610 100%, #097610 200%);
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -11014,7 +11014,7 @@ body {
 }
 
 .page-title-bmcfood {
-  background: #d04a96;
+  background: linear-gradient(to bottom, #097610 100%, #097610 200%);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11029,7 +11029,7 @@ body {
 }
 
 .page-title {
-  background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+  background: linear-gradient(to bottom right, #007730 0%, #007730 200%);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11847,7 +11847,7 @@ section {
 }
 
 .newsarticle .card-header {
-  background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+  background: linear-gradient(to bottom right, #007730 0%, #007730 200%);
   color: #efefef;
   font-weight: 600;
 }
@@ -11907,7 +11907,7 @@ section {
 }
 
 .newsarticleblog .card-header {
-  background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+  background: linear-gradient(to bottom right, #007730 0%, #007730 200%);
   color: #efefef;
   font-weight: 600;
 }
@@ -11926,7 +11926,7 @@ section {
 }
 
 .newsarticleblog-wrapper .card .bg-color {
-  background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+  background: linear-gradient(to bottom right, #007730 0%, #007730 200%);
   padding: 20px;
   color: #efefef;
 }
@@ -11979,7 +11979,7 @@ section {
 }
 
 .productblog-1 {
-  background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+  background: linear-gradient(to bottom right, #007730 0%, #007730 200%);
   padding: 20px;
   color: #efefef;
 }
@@ -12011,7 +12011,7 @@ section {
 }
 
 .productblog-3 {
-  background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+  background: linear-gradient(to bottom right, #007730 0%, #007730 200%);
   padding: 20px;
   color: #efefef;
 }
@@ -12097,7 +12097,7 @@ section {
 
 .productblog-5 .card-header {
   text-align: left;
-  background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+  background: linear-gradient(to bottom right, #007730 0%, #007730 200%);
   color: #efefef;
 }
 
@@ -12155,7 +12155,7 @@ section {
 }
 
 .about-1 .header {
-  background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+  background: linear-gradient(to bottom right, #007730 0%, #007730 200%);
   padding: 15px;
   color: #f4f4f4;
 }
@@ -12188,7 +12188,7 @@ section {
 
 .about-1 .card-header {
   text-align: left;
-  background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+  background: linear-gradient(to bottom right, #007730 0%, #007730 200%);
   font-size: 18px !important;
   color: #efefef;
 }
@@ -12674,7 +12674,7 @@ section {
 }
 
 .bmc-content-2 {
-  background: linear-gradient(to bottom, #5e8836 100%, #5e8836 100%);
+  background: linear-gradient(to bottom, #097610 100%, #097610 100%);
   color: #f4f4f4;
 }
 
@@ -12754,7 +12754,7 @@ section {
 }
 
 .bmc-content-4 {
-  background: linear-gradient(to bottom, #5e8836 100%, #5e8836 100%);
+  background: linear-gradient(to bottom, #097610 100%, #097610 100%);
   color: #f4f4f4;
 }
 
@@ -12816,7 +12816,7 @@ section {
 }
 
 .tech-1-wrapper .card-header {
-  background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+  background: linear-gradient(to bottom right, #007730 0%, #007730 200%);
   color: #efefef;
 }
 
@@ -13003,6 +13003,26 @@ section {
   font-size: 18px;
 }
 
+.btn-transparent2 {
+  background-color: #fff;
+  color: #097610;
+  font-weight: 550;
+}
+
+.btn-transparent2:hover {
+  background: #097610;
+  color: #fff;
+}
+
+.btn-rounded2 {
+  border-radius: 70px;
+}
+
+.btn-large2 {
+  padding: 11px 45px;
+  font-size: 18px;
+}
+
 /**
  * Change animation duration
  * BMC FOOD Carousel Homepage
@@ -13086,6 +13106,25 @@ section {
   text-align: left;
   color: #251F5D;
   font-weight: 600;
+}
+
+.carousel-caption .caption-2 h3 {
+  font-size: 32px;
+  color: #f4f4f4;
+  font-weight: 600;
+  text-align: left;
+  margin-top: 150px;
+}
+
+.carousel-caption .caption-2 h5 {
+  font-size: 24px;
+  text-align: left;
+  color: #f4f4f4;
+  font-weight: 600;
+}
+
+.carousel-caption .caption-2 p {
+  color: #f4f4f4;
 }
 
 /*.carousel-caption {
@@ -14073,31 +14112,17 @@ section {
   border-radius: 50%;
 }
 
-.page-title-bmcfoodupdated {
-  background: green;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  color: #efefef;
-}
-
-.page-title-bmcfoodupdated h3 {
-  font-size: 26px;
-  font-weight: 600;
-  margin: 0;
-}
-
 .history {
   height: 450px;
   background-repeat: no-repeat;
   color: black;
 }
 
-.history h1 {
+.history h3 {
+  font-size: 27px;
   font-weight: 600;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .history .hr {
@@ -14109,12 +14134,13 @@ section {
 
 .history p {
   text-align: justify;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 550;
 }
 
 .history h5 {
-  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
 }
 
 .page-title-bmcfoodupdated {
@@ -14132,26 +14158,196 @@ section {
   margin: 0;
 }
 
+/*.bmcfood-product-1 {
+    background-color: white;
+    .card {
+        display: grid;
+        background-color: lighten(white, 15%) !important;
+
+        .card-header {
+            font-size: 20px !important;
+            font-weight: 600 !important;
+            background-color: $bmcfood-color !important;
+            //color: white !important;
+            color: $light-color !important;
+        }
+        .list-group-item {
+            font-size: 16px;
+        }
+
+        @media (max-width: 800px) {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 1em;
+        grid-auto-rows: minmax(220px, auto);
+
+        }
+    }   
+
+}*/
+
 .bmcfood-product-1 {
   background-color: white;
 }
 
-.bmcfood-product-1 .card {
-  background-color: white !important;
+.bmcfood-product-1 hr {
+  border: 1px solid #251F5D;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 150px;
 }
 
-.bmcfood-product-1 .card .card-header {
+.bmcfood-product-1 h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.bmcfood-product-1 p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.bmcfood-product-1-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  text-align: center;
+}
+
+.bmcfood-product-1-wrapper .card {
+  background-color: white;
+  border: none;
+}
+
+.bmcfood-product-1-wrapper .card .card-header {
   font-size: 20px !important;
   font-weight: 600 !important;
-  background-color: #33ff77 !important;
+  background-color: #097610 !important;
+  color: #f4f4f4 !important;
 }
 
-.bmcfood-product-1 .card .list-group-item {
-  font-size: 16px;
+.bmcfood-product-1-wrapper .card h5 {
+  font-weight: 800;
+  font-size: 15px;
+  color: #251F5D;
+  margin: 15px 0 25px;
+}
+
+.bmcfood-product-1-wrapper .card p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #34495e;
 }
 
 @media (max-width: 800px) {
-  .bmcfood-product-1 .card {
+  .bmcfood-product-1-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 1em;
+    grid-auto-rows: minmax(220px, auto);
+  }
+}
+
+.bmcfood-product-2 {
+  background-color: white;
+}
+
+.bmcfood-product-2 hr {
+  border: 1px solid #251F5D;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 150px;
+}
+
+.bmcfood-product-2 h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.bmcfood-product-2 p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.bmcfood-product-2-wrapper .row {
+  float: left;
+  margin-left: 280px;
+}
+
+.bmcfood-product-2-wrapper .card {
+  background-color: white;
+  border: none;
+}
+
+.bmcfood-product-2-wrapper .card h5 {
+  font-weight: 800;
+  font-size: 15px;
+  color: #251F5D;
+  margin: 15px 0 25px;
+}
+
+.bmcfood-product-2-wrapper .card p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #34495e;
+}
+
+@media (max-width: 800px) {
+  .bmcfood-product-2-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 1em;
+    grid-auto-rows: minmax(220px, auto);
+  }
+}
+
+.bmcfood-product-3 {
+  background-color: white;
+}
+
+.bmcfood-product-3 hr {
+  border: 1px solid #251F5D;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 150px;
+}
+
+.bmcfood-product-3 h3 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.bmcfood-product-3 p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.bmcfood-product-3-wrapper .card {
+  background-color: white;
+  border: none;
+}
+
+.bmcfood-product-3-wrapper .card h5 {
+  padding-left: 150px;
+  font-weight: 800;
+  font-size: 18px;
+  color: #251F5D;
+  text-align: left;
+}
+
+.bmcfood-product-3-wrapper .card ul li {
+  font-size: 18px;
+  font-weight: 400;
+  color: #251F5D;
+  text-align: left;
+}
+
+.bmcfood-product-3-wrapper .card p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #34495e;
+}
+
+@media (max-width: 800px) {
+  .bmcfood-product-3-wrapper {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);

@@ -22,67 +22,67 @@
                 <!-- Right Side Of Navbar -->
                 <ul class="navbar-nav ml-auto fw">
                     <li class="nav-item dropdown">
-                    <a class="nav-link " href="{{ url('/bmcfoodindex') }}">
-                        <b style="color: rgb(94,136,54);">HOME</b>
+                    <a class="nav-link " href="{{ url('/bmcfoodhome') }}">
+                        <b style="color:  #097610;">HOME</b>
                     </a>
                     </li>
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
-                            <b style="color: rgb(94,136,54);">ABOUT US</b>
+                            <b style="color:  #097610;">ABOUT US</b>
                         </a>
                         <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="{{ url('/bmcfoodabouthistory') }}">
                                 <b>History</b>
                             </a>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="{{ url('/bmcfoodaboutdivision') }}">
                                 <b>Food Division</b>
                             </a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
-                            <b style="color: rgb(94,136,54);">PRODUCTS</b>
+                            <b style="color:  #097610;">PRODUCTS</b>
                         </a>
                         <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="{{ url('/bmcfoodspices') }}">
                                 <b>Spices</b>
                             </a>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="{{ url('/bmcfooddehydratedherbs') }}">
                                 <b>Dehydrated Herbs</b>
                             </a>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="{{ url('/bmcfoodoleoresins') }}">
                                 <b>Oleoresins</b>
                             </a>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="{{ url('/bmcfoodiqf') }}">
                                 <b>Individually Quick Frozen (IQF) Herbs</b>
                             </a>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="{{ url('/bmcfooddaregal') }}">
                                 <b>Daregal Chili Collections</b>
                             </a>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="{{ url('/bmcfoodnutritional') }}">
                                 <b>Nutritional and Functional Ingredients</b>
                             </a>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="{{ url('/bmcfoodrawmats') }}">
                                 <b>Other Raw Materials</b>
                             </a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
-                            <b style="color: rgb(94,136,54);">TECHNICAL SERVICES</b>
+                            <b style="color:  #097610;">TECHNICAL SERVICES</b>
                         </a>
                         <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="{{ url('/bmcfoodtechnicalproduct') }}">
                                 <b>Product Customization</b>
                             </a>
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="{{ url('/bmcfoodtechnicaltolling') }}">
                                 <b>Expert Tolling Services</b>
                             </a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link " href="#">
-                            <b style="color: rgb(94,136,54);">CONTACT US</b>
+                            <b style="color:  #097610;">CONTACT US</b>
                         </a>
                     </li>
                 </ul>

@@ -1,32 +1,34 @@
 @extends('layouts.bmcfoodapp')
 
 @section('content')
-<section class="page-title-bmcfoodupdated">
+<section class="page-title-bmcfood">
     <div class="container">
         <div class="col-md-12">
             <h3>PRODUCTS</h3>
         </div>
     </div>
 </section>
-<section class="section bmcfood-product-1">
+<section class="section bmcfood-product-3" >
     <div class="container">
-        <center>
-            <div class="card" style="width: 25rem;">
-                <div class="card-header">
-                    Daregal Chili Collections
-                </div>
-                <div class="card-body">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Red Chili</li>
-                        <li class="list-group-item">Red Cayenne</li>
-                        <li class="list-group-item">Red Jalapeno</li>
-                        <li class="list-group-item">Red Habanero</li>
-                        <li class="list-group-item">Green Chili</li>
-                        <li class="list-group-item">Green Seranno</li>
+        <h3>Daregal Chili Collections</h3>
+        <p><i>"Discover what makes you favorite spices and flavors taste SO good"</i></p>
+        <hr class="hr">
+        <div class="bmcfood-product-3-wrapper">
+                <div class="card">
+                    <h3><img src="/images/bmcfood/products/daregal/image1.png" width="300px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/images/bmcfood/products/daregal/image2.png" width="300px;"></h3>
+                    <br>
+                    <h5>Blaine Manufacturing Corporation offers premium Dehydrated Herbs from Countries specializing this herbs:<h5>
+                    <ul>
+                        <li>Red Chili</li>
+                        <li>Red Cayenne</li>
+                        <li>Red Jalapeno</li>
+                        <li>Red Habanero</li>
+                        <li>Green Chili</li>
+                        <li>Green Seranno</li>
                     </ul>
                 </div>
             </div>
-        </center>
-    </div>    
-</section>
+        </div>
+    </div>
+</section> 
 @endsection    

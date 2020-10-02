@@ -1,36 +1,38 @@
 @extends('layouts.bmcfoodapp')
 
 @section('content')
-<section class="page-title-bmcfoodupdated">
+<section class="page-title-bmcfood">
     <div class="container">
         <div class="col-md-12">
             <h3>PRODUCTS</h3>
         </div>
     </div>
 </section>
-<section class="section bmcfood-product-1">
+<section class="section bmcfood-product-3" >
     <div class="container">
-        <center>
-            <div class="card" style="width: 25rem;">
-                <div class="card-header">
-                    Nutritional and Functional Ingredients
-                </div>
-                <div class="card-body">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Maltodexterin
+        <h3>Under Other Food Raw Materials</h3>
+        <p><i>"Discover what makes you favorite spices and flavors taste SO good"</i></p>
+        <hr class="hr">
+        <div class="bmcfood-product-3-wrapper">
+                <div class="card">
+                    <h3><img src="/images/bmcfood/products/rawmats/image1.png" width="800px;" alt=""></h3> 
+                    <br>
+                    <h5>Blaine Manufacturing Corporation offers premium Raw Materials:<h5>
+                    <ul>
+                        <li>Maltodexterin
                         </li>
-                        <li class="list-group-item">Dextrose Anhydrous
+                        <li>Dextrose Anhydrous
                         </li>
-                        <li class="list-group-item">Vital Wheat Gluten
+                        <li>Vital Wheat Gluten
                         </li>
-                        <li class="list-group-item">Dehydrated Vegetables
+                        <li>Dehydrated Vegetables
                         </li>
-                        <li class="list-group-item">Enzymes
+                        <li>Enzymes
                         </li>
                     </ul>
                 </div>
             </div>
-        </center>
-    </div>    
-</section>
+        </div>
+    </div>
+</section> 
 @endsection    

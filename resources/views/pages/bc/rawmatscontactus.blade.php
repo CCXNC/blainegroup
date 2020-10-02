@@ -83,7 +83,7 @@
                         </div>
                         <div class="col-md-10">
                             <br>
-                            <p>Customer Service:+632 584 4256 to 60 Email:refamed_info@blainegroup.com.ph</p>
+                            <p>Customer Service:+632 584 4256 to 60 Email:info@blainegroup.com.ph</p>
                         </div>
                     </div>
                 </div>

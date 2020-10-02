@@ -1,14 +1,15 @@
 @extends('layouts.bmcfoodapp')
 
 @section('content')
-    <div class="history" style="background-image: url('{{ asset('/images/bmcfood/History.jpg')}}')">
+    <div class="history" style="background-color: white; height:100%; padding:50px;">
         <div class="container">
-            <h1>ABOUT US</h1>
+            <h3>ABOUT US</h3>
             <hr class="hr">
-            <h5>History</h5>
             <br>
             <div class="row">
-                <div>
+                <div class="col-md-6">
+                    <br><br>
+                    <h5>History</h5>
                     <p>
                         Blaine Manufacturing Corporation (BMC) was founded in 2016 with the primary 
                         goal to create a synergy and efficiency between two business units – Blaine 
@@ -17,8 +18,12 @@
                         engaged-in are manufacturing, selling, marketing and distribution of food/beverage 
                         ingredients, personals and home care products and its raw materials.
                     </p>
-                 </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="/images/bmcfood/History.png" width="500px;" height="400px;">
+                </div>
             </div>
         </div>
     </div>
+    <br>
 @endsection    

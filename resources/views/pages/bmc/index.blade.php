@@ -13,7 +13,7 @@
         <div class="container">
             <div class="bmc-header-1-wrapper">
                 <div class="card">
-                <a href="{{ url('/bmcfoodindex') }}"><img src="/images/logo/blaine-food.png" width="350px"></a>
+                <a href="{{ url('/bmcfoodhome') }}"><img src="/images/logo/blaine-food.png" width="350px"></a>
                 </div>
                 <div class="card">
                     <a href="{{ url('/bmcpahdindex') }}"><img src="/images/logo/personal-homecare.png" width="350px"></a>
