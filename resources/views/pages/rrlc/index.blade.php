@@ -30,37 +30,11 @@
     <section class="section content-1">
         <div class="container">
             <div class="row title">
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <h3 style="color:red;">Lorem ipsum dolor sit amet, conse</h3>
                     <hr class="hr">
-                </div>
-                <div class="col-md-6">
-                    <h3 style="color:red;">Lorem ipsum dolor sit amet, conse</h3>
-                    <hr class="hr">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <p class="info" style="color:red;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Nunc non blandit massa enim nec. Purus in mollis nunc sed id semper. 
-                        Pellentesque habitant morbi tristique senectus. Rhoncus aenean vel 
-                        elit scelerisque mauris pellentesque pulvinar pellentesque habitant. 
-                        Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. 
-                        Facilisis mauris sit amet massa vitae. Mi proin sed libero enim sed 
-                        faucibus turpis in. Libero justo laoreet sit amet cursus. Varius vel 
-                        pharetra vel turpis nunc eget lorem. Eu facilisis sed odio morbi quis 
-                        commodo. 
-                        <br><br>
-                        Leo duis ut diam quam. Sed euismod nisi porta 
-                        lorem mollis aliquam ut porttitor. Pretium viverra suspendisse 
-                        potenti nullam ac tortor. Sed viverra ipsum nunc aliquet bibendum. 
-                        Maecenas pharetra convallis posuere morbi leo urna.</p>
-                </div>
-                <div class="col-md-6">
-                    <video width="500px;" height="400px;" controls>
+                    <video style="padding: 0;" width="800px;" height="auto;" controls>
                         <source src="{{URL::asset("/video/video1.mp4")}}" type="video/mp4">
-                      Your browser does not support the video tag.
                   </video>
                 </div>
             </div>

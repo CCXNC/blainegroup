@@ -46,23 +46,19 @@
     <section class="section bc-content2">
         <div class="container">
             <h3>CERTIFICATIONS</h3>
+            <p>Our products and services are given approval of quality and trusts with these certifications making us globally competitive.
+            </p>
             <hr class="hr">
-            <div class="bc-content2-wrapper">
-                <div class="card">
-                    <h3><img src="/images/certification/iso.png" width="120px;"></h3>
-                    <h5>ISO 9001:2015 Certified (SGS)</h5>
-                </div>
-                <div class="card">
-                    <h3><img src="/images/certification/halal-logo.jpg" width="120px;"></h3>
-                    <h5>Certificate of Current Good Manufacturing Practice</h5>
-                </div>
-                <div class="card">
-                    <h3><img src="/images/certification/fda.png" width="230px;"></h3>
-                    <h5>Halal Certified Powder Line (IDCP) Certificate of Current Good Manufacturing Practice</h5>
-                </div>
-                <div class="card">
-                    <h3><img src="/images/certification/halal-logo.jpg" width="120px;"></h3>
-                    <h5>Certificate of Current Good Manufacturing Practice</h5>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="/images/certification/iso.png" width="180px;" >
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/images/certification/image1.png" width="200px;" height="150px;">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/images/certification/fda.png" width="350px;"  >
+                    </div>
                 </div>
             </div>
         </div>
@@ -123,11 +119,62 @@
             <br>
             <div class="row">
                 <div class="col-md-6">
-                    <img src="/images/blank.png" width="450px;" alt="Video">
+                    <form class="form-horizontal" action="">
+                        <div class="form-group">
+                            <label class="control-label" for="name">Name (Required)</label>
+                            <div>
+                                <input class="form-control" type="text" name="name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label" for="name">Email (Required)</label>
+                            <div >
+                                <input class="form-control" type="text" name="name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div>
+                                <label class="control-label" for="telephone_mobile_number">Telephone or Mobile Number (Required)</label>
+                            </div>
+                            <div>
+                                <input class="form-control" type="text" name="telephone_mobile_number">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div>
+                                <label class="control-label" for="telephone_mobile_number">Telephone or Mobile Number (Required)</label>
+                            </div>
+                            <div>
+                                <input class="form-control" type="text" name="telephone_mobile_number">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div>
+                                <label class="control-label" for="telephone_mobile_number"></label>
+                            </div>
+                            <select class="form-control" name="#" id="">
+                              <option value="#">Sales and Marketing</option>
+                              <option value="#">Quality Management</option>
+                              <option value="#">Production Operation</option>
+                              <option value="#">Finance</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <div>
+                                <input type="file">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <div>
+                                <input class="btn btn-light" type="submit" value="Submit">
+                            </div>
+                        </div>
+                    </form>
                 </div>
                 <div class="col-md-6">
-                   <p style="color: red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque architecto accusantium, sapiente rerum blanditiis praesentium molestiae perspiciatis quis explicabo? Perspiciatis, officiis harum. Odio, eum? Nemo ut architecto qui laboriosam et numquam vel soluta quis quas voluptatibus. Rerum officia magnam tempore.</p>
-                   <p style="color: red">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, unde. Tempore, voluptatibus aliquam odit laborum earum ipsa ipsum maxime culpa labore excepturi perferendis architecto hic veritatis dignissimos exercitationem molestias qui maiores at obcaecati fugiat. Sit.</p>
+                    <br><br>
+                    <img src="/images/bc/image4.png" width="500px;" height="300px;" alt="Video">
                 </div>
             </div>
         </div>
@@ -135,20 +182,49 @@
 
     <section class="section bc-newsarticle">
         <div class="container">
-            <h3>NEWS ARTICLE</h3>
+            <h3>NEWS</h3>
             <hr class="hr">
+            <img src="/images/bc/image1.jpg" width="1000px;" alt="Video">
+            <h5>Blaine Leaders Undergo Professional Image and Executive Coaching</h5>
+            <p>Olen-ified – a term coined by Ms. Olen Juarez-Lim for the 25 managers of Blaine Group of Companies who rose up to the challenge of her thorough scrutiny and critique in terms of appearance and decorum aligning it to BLAINE’s goal for a more improved and professionalized company image. This was done through a 2-day Executive Presence Seminar last December 18 – 19 at Discovery Primea Hotel, Makati City.
+            </p>
+            <p>For this seminar conducted by Ms. Olen Juarez-Lim of OJL Consulting, managers aim to achieve professional and business success by providing clarity on life goals and increasing leadership impact. The two-day seminar tackled comprehensively the different components of business presence such as proper attire, grooming, posture, demeanor, business accessories, and communication and etiquette skills. Participants were also taught to outclass the competition by learning appropriate dining skills that can be used during business entertaining.
+            </p>
+            <p>Ms. Olen Juarez-Lim, popularly known as Ms. O, is a former model who ventured into image consultancy with clients like GMA Public Affairs specifically, Jessica Soho. She is the most sought-after resource person on topics dealing with etiquette, health, beauty, fitness, and image management. All managers of Blaine were privileged to experience this executive coaching that hones their business acumen and executive presence. Blaine Management is aggressively investing on this kind of trainings for all employees all year round.</p>
             <br>
-            <div class="row">
-                <div class="col-md-6">
-                    <p style="color: red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque architecto accusantium, sapiente rerum blanditiis praesentium molestiae perspiciatis quis explicabo? Perspiciatis, officiis harum. Odio, eum? Nemo ut architecto qui laboriosam et numquam vel soluta quis quas voluptatibus. Rerum officia magnam tempore.</p>
-                    <p style="color: red">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, unde. Tempore, voluptatibus aliquam odit laborum earum ipsa ipsum maxime culpa labore excepturi perferendis architecto hic veritatis dignissimos exercitationem molestias qui maiores at obcaecati fugiat. Sit.</p>
-                 </div>
-                <div class="col-md-6">
-                    <img src="/images/blank.png" width="450px;" alt="Video">
-                </div>
-            </div>
+            <img src="/images/bc/image2.jpg" width="1000px;" alt="Video">
+            <h5>Blaine Family Day 2017: A Day of Fun for the Whole Family this Christmas</h5>
+            <p>
+                A festive “Trolls”-themed Blaine Family Day was held last December 16 to celebrate Christmas at Blaine Industrial Complex. The said event was organized by Blaine to promote camaraderie and oneness among its employees and their respective families.
+            </p>
+            <p>
+                All employees especially their children were advised to wear colorful costumes based on the famous cartoon movie ”Trolls”. The Management came up with a contest for Best Family Trolls Costume with a whopping Php 15,000 as grand prize while Php10,000, Php 5,000 and Php 3,000 are for 2nd, 3rd and 4th place respectively. Consolation prize for those shortlisted families in costume was Php 2,000.
+            </p>
+            <p>
+                The celebration started with a holy mass officiated by Fr. JM Pura of St. Gaspar Parish Carmona. After the mass, the seminarians serenaded everyone with Christmas carols. While waiting for the program to start, children enjoyed various booths like cotton candy, candy bar, ice cream booth and inflatable playground.
+                After the sumptuous meal, 15 families and 10 employees who were eyeing the Grand Prize for the Best Trolls Costume paraded their costumes around the party area for all the employees to see and appreciate. This was followed by children games such as Bring me, What’s in the bag?, Longest Breath – “Maligayang Pasko”, “ Button, button, who’s got the button?” and “Pera o Bayong”. Adults also got to play and have fun with the Minute to Win it challenges, inspired by a famous TV game show.
+            </p>
+            <p>
+                The winner for Best Trolls costume (Single Category) was Sunshine Estrada (Customer Service) while for the Family Category, the winners were: 3rd Place (Larry Vicente-Accounting); 2nd Place (Jon Polanco- Accounting) and 1st Place (LA Amador- Refamed Sales). All shortlisted family for the best in costume received consolation prize of Php 2,000 each.
+                The highlight of Blaine Family Day was the gift-giving as children of all Blaine employees received loot bags filled with lots of toys and goodies and there were also great raffle prizes such as washing machine, flat TV Screen, rice cooker, gift checks and a lot more for the employees.
+            </p>
+            <br>
+            <img src="/images/bc/image3.jpg" width="1000px;" alt="Video">
+            <h5>Blaine Corporation Celebrates 30th Anniversary</h5>
+            <p>
+                To mark the 30th anniversary of Blaine Corporation, its owners, employees, and key business partners came together at the Grand Ballroom of The Palms Country Club in Alabang last February 8, 2017 and celebrated its accomplishments and successes.   
+            </p>
+            <p>
+                During the celebration, the company recognized the people behind its accomplishments, and awarded employees who have served the company for more than 10 years. Each awardee received a certificate and a cash gift.
+                The employees also organized a surprise segment to give thanks to, and recognize the outstanding leadership and immeasurable sacrifices of, its dearly loved CEO and founder, Ms. Nema Macatugob.
+            </p>
+            <p>
+                The celebration was capped by a surprise performance by celebrity comediennes, Super Tekla and Donita Nose of Wowowin.  The whole night was filled with laughter, great food, and merriment.
+                Blaine Corporation is a globally competitive company specializes in the global sourcing of raw materials for animal health, animal nutrition, food, and personal care.
+            </p>
         </div>
-    </section class="section">
+    </section>   
+    <section class="section">
         <div class="container">
             <center>
                 <div style="width: 1100px; height: 500px;">
@@ -156,8 +232,6 @@
                 </div>
             </center>
         </div>
-    <section>
-
     </section>
    
 

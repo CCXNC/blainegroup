@@ -11086,8 +11086,6 @@ section {
 
 .content-1 .hr {
   border: 1px solid #251F5D;
-  margin-top: 30px;
-  margin-bottom: 30px;
   width: 150px;
 }
 
@@ -13464,34 +13462,8 @@ section {
   font-weight: 600;
 }
 
-.bc-content2-wrapper {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-column-gap: 1em;
-  grid-row-gap: 1em;
-  text-align: center;
-}
-
-.bc-content2-wrapper .card {
-  background-color: white;
-  padding: 20px;
-}
-
-.bc-content2-wrapper .card h5 {
-  font-weight: 800;
-  font-size: 15px;
-  color: #251F5D;
-  margin: 15px 0 25px;
-}
-
-.bc-content2-wrapper .card p {
-  font-size: 14px;
-  font-weight: 400;
-  color: #34495e;
-}
-
 @media (max-width: 800px) {
-  .bc-content2-wrapper {
+  .bc-content2 {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 1em;
     grid-auto-rows: minmax(220px, auto);
@@ -13521,25 +13493,34 @@ section {
   font-weight: 550;
 }
 
+.bc-careeropp .col-md-6 label {
+  float: left;
+}
+
 .bc-newsarticle {
   color: black;
 }
 
 .bc-newsarticle h3 {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 600;
+}
+
+.bc-newsarticle h5 {
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 20px;
 }
 
 .bc-newsarticle .hr {
   border: 1px solid #251F5D;
   margin-top: 15px;
   margin-bottom: 15px;
-  width: 100px;
+  width: 50px;
 }
 
-.bc-newsarticle .col-md-6 p {
-  text-align: left;
-  font-size: 16px;
+.bc-newsarticle p {
+  font-size: 14px;
   font-weight: 550;
 }
 

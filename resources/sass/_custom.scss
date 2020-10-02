@@ -207,8 +207,6 @@ section {
 
     .hr {
         border: 1px solid $primary-color;
-        margin-top: 30px;
-        margin-bottom: 30px;
         width: 150px;
         
     }
@@ -2610,42 +2608,19 @@ font-size: 19px !important;
         font-weight: 600;
     }
 
-    &-wrapper {
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        grid-column-gap: 1em;
+    @media (max-width: 800px) {
+        grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 1em;
-        text-align: center;
-
-        .card {
-            background-color: lighten(white, 15%);
-            padding: 20px;
-
-            h5 {
-                font-weight: 800;
-                font-size: 15px;
-                color: $primary-color;
-                margin: 15px 0 25px;
-            }
-
-            p {
-                font-size: 14px;
-                font-weight: 400;
-                color: $dark-color;
-            }
-
-        }
-
-        @media (max-width: 800px) {
-            grid-template-columns: repeat(1, 1fr);
-            grid-row-gap: 1em;
-            grid-auto-rows: minmax(220px, auto);
-        }
+        grid-auto-rows: minmax(220px, auto);
     }
 }
 
 
 .bc-careeropp {
+    //background-image: linear-gradient(to right, #251f5d, #262063, #272168, #28236e, #292474);
+    //background-image: linear-gradient(to right, #271f74, #322a8a, #3e35a0, #4940b7, #544ccf);
+    //background-image: linear-gradient(to right, #2b246d, #362f7c, #413a8c, #4d469c, #5852ac);
+   // background-image: linear-gradient(to right bottom, #2b246d, #362f7c, #413a8c, #4d469c, #5852ac);
     background: linear-gradient(to bottom, #251F5D 100%, #251F5D 100%);
     color: $light-color;
 
@@ -2666,6 +2641,10 @@ font-size: 19px !important;
             font-size: 16px;
             font-weight: 550;
         }
+
+        label {
+            float: left;
+        }
     }
 }
 
@@ -2674,23 +2653,26 @@ font-size: 19px !important;
     color: black;
 
     h3 {
-        font-size: 24px;
+        font-size: 26px;
         font-weight: 600;
+    }
+    h5 {
+        font-size: 18px;
+        font-weight: 600;
+        padding-top: 20px;
     }
     .hr {
         border: 1px solid #251F5D;
         margin-top: 15px;
         margin-bottom: 15px;
-        width: 100px;
+        width: 50px;
     }
-
-    .col-md-6 {
-        p {
-            text-align: left;
-            font-size: 16px;
-            font-weight: 550;
-        }
+ 
+    p {
+        font-size: 14px;
+        font-weight: 550;
     }
+  
 }
 .bmcpahd-contactus {
     background-color: white;
