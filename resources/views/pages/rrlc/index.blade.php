@@ -119,7 +119,7 @@
                             </div>
                         </div>
                     </form>
-                </div>
+                </div>      
                 <div class="col-md-6">
                     <br><br>
                     <div class="row">
