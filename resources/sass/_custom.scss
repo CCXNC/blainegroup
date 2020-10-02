@@ -228,8 +228,8 @@ section {
 
     hr {
         border: 1px solid $light-bg;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;
         width: 150px;
         
     }
@@ -248,34 +248,14 @@ section {
     &-wrapper {
         //grid-template-columns: repeat(6, 1fr);
         display: grid;
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(3,1fr);
         grid-column-gap: 1em;
         grid-row-gap: 1em;
         text-align: center;
-
-        /*.card {
-            background-color: lighten(white, 15%);
-            align-items: center;
-            border: none;
-            padding: 0;
-            transition: all .5s;
-            -moz-transition: all .5s;
-            -webkit-transition: all .5s;
-            -o-transition: all .5s;
-            -ms-transition: all .5s;
-
-            &:hover {
-                transform : scale(1.25);
-                -moz-transform : scale(1.25);
-                -webkit-transform : scale(1.25);
-                -o-transform : scale(1.25);
-                -ms-transform : scale(1.25);
-            }
-        }*/
-
+        
         .card {
             background-color: lighten(white, 15%);
-            padding: 20px;
+            padding: 10px;
             border: none;
             transition: all .3s;
             -moz-transition: all .3s;
@@ -334,38 +314,13 @@ section {
         font-weight: 500;
     }
 
-    &-wrapper {
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        grid-column-gap: 1em;
+
+    @media (max-width: 800px) {
+        grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 1em;
-        text-align: center;
-
-        .card {
-            background-color: lighten(white, 15%);
-            padding: 20px;
-
-            h5 {
-                font-weight: 800;
-                font-size: 15px;
-                color: $primary-color;
-                margin: 15px 0 25px;
-            }
-
-            p {
-                font-size: 14px;
-                font-weight: 400;
-                color: $dark-color;
-            }
-
-        }
-
-        @media (max-width: 800px) {
-            grid-template-columns: repeat(1, 1fr);
-            grid-row-gap: 1em;
-            grid-auto-rows: minmax(220px, auto);
-        }
+        grid-auto-rows: minmax(220px, auto);
     }
+  
 }
 
 .content-4 {

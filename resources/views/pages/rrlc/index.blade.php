@@ -58,8 +58,10 @@
                         Maecenas pharetra convallis posuere morbi leo urna.</p>
                 </div>
                 <div class="col-md-6">
-                    <p class="info" style="color:red;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ab voluptatibus, perspiciatis vitae cupiditate enim cum modi commodi obcaecati aliquid. At rerum, quasi voluptas explicabo adipisci sapiente maiores vel maxime.</p>
-                    <img class="d-block w-100" src="/images/content/video.png" alt="Video">
+                    <video width="500px;" height="400px;" controls>
+                        <source src="{{URL::asset("/video/video1.mp4")}}" type="video/mp4">
+                      Your browser does not support the video tag.
+                  </video>
                 </div>
             </div>
         </div>
@@ -67,30 +69,21 @@
     <section class="section content-2" id="section-2">
         <div class="container">
             <h3>Our Products</h3>
-            <p style="color:red;">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Laudantium exercitationem consequuntur odio cumque. 
+            <p>REFAMED proudly presents its 3 main business catering to industry needs.
             </p>
             <hr class="hr">
             <div class="content-2-wrapper">
                 <div class="card">
-                    <h3><img src="/images/rrlc/primeproduct/wsp/biotrol.png" width="130px;"></h3>
-                    <h5>BIOTROL</h5>
-                    <p style="color:red;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <h3><img src="/images/rrlc/homepage/image1.jpg" width="300px;"></h3>
+                    <h5>REFAMED PRIME PRODUCTS </h5>
                 </div>
                 <div class="card">
-                    <h3><img src="/images/rrlc/primeproduct/wsp/cetrolyteplus.png" width="130px;"></h3>
-                    <h5>CETROLYTE PLUS</h5>
-                    <p style="color:red;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <h3><img src="/images/rrlc/homepage/image2.png" width="300px;"></h3>
+                    <h5>REFAMED SPECIALTY PRODUCTS</h5>
                 </div>
                 <div class="card">
-                    <h3><img src="/images/rrlc/primeproduct/wsp/levammisole.png" width="130px;"></h3>
-                    <h5>LEVAMMISOLE</h5>
-                    <p style="color:red;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="card">
-                    <h3><img src="/images/rrlc/primeproduct/wsp/Neocin.png" width="130px;"></h3>
-                    <h5>NEOCIN</h5>
-                    <p style="color:red;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <h3><img src="/images/rrlc/homepage/image3.png" width="300px;"></h3>
+                    <h5>TOLLING SERVICES</h5>
                 </div>
             </div>
         </div>
@@ -98,75 +91,20 @@
     <section class="section content-3">
         <div class="container">
             <h3>We are Certified Company</h3>
-            <p>We prioritized safety and quality products for you!</p>
+            <p>True to its vision, REFAMED, being a 100% Filipino owned company has passed these certifications making its products globally competitive.</p>
             <hr class="hr">
-            <div class="content-3-wrapper">
-                <div class="card">
-                    <h3><img src="/images/blank.png" width="200px;"></h3>
-                    <h5 style="color:red;">ISO 9001:2015 Certified (SGS)</h5>
-                </div>
-                <div class="card">
-                    <h3><img src="/images/blank.png" width="200px;"></h3>
-                    <h5 style="color:red;">Certificate of Current Good Manufacturing Practice</h5>
-                </div>
-                <div class="card">
-                    <h3><img src="/images/blank.png" width="200px;"></h3>
-                    <h5 style="color:red;">Halal Certified Powder Line (IDCP) Certificate of Current Good Manufacturing Practice</h5>
-                </div>
-                <div class="card">
-                    <h3><img src="/images/blank.png" width="200px;"></h3>
-                    <h5 style="color:red;">Certificate of Current Good Manufacturing Practice</h5>
-                </div>
+            <img src="/images/certification/image1.png" width="200px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="/images/certification/image2.png" width="180px;">
             </div>
         </div>
     </section> 
     <section class="section content-4">
         <div class="container">
             <h3>OFFERED SERVICES</h3>
+            <p>Together with our in-house experts, REFAMED provides technical assistance to our farms and feedmills through our RECHECK services.
+            </p>
             <hr class="hr">
-            <div class="content-4-wrapper">
-                <div class="card" >
-                    <h3><img src="/images/blank.png" width="200px;"></h3>
-                    <h5 style="color:red;">Animal Nutrition</h5>
-                    <ul >
-                        <li style="color:red;">Basemix</li>
-                        <li style="color:red;">Vitamin Premix</li>
-                        <li style="color:red;">Mineral Premix</li>
-                        <li style="color:red;">Branded Additives</li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <h3><img src="/images/blank.png" width="200px;"></h3>
-                    <h5 style="color:red;">Animal Health</h5>
-                    <ul>
-                        <li style="color:red;">Antibiotics</li>
-                        <li style="color:red;">Anti-infectives</li>
-                        <li style="color:red;">Vitamins</li>
-                        <li style="color:red;">Minerals</li>
-                        <li style="color:red;">Disinfectants</li>
-                    </ul>    
-                </div>
-                <div class="card">
-                    <h3><img src="/images/blank.png" width="200px;"></h3>
-                    <h5 style="color:red;">Tolling</h5>
-                    <ul>
-                        <li style="color:red;">Premixes</li>
-                        <li style="color:red;">Liquid Solution</li>
-                        <li style="color:red;">Water Solubles</li>
-                        <li style="color:red;">Repacking</li>
-                    </ul>    
-                </div>
-                <div class="card">
-                    <h3><img src="/images/blank.png" width="200px;"></h3>
-                    <h5 style="color:red;">Animal Nutrition</h5>
-                    <ul>
-                        <li style="color:red;">Basemix</li>
-                        <li style="color:red;">Vitamin Premix</li>
-                        <li style="color:red;">Mineral Premix</li>
-                        <li style="color:red;">Branded Additives</li>
-                    </ul>
-                </div>
-            </div>
+            <img src="/images/rrlc/homepage/image4.png" width="1000px;" height="300px;" alt="">
         </div>
     </section> 
     <section class="section content-5">
