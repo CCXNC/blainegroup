@@ -19,7 +19,6 @@
     <section class="section specialproduct">
         <div class="container">
             <h3>Our strategic partners for specialty products</h3>
-            <p style="color:red;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error nisi excepturi nobis porro vel iusto? Quisquam voluptates nisi ducimus officia hic a sed illum officiis. Totam reprehenderit debitis laborum possimus!</p>
             <hr class="hr">
             <div class="specialproduct-wrapper">
                 <a href="{{ url('/adisseoproduct') }}">

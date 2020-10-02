@@ -11317,7 +11317,7 @@ section {
 .product-wrapper .card {
   background-color: white;
   padding: 20px;
-  border-radius: 5px;
+  border: none;
 }
 
 .product-wrapper .card a {
@@ -11329,7 +11329,7 @@ section {
   font-size: 23px;
   color: #251F5D;
   margin: 15px 0 5px;
-  text-align: left;
+  text-align: center;
 }
 
 .product-wrapper .card p {
