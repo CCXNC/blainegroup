@@ -11028,6 +11028,21 @@ body {
   margin: 0;
 }
 
+.page-title-bmcpahd {
+  background: #d04a96;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: #efefef;
+}
+
+.page-title-bmcpahd h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0;
+}
+
 .page-title {
   background: linear-gradient(to bottom right, #007730 0%, #007730 200%);
   display: flex;
@@ -12398,6 +12413,14 @@ section {
   align-items: left;
 }
 
+.bc-partners {
+  background-color: white;
+}
+
+.bc-partners .card {
+  border: none;
+}
+
 .bc-partners hr {
   border: 1px solid #251F5D;
   margin-top: 30px;
@@ -12437,6 +12460,7 @@ section {
 .bc-partners1-wrapper .card {
   background-color: white;
   padding: 20px;
+  border: none;
 }
 
 .bc-partners1-wrapper .card h5 {
@@ -13348,6 +13372,7 @@ section {
 .bmcpahd-product-1 .card .card-header {
   font-size: 20px !important;
   font-weight: 600 !important;
+  color: #db72ad !important;
 }
 
 .bmcpahd-product-1 .card .list-group-item {
@@ -13564,6 +13589,7 @@ section {
 }
 
 .rawmats-content1 .p {
+  font-size: 20px;
   vertical-align: middle;
   text-align: center;
 }
@@ -13576,51 +13602,25 @@ section {
   padding-bottom: 20px;
 }
 
-.rawmats-content2 h3 {
-  text-align: center;
-}
-
 .rawmats-content2 hr {
   border: 1px solid #251F5D;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  width: 150px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100px;
 }
 
 .rawmats-content2 h3 {
   font-size: 26px;
   font-weight: 600;
-}
-
-.rawmats-content2-wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 1em;
-  grid-row-gap: 2em;
-}
-
-.rawmats-content2-wrapper .card {
-  background-color: white;
-  padding: 20px;
-}
-
-.rawmats-content2-wrapper .card h5 {
-  font-weight: 800;
-  font-size: 23px;
-  color: #251F5D;
-  margin: 15px 0 5px;
   text-align: center;
 }
 
-.rawmats-content2-wrapper .card p {
-  font-size: 16px;
+.rawmats-content2 p {
+  padding: 10px 0;
+  font-size: 19px;
   font-weight: 400;
   color: #251F5D;
-  text-align: center;
-}
-
-.rawmats-content2-wrapper span {
-  float: right;
+  text-align: left;
 }
 
 @media (max-width: 800px) {
@@ -13632,12 +13632,9 @@ section {
 }
 
 .rawmats-content3 {
+  padding: 0;
   background-color: white;
   text-align: justify;
-}
-
-.rawmats-content3 .row {
-  padding: 10px 10px 10px 10px;
 }
 
 .rawmats-content3 hr {

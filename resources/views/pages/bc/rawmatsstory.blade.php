@@ -4,20 +4,26 @@
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="/images/carousel/img1.jpg" alt="First slide">
+                <img class="d-block w-100" src="/images/bcraw-header.jpg" alt="First slide">
+                <div class="carousel-caption">
+                    <div class="caption-1">
+                        <h3>BLAINE CORPORATION RAW MATERIALS</h3>
+                        <h5><i>Catering the Filipino market with world class products</i></h5>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <br>
     <section class="section rawmats-content2">
         <div class="container">
-            <h2>OUR STORY</h2>
+            <h3>OUR STORY</h3>
             <hr class="hr">
             <img src="images/bcstory/story.png" alt="">
-            <p style="text-align: left">
+            <p>
                 Blaine Marketing Corporation became the exclusive distributor of the French-based multinational company Rhone-Poulenc Animal Nutrition back in 1998. From thereon, Blaine continued to grow, venturing into manufacturing and distribution of animal nutrition products, as well as raw materials for food and personal care.
                 <br><br>
                 Later on, the company changed its name into Blaine Corporation Raw Materials.
-
             </p>
         </div>
     </section>
@@ -25,7 +31,7 @@
         <div class="container">
             <div class="header">
                 <div class="col-md-12"> 
-                    <h2>Address</h2>
+                    <h3>Address</h3>
                     <hr class="hr">
                 </div>    
                 <div class="col-md-8">    

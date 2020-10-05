@@ -4,10 +4,17 @@
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="/images/carousel/img1.jpg" alt="First slide">
+                <img class="d-block w-100" src="/images/bcraw-header.jpg" alt="First slide">
+                <div class="carousel-caption">
+                    <div class="caption-1">
+                        <h3>BLAINE CORPORATION RAW MATERIALS</h3>
+                        <h5><i>Catering the Filipino market with world class products</i></h5>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <br>
     <section>
         <img src="/images/bcstory/Buttons.png" alt="First slide">
     </section>

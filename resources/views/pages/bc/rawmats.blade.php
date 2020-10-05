@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <p>
-                        <br><br><br>
+                        <br><br><br><br>
                         Blaine Corporation is a trusted trader of raw materials and specialty ingredients
                         since 1987. It serves industries such as animal health, animal nutrition, pharmaceutical,
                         food and personal & home care.
@@ -27,7 +27,7 @@
                    
                 </div>
                 <div class="col-md-6">
-                    <img src="/images/blank.png" width="400px;" alt="Video">
+                    <img src="/images/bcraw/image1.png" width="400px;" height="350px;" alt="Video">
                 </div>
             </div>
         </div>
@@ -35,31 +35,26 @@
     <section class="section bc-partners">
         <div class="container">
             <h2>Global Partners</h2>
-            <p style="color:red;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, fugiat?</p>
             <hr class="hr">
             <div class="row">
                 <div class="col-sm-4">
                     <div class="card">
                         <div class="card-body">
-                            <img class="d-block w-100" src="/images/logo/Adisseo.png" alt="Third slide">
-                            <p class="card-text" style="color:red">With supporting text below as a natural lead-in to additional content.</p>
+                            <img  src="/images/logo/Adisseo.png" width="200px;" alt="Third slide">
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="card">
                         <div class="card-body">
-                            <img class="d-block w-100" src="/images/logo/Advance.png" alt="Third slide">
-                            <p class="card-text" style="color:red">With supporting text below as a natural lead-in to additional content.</p>
+                            <img  src="/images/logo/Advance.png"  width="200px;" alt="Third slide">
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="card">
                         <div class="card-body">
-                            <img class="d-block w-100" src="/images/logo/corel.png" alt="Third slide">
-                            <br><br>
-                            <p class="card-text" style="color:red">With supporting text below as a natural lead-in to additional content.</p>
+                            <img src="/images/logo/corel.png"  width="200px;" alt="Third slide">
                         </div>
                     </div>
                 </div>
@@ -69,20 +64,17 @@
     <section class="bc-partners">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4" style="margin-left:180px;">
                     <div class="card">
                         <div class="card-body">
-                            <img class="d-block w-100" src="/images/logo/Cleo.png" alt="Third slide">
-                            <br><br>
-                            <p class="card-text" style="color:red">With supporting text below as a natural lead-in to additional content.</p>
+                            <img  src="/images/logo/Cleo.png"  width="190px;" alt="Third slide">
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-md-4">
                     <div class="card">
                         <div class="card-body">
-                            <img class="d-block w-100" src="/images/logo/Fruita.jpg" alt="Third slide">
-                            <p class="card-text" style="color:red">With supporting text below as a natural lead-in to additional content.</p>
+                            <img src="/images/logo/Fruita.jpg"  width="200px;" alt="Third slide">
                         </div>
                     </div>
                 </div>
