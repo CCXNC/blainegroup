@@ -1,14 +1,6 @@
 @extends('layouts.bmcfoodapp')
 
 @section('content')
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="/images/bmcfood/Carousel1.jpg" alt="First slide">
-            </div>
-        </div>
-    </div>
-    <br>
     <section class="page-title-bmcfood">
         <div class="container">
             <div class="col-md-12">
@@ -19,7 +11,7 @@
     <section class="section bmcfood-product-1" >
         <div class="container">
             <h3>SPICES</h3>
-            <p><i>"Discover what makes you favorite spices and flavors taste SO good"</i></p>
+            <p><i>"Taste the world with us"</i></p>
             <hr class="hr">
             <div class="bmcfood-product-1-wrapper">
                 <div class="card">
@@ -60,7 +52,7 @@
     <section class="page-title-inquire">
         <div class="container">
             <div class="col-md-12">
-                <h3>Got questions? Talk to us.</h3>
+                <h3>Learn more about our products</h3>
                 <p>
                     <span class="fa fa-cart-plus"></span>&nbspShipping and Returns
                     <br>

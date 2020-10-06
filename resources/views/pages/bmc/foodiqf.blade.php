@@ -11,7 +11,7 @@
 <section class="section bmcfood-product-3" >
     <div class="container">
         <h3>Individually Quick Frozen (IQF) Herbs</h3>
-        <p><i>"Discover what makes you favorite spices and flavors taste SO good"</i></p>
+        <p><i>"Taste the world with us"</i></p>
         <hr class="hr">
         <div class="bmcfood-product-3-wrapper">
                 <div class="card">

@@ -14302,3 +14302,42 @@ section {
   margin: 0;
 }
 
+.bmcfood-homepage-1 .col-md-7 {
+  text-align: left;
+}
+
+.bmcfood-homepage-1 .col-md-7 h2 {
+  color: #007730;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.bmcfood-homepage-1 .col-md-7 p {
+  color: #251F5D;
+}
+
+.bmcfood-homepage-1 .col-md-7 p b {
+  font-size: 15px;
+}
+
+.bmcpc {
+  background-color: white;
+}
+
+.bmcpc hr {
+  border: 1px solid #251F5D;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 150px;
+}
+
+.bmcpc h3 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.bmcpc p {
+  font-size: 18px;
+  font-weight: 500;
+}
+

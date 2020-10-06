@@ -11,11 +11,11 @@
 <section class="section bmcfood-product-3" >
     <div class="container">
         <h3>Nutritional and Functional Ingredients</h3>
-        <p><i>"Discover what makes you favorite spices and flavors taste SO good"</i></p>
+        <p><i>"Taste the world with us"</i></p>
         <hr class="hr">
         <div class="bmcfood-product-3-wrapper">
                 <div class="card">
-                    <h3><img src="/images/bmcfood/products/nutritional/image1.png" alt=""></h3> 
+                    <h3><img src="/images/bmcfood/products/nutritional/image1.jpg" alt=""></h3> 
                     <br>
                     <h5>Blaine Manufacturing Corporation offers premium Nutritional and functional Ingerdients in Pure Form: <h5>
                     <ul>

@@ -69,6 +69,24 @@
         </a>
     </div>
     <br>
+    <section class="section bmcfood-homepage-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h2>Blaine Foods</h2>
+                    <p>The expetise of the Research and Development group drives the product 
+                        development and innovations. R&D is a tem highly specialized food 
+                        technicians, chemist, chemical engineers. Their exceptional technical 
+                        skills produce product innovation and ideation tailored atilored to 
+                        the market trends and customer demands.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="/images/blank.png" width="400px;" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="page-title-bmcfood">
         <div class="container">
             <div class="col-md-12">

@@ -63,6 +63,11 @@ Route::get('/bmcpahdproductrawmaterial', 'PagesController@bmcpahdproductrawmater
 Route::get('/bmcpahdtechnical', 'PagesController@bmcpahdtechnical')->name('bmcpahdtechnical');
 Route::get('/bmcpahdcontactus', 'PagesController@bmcpahdcontactus')->name('pahdcontactus');
 Route::get('/bmcpahdaboutus','PagesController@bmcpahdaboutus')->name('bmcpahdaboutus');
+Route::get('/bmcpcabouthistory', 'PagesController@bmcpcabouthistory')->name('bmcpcabouthistory');
+Route::get('/bmcpcaboutdivision', 'PagesController@bmcpcaboutdivision')->name('bmcpcaboutdivision');
+Route::get('/bmcpctechnicaltolling', 'PagesController@bmcpctechnicaltolling')->name('bmcpctechnicaltolling');
+Route::get('/bmcpcbranddevelopment', 'PagesController@bmcpcbranddevelopment')->name('bmcpcbranddevelopment');
+Route::get('/bmcpcmatsourcing', 'PagesController@bmcpcmatsourcing')->name('bmcpcmatsourcing');
 
 Route::get('/bmcfoodindex', 'PagesController@bmcfoodindex')->name('bmcfoodindex'); 
 //BMC FOOD 

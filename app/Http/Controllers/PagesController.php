@@ -156,6 +156,26 @@ class PagesController extends Controller
         return view('pages.bmc.pahdtechnical');
     }
 
+    public function bmcpcabouthistory() {
+        return view('pages.bmc.pcabouthistory');
+    }
+
+    public function bmcpcaboutdivision() {
+        return view('pages.bmc.pcaboutdivision');
+    }
+
+    public function bmcpctechnicaltolling() {
+        return view('pages.bmc.pctechnicaltolling');
+    }
+
+    public function bmcpcbranddevelopment() {
+        return view('pages.bmc.pcbranddevelopment');
+    }
+
+    public function bmcpcmatsourcing() {
+        return view('pages.bmc.pcmatsourcing');
+    }
+
 
     // BMC FOOD HOMEPAGE
     public function bmcfoodindex() {

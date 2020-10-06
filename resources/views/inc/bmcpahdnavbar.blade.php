@@ -28,24 +28,16 @@
                         </li>
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
-                            <b style="color:rgb(208, 74, 150);">OUR COMPANIES</b>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{{ url('/bcindex') }}">
-                                    <img src="images/logo/BC.png" style="width:60px;" alt="">&nbsp;&nbsp;&nbsp;<b style="color:#251F5D;">BLAINE CORPORATION </b>
-                                </a>
-                            <a class="dropdown-item" href="{{ url('/rrlcindex') }}">
-                                    <img src="images/logo/rrlc.jpg" style="width:50px;" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b style="color:#251F5D;">REFAMED RESEARCHED LABORATORY CORPORATION</b>
-                                </a>
-                            <a class="dropdown-item" href="{{ url('/bmcindex') }}">
-                                <img src="images/logo/BMC.jpg" style="width:60px;" alt="">&nbsp;&nbsp;<b style="color:#251F5D;"> BLAINE MANUFACTURING CORPORATION </b>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link " href="{{ url('/bmcpahdaboutus') }}">
                             <b style="color:rgb(208, 74, 150);">ABOUT US</b>
                         </a>
+                        <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{{ url('/bmcpcabouthistory') }}">
+                                <b style="color:#251F5D;">History</b>
+                                </a>
+                            <a class="dropdown-item" href="{{ url('/bmcpcaboutdivision') }}">
+                                <b style="color:#251F5D;">Personal and Home Care Division</b>
+                            </a>
+                        </div>
                     </li>
                     
                     <li class="nav-item dropdown">
@@ -60,15 +52,26 @@
                                 <b style="color:#251F5D;">HOME CARE</b>
                             </a>
                             <a class="dropdown-item" href="{{ url('/bmcpahdproductrawmaterial') }}">
-                                <b style="color:#251F5D;">RAW MATERIALS FOR TRADING</b>
+                                <b style="color:#251F5D;">OTHER RAW MATERIALS</b>
                             </a>
                         </div>
                     </li>
 
                     <li class="nav-item dropdown">
-                    <a class="nav-link " href="{{ url('/bmcpahdtechnical') }}">
+                        <a id="navbarDropdown" class="nav-link dropdown" href="#" role="button" data-toggle="dropdown">
                             <b style="color:rgb(208, 74, 150);">TECHNICAL SERVICES</b>
                         </a>
+                        <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{{ url('/bmcpctechnicaltolling') }}">
+                                <b style="color:#251F5D;">Expert Tolling Services</b>
+                                </a>
+                            <a class="dropdown-item" href="{{ url('/bmcpcbranddevelopment') }}">
+                                <b style="color:#251F5D;">Brand Development</b>
+                            </a>
+                            <a class="dropdown-item" href="{{ url('/bmcpcmatsourcing') }}">
+                                <b style="color:#251F5D;">Material Sourcing</b>
+                            </a>
+                        </div>
                     </li>
                     
                     <li class="nav-item dropdown">

@@ -3483,3 +3483,47 @@ $brand-color:#df8625;
         margin: 0;
     }
 }
+
+//BMC FOOD HOMEPAGE
+.bmcfood-homepage-1 {
+    .col-md-7 {
+        text-align: left;
+
+        h2 {
+            color: $primary-bg;
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        p {
+            color: $primary-color;
+
+            b {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+//BMC PC
+.bmcpc {
+    background-color: white;
+ 
+     hr {
+         border: 1px solid $primary-color;
+         margin-top: 15px;
+         margin-bottom: 15px;
+         width: 150px;
+     }
+ 
+     h3 {
+         font-size: 26px;
+         font-weight: 600;
+     }
+ 
+     p {
+         font-size: 18px;
+         font-weight: 500;
+     }
+ 
+ }
