@@ -18,7 +18,7 @@
     </section>
     <section class="section rrlcproductlist">
         <div class="container">
-            <h3>WATER SOLUBLE POWDER</h3>
+            <h3>PREMIXES</h3>      
             <hr class="hr">
             <div class="row">
                 <div class="col-md-5">
@@ -79,8 +79,8 @@
                         <div class="col-md-6">
                             <div class="card">
                                 <a data-toggle="modal" data-target="#exampleModalCenter">
-                                    <h3><img src="/images/rrlc/primeproduct/rpp1.png" width="130px;"></h3>
-                                    <h5>AMOXIN</h5>
+                                    <h3><img src="/images/rrlc/primeproduct/rpp7.jpg" width="180px;"></h3>
+                                    <h5>DIMETICOL PRO</h5>
                                 </a>
                             </div>
                         </div>
@@ -88,7 +88,7 @@
                             <div class="card">
                                 <a data-toggle="modal" data-target="#exampleModalCenter">
                                     <h3><img src="/images/rrlc/primeproduct/rpp2.png" width="130px;"></h3>
-                                    <h5>BIOTROL</h5>
+                                    <h5>SAUBER SURE</h5>
                                 </a>    
                             </div>
                         </div>
@@ -96,16 +96,14 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="card">
-                                <a data-toggle="modal" data-target="#exampleModalCenter">
-                                    <h3><img src="/images/rrlc/primeproduct/rpp3.png" width="130px;"></h3>
-                                    <h5>CETROLYTE</h5>
-                                </a>    
+                                <h3><img src="/images/rrlc/primeproduct/rpp2.png" width="130px;"></h3>
+                                <h5>REFAMIN</h5>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="card">
-                                <h3><img src="/images/rrlc/primeproduct/wsp/biotrol.png" width="130px;"></h3>
-                                <h5>BIOTROL</h5>
+                                <h3><img src="/images/rrlc/primeproduct/rpp1.png" width="130px;"></h3>
+                                <h5>LEVAMMISOLE</h5>
                             </div>
                         </div>
                     </div>
@@ -126,8 +124,8 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="card">
-                                <h3><img src="/images/rrlc/primeproduct/wsp/Neocin.png" width="130px;"></h3>
-                                <h5>NEOCIN</h5>
+                                <h3><img src="/images/rrlc/primeproduct/wsp/cetrolyteplus.png" width="130px;"></h3>
+                                <h5>CETROLYTE PLUS</h5>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -155,21 +153,20 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-8 col-sm-6">
-                            <center><img src="/images/rrlc/primeproduct/rpp1.png" width="250px;"></center>
+                            <center><img src="/images/rrlc/primeproduct/rpp7.jpg" width="250px;"></center>
                         </div>
                         <div class="col-4 col-sm-6">
-                            <b class="head">Amoxin</b>   
+                            <b class="head">Dimeticol</b>   
                             <p>
-                                Prevention and treatment of colibacillosis/ colisepticemia, RTI, e.g. pneumonia and bronchitis, GI infections, bacterial enteritis, UTI, nephritis, cystitis, and mastitis, metritis and agalactia syndrome in sows.
+                                Control and treatment of Swine Dysentery and bacterial enteritis.
                             </p>
                             <p><b>Dosage: </b> </p>
                             <p>
-                                Poultry: 2-3 g/L of drinking water for 5-7 days. 
-                                Swine: 2-4 g/L of drinking water for 5-7 days.
+                                Mix 1kg per 1 ton of feeds. To be mixed in the feed for 3-5 days.
                             </p>
                         
-                            <p><b>Packaging:</b>1 Kilogram.</p> 
-                            <p>VRM-18-2847</p> 
+                            <p><b>Packaging:</b>25-kg Kraft bag.</p> 
+                            <p>VRM-12-1847 </p> 
                         
                         </div>
                     </div>

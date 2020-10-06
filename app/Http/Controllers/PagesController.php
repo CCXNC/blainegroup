@@ -32,6 +32,18 @@ class PagesController extends Controller
         return view('pages.rrlc.rrlcoralsolution');
     }
 
+    public function rrlcdisinfectant() {
+        return view('pages.rrlc.rrlcdisinfectant');
+    }
+
+    public function rrlcnutrac() {
+        return view('pages.rrlc.rrlcnutrac');
+    }
+
+    public function rrlcpremixes() {
+        return view('pages.rrlc.rrlcpremixes');
+    }
+
     // RRLC SPECIALTY PRODUCT
     public function rrlcspecialtyproduct() {
         return view('pages.rrlc.specialtyproduct');
@@ -65,7 +77,6 @@ class PagesController extends Controller
         return view('pages.rrlc.newsarticle');
     }
 
-
     public function newsarticleblog() {
         return view('pages.rrlc.newsarticleblog');
     }
@@ -87,25 +98,26 @@ class PagesController extends Controller
     public function rrlccontactus() {
         return view('pages.rrlc.contactus');    
     }
-
+ 
 
     // BC HOMEPAGE
-    public function bcindex() {
-        return view('pages.bc.rawmats');
-    }
-
     public function bcaboutus() {
         Mapper::map(14.289683, 121.011593);
-        return view('pages.bc.rawmatsstory');
+        return view('pages.bc.aboutus');
     }
 
-    public function bcproduct() {
-        return view('pages.bc.rawmatsproducts');
+    public function bccareers() {
+        return view('pages.bc.careers');
+    }
+
+    public function bcnews() {
+        return view('pages.bc.news');
     }
 
     public function bccontactus() {
-        return view('pages.bc.rawmatscontactus');
+        return view('pages.bc.contactus');
     }
+
 
     // BC RAW MATS
     public function bcrawmats() {
@@ -113,11 +125,16 @@ class PagesController extends Controller
     }
 
     public function bcrawmatsstory() {
+        Mapper::map(14.289683, 121.011593);
         return view('pages.bc.rawmatsstory');
     }
 
     public function bcrawmatsproducts() {
         return view('pages.bc.rawmatsproducts');
+    }
+
+    public function rawmatscontactus() {
+        return view('pages.bc.rawmatscontactus');
     }
 
     // BMC HOMEPAGE

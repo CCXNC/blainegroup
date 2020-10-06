@@ -11053,7 +11053,7 @@ body {
 }
 
 .page-title h3 {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 600;
   margin: 0;
 }
@@ -11068,7 +11068,7 @@ body {
 }
 
 .bc-page-title h3 {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 600;
   margin: 0;
 }
@@ -11320,24 +11320,11 @@ section {
   width: 150px;
 }
 
-.product-wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 1em;
-  grid-row-gap: 2em;
-}
-
-.product-wrapper .card {
-  background-color: white;
-  padding: 20px;
-  border: none;
-}
-
-.product-wrapper .card a {
+.product a {
   text-decoration: none;
 }
 
-.product-wrapper .card h5 {
+.product h5 {
   font-weight: 800;
   font-size: 23px;
   color: #251F5D;
@@ -11345,15 +11332,11 @@ section {
   text-align: center;
 }
 
-.product-wrapper .card p {
+.product p {
   font-size: 16px;
   font-weight: 400;
   color: #251F5D;
   text-align: left;
-}
-
-.product-wrapper span {
-  float: right;
 }
 
 @media (max-width: 800px) {
@@ -11380,27 +11363,23 @@ section {
   font-weight: 600;
 }
 
-.rrlcproductlist-wrapper {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-column-gap: 1em;
-  grid-row-gap: 1em;
-  text-align: center;
+.rrlcproductlist .col-md-5 {
+  text-align: left;
 }
 
-.rrlcproductlist-wrapper .card {
+.rrlcproductlist .card {
   background-color: white;
   padding: 20px;
 }
 
-.rrlcproductlist-wrapper .card h5 {
+.rrlcproductlist .card h5 {
   font-weight: 800;
   font-size: 16px;
   color: #251F5D;
   margin: 15px 0 10px;
 }
 
-.rrlcproductlist-wrapper .card p {
+.rrlcproductlist .card p {
   color: #251F5D;
   font-size: 15px;
   font-weight: 500;
@@ -12344,6 +12323,20 @@ section {
   font-weight: 600;
 }
 
+.bc-csr .btn {
+  background-color: #251F5D;
+  color: #f4f4f4;
+  font-size: 16px;
+}
+
+.bc-csr .card-title {
+  font-size: 20px !important;
+}
+
+.bc-csr .card-text {
+  font-size: 15px !important;
+}
+
 .bc-products {
   background-color: white;
 }
@@ -12423,9 +12416,9 @@ section {
 
 .bc-partners hr {
   border: 1px solid #251F5D;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  width: 150px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 70px;
 }
 
 .bc-partners1 {
@@ -12489,13 +12482,18 @@ section {
   text-align: left;
 }
 
-.bc-contactus h3 {
+.bc-contactus label {
+  font-size: 16px;
+}
+
+.bc-contactus h4 {
   font-weight: 600;
   color: #251F5D;
   margin-bottom: 15px;
 }
 
 .bc-contactus .btn-primary {
+  font-size: 16px;
   font-weight: 600;
   color: #f4f4f4;
   background-color: #251F5D;
@@ -12510,7 +12508,7 @@ section {
 }
 
 .bc-contactus p {
-  font-size: 20px;
+  font-size: 18px;
   padding-left: 20px;
   font-weight: 600;
 }
@@ -12527,6 +12525,10 @@ section {
   text-align: left;
 }
 
+.bc-contactus1 label {
+  font-size: 16px;
+}
+
 .bc-contactus1 h3 {
   font-weight: 600;
   color: #251F5D;
@@ -12534,6 +12536,7 @@ section {
 }
 
 .bc-contactus1 .btn-primary {
+  font-size: 16px;
   font-weight: 600;
   color: #f4f4f4;
   background-color: #251F5D;
@@ -12548,7 +12551,7 @@ section {
 }
 
 .bc-contactus1 p {
-  font-size: 20px;
+  font-size: 18px;
   padding-left: 20px;
   font-weight: 600;
 }
@@ -12562,32 +12565,27 @@ section {
 }
 
 .bc-about1 {
-  font-weight: 400;
   color: #251F5D;
 }
 
-.bc-about1 title .col-md-12 {
-  padding-bottom: 15px;
-  position: left;
-}
-
 .bc-about1 h3 {
-  text-align: left;
-}
-
-.bc-about1 .info {
-  text-align: left;
   font-size: 17px;
-  font-weight: 550;
+  font-weight: 600;
+  text-align: left;
+  padding-bottom: 10px;
 }
 
-.bc-about1 h5 {
+.bc-about1 p {
+  text-align: left;
   font-size: 15px;
 }
 
-.bc-about1 .policy {
-  font-size: 12px;
-  text-align: justify;
+.bc-about1 .card {
+  padding: 15px;
+}
+
+.bc-about1 .card i {
+  font-size: 15px;
 }
 
 .bmc-header-1 {
@@ -13071,7 +13069,7 @@ section {
 }
 
 .carousel-caption .caption-1 h3 {
-  font-size: 32px;
+  font-size: 40px;
   color: #251F5D;
   font-weight: 600;
   text-align: left;
@@ -13079,7 +13077,7 @@ section {
 }
 
 .carousel-caption .caption-1 h5 {
-  font-size: 24px;
+  font-size: 30px;
   text-align: left;
   color: #251F5D;
   font-weight: 600;
@@ -13495,11 +13493,6 @@ section {
   }
 }
 
-.bc-careeropp {
-  background: linear-gradient(to bottom, #251F5D 100%, #251F5D 100%);
-  color: #f4f4f4;
-}
-
 .bc-careeropp h3 {
   font-size: 24px;
   font-weight: 600;
@@ -13522,8 +13515,18 @@ section {
   float: left;
 }
 
+.bc-careeropp .btn {
+  background-color: #251F5D;
+  color: #f4f4f4;
+}
+
 .bc-newsarticle {
   color: black;
+}
+
+.bc-newsarticle .row {
+  border: 1px solid #cccccc;
+  padding: 5px;
 }
 
 .bc-newsarticle h3 {
@@ -13532,6 +13535,7 @@ section {
 }
 
 .bc-newsarticle h5 {
+  text-align: left;
   font-size: 18px;
   font-weight: 600;
   padding-top: 20px;
@@ -13545,6 +13549,7 @@ section {
 }
 
 .bc-newsarticle p {
+  text-align: justify;
   font-size: 14px;
   font-weight: 550;
 }
@@ -13588,7 +13593,7 @@ section {
   border-radius: 50%;
 }
 
-.rawmats-content1 .p {
+.rawmats-content1 p {
   font-size: 20px;
   vertical-align: middle;
   text-align: center;
@@ -13743,8 +13748,10 @@ section {
   text-align: justify;
 }
 
-.rawmatsproducts .card-header {
-  background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+.rawmatsproducts .card-title {
+  font-size: 18px;
+  padding: 10px;
+  background: #251F5D;
   color: #efefef;
 }
 
@@ -13761,17 +13768,10 @@ section {
   padding: 20px;
 }
 
-.rawmatsproducts-wrapper .card h5 {
-  margin: 15px 0 25px;
-}
-
 .rawmatsproducts-wrapper .card p {
-  text-align: justify;
   padding: 10px 5px;
   font-size: 16px;
-  font-weight: 400;
   color: #251F5D;
-  justify-content: space-between;
 }
 
 @media (max-width: 800px) {
@@ -14086,7 +14086,7 @@ section {
 }
 
 .page-title-bmcfoodupdated h3 {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 600;
   margin: 0;
 }
@@ -14300,5 +14300,17 @@ section {
   font-size: 26px;
   font-weight: 600;
   margin: 0;
+}
+
+.modal-content {
+  padding: 20px !important;
+}
+
+.modal-content .head {
+  font-size: 24px;
+}
+
+.modal-content p {
+  font-size: 16px;
 }
 

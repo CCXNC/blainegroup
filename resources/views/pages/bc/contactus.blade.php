@@ -1,21 +1,7 @@
-@extends('layouts.bcapp')
+@extends('layouts.bcgroupapp');
+
 
 @section('content')
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="/images/bcraw-header.jpg" alt="First slide">
-                <div class="carousel-caption">
-                    <div class="caption-1">
-                        <h3>BLAINE CORPORATION <br>RAW MATERIALS</h3>
-                        <br>
-                        <h5><i>"Catering the Filipino market with world<br> <span style="margin-left:190px;">class products"</span> </i></h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <br>
     <section class="bc-page-title">
         <div class="container">
             <div class="col-md-12">
@@ -97,4 +83,4 @@
             </div> 
         </div>
     </section>
-@endsection    
+@endsection

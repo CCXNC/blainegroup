@@ -18,7 +18,7 @@
     </section>
     <section class="section rrlcproductlist">
         <div class="container">
-            <h3>WATER SOLUBLE POWDER</h3>
+            <h3>DISINFECTANT</h3>      
             <hr class="hr">
             <div class="row">
                 <div class="col-md-5">
@@ -79,16 +79,16 @@
                         <div class="col-md-6">
                             <div class="card">
                                 <a data-toggle="modal" data-target="#exampleModalCenter">
-                                    <h3><img src="/images/rrlc/primeproduct/rpp1.png" width="130px;"></h3>
-                                    <h5>AMOXIN</h5>
+                                    <h3><img src="/images/rrlc/primeproduct/rpp4.png" width="130px;"></h3>
+                                    <h5>SAUBER PRO</h5>
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="card">
                                 <a data-toggle="modal" data-target="#exampleModalCenter">
-                                    <h3><img src="/images/rrlc/primeproduct/rpp2.png" width="130px;"></h3>
-                                    <h5>BIOTROL</h5>
+                                    <h3><img src="/images/rrlc/primeproduct/rpp5.png" width="140px;"></h3>
+                                    <h5>SAUBER SURE</h5>
                                 </a>    
                             </div>
                         </div>
@@ -96,43 +96,13 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="card">
-                                <a data-toggle="modal" data-target="#exampleModalCenter">
-                                    <h3><img src="/images/rrlc/primeproduct/rpp3.png" width="130px;"></h3>
-                                    <h5>CETROLYTE</h5>
-                                </a>    
+                                <h3><img src="/images/rrlc/primeproduct/rpp6.png" width="130px;"></h3>
+                                <h5>OPTIODINE</h5>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="card">
-                                <h3><img src="/images/rrlc/primeproduct/wsp/biotrol.png" width="130px;"></h3>
-                                <h5>BIOTROL</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="card">
-                                <h3><img src="/images/rrlc/primeproduct/wsp/cetrolyteplus.png" width="130px;"></h3>
-                                <h5>CETROLYTE PLUS</h5>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card">
-                                <h3><img src="/images/rrlc/primeproduct/wsp/levammisole.png" width="130px;"></h3>
-                                <h5>LEVAMMISOLE</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="card">
-                                <h3><img src="/images/rrlc/primeproduct/wsp/Neocin.png" width="130px;"></h3>
-                                <h5>NEOCIN</h5>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card">
-                                <h3><img src="/images/rrlc/primeproduct/wsp/levammisole.png" width="130px;"></h3>
+                                <h3><img src="/images/rrlc/primeproduct/rpp4.png" width="130px;"></h3>
                                 <h5>LEVAMMISOLE</h5>
                             </div>
                         </div>
@@ -155,21 +125,21 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-8 col-sm-6">
-                            <center><img src="/images/rrlc/primeproduct/rpp1.png" width="250px;"></center>
+                            <br><br>
+                            <center><img src="/images/rrlc/primeproduct/rpp4.png" width="250px;"></center>
                         </div>
                         <div class="col-4 col-sm-6">
-                            <b class="head">Amoxin</b>   
+                            <b class="head">SAUBER PRO</b>   
                             <p>
-                                Prevention and treatment of colibacillosis/ colisepticemia, RTI, e.g. pneumonia and bronchitis, GI infections, bacterial enteritis, UTI, nephritis, cystitis, and mastitis, metritis and agalactia syndrome in sows.
+                                Disinfection of farms, buildings and equipment used for poultry and livestock production, hatcheries, animal transport vehicle, slaughter houses and dressing plants, cold rooms, animal quarters and kennels.
                             </p>
                             <p><b>Dosage: </b> </p>
                             <p>
-                                Poultry: 2-3 g/L of drinking water for 5-7 days. 
-                                Swine: 2-4 g/L of drinking water for 5-7 days.
+                                Terminal and routine disinfection: For spraying – 5 mL/10 L of water, for misting – 5 mL/2 L of water. Foot bath and wheel bath (dipping): 1 L/500-100 L of water. Equipment: 30 mL/4 gal of water.
                             </p>
                         
-                            <p><b>Packaging:</b>1 Kilogram.</p> 
-                            <p>VRM-18-2847</p> 
+                            <p><b>Packaging:</b>1 Liter, 1 Gallon, 1 Carbuoy, 1 Drum.</p> 
+                            <p>VRM-16-2583</p> 
                         
                         </div>
                     </div>

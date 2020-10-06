@@ -7,8 +7,9 @@
                 <img class="d-block w-100" src="/images/bcraw-header.jpg" alt="First slide">
                 <div class="carousel-caption">
                     <div class="caption-1">
-                        <h3>BLAINE CORPORATION RAW MATERIALS</h3>
-                        <h5><i>Catering the Filipino market with world class products</i></h5>
+                        <h3>BLAINE CORPORATION <br>RAW MATERIALS</h3>
+                        <br>
+                        <h5><i>"Catering the Filipino market with world<br> <span style="margin-left:190px;">class products"</span> </i></h5>
                     </div>
                 </div>
             </div>
