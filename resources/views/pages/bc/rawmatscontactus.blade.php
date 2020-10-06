@@ -4,7 +4,14 @@
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="/images/carousel/img1.jpg" alt="First slide">
+                <img class="d-block w-100" src="/images/bcraw-header.jpg" alt="First slide">
+                <div class="carousel-caption">
+                    <div class="caption-1">
+                        <h3>BLAINE CORPORATION <br>RAW MATERIALS</h3>
+                        <br>
+                        <h5><i>"Catering the Filipino market with world<br> <span style="margin-left:190px;">class products"</span> </i></h5>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -16,34 +23,34 @@
             </div>
         </div>
     </section>
-    <section class="section bc-contactus1">
-        <div class="container container1">
+    <section class="section bc-contactus">
+        <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h3>Send Us a Message</h3>
+                    <h4>Send Us a Message</h4>
                     <form class="form-horizontal" action="">
                         <div class="form-group">
-                            <label class="col-sm-4 control-label" for="name">Name (Required)</label>
+                            <label class="col-sm-4 control-label" for="name">Name</label>
                             <div class="col-sm-10">
                                 <input class="form-control" type="text" name="name">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-sm-4 control-label" for="name">Email (Required)</label>
+                            <label class="col-sm-4 control-label" for="name">Email</label>
                             <div class="col-sm-10">
                                 <input class="form-control" type="text" name="name">
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="col-sm-6">
-                                <label class="control-label" for="telephone_mobile_number">Telephone or Mobile Number (Required)</label>
+                                <label class="control-label" for="telephone_mobile_number">Telephone or Mobile Number</label>
                             </div>
                             <div class="col-sm-10">
                                 <input class="form-control" type="text" name="telephone_mobile_number">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-sm-6 control-label" for="message">Your Message (Required)</label>
+                            <label class="col-sm-6 control-label" for="message">Your Message</label>
                             <div class="col-sm-10">
                                 <textarea class="form-control" name="message" rows="5"></textarea>
                             </div>
@@ -83,11 +90,11 @@
                         </div>
                         <div class="col-md-10">
                             <br>
-                            <p>Customer Service:+632 584 4256 to 60 Email:info@blainegroup.com.ph</p>
+                            <p>Customer Service:+632 584 4256 to 60 Email:bc_info@blainegroup.com.ph</p>
                         </div>
                     </div>
                 </div>
             </div> 
         </div>
-    </section>           
+    </section>
 @endsection    

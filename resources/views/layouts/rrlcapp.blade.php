@@ -13,9 +13,12 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script>
         $(document).foundation();
-
         $('.carousel').carousel({
             interval: 10
+        })
+
+        $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').trigger('focus')
         })
     </script>
 

@@ -176,7 +176,7 @@ body {
     color: $light-bg;
 
     h3 {
-        font-size: 26px;
+        font-size: 24px;
         font-weight: 600;
         margin: 0;
     }
@@ -191,7 +191,7 @@ body {
     color: $light-bg;
 
     h3 {
-        font-size: 26px;
+        font-size: 24px;
         font-weight: 600;
         margin: 0;
     }
@@ -446,45 +446,26 @@ section {
         margin-bottom: 30px;
         width: 150px;
     }
-    
-  
 
-    &-wrapper {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-column-gap: 1em;
-        grid-row-gap: 2em;
-
-        .card {
-            background-color: lighten(white, 15%);
-            padding: 20px;
-            border: none;
-
-            a {
-                text-decoration: none;
-            }
-
-            h5 {
-                font-weight: 800;
-                font-size: 23px;
-                color: $primary-color;
-                margin: 15px 0 5px;
-                text-align: center;
-            }
-
-            p {
-                font-size: 16px;
-                font-weight: 400;
-                color: $primary-color;
-                text-align: left;
-            }
-        }
-        span {
-            float:right;
-        }
-
+    a {
+        text-decoration: none;
     }
 
+    h5 {
+        font-weight: 800;
+        font-size: 23px;
+        color: $primary-color;
+        margin: 15px 0 5px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        color: $primary-color;
+        text-align: left;
+    }
+      
     @media (max-width: 800px) {
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 1em;
@@ -508,33 +489,28 @@ section {
         font-size: 24px;
         font-weight: 600;
     }
-    
-    &-wrapper {
-        //grid-template-columns: repeat(6, 1fr);
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        grid-column-gap: 1em;
-        grid-row-gap: 1em;
-        text-align: center;
-    
-        .card {
-            background-color: lighten(white, 15%);
-            padding: 20px;
-    
-            h5 {
-                font-weight: 800;
-                font-size: 16px;
-                color: $primary-color;
-                margin: 15px 0 10px;
-            }
 
-            p {
-                color: $primary-color;
-                font-size: 15px;
-                font-weight: 500;
-            }
+    .col-md-5 {
+        text-align: left;
+    }
+    
+    .card {
+        background-color: lighten(white, 15%);
+        padding: 20px;
 
+        h5 {
+            font-weight: 800;
+            font-size: 16px;
+            color: $primary-color;
+            margin: 15px 0 10px;
         }
+
+        p {
+            color: $primary-color;
+            font-size: 15px;
+            font-weight: 500;
+        }
+
     }
 
 }
@@ -1472,7 +1448,21 @@ font-size: 19px !important;
         font-size: 26px;
         font-weight: 600;
     }
+    
+    .btn {
+        background-color: $primary-color;
+        color: $light-color;
+        font-size: 16px;
+    }
+    .card-title {
+        font-size: 20px !important;
+    }
+    .card-text {
+        font-size: 15px !important;
+    }
+  
 }
+    
 
 .bc-products {
     background-color: white;
@@ -1549,9 +1539,9 @@ font-size: 19px !important;
 
     hr {
         border: 1px solid $primary-color;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        width: 150px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 70px;
     }
 }
 
@@ -1613,110 +1603,114 @@ font-size: 19px !important;
 .bc-contactus {
     background-color: white;
     text-align: left;
-     
-     h3 {
+    
+    label {
+        font-size: 16px;
+    } 
+
+    h4 {
          font-weight: 600;
          color: $primary-color;
          margin-bottom: 15px;
      }
  
-     .btn-primary {
-         font-weight: 600;
-         color: $light-color;
-         background-color: $primary-color;
-         border: 1.5px solid $primary-color;
-         transition-duration: 1s;
-         transition-property: color background-color;
- 
-         &:hover {
-             color: $primary-color;
-             background-color: $light-bg;
-         }
-     }
- 
-     p {
-         font-size:20px;
-         padding-left: 20px;
-         font-weight: 600;
-        
-     }
-     span {
-         text-align: center;
-         padding:30px;
-         border: 1px solid black;
-         border-radius: 50%;
-     }
+    .btn-primary {
+        font-size: 16px;
+        font-weight: 600;
+        color: $light-color;
+        background-color: $primary-color;
+        border: 1.5px solid $primary-color;
+        transition-duration: 1s;
+        transition-property: color background-color;
+
+        &:hover {
+            color: $primary-color;
+            background-color: $light-bg;
+        }
+    }
+
+    p {
+        font-size:18px;
+        padding-left: 20px;
+        font-weight: 600;
+    
+    }
+    span {
+        text-align: center;
+        padding:30px;
+        border: 1px solid black;
+        border-radius: 50%;
+    }
 }
 
 .bc-contactus1 {
     background-color: white;
     text-align: left;
-     
-     h3 {
-         font-weight: 600;
-         color: $primary-color;
-         margin-bottom: 15px;
-     }
+    
+    label {
+        font-size: 16px;
+    } 
+
+    h3 {
+        font-weight: 600;
+        color: $primary-color;
+        margin-bottom: 15px;
+    }
  
-     .btn-primary {
-         font-weight: 600;
-         color: $light-color;
-         background-color: $primary-color;
-         border: 1.5px solid $primary-color;
-         transition-duration: 1s;
-         transition-property: color $primary-color;
+    .btn-primary {
+        font-size: 16px;
+        font-weight: 600;
+        color: $light-color;
+        background-color: $primary-color;
+        border: 1.5px solid $primary-color;
+        transition-duration: 1s;
+        transition-property: color $primary-color;
+
+        &:hover {
+            color: $primary-color;
+            background-color: $light-bg;
+        }
+    }
  
-         &:hover {
-             color: $primary-color;
-             background-color: $light-bg;
-         }
-     }
- 
-     p {
-         font-size:20px;
-         padding-left: 20px;
-         font-weight: 600;
-        
-     }
-     span {
-         color: $primary-color;
-         text-align: center;
-         padding:30px;
-         border: 1px solid $primary-color;
-         border-radius: 50%;
-     }
+    p {
+        font-size:18px;
+        padding-left: 20px;
+        font-weight: 600;
+    
+    }
+    span {
+        color: $primary-color;
+        text-align: center;
+        padding:30px;
+        border: 1px solid $primary-color;
+        border-radius: 50%;
+    }
 } 
 
 
 .bc-about1 {
-    font-weight: 400;
     color: $primary-color;
-
-    title {
-        .col-md-12 {
-            padding-bottom: 15px;
-            position: left;
-        }
-    }
-
+   
     h3 {
-        text-align: left;
-    }
-
-    .info {
-        text-align: left;
         font-size: 17px;
-        font-weight: 550;
+        font-weight: 600;
+        text-align: left;
+        padding-bottom: 10px;
     }
 
-    h5 {
+    p {
+        text-align: left;
         font-size: 15px;
     }
 
-    .policy {
-        font-size:12px;
-        text-align: justify;
+    .card {
+
+    i {
+        font-size: 15px;
+    }    
+        padding: 15px;
     }
+
 }
 
 .bmc-header-1 {
@@ -2209,7 +2203,7 @@ font-size: 19px !important;
         }
         .caption-1 {
             h3 {
-                font-size: 32px;
+                font-size: 40px;
                 color: $primary-color;
                 font-weight: 600;
                 text-align:left;
@@ -2217,7 +2211,7 @@ font-size: 19px !important;
             }
     
             h5 {
-                font-size: 24px;
+                font-size: 30px;
                 text-align:left;
                 color: $primary-color;
                 font-weight: 600;
@@ -2638,12 +2632,6 @@ font-size: 19px !important;
 
 
 .bc-careeropp {
-    //background-image: linear-gradient(to right, #251f5d, #262063, #272168, #28236e, #292474);
-    //background-image: linear-gradient(to right, #271f74, #322a8a, #3e35a0, #4940b7, #544ccf);
-    //background-image: linear-gradient(to right, #2b246d, #362f7c, #413a8c, #4d469c, #5852ac);
-   // background-image: linear-gradient(to right bottom, #2b246d, #362f7c, #413a8c, #4d469c, #5852ac);
-    background: linear-gradient(to bottom, #251F5D 100%, #251F5D 100%);
-    color: $light-color;
 
     h3 {
         font-size: 24px;
@@ -2667,17 +2655,27 @@ font-size: 19px !important;
             float: left;
         }
     }
+
+    .btn {
+        background-color: $primary-color;
+        color: $light-color;
+    }
 }
 
 .bc-newsarticle {
     //background: linear-gradient(to bottom,  #251F5D 0%,  #251F5D 170%);
     color: black;
 
+    .row {
+        border: 1px solid #cccccc;
+        padding: 5px;
+    }
     h3 {
         font-size: 26px;
         font-weight: 600;
     }
     h5 {
+        text-align: left;
         font-size: 18px;
         font-weight: 600;
         padding-top: 20px;
@@ -2690,6 +2688,7 @@ font-size: 19px !important;
     }
  
     p {
+        text-align: justify;
         font-size: 14px;
         font-weight: 550;
     }
@@ -2764,7 +2763,7 @@ $brand-color:#df8625;
 
 
 .rawmats-content1 {
-    .p {
+    p {
         font-size: 20px;
         vertical-align: middle;
         text-align: center;
@@ -2911,8 +2910,10 @@ $brand-color:#df8625;
         text-align: justify;
     }
 
-    .card-header {
-        background: linear-gradient(to bottom right, #007730 0%, #99ff99 200%);
+    .card-title{
+        font-size: 18px;
+        padding: 10px;
+        background: $primary-color;
         color: $light-bg;
     }
 
@@ -2927,18 +2928,10 @@ $brand-color:#df8625;
             background-color: lighten(white, 15%);
             padding: 20px;
 
-            h5 {
-                margin: 15px 0 25px;
-            }
-
             p {
-                text-align: justify;
                 padding: 10px 5px;
                 font-size: 16px;
-                font-weight: 400;
                 color: $primary-color;
-                justify-content: space-between;
-
             }
 
         }
@@ -3262,7 +3255,7 @@ $brand-color:#df8625;
     color: $light-bg;
 
     h3 {
-        font-size: 26px;
+        font-size: 24px;
         font-weight: 600;
         margin: 0;
     }
@@ -3527,3 +3520,14 @@ $brand-color:#df8625;
      }
  
  }
+
+.modal-content {
+
+    .head {
+        font-size: 24px;
+    }
+    p {
+        font-size: 16px;
+    }
+    padding: 20px !important;
+}

@@ -31,7 +31,7 @@
                             <b style="color:#251F5D;">OUR COMPANIES</b>
                         </a>
                         <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{{ url('/bcindex') }}">
+                            <a class="dropdown-item" href="{{ url('/bcrawmats') }}">
                                     <img src="images/logo/BC.png" style="width:60px;" alt="">&nbsp;&nbsp;&nbsp;<b style="color:#251F5D;">BLAINE CORPORATION </b>
                                 </a>
                             <a class="dropdown-item" href="{{ url('/rrlcindex') }}">

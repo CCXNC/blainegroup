@@ -22,18 +22,18 @@
                 <!-- Right Side Of Navbar -->
                 <ul class="navbar-nav ml-auto fw">
                     <li class="nav-item dropdown">
-                        <a class="nav-link " href="{{ url('/') }}">
+                        <a class="nav-link " href="{{ url('/bcrawmats') }}">
                             <b style="color:#251F5D;">HOME</b>
                         </a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link " href="{{ url('/bcaboutus') }}">
+                        <a class="nav-link " href="{{ url('/bcrawmatsstory') }}">
                             <b style="color:#251F5D;">ABOUT US</b>
                         </a>
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link " href="{{ url('/bcproduct') }}">
+                        <a class="nav-link " href="{{ url('/bcrawmatsproducts') }}">
                             <b style="color:#251F5D;">PRODUCTS</b>
                         </a>
                     </li>
@@ -45,7 +45,7 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link " href="{{ url('/bccontactus') }}">
+                        <a class="nav-link " href="{{ url('/rawmatscontactus') }}">
                             <b style="color:#251F5D;">CONTACT US</b>
                         </a>
                     </li>

@@ -24,6 +24,9 @@ Route::get('/rrlcindex','PagesController@rrlcindex')->name('rrlchomepage'); // R
 Route::get('/rrlcprimeproduct','PagesController@rrlcproduct')->name('rrlcproduct'); 
 Route::get('/rrlcprimeproductlist', 'PagesController@rrlcproductlist')->name('rrlcproductlist');
 Route::get('/rrlcoralsolution', 'PagesController@rrlcoralsolution')->name('rrlcoralsolution');
+Route::get('/rrlcdisinfectant', 'PagesController@rrlcdisinfectant')->name('rrlcdisinfectant');
+Route::get('/rrlcnutrac', 'PagesController@rrlcnutrac')->name('rrlcnutrac');
+Route::get('/rrlcpremixes', 'PagesController@rrlcpremixes')->name('rrlcpremixes');
 Route::get('/rrlcspecialtyproduct','PagesController@rrlcspecialtyproduct')->name('rrlcspecialtyproduct');
 Route::get('/keminproduct','PagesController@keminproduct')->name('keminproduct');
 Route::get('/enzymeproduct','PagesController@enzymeproduct')->name('enzymeproduct');
@@ -32,31 +35,31 @@ Route::get('/adisseoproduct','PagesController@adisseoproduct')->name('adisseopro
 Route::get('/productblog', 'PagesController@productblog')->name('productblog');
 Route::get('/technicalservice','PagesController@technicalservice')->name('technicalservice');
 Route::get('/newsarticle','PagesController@newsarticle')->name('newsarticle');
-
 Route::get('/newsarticleblog','PagesController@newsarticleblog')->name('newsarticleblog');
 Route::get('/newsarticleblog1','PagesController@newsarticleblog1')->name('newsarticleblog1');
 Route::get('/newsarticleblog2','PagesController@newsarticleblog2')->name('newsarticleblog2');
 Route::get('/newsarticleblog3','PagesController@newsarticleblog3')->name('newsarticleblog3');
-
 Route::get('/rrlcaboutus','PagesController@rrlcaboutus')->name('rrlcaboutus');
 Route::get('rrlccontactus','PagesController@rrlccontactus')->name('rrlccontactus');
 
-Route::get('/bcindex', 'PagesController@bcindex')->name('bcindex'); // BC HOMEPAGE
+// BC HOMEPAGE
+Route::get('/bcindex', 'PagesController@bcindex')->name('bcindex'); 
 Route::get('/bcaboutus', 'PagesController@bcaboutus')->name('bcaboutus');
-Route::get('/bcproduct','PagesController@bcproduct')->name('bcproduct');
 Route::get('/bccontactus','PagesController@bccontactus')->name('bccontactus');
+Route::get('/bcnews','PagesController@bcnews')->name('bcnews');
+Route::get('/bccareers','PagesController@bccareers')->name('bccareers');
+
 
 // BC RAWMATS
-Route::get('/bcrawmats', 'PagesController@bcrawmats')->name('rawmats');
+Route::get('/bcrawmats', 'PagesController@bcrawmats')->name('bcrawmats');
 Route::get('/bcrawmatsstory', 'PagesController@bcrawmatsstory')->name('rawmatsstory');
 Route::get('/bcrawmatsproducts', 'PagesController@bcrawmatsproducts')->name('rawmatsproducts');
+Route::get('/rawmatscontactus','PagesController@rawmatscontactus')->name('rawmatscontactus');
 
-
-Route::get('/bmcindex', 'PagesController@bmcindex')->name('bmcindex'); // BMC HOMEPAGE
-
-Route::get('/bmcpahdindex', 'PagesController@bmcpahdindex')->name('bmcpahdindex'); // BMC PERSONAL CARE
+Route::get('/bmcindex', 'PagesController@bmcindex')->name('bmcindex'); // BMC MAIN
 
 // BMC PERSONAL CARE PRODUCT
+Route::get('/bmcpahdindex', 'PagesController@bmcpahdindex')->name('bmcpahdindex'); 
 Route::get('/bmcpahdproductpersonalcare', 'PagesController@bmcpahdproductpersonalcare')->name('bmcpahdproductpersonalcare');
 Route::get('/bmcpahdproducthomecare', 'PagesController@bmcpahdproducthomecare')->name('bmcpahdproducthomecare');
 Route::get('/bmcpahdproductrawmaterial', 'PagesController@bmcpahdproductrawmaterial')->name('bmcpahdproductrawmaterial');
@@ -69,8 +72,8 @@ Route::get('/bmcpctechnicaltolling', 'PagesController@bmcpctechnicaltolling')->n
 Route::get('/bmcpcbranddevelopment', 'PagesController@bmcpcbranddevelopment')->name('bmcpcbranddevelopment');
 Route::get('/bmcpcmatsourcing', 'PagesController@bmcpcmatsourcing')->name('bmcpcmatsourcing');
 
-Route::get('/bmcfoodindex', 'PagesController@bmcfoodindex')->name('bmcfoodindex'); 
 //BMC FOOD 
+Route::get('/bmcfoodindex', 'PagesController@bmcfoodindex')->name('bmcfoodindex'); 
 Route::get('/bmcfoodhome', 'PagesController@bmcfoodhome')->name('bmcfoodhome');
 Route::get('/bmcfoodabouthistory', 'PagesController@bmcfoodabouthistory')->name('bmcfoodabouthistory');
 Route::get('/bmcfoodaboutdivision', 'PagesController@bmcfoodaboutdivision')->name('bmcfoodaboutdivision');

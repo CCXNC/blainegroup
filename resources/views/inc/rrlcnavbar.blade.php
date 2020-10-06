@@ -26,11 +26,11 @@
                             <b style="color:#007730;">HOME</b>
                         </a>
                         <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{{ url('/bcindex') }}">
+                            <a class="dropdown-item" href="{{ url('/bcrawmats') }}">
                                     <img src="images/logo/BC.png" style="width:60px;" alt="">&nbsp;&nbsp;&nbsp;<b style="color:#251F5D;">BLAINE CORPORATION </b>
                                 </a>
                             <a class="dropdown-item" href="{{ url('/rrlcindex') }}">
-                                    <img src="images/logo/rrlc.jpg" style="width:50px;" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b style="color:#251F5D;">REFAMED RESEARCHED LABORATORY CORPORATION</b>
+                                    <img src="images/logo/rrlc.jpg" style="width:50px;" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b style="color:#251F5D;">REFAMED RESEARCH LABORATORY CORPORATION</b>
                                 </a>
                             <a class="dropdown-item" href="{{ url('/bmcindex') }}">
                                 <img src="images/logo/BMC.jpg" style="width:60px;" alt="">&nbsp;&nbsp;<b style="color:#251F5D;"> BLAINE MANUFACTURING CORPORATION </b>

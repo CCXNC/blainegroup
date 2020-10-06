@@ -1,26 +1,19 @@
-@extends('layouts.rrlcapp')
+@extends('layouts.bcgroupapp');
+
 
 @section('content')
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="/images/rrlc/aboutus22.jpg" alt="First slide">
-            </div>
-        </div>
-    </div>
-    <br>
-    <section class="page-title">
+    <section class="bc-page-title">
         <div class="container">
             <div class="col-md-12">
-                <h3>CONTACT US</h3>
+                <h3>Contact Us</h3>
             </div>
         </div>
     </section>
-    <section class="section content-5">
-        <div class="container container1">
+    <section class="section bc-contactus">
+        <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h3>Send Us a Message</h3>
+                    <h4>Send Us a Message</h4>
                     <form class="form-horizontal" action="">
                         <div class="form-group">
                             <label class="col-sm-4 control-label" for="name">Name</label>
@@ -83,11 +76,11 @@
                         </div>
                         <div class="col-md-10">
                             <br>
-                            <p>Customer Service:+632 584 4256 to 60 Email:refamed_info@blainegroup.com.ph</p>
+                            <p>Customer Service:+632 584 4256 to 60 Email:bc_info@blainegroup.com.ph</p>
                         </div>
                     </div>
                 </div>
             </div> 
         </div>
-    </section> 
-@endsection    
+    </section>
+@endsection

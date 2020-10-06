@@ -31,11 +31,11 @@
                             <b style="color:#251F5D;">OUR COMPANIES</b>
                         </a>
                          <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{{ url('/bcindex') }}">
+                            <a class="dropdown-item" href="{{ url('/bcrawmats') }}">
                                     <img src="images/logo/BC.png" style="width:60px;" alt="">&nbsp;&nbsp;&nbsp;<b style="color:#251F5D;">BLAINE CORPORATION </b>
                                 </a>
                             <a class="dropdown-item" href="{{ url('/rrlcindex') }}">
-                                    <img src="images/logo/rrlc.jpg" style="width:50px;" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b style="color:#251F5D;">REFAMED RESEARCHED LABORATORY CORPORATION</b>
+                                    <img src="images/logo/rrlc.jpg" style="width:50px;" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b style="color:#251F5D;">REFAMED RESEARCH LABORATORY CORPORATION</b>
                                 </a>
                             <a class="dropdown-item" href="{{ url('/bmcindex') }}">
                                 <img src="images/logo/BMC.jpg" style="width:60px;" alt="">&nbsp;&nbsp;<b style="color:#251F5D;"> BLAINE MANUFACTURING CORPORATION </b>
@@ -43,25 +43,25 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link " href="#">
+                    <a class="nav-link " href="{{ url('bcaboutus') }}">
                             <b style="color:#251F5D;">ABOUT US</b>
                         </a>
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link " href="#">
+                        <a class="nav-link " href="{{ url('bcnews') }}">
                             <b style="color:#251F5D;">NEWS</b>
                         </a>
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link " href="#">
+                        <a class="nav-link " href="{{ url('bccareers') }}">
                             <b style="color:#251F5D;">CAREERS</b>
                         </a>
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link " href="#">
+                        <a class="nav-link " href="{{ url('bccontactus') }}">
                             <b style="color:#251F5D;">CONTACT US</b>
                         </a>
                     </li>
